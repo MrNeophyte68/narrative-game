@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dupxy3wybrw35"]
+
+[ext_resource type="MeshLibrary" uid="uid://bsoend0g0ryno" path="res://Assets/tiles/tiles.tres" id="1_1l0r3"]
+
+[node name="Level1" type="Node3D"]
+
+[node name="layout" type="Node3D" parent="."]
+
+[node name="GridMap" type="GridMap" parent="layout"]
+mesh_library = ExtResource("1_1l0r3")
+cell_size = Vector3(4, 1, 4)
+metadata/_editor_floor_ = Vector3(0, 0, 0)
