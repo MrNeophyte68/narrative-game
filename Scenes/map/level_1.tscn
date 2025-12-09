@@ -1,7 +1,7 @@
 [gd_scene load_steps=36 format=4 uid="uid://dupxy3wybrw35"]
 
 [ext_resource type="MeshLibrary" uid="uid://bsoend0g0ryno" path="res://Assets/tiles/tiles.tres" id="1_1l0r3"]
-[ext_resource type="Script" path="res://Scripts/level_1.gd" id="1_ygxt2"]
+[ext_resource type="Script" uid="uid://bhliy66o3e8ip" path="res://Scripts/level_1.gd" id="1_ygxt2"]
 [ext_resource type="Shader" uid="uid://17oug05le6ko" path="res://Shaders/sky.gdshader" id="2_gt3b8"]
 [ext_resource type="Texture2D" uid="uid://bvtkeqx4nmxix" path="res://Assets/glb/psx_mega_pack2/Doors & Gates/door_hr_12_door_hr_12.png" id="2_hra73"]
 [ext_resource type="Texture2D" uid="uid://d0dadsxijsmv4" path="res://Assets/glb/Misc/knife_001_KnifeProject00_Knife001_BaseColor.png" id="3_j7422"]
