@@ -17613,7 +17613,7 @@ skeleton = NodePath("")
 [node name="child_room_lights" type="Node3D" parent="child_room"]
 
 [node name="SpotLight3D" type="SpotLight3D" parent="child_room/child_room_lights"]
-transform = Transform3D(0.8919355, -0.13015716, -0.43302426, -0.090027854, -0.98961943, 0.11201915, -0.44310933, -0.06092961, -0.8943946, -2.247, 1.684, -5.706)
+transform = Transform3D(0.8919356, -0.13015717, -0.4330243, -0.09002786, -0.9896195, 0.112019144, -0.44310936, -0.060929615, -0.8943946, -2.2446456, 1.684, -5.706)
 light_energy = 16.0
 light_specular = 0.0
 shadow_enabled = true
