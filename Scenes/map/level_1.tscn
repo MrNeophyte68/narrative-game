@@ -1,9 +1,12 @@
-[gd_scene load_steps=27 format=4 uid="uid://dupxy3wybrw35"]
+[gd_scene load_steps=30 format=4 uid="uid://dupxy3wybrw35"]
 
 [ext_resource type="MeshLibrary" uid="uid://bsoend0g0ryno" path="res://Assets/tiles/tiles.tres" id="1_1l0r3"]
+[ext_resource type="Script" uid="uid://bhliy66o3e8ip" path="res://Scripts/level_1.gd" id="1_ygxt2"]
 [ext_resource type="Shader" uid="uid://17oug05le6ko" path="res://Shaders/sky.gdshader" id="2_gt3b8"]
 [ext_resource type="Texture2D" uid="uid://bvtkeqx4nmxix" path="res://Assets/glb/psx_mega_pack2/Doors & Gates/door_hr_12_door_hr_12.png" id="2_hra73"]
 [ext_resource type="Texture2D" uid="uid://d0dadsxijsmv4" path="res://Assets/glb/Misc/knife_001_KnifeProject00_Knife001_BaseColor.png" id="3_j7422"]
+[ext_resource type="FontFile" uid="uid://cra77s1cky20" path="res://Assets/Autography.otf" id="5_ekxn3"]
+[ext_resource type="AudioStream" uid="uid://deunkeubj85ra" path="res://Music/memory.wav" id="6_ygxt2"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q0pqi"]
 resource_name = "door_hr_12"
@@ -17646,6 +17649,7 @@ background_mode = 2
 sky = SubResource("Sky_ekxn3")
 
 [node name="Level1" type="Node3D"]
+script = ExtResource("1_ygxt2")
 
 [node name="child_room" type="Node3D" parent="."]
 
@@ -21750,3 +21754,37 @@ transform = Transform3D(0.30657586, -0.9518463, -4.510809e-10, -0.93883884, -0.3
 visible = false
 light_energy = 5.948
 light_indirect_energy = 11.722
+
+[node name="IntroScreen" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="IntroScreen"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 49.250004
+anchor_bottom = 29.025002
+offset_right = -0.00012207031
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Quote" type="RichTextLabel" parent="IntroScreen"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 49.117
+anchor_bottom = 29.625002
+offset_left = 412.0
+offset_top = 352.0
+offset_right = -372.68005
+offset_bottom = -510.00012
+theme_override_fonts/normal_font = ExtResource("5_ekxn3")
+theme_override_font_sizes/normal_font_size = 50
+text = "“Man is neither angel nor beast, and misfortune wants it that 
+ he who would act the angel acts the beast.” 
+														-Blaise Pascal"
+
+[node name="MemoryAudio" type="AudioStreamPlayer3D" parent="IntroScreen"]
+stream = ExtResource("6_ygxt2")
