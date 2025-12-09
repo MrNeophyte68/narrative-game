@@ -6878,6 +6878,7 @@ shadow_mesh = SubResource("ArrayMesh_7votn")
 [node name="tiles1" type="Node3D"]
 
 [node name="arc_1_wall_1_plain2" type="Node3D" parent="."]
+visible = false
 
 [node name="arc_1_wall_1_plain" type="MeshInstance3D" parent="arc_1_wall_1_plain2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -6890,6 +6891,7 @@ skeleton = NodePath("")
 shape = SubResource("ConvexPolygonShape3D_vrlqa")
 
 [node name="arc_1_wall_12" type="Node3D" parent="."]
+visible = false
 
 [node name="arc_1_wall_1" type="MeshInstance3D" parent="arc_1_wall_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -6902,6 +6904,7 @@ skeleton = NodePath("")
 shape = SubResource("ConvexPolygonShape3D_bhn0a")
 
 [node name="arc_1_wall_2_12" type="Node3D" parent="."]
+visible = false
 
 [node name="arc_1_wall_2_1" type="MeshInstance3D" parent="arc_1_wall_2_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -6914,6 +6917,7 @@ skeleton = NodePath("")
 shape = SubResource("ConvexPolygonShape3D_hvgsf")
 
 [node name="arc_1_wall_2_22" type="Node3D" parent="."]
+visible = false
 
 [node name="arc_1_wall_2_2" type="MeshInstance3D" parent="arc_1_wall_2_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -6926,6 +6930,7 @@ skeleton = NodePath("")
 shape = SubResource("ConvexPolygonShape3D_iarlr")
 
 [node name="arc_2_wall_12" type="Node3D" parent="."]
+visible = false
 
 [node name="arc_2_wall_1" type="MeshInstance3D" parent="arc_2_wall_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -6938,6 +6943,7 @@ skeleton = NodePath("")
 shape = SubResource("ConvexPolygonShape3D_07du3")
 
 [node name="arc_2_wall_1_plain2" type="Node3D" parent="."]
+visible = false
 
 [node name="arc_2_wall_1_plain" type="MeshInstance3D" parent="arc_2_wall_1_plain2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -6950,6 +6956,7 @@ skeleton = NodePath("")
 shape = SubResource("ConvexPolygonShape3D_4jkon")
 
 [node name="arc_2_wall_2_12" type="Node3D" parent="."]
+visible = false
 
 [node name="arc_2_wall_2_1" type="MeshInstance3D" parent="arc_2_wall_2_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -6962,6 +6969,7 @@ skeleton = NodePath("")
 shape = SubResource("ConvexPolygonShape3D_wpun1")
 
 [node name="arc_2_wall_2_22" type="Node3D" parent="."]
+visible = false
 
 [node name="arc_2_wall_2_2" type="MeshInstance3D" parent="arc_2_wall_2_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -6974,6 +6982,7 @@ skeleton = NodePath("")
 shape = SubResource("ConvexPolygonShape3D_an4ku")
 
 [node name="bars_metal_12" type="Node3D" parent="."]
+visible = false
 
 [node name="bars_metal_1" type="MeshInstance3D" parent="bars_metal_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -6981,6 +6990,7 @@ mesh = SubResource("ArrayMesh_t6vgv")
 skeleton = NodePath("")
 
 [node name="bars_metal_22" type="Node3D" parent="."]
+visible = false
 
 [node name="bars_metal_2" type="MeshInstance3D" parent="bars_metal_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -6988,6 +6998,7 @@ mesh = SubResource("ArrayMesh_3k7lp")
 skeleton = NodePath("")
 
 [node name="beam_12" type="Node3D" parent="."]
+visible = false
 
 [node name="beam_1" type="MeshInstance3D" parent="beam_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -6995,6 +7006,7 @@ mesh = SubResource("ArrayMesh_8xrbb")
 skeleton = NodePath("")
 
 [node name="beam_22" type="Node3D" parent="."]
+visible = false
 
 [node name="beam_2" type="MeshInstance3D" parent="beam_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7002,6 +7014,7 @@ mesh = SubResource("ArrayMesh_h136n")
 skeleton = NodePath("")
 
 [node name="beam_42" type="Node3D" parent="."]
+visible = false
 
 [node name="beam_4" type="MeshInstance3D" parent="beam_42"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7009,6 +7022,7 @@ mesh = SubResource("ArrayMesh_liej3")
 skeleton = NodePath("")
 
 [node name="beam_52" type="Node3D" parent="."]
+visible = false
 
 [node name="beam_5" type="MeshInstance3D" parent="beam_52"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7016,6 +7030,7 @@ mesh = SubResource("ArrayMesh_g06ck")
 skeleton = NodePath("")
 
 [node name="catwalk_12" type="Node3D" parent="."]
+visible = false
 
 [node name="catwalk_1" type="MeshInstance3D" parent="catwalk_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7028,6 +7043,7 @@ mesh = SubResource("ArrayMesh_rcebv")
 skeleton = NodePath("")
 
 [node name="doorway_12" type="Node3D" parent="."]
+visible = false
 
 [node name="doorway_1" type="MeshInstance3D" parent="doorway_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7045,6 +7061,7 @@ mesh = SubResource("ArrayMesh_2mvkf")
 skeleton = NodePath("")
 
 [node name="doorway_1_12" type="Node3D" parent="."]
+visible = false
 
 [node name="doorway_1_1" type="MeshInstance3D" parent="doorway_1_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7062,6 +7079,7 @@ mesh = SubResource("ArrayMesh_rlfj5")
 skeleton = NodePath("")
 
 [node name="doorway_1_half2" type="Node3D" parent="."]
+visible = false
 
 [node name="doorway_1_half" type="MeshInstance3D" parent="doorway_1_half2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7069,6 +7087,7 @@ mesh = SubResource("ArrayMesh_wotoi")
 skeleton = NodePath("")
 
 [node name="doorway_1_plain2" type="Node3D" parent="."]
+visible = false
 
 [node name="doorway_1_plain" type="MeshInstance3D" parent="doorway_1_plain2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7081,6 +7100,7 @@ mesh = SubResource("ArrayMesh_hsfpm")
 skeleton = NodePath("")
 
 [node name="doorway_22" type="Node3D" parent="."]
+visible = false
 
 [node name="doorway_2" type="MeshInstance3D" parent="doorway_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7098,6 +7118,7 @@ mesh = SubResource("ArrayMesh_eotrg")
 skeleton = NodePath("")
 
 [node name="doorway_2_12" type="Node3D" parent="."]
+visible = false
 
 [node name="doorway_2_1" type="MeshInstance3D" parent="doorway_2_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7115,6 +7136,7 @@ mesh = SubResource("ArrayMesh_q40f2")
 skeleton = NodePath("")
 
 [node name="doorway_2_1_half2" type="Node3D" parent="."]
+visible = false
 
 [node name="doorway_2_1_half" type="MeshInstance3D" parent="doorway_2_1_half2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7122,6 +7144,7 @@ mesh = SubResource("ArrayMesh_tx5gt")
 skeleton = NodePath("")
 
 [node name="doorway_2_2_half2" type="Node3D" parent="."]
+visible = false
 
 [node name="doorway_2_2_half" type="MeshInstance3D" parent="doorway_2_2_half2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7129,6 +7152,7 @@ mesh = SubResource("ArrayMesh_16hvx")
 skeleton = NodePath("")
 
 [node name="doorway_2_wide2" type="Node3D" parent="."]
+visible = false
 
 [node name="doorway_2_wide" type="MeshInstance3D" parent="doorway_2_wide2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7156,6 +7180,7 @@ mesh = SubResource("ArrayMesh_4cqmy")
 skeleton = NodePath("")
 
 [node name="doorway_3_half2" type="Node3D" parent="."]
+visible = false
 
 [node name="doorway_3_half" type="MeshInstance3D" parent="doorway_3_half2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7163,6 +7188,7 @@ mesh = SubResource("ArrayMesh_yqecd")
 skeleton = NodePath("")
 
 [node name="doorway_3_wide2" type="Node3D" parent="."]
+visible = false
 
 [node name="doorway_3_wide" type="MeshInstance3D" parent="doorway_3_wide2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7190,6 +7216,7 @@ mesh = SubResource("ArrayMesh_lunux")
 skeleton = NodePath("")
 
 [node name="doorway_door_mp_12" type="Node3D" parent="."]
+visible = false
 
 [node name="doorway_door_mp_1" type="MeshInstance3D" parent="doorway_door_mp_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7207,6 +7234,7 @@ mesh = SubResource("ArrayMesh_2tl3u")
 skeleton = NodePath("")
 
 [node name="double_single_doorway_12" type="Node3D" parent="."]
+visible = false
 
 [node name="double_single_doorway_1" type="MeshInstance3D" parent="double_single_doorway_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7214,6 +7242,7 @@ mesh = SubResource("ArrayMesh_crbjf")
 skeleton = NodePath("")
 
 [node name="double_single_doorway_22" type="Node3D" parent="."]
+visible = false
 
 [node name="double_single_doorway_2" type="MeshInstance3D" parent="double_single_doorway_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7221,6 +7250,7 @@ mesh = SubResource("ArrayMesh_fjdjl")
 skeleton = NodePath("")
 
 [node name="double_single_doorway_2_12" type="Node3D" parent="."]
+visible = false
 
 [node name="double_single_doorway_2_1" type="MeshInstance3D" parent="double_single_doorway_2_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7228,6 +7258,7 @@ mesh = SubResource("ArrayMesh_by0a2")
 skeleton = NodePath("")
 
 [node name="double_single_doorway_32" type="Node3D" parent="."]
+visible = false
 
 [node name="double_single_doorway_3" type="MeshInstance3D" parent="double_single_doorway_32"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7235,6 +7266,7 @@ mesh = SubResource("ArrayMesh_rrhxi")
 skeleton = NodePath("")
 
 [node name="elevator_12" type="Node3D" parent="."]
+visible = false
 
 [node name="elevator_1" type="MeshInstance3D" parent="elevator_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7262,6 +7294,7 @@ mesh = SubResource("ArrayMesh_eo64y")
 skeleton = NodePath("")
 
 [node name="elevator_22" type="Node3D" parent="."]
+visible = false
 
 [node name="elevator_2" type="MeshInstance3D" parent="elevator_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7289,6 +7322,7 @@ mesh = SubResource("ArrayMesh_3k57l")
 skeleton = NodePath("")
 
 [node name="elevator_doorway_12" type="Node3D" parent="."]
+visible = false
 
 [node name="elevator_doorway_1" type="MeshInstance3D" parent="elevator_doorway_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7296,6 +7330,7 @@ mesh = SubResource("ArrayMesh_dmbh4")
 skeleton = NodePath("")
 
 [node name="elevator_doorway_22" type="Node3D" parent="."]
+visible = false
 
 [node name="elevator_doorway_2" type="MeshInstance3D" parent="elevator_doorway_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7303,6 +7338,7 @@ mesh = SubResource("ArrayMesh_ma10v")
 skeleton = NodePath("")
 
 [node name="elevator_doorway_2_12" type="Node3D" parent="."]
+visible = false
 
 [node name="elevator_doorway_2_1" type="MeshInstance3D" parent="elevator_doorway_2_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7310,6 +7346,7 @@ mesh = SubResource("ArrayMesh_pv655")
 skeleton = NodePath("")
 
 [node name="elevator_doorway_32" type="Node3D" parent="."]
+visible = false
 
 [node name="elevator_doorway_3" type="MeshInstance3D" parent="elevator_doorway_32"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7317,6 +7354,7 @@ mesh = SubResource("ArrayMesh_re3bj")
 skeleton = NodePath("")
 
 [node name="floor_ceiling_13" type="Node3D" parent="."]
+visible = false
 
 [node name="floor_ceiling_1" type="MeshInstance3D" parent="floor_ceiling_13"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7324,6 +7362,7 @@ mesh = SubResource("ArrayMesh_0sg1p")
 skeleton = NodePath("")
 
 [node name="floor_ceiling_22" type="Node3D" parent="."]
+visible = false
 
 [node name="floor_ceiling_2" type="MeshInstance3D" parent="floor_ceiling_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7331,6 +7370,7 @@ mesh = SubResource("ArrayMesh_k220n")
 skeleton = NodePath("")
 
 [node name="floor_ceiling_32" type="Node3D" parent="."]
+visible = false
 
 [node name="floor_ceiling_3" type="MeshInstance3D" parent="floor_ceiling_32"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7338,6 +7378,7 @@ mesh = SubResource("ArrayMesh_aa1nf")
 skeleton = NodePath("")
 
 [node name="half_arc_pillar_1_wall_1_plain2" type="Node3D" parent="."]
+visible = false
 
 [node name="half_arc_pillar_1_wall_1_plain" type="MeshInstance3D" parent="half_arc_pillar_1_wall_1_plain2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7345,6 +7386,7 @@ mesh = SubResource("ArrayMesh_7kbol")
 skeleton = NodePath("")
 
 [node name="half_arc_pillar_2_tall_wall_1_plain2" type="Node3D" parent="."]
+visible = false
 
 [node name="half_arc_pillar_2_tall_wall_1_plain" type="MeshInstance3D" parent="half_arc_pillar_2_tall_wall_1_plain2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7352,6 +7394,7 @@ mesh = SubResource("ArrayMesh_e12fx")
 skeleton = NodePath("")
 
 [node name="half_arc_pillar_2_wall_1_plain2" type="Node3D" parent="."]
+visible = false
 
 [node name="half_arc_pillar_2_wall_1_plain" type="MeshInstance3D" parent="half_arc_pillar_2_wall_1_plain2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7359,6 +7402,7 @@ mesh = SubResource("ArrayMesh_u0dje")
 skeleton = NodePath("")
 
 [node name="hand_rail_12" type="Node3D" parent="."]
+visible = false
 
 [node name="hand_rail_1" type="MeshInstance3D" parent="hand_rail_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7366,6 +7410,7 @@ mesh = SubResource("ArrayMesh_bcggl")
 skeleton = NodePath("")
 
 [node name="hand_rail_22" type="Node3D" parent="."]
+visible = false
 
 [node name="hand_rail_2" type="MeshInstance3D" parent="hand_rail_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7373,6 +7418,7 @@ mesh = SubResource("ArrayMesh_sh8qj")
 skeleton = NodePath("")
 
 [node name="hand_rail_32" type="Node3D" parent="."]
+visible = false
 
 [node name="hand_rail_3" type="MeshInstance3D" parent="hand_rail_32"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7380,6 +7426,7 @@ mesh = SubResource("ArrayMesh_x7yaf")
 skeleton = NodePath("")
 
 [node name="pillar_12" type="Node3D" parent="."]
+visible = false
 
 [node name="pillar_1" type="MeshInstance3D" parent="pillar_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7387,6 +7434,7 @@ mesh = SubResource("ArrayMesh_igeoi")
 skeleton = NodePath("")
 
 [node name="pillar_1_plain_12" type="Node3D" parent="."]
+visible = false
 
 [node name="pillar_1_plain_1" type="MeshInstance3D" parent="pillar_1_plain_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7394,6 +7442,7 @@ mesh = SubResource("ArrayMesh_qtoqo")
 skeleton = NodePath("")
 
 [node name="pillar_1_plain_22" type="Node3D" parent="."]
+visible = false
 
 [node name="pillar_1_plain_2" type="MeshInstance3D" parent="pillar_1_plain_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7401,6 +7450,7 @@ mesh = SubResource("ArrayMesh_gtjll")
 skeleton = NodePath("")
 
 [node name="pillar_22" type="Node3D" parent="."]
+visible = false
 
 [node name="pillar_2" type="MeshInstance3D" parent="pillar_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7408,6 +7458,7 @@ mesh = SubResource("ArrayMesh_4d3pg")
 skeleton = NodePath("")
 
 [node name="pillar_32" type="Node3D" parent="."]
+visible = false
 
 [node name="pillar_3" type="MeshInstance3D" parent="pillar_32"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7415,6 +7466,7 @@ mesh = SubResource("ArrayMesh_mt56c")
 skeleton = NodePath("")
 
 [node name="pipes_holder_12" type="Node3D" parent="."]
+visible = false
 
 [node name="pipes_holder_1" type="MeshInstance3D" parent="pipes_holder_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7422,6 +7474,7 @@ mesh = SubResource("ArrayMesh_6tsen")
 skeleton = NodePath("")
 
 [node name="pipe_valve_holder_large_22" type="Node3D" parent="."]
+visible = false
 
 [node name="pipe_valve_holder_large_2" type="MeshInstance3D" parent="pipe_valve_holder_large_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7434,6 +7487,7 @@ mesh = SubResource("ArrayMesh_2vf3n")
 skeleton = NodePath("")
 
 [node name="pipe_valve_holder_large_2_12" type="Node3D" parent="."]
+visible = false
 
 [node name="pipe_valve_holder_large_2_1" type="MeshInstance3D" parent="pipe_valve_holder_large_2_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7446,6 +7500,7 @@ mesh = SubResource("ArrayMesh_k76iq")
 skeleton = NodePath("")
 
 [node name="side_doorway_12" type="Node3D" parent="."]
+visible = false
 
 [node name="side_doorway_1" type="MeshInstance3D" parent="side_doorway_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7453,6 +7508,7 @@ mesh = SubResource("ArrayMesh_jsvh1")
 skeleton = NodePath("")
 
 [node name="side_doorway_22" type="Node3D" parent="."]
+visible = false
 
 [node name="side_doorway_2" type="MeshInstance3D" parent="side_doorway_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7460,6 +7516,7 @@ mesh = SubResource("ArrayMesh_8aojy")
 skeleton = NodePath("")
 
 [node name="side_doorway_2_12" type="Node3D" parent="."]
+visible = false
 
 [node name="side_doorway_2_1" type="MeshInstance3D" parent="side_doorway_2_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7467,6 +7524,7 @@ mesh = SubResource("ArrayMesh_ju2gv")
 skeleton = NodePath("")
 
 [node name="side_doorway_32" type="Node3D" parent="."]
+visible = false
 
 [node name="side_doorway_3" type="MeshInstance3D" parent="side_doorway_32"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7474,6 +7532,7 @@ mesh = SubResource("ArrayMesh_it7na")
 skeleton = NodePath("")
 
 [node name="stairs_12" type="Node3D" parent="."]
+visible = false
 
 [node name="stairs_1" type="MeshInstance3D" parent="stairs_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7481,6 +7540,7 @@ mesh = SubResource("ArrayMesh_63wiy")
 skeleton = NodePath("")
 
 [node name="stairs_22" type="Node3D" parent="."]
+visible = false
 
 [node name="stairs_2" type="MeshInstance3D" parent="stairs_22"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7488,18 +7548,25 @@ mesh = SubResource("ArrayMesh_ou585")
 skeleton = NodePath("")
 
 [node name="stairs_32" parent="." instance=ExtResource("61_nc4ll")]
+visible = false
 
 [node name="stairs_42" parent="." instance=ExtResource("62_25nab")]
+visible = false
 
 [node name="stairs_5_concrete2" parent="." instance=ExtResource("63_fot50")]
+visible = false
 
 [node name="stairs_5_wood2" parent="." instance=ExtResource("64_teruj")]
+visible = false
 
 [node name="toilet_cabin_mp_12" parent="." instance=ExtResource("65_085na")]
+visible = false
 
 [node name="tunnel_12" parent="." instance=ExtResource("66_15y8f")]
+visible = false
 
 [node name="wall_12" type="Node3D" parent="."]
+visible = false
 
 [node name="wall_1" type="MeshInstance3D" parent="wall_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7507,6 +7574,7 @@ mesh = SubResource("ArrayMesh_42r6g")
 skeleton = NodePath("")
 
 [node name="wall_1_1_half2" type="Node3D" parent="."]
+visible = false
 
 [node name="wall_1_1_half" type="MeshInstance3D" parent="wall_1_1_half2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7514,6 +7582,7 @@ mesh = SubResource("ArrayMesh_ds7rw")
 skeleton = NodePath("")
 
 [node name="wall_1_1_rounded_corner_12" type="Node3D" parent="."]
+visible = false
 
 [node name="wall_1_1_rounded_corner_1" type="MeshInstance3D" parent="wall_1_1_rounded_corner_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7521,6 +7590,7 @@ mesh = SubResource("ArrayMesh_d0qux")
 skeleton = NodePath("")
 
 [node name="wall_1_2_half2" type="Node3D" parent="."]
+visible = false
 
 [node name="wall_1_2_half" type="MeshInstance3D" parent="wall_1_2_half2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7528,6 +7598,7 @@ mesh = SubResource("ArrayMesh_u15rs")
 skeleton = NodePath("")
 
 [node name="wall_1_2_rounded_corner_12" type="Node3D" parent="."]
+visible = false
 
 [node name="wall_1_2_rounded_corner_1" type="MeshInstance3D" parent="wall_1_2_rounded_corner_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7535,6 +7606,7 @@ mesh = SubResource("ArrayMesh_w1il6")
 skeleton = NodePath("")
 
 [node name="wall_1_3_half2" type="Node3D" parent="."]
+visible = false
 
 [node name="wall_1_3_half" type="MeshInstance3D" parent="wall_1_3_half2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7542,6 +7614,7 @@ mesh = SubResource("ArrayMesh_uljpn")
 skeleton = NodePath("")
 
 [node name="wall_1_half2" type="Node3D" parent="."]
+visible = false
 
 [node name="wall_1_half" type="MeshInstance3D" parent="wall_1_half2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7549,6 +7622,7 @@ mesh = SubResource("ArrayMesh_6dyrk")
 skeleton = NodePath("")
 
 [node name="wall_1_plain2" type="Node3D" parent="."]
+visible = false
 
 [node name="wall_1_plain" type="MeshInstance3D" parent="wall_1_plain2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7556,6 +7630,7 @@ mesh = SubResource("ArrayMesh_jxytw")
 skeleton = NodePath("")
 
 [node name="wall_1_rounded_corner2" type="Node3D" parent="."]
+visible = false
 
 [node name="wall_1_rounded_corner" type="MeshInstance3D" parent="wall_1_rounded_corner2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7563,6 +7638,7 @@ mesh = SubResource("ArrayMesh_acobv")
 skeleton = NodePath("")
 
 [node name="wall_1_rounded_corner_12" type="Node3D" parent="."]
+visible = false
 
 [node name="wall_1_rounded_corner_1" type="MeshInstance3D" parent="wall_1_rounded_corner_12"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7570,6 +7646,7 @@ mesh = SubResource("ArrayMesh_eyqsx")
 skeleton = NodePath("")
 
 [node name="wall_1_tunnel_hole2" type="Node3D" parent="."]
+visible = false
 
 [node name="wall_1_tunnel_hole" type="MeshInstance3D" parent="wall_1_tunnel_hole2"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
@@ -7577,463 +7654,694 @@ mesh = SubResource("ArrayMesh_qmerh")
 skeleton = NodePath("")
 
 [node name="wall_1_tunnel_hole_12" parent="." instance=ExtResource("78_8ofo7")]
+visible = false
 
 [node name="wall_1_tunnel_hole_22" parent="." instance=ExtResource("79_s8s0e")]
+visible = false
 
 [node name="wall_2_12" parent="." instance=ExtResource("80_rbggk")]
+visible = false
 
 [node name="wall_2_22" parent="." instance=ExtResource("81_bqe65")]
+visible = false
 
 [node name="window_1_single2" parent="." instance=ExtResource("82_wyjny")]
+visible = false
 
 [node name="window_1_single_frame_only2" parent="." instance=ExtResource("83_w7pwt")]
+visible = false
 
 [node name="window_1_single_no_glass2" parent="." instance=ExtResource("84_7wfa8")]
+visible = false
 
 [node name="window_2_1_double2" parent="." instance=ExtResource("85_sxn4k")]
+visible = false
 
 [node name="window_2_1_single2" parent="." instance=ExtResource("86_q50sp")]
+visible = false
 
 [node name="window_2_1_single_frame_only2" parent="." instance=ExtResource("87_4s1m2")]
+visible = false
 
 [node name="window_2_1_single_no_glass2" parent="." instance=ExtResource("88_xcb15")]
+visible = false
 
 [node name="window_2_2_double2" parent="." instance=ExtResource("89_5vqrw")]
+visible = false
 
 [node name="window_2_2_single2" parent="." instance=ExtResource("90_g7wpl")]
+visible = false
 
 [node name="window_2_2_single_frame_only2" parent="." instance=ExtResource("91_c4oki")]
+visible = false
 
 [node name="window_2_2_single_no_glass2" parent="." instance=ExtResource("92_5sasw")]
+visible = false
 
 [node name="window_2_double2" parent="." instance=ExtResource("93_ma8sr")]
+visible = false
 
 [node name="window_2_single2" parent="." instance=ExtResource("94_mps71")]
+visible = false
 
 [node name="window_2_single_frame_only2" parent="." instance=ExtResource("95_330fd")]
+visible = false
 
 [node name="window_2_single_no_glass2" parent="." instance=ExtResource("96_5c3o1")]
+visible = false
 
 [node name="window_metal_bars_double2" parent="." instance=ExtResource("97_i2ljf")]
+visible = false
 
 [node name="window_metal_bars_single2" parent="." instance=ExtResource("98_6v42r")]
+visible = false
 
 [node name="asphalt_hr_12" parent="." instance=ExtResource("191_vpos4")]
+visible = false
 
 [node name="asphalt_hr_1_large2" parent="." instance=ExtResource("192_q6qq4")]
+visible = false
 
 [node name="asphalt_hr_22" parent="." instance=ExtResource("193_iurqw")]
+visible = false
 
 [node name="asphalt_hr_32" parent="." instance=ExtResource("194_wmiop")]
+visible = false
 
 [node name="beam_hc_horizonatal_12" parent="." instance=ExtResource("195_l76ud")]
+visible = false
 
 [node name="beam_hc_horizonatal_22" parent="." instance=ExtResource("196_453ic")]
+visible = false
 
 [node name="beam_hc_vertical_12" parent="." instance=ExtResource("197_yukyh")]
+visible = false
 
 [node name="beam_hc_vertical_22" parent="." instance=ExtResource("198_8ajhe")]
+visible = false
 
 [node name="beam_hl_12" parent="." instance=ExtResource("199_3k63r")]
+visible = false
 
 [node name="beam_rtx_12" parent="." instance=ExtResource("200_i5gae")]
+visible = false
 
 [node name="beam_rtx_2_pipes2" parent="." instance=ExtResource("201_7v2xm")]
+visible = false
 
 [node name="concrete_pipe_hm_1_end2" parent="." instance=ExtResource("202_5qeve")]
+visible = false
 
 [node name="concrete_pipe_hm_1_end_bars_12" parent="." instance=ExtResource("203_ip0sw")]
+visible = false
 
 [node name="concrete_pipe_hm_1_middle2" parent="." instance=ExtResource("204_nnvqj")]
+visible = false
 
 [node name="doorway_hr_12" parent="." instance=ExtResource("205_mfefh")]
+visible = false
 
 [node name="doorway_hr_1_wide2" parent="." instance=ExtResource("206_doec7")]
+visible = false
 
 [node name="doorway_hr_2_regular2" parent="." instance=ExtResource("207_lefj0")]
+visible = false
 
 [node name="doorway_hr_2_wide2" parent="." instance=ExtResource("208_frkeh")]
+visible = false
 
 [node name="doorway_hr_3_regular2" parent="." instance=ExtResource("209_0lxrf")]
+visible = false
 
 [node name="doorway_hs_1_regular2" parent="." instance=ExtResource("210_vkrar")]
+visible = false
 
 [node name="doorway_hs_1_wide2" parent="." instance=ExtResource("211_ne4ny")]
+visible = false
 
 [node name="doorway_rg_1_regular2" parent="." instance=ExtResource("212_emkjh")]
+visible = false
 
 [node name="doorway_rg_1_wide2" parent="." instance=ExtResource("213_glj52")]
+visible = false
 
 [node name="doorway_rg_2_wide2" parent="." instance=ExtResource("214_pk5cw")]
+visible = false
 
 [node name="doorway_rtx_1_wide2" parent="." instance=ExtResource("215_463bf")]
+visible = false
 
 [node name="doorway_rx_12" parent="." instance=ExtResource("216_20ygm")]
+visible = false
 
 [node name="floor_ceiling_hr_12" parent="." instance=ExtResource("217_m65pa")]
+visible = false
 
 [node name="floor_ceiling_hr_2_hole2" parent="." instance=ExtResource("218_ksurg")]
+visible = false
 
 [node name="floor_ceiling_hr_32" parent="." instance=ExtResource("219_5pr2e")]
+visible = false
 
 [node name="floor_ceiling_hr_42" parent="." instance=ExtResource("220_alqbg")]
+visible = false
 
 [node name="floor_ceiling_hr_52" parent="." instance=ExtResource("221_rctaq")]
+visible = false
 
 [node name="floor_ceiling_hr_5_m1a_12" parent="." instance=ExtResource("222_aycow")]
+visible = false
 
 [node name="floor_ceiling_hr_5_m2a_12" parent="." instance=ExtResource("223_20t5q")]
+visible = false
 
 [node name="floor_ceiling_hr_62" parent="." instance=ExtResource("224_iqirr")]
+visible = false
 
 [node name="floor_ceiling_hs_1_slope2" parent="." instance=ExtResource("225_khj8u")]
+visible = false
 
 [node name="floor_ceiling_hs_2_slope2" parent="." instance=ExtResource("226_7cy85")]
+visible = false
 
 [node name="floor_ceiling_hs_3_slope2" parent="." instance=ExtResource("227_6j75r")]
+visible = false
 
 [node name="floor_ceiling_hs_4_slope2" parent="." instance=ExtResource("228_270fw")]
+visible = false
 
 [node name="floor_ceiling_hy_12" parent="." instance=ExtResource("229_58bkp")]
+visible = false
 
 [node name="floor_ceiling_rtx_12" parent="." instance=ExtResource("230_i57jt")]
+visible = false
 
 [node name="floor_ceiling_rtx_1_corner2" parent="." instance=ExtResource("231_u0oeh")]
+visible = false
 
 [node name="floor_ceiling_rtx_22" parent="." instance=ExtResource("232_l71lq")]
+visible = false
 
 [node name="floor_ceiling_rtx_32" parent="." instance=ExtResource("233_occ13")]
+visible = false
 
 [node name="floor_ceiling_rx_12" parent="." instance=ExtResource("234_j3a4r")]
+visible = false
 
 [node name="garage_door_frame_hr_12" parent="." instance=ExtResource("235_1blrb")]
+visible = false
 
 [node name="garage_door_frame_hr_22" parent="." instance=ExtResource("236_fyl15")]
+visible = false
 
 [node name="garage_door_frame_hs_12" parent="." instance=ExtResource("237_c4puu")]
+visible = false
 
 [node name="garage_door_frame_hs_22" parent="." instance=ExtResource("238_ckyfr")]
+visible = false
 
 [node name="garage_door_frame_rg_12" parent="." instance=ExtResource("239_dm1qm")]
+visible = false
 
 [node name="garage_door_frame_rg_22" parent="." instance=ExtResource("240_fkwui")]
+visible = false
 
 [node name="pillar_ac_32" parent="." instance=ExtResource("241_7s8o3")]
+visible = false
 
 [node name="pillar_ax_32" parent="." instance=ExtResource("242_atow0")]
+visible = false
 
 [node name="pillar_ay_22" parent="." instance=ExtResource("243_f6sys")]
+visible = false
 
 [node name="pillar_hr_1_broken2" parent="." instance=ExtResource("244_y7hkn")]
+visible = false
 
 [node name="pillar_hr_22" parent="." instance=ExtResource("245_f7b61")]
+visible = false
 
 [node name="pillar_hr_42" parent="." instance=ExtResource("246_k4kur")]
+visible = false
 
 [node name="pillar_hr_52" parent="." instance=ExtResource("247_3f4hg")]
+visible = false
 
 [node name="pillar_hr_62" parent="." instance=ExtResource("248_snw6l")]
+visible = false
 
 [node name="pillar_hr_82" parent="." instance=ExtResource("249_pjusx")]
+visible = false
 
 [node name="pillar_hs_1_broken2" parent="." instance=ExtResource("250_eenw7")]
+visible = false
 
 [node name="pillar_hs_22" parent="." instance=ExtResource("251_k1xd8")]
+visible = false
 
 [node name="pillar_hs_42" parent="." instance=ExtResource("252_1r616")]
+visible = false
 
 [node name="pillar_hs_52" parent="." instance=ExtResource("253_aj0u4")]
+visible = false
 
 [node name="pillar_hs_62" parent="." instance=ExtResource("254_r0a3d")]
+visible = false
 
 [node name="pillar_hs_72" parent="." instance=ExtResource("255_jbspx")]
+visible = false
 
 [node name="pillar_hs_82" parent="." instance=ExtResource("256_uxqbe")]
+visible = false
 
 [node name="pillar_rgx_12" parent="." instance=ExtResource("257_8ymp1")]
+visible = false
 
 [node name="pillar_rgx_22" parent="." instance=ExtResource("258_7sx7w")]
+visible = false
 
 [node name="pillar_rgx_32" parent="." instance=ExtResource("259_tsjwe")]
+visible = false
 
 [node name="pillar_rg_1_broken2" parent="." instance=ExtResource("260_twr12")]
+visible = false
 
 [node name="pillar_rg_22" parent="." instance=ExtResource("261_nlih5")]
+visible = false
 
 [node name="pillar_rg_42" parent="." instance=ExtResource("262_l4w3w")]
+visible = false
 
 [node name="pillar_rg_52" parent="." instance=ExtResource("263_1waag")]
+visible = false
 
 [node name="pillar_rg_62" parent="." instance=ExtResource("264_uowo5")]
+visible = false
 
 [node name="pillar_rg_72" parent="." instance=ExtResource("265_pk204")]
+visible = false
 
 [node name="pillar_rg_82" parent="." instance=ExtResource("266_16o67")]
+visible = false
 
 [node name="pillar_rg_92" parent="." instance=ExtResource("267_he65q")]
+visible = false
 
 [node name="pillar_rg_102" parent="." instance=ExtResource("268_t8se7")]
+visible = false
 
 [node name="pillar_rtx_12" parent="." instance=ExtResource("269_tsiau")]
+visible = false
 
 [node name="pillar_rtx_22" parent="." instance=ExtResource("270_cdpjx")]
+visible = false
 
 [node name="pillar_rx_82" parent="." instance=ExtResource("271_svyeh")]
+visible = false
 
 [node name="pipes_hr_5_middle2" parent="." instance=ExtResource("272_pt01s")]
+visible = false
 
 [node name="pipe_bx_12" parent="." instance=ExtResource("273_ymjov")]
+visible = false
 
 [node name="pipe_bx_22" parent="." instance=ExtResource("274_0ren1")]
+visible = false
 
 [node name="pipe_bx_32" parent="." instance=ExtResource("275_8v0qe")]
+visible = false
 
 [node name="pipe_bx_42" parent="." instance=ExtResource("276_6t33n")]
+visible = false
 
 [node name="pipe_cx_12" parent="." instance=ExtResource("277_804v2")]
+visible = false
 
 [node name="pipe_cx_22" parent="." instance=ExtResource("278_wite6")]
+visible = false
 
 [node name="pipe_cx_32" parent="." instance=ExtResource("279_sq7od")]
+visible = false
 
 [node name="pipe_cx_42" parent="." instance=ExtResource("280_nfpst")]
+visible = false
 
 [node name="pipe_cx_52" parent="." instance=ExtResource("281_bcc0w")]
+visible = false
 
 [node name="pipe_dx_12" parent="." instance=ExtResource("282_injil")]
+visible = false
 
 [node name="pipe_dx_22" parent="." instance=ExtResource("283_kn306")]
+visible = false
 
 [node name="platform_ax_12" parent="." instance=ExtResource("284_yfb1c")]
+visible = false
 
 [node name="platform_ax_22" parent="." instance=ExtResource("285_gph1s")]
+visible = false
 
 [node name="platform_bx_12" parent="." instance=ExtResource("286_5yssm")]
+visible = false
 
 [node name="platform_bx_22" parent="." instance=ExtResource("287_e3ucl")]
+visible = false
 
 [node name="platform_b_handrail_12" parent="." instance=ExtResource("288_57tck")]
+visible = false
 
 [node name="platform_b_handrail_1_12" parent="." instance=ExtResource("289_kxkds")]
+visible = false
 
 [node name="platform_b_handrail_22" parent="." instance=ExtResource("290_5edso")]
+visible = false
 
 [node name="platform_cx_12" parent="." instance=ExtResource("291_y3vds")]
+visible = false
 
 [node name="platform_large_mx_12" parent="." instance=ExtResource("292_tob61")]
+visible = false
 
 [node name="platform_small_mx_12" parent="." instance=ExtResource("293_ggh1x")]
+visible = false
 
 [node name="ramp_platform_slim_mx_12" parent="." instance=ExtResource("294_trjm5")]
+visible = false
 
 [node name="ramp_platform_wide_mx_12" parent="." instance=ExtResource("295_8wkne")]
+visible = false
 
 [node name="roof_bx_12" parent="." instance=ExtResource("296_v4hw8")]
+visible = false
 
 [node name="roof_bx_1_corner_12" parent="." instance=ExtResource("297_c3ypy")]
+visible = false
 
 [node name="roof_bx_1_corner_22" parent="." instance=ExtResource("298_hlpro")]
+visible = false
 
 [node name="roof_bx_1_side2" parent="." instance=ExtResource("299_kn0i8")]
+visible = false
 
 [node name="roof_bx_22" parent="." instance=ExtResource("300_gx3au")]
+visible = false
 
 [node name="roof_hr_3_middle_angle2" parent="." instance=ExtResource("301_tvt2y")]
+visible = false
 
 [node name="roof_hr_3_side_1_angle2" parent="." instance=ExtResource("302_63bau")]
+visible = false
 
 [node name="roof_hr_3_side_2_angle_corner_12" parent="." instance=ExtResource("303_bpvmh")]
+visible = false
 
 [node name="roof_hr_3_side_2_angle_corner_22" parent="." instance=ExtResource("304_4bjql")]
+visible = false
 
 [node name="roof_hr_3_side_2_angle_edge_12" parent="." instance=ExtResource("305_1urs8")]
+visible = false
 
 [node name="roof_hr_3_side_2_angle_edge_22" parent="." instance=ExtResource("306_grdds")]
+visible = false
 
 [node name="roof_mh_12" parent="." instance=ExtResource("307_46axl")]
+visible = false
 
 [node name="roof_mh_22" parent="." instance=ExtResource("308_yiqn8")]
+visible = false
 
 [node name="roof_mh_32" parent="." instance=ExtResource("309_lbmc4")]
+visible = false
 
 [node name="roof_mh_4_a_12" parent="." instance=ExtResource("310_8gnmv")]
+visible = false
 
 [node name="roof_mh_4_a_22" parent="." instance=ExtResource("311_8esos")]
+visible = false
 
 [node name="roof_mh_4_a_32" parent="." instance=ExtResource("312_hld84")]
+visible = false
 
 [node name="roof_mh_4_a_42" parent="." instance=ExtResource("313_41do1")]
+visible = false
 
 [node name="roof_mh_4_b_12" parent="." instance=ExtResource("314_5mvs1")]
+visible = false
 
 [node name="roof_mh_4_b_22" parent="." instance=ExtResource("315_72etr")]
+visible = false
 
 [node name="roof_mh_4_b_32" parent="." instance=ExtResource("316_84yhu")]
+visible = false
 
 [node name="roof_mh_4_b_42" parent="." instance=ExtResource("317_4ovnc")]
+visible = false
 
 [node name="roof_mx_12" parent="." instance=ExtResource("318_q12ip")]
+visible = false
 
 [node name="roof_small_hr_12" parent="." instance=ExtResource("319_r6wph")]
+visible = false
 
 [node name="roof_small_hr_22" parent="." instance=ExtResource("320_uh0xy")]
+visible = false
 
 [node name="roof_small_hr_32" parent="." instance=ExtResource("321_cpffj")]
+visible = false
 
 [node name="seam_hl_22" parent="." instance=ExtResource("322_w7suf")]
+visible = false
 
 [node name="seam_hr_12" parent="." instance=ExtResource("323_xj0ek")]
+visible = false
 
 [node name="structure_piece_rg_12" parent="." instance=ExtResource("324_bckuu")]
+visible = false
 
 [node name="structure_piece_rg_1_12" parent="." instance=ExtResource("325_6ph71")]
+visible = false
 
 [node name="structure_piece_rg_22" parent="." instance=ExtResource("326_xebx6")]
+visible = false
 
 [node name="wall_hr_12" parent="." instance=ExtResource("327_mqxyo")]
+visible = false
 
 [node name="wall_hr_1_double2" parent="." instance=ExtResource("328_tbh1r")]
+visible = false
 
 [node name="wall_hr_1_hole_12" parent="." instance=ExtResource("329_lhi8b")]
+visible = false
 
 [node name="wall_hr_1_hole_22" parent="." instance=ExtResource("330_wy3af")]
+visible = false
 
 [node name="wall_hr_1_m1a_12" parent="." instance=ExtResource("331_yhk20")]
+visible = false
 
 [node name="wall_hr_1_m1a_22" parent="." instance=ExtResource("332_k00vm")]
+visible = false
 
 [node name="wall_hr_1_m2a_12" parent="." instance=ExtResource("333_b8wql")]
+visible = false
 
 [node name="wall_hr_1_m2a_22" parent="." instance=ExtResource("334_kgd4k")]
+visible = false
 
 [node name="wall_hr_1_m_22" parent="." instance=ExtResource("335_3u1dn")]
+visible = false
 
 [node name="wall_hr_1_t_12" parent="." instance=ExtResource("336_ftfcu")]
+visible = false
 
 [node name="wall_hr_1_t_22" parent="." instance=ExtResource("337_vfx2l")]
+visible = false
 
 [node name="wall_hr_22" parent="." instance=ExtResource("338_p8dgd")]
+visible = false
 
 [node name="wall_hr_152" parent="." instance=ExtResource("339_shrv6")]
+visible = false
 
 [node name="wall_hr_15_double2" parent="." instance=ExtResource("340_1mnmf")]
+visible = false
 
 [node name="wall_hs_12" parent="." instance=ExtResource("341_6wwgp")]
+visible = false
 
 [node name="wall_hs_1_double2" parent="." instance=ExtResource("342_dxs3d")]
+visible = false
 
 [node name="wall_hs_1_hole_12" parent="." instance=ExtResource("343_ubas7")]
+visible = false
 
 [node name="wall_hs_1_hole_22" parent="." instance=ExtResource("344_b5ua8")]
+visible = false
 
 [node name="wall_hs_1_m1a_12" parent="." instance=ExtResource("345_231fr")]
+visible = false
 
 [node name="wall_hs_1_m2a_12" parent="." instance=ExtResource("346_obxik")]
+visible = false
 
 [node name="wall_hs_1_m_22" parent="." instance=ExtResource("347_ayhot")]
+visible = false
 
 [node name="wall_hs_1_t_12" parent="." instance=ExtResource("348_2fub0")]
+visible = false
 
 [node name="wall_hs_1_t_22" parent="." instance=ExtResource("349_2gjut")]
+visible = false
 
 [node name="wall_hs_152" parent="." instance=ExtResource("350_3ogl2")]
+visible = false
 
 [node name="wall_hs_15_double2" parent="." instance=ExtResource("351_rc5ma")]
+visible = false
 
 [node name="wall_rg_12" parent="." instance=ExtResource("352_j4pwy")]
+visible = false
 
 [node name="wall_rg_1_angle2" parent="." instance=ExtResource("353_x65s5")]
+visible = false
 
 [node name="wall_rg_1_double2" parent="." instance=ExtResource("354_47s6h")]
+visible = false
 
 [node name="wall_rg_1_hole_12" parent="." instance=ExtResource("355_lfwkc")]
+visible = false
 
 [node name="wall_rg_1_hole_22" parent="." instance=ExtResource("356_8pc1o")]
+visible = false
 
 [node name="wall_rg_1_m1a_12" parent="." instance=ExtResource("357_x16sr")]
+visible = false
 
 [node name="wall_rg_1_m2a_12" parent="." instance=ExtResource("358_x0fuq")]
+visible = false
 
 [node name="wall_rg_1_m_22" parent="." instance=ExtResource("359_w2cyc")]
+visible = false
 
 [node name="wall_rg_1_t_12" parent="." instance=ExtResource("360_d5an2")]
+visible = false
 
 [node name="wall_rg_1_t_22" parent="." instance=ExtResource("361_3trx3")]
+visible = false
 
 [node name="wall_rg_152" parent="." instance=ExtResource("362_gjk8q")]
+visible = false
 
 [node name="wall_rg_15_double2" parent="." instance=ExtResource("363_yuv1i")]
+visible = false
 
 [node name="wall_rtx_12" parent="." instance=ExtResource("364_4iwb0")]
+visible = false
 
 [node name="wall_rtx_22" parent="." instance=ExtResource("365_xl4fl")]
+visible = false
 
 [node name="wall_rx_12" parent="." instance=ExtResource("366_1uxqd")]
+visible = false
 
 [node name="wall_rx_1_1_3_height2" parent="." instance=ExtResource("367_devxl")]
+visible = false
 
 [node name="wall_rx_1_1_3_height_1_2_width2" parent="." instance=ExtResource("368_ukruh")]
+visible = false
 
 [node name="wall_rx_1_1_4_width2" parent="." instance=ExtResource("369_76k7w")]
+visible = false
 
 [node name="wall_rx_1_1_4_width_1_3_height2" parent="." instance=ExtResource("370_c47w7")]
+visible = false
 
 [node name="wall_rx_1_2_3_height2" parent="." instance=ExtResource("371_qdtqr")]
+visible = false
 
 [node name="wall_rx_1_2_3_height_1_2_width2" parent="." instance=ExtResource("372_avmxp")]
+visible = false
 
 [node name="wall_rx_1_m1a_12" parent="." instance=ExtResource("373_87m42")]
+visible = false
 
 [node name="wall_rx_1_m1a_1_1_3_height2" parent="." instance=ExtResource("374_1ijkd")]
+visible = false
 
 [node name="wall_rx_1_m1a_1_2_3_height2" parent="." instance=ExtResource("375_whjpr")]
+visible = false
 
 [node name="wall_rx_1_m2a_12" parent="." instance=ExtResource("376_lugpq")]
+visible = false
 
 [node name="wall_rx_1_m2a_1_1_3_height2" parent="." instance=ExtResource("377_oshvl")]
+visible = false
 
 [node name="wall_rx_1_m2a_1_2_3_height2" parent="." instance=ExtResource("378_s5kam")]
+visible = false
 
 [node name="wall_rx_22" parent="." instance=ExtResource("379_qdl4t")]
+visible = false
 
 [node name="wall_rx_42" parent="." instance=ExtResource("380_4ruu8")]
+visible = false
 
 [node name="wall_top_part_hr_12" parent="." instance=ExtResource("381_8b5rs")]
+visible = false
 
 [node name="wall_top_part_hr_22" parent="." instance=ExtResource("382_iak5n")]
+visible = false
 
 [node name="wall_top_part_hr_32" parent="." instance=ExtResource("383_jusrh")]
+visible = false
 
 [node name="wall_top_part_hs_12" parent="." instance=ExtResource("384_1ko8k")]
+visible = false
 
 [node name="wall_top_part_hs_22" parent="." instance=ExtResource("385_pngrd")]
+visible = false
 
 [node name="wall_top_part_hs_32" parent="." instance=ExtResource("386_abseh")]
+visible = false
 
 [node name="wall_top_part_rg_12" parent="." instance=ExtResource("387_5xr31")]
+visible = false
 
 [node name="wall_top_part_rg_22" parent="." instance=ExtResource("388_g4qrd")]
+visible = false
 
 [node name="wall_top_part_rg_32" parent="." instance=ExtResource("389_fi6at")]
+visible = false
 
 [node name="warehouse_hs_1_roof_12" parent="." instance=ExtResource("390_hsb3o")]
+visible = false
 
 [node name="warehouse_hs_1_roof_22" parent="." instance=ExtResource("391_0dh62")]
+visible = false
 
 [node name="windows_hr_12" parent="." instance=ExtResource("392_1kcyv")]
+visible = false
 
 [node name="windows_hr_22" parent="." instance=ExtResource("393_f765p")]
+visible = false
 
 [node name="windows_hs_12" parent="." instance=ExtResource("394_kyngi")]
+visible = false
 
 [node name="windows_rg_12" parent="." instance=ExtResource("395_3gajf")]
+visible = false
 
 [node name="window_hr_12" parent="." instance=ExtResource("396_lpfci")]
+visible = false
 
 [node name="window_hr_22" parent="." instance=ExtResource("397_64e85")]
+visible = false
 
 [node name="window_hs_12" parent="." instance=ExtResource("398_i4eik")]
+visible = false
 
 [node name="window_rg_12" parent="." instance=ExtResource("399_dxfrh")]
+visible = false
 
 [node name="window_rtx_12" parent="." instance=ExtResource("400_fo5p2")]
+visible = false

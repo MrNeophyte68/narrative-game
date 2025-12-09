@@ -1,12 +1,115 @@
-[gd_scene load_steps=2 format=3 uid="uid://dupxy3wybrw35"]
+[gd_scene load_steps=12 format=4 uid="uid://dupxy3wybrw35"]
 
 [ext_resource type="MeshLibrary" uid="uid://bsoend0g0ryno" path="res://Assets/tiles/tiles.tres" id="1_1l0r3"]
+[ext_resource type="Shader" uid="uid://17oug05le6ko" path="res://Shaders/sky.gdshader" id="2_gt3b8"]
+[ext_resource type="Texture2D" uid="uid://bvtkeqx4nmxix" path="res://Assets/glb/psx_mega_pack2/Doors & Gates/door_hr_12_door_hr_12.png" id="2_hra73"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q0pqi"]
+resource_name = "door_hr_12"
+cull_mode = 2
+albedo_texture = ExtResource("2_hra73")
+texture_filter = 2
+texture_repeat = false
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_qvota"]
+_surfaces = [{
+"aabb": AABB(-1.0000038, -9.314107e-09, -1.564026e-05, 1, 2.1000006, 0.050015517),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "door_hr_12",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP7/AAAAAAAA///q/wAAAAAAABQAAAD///7/AAAAAP//AAD//wAA/////+r/AAD//wAAFAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_mof8b"]
+resource_name = "door_hr_12_door_hr_12"
+_surfaces = [{
+"aabb": AABB(-1.0000038, -9.314107e-09, -1.564026e-05, 1, 2.1000006, 0.050015517),
+"attribute_data": PackedByteArray("kvH//zH+AACS8QAAMf7//wAA//8q7AAAAAAAACrs//8x/v//kvEAADH+AACS8f//Kuz//wAAAAAq7AAAAAD//5Lx8fkx/v9/kvH/fzH+8fmS8YQGMf52gJLxdoAx/oQG"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_q0pqi"),
+"name": "door_hr_12",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP7/AAAAAAAA///q/wAAAAAAABQAAAAAAAAAFAAAAP///v8AAAAAAAD+/wAAAAD//wAAFAAAAP//AAAUAP+//////+r//7////7/AAD/v///AAD///+///8AAP//AIAAAP//6v8AgP/////q/wCAAAAAAP//AIAAAAAAFACqKv//AAD//6oq//8AABQAqioAAAAA//+qKv///v8AAFTVAAD//+r/VNUAAP7/AABU1f/////q/1TV/z//f/8//3//P/9//z//fwAA/38AAP9/AAD/fwAA/3//fwAA/38AAP9/AAD/fwAA////f////3////9/////f6oqVNWqKlTVqipU1aoqVNWqqqqqqqqqqqqqqqqqqqqq")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_qvota")
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_hra73"]
+frequency = 0.0041
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_j7422"]
+noise = SubResource("FastNoiseLite_hra73")
+seamless = true
+seamless_blend_skirt = 0.587
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fd2fp"]
+shader = ExtResource("2_gt3b8")
+shader_parameter/use_directional_light = true
+shader_parameter/sun_color = Color(0.22130159, 0.22130162, 0.22130153, 1)
+shader_parameter/sun_energy = 15.0
+shader_parameter/cloud_color = Color(0.12591079, 0.12591088, 0.12591079, 1)
+shader_parameter/cloud_density = 6.0
+shader_parameter/cloud_depth = 1.0
+shader_parameter/cloud_sag = 1.5
+shader_parameter/noise_texture = SubResource("NoiseTexture2D_j7422")
+shader_parameter/noise_tiling = Vector2(1, 1)
+shader_parameter/wind_speed = Vector2(0.5, 0.5)
+shader_parameter/ground_bottom_color = Color(0.056663156, 0.042782947, 0.028226143, 1)
+shader_parameter/ground_curve = 0.04
+shader_parameter/exposure = 0.50000002375
+
+[sub_resource type="Sky" id="Sky_ekxn3"]
+sky_material = SubResource("ShaderMaterial_fd2fp")
+
+[sub_resource type="Environment" id="Environment_ygxt2"]
+background_mode = 2
+sky = SubResource("Sky_ekxn3")
 
 [node name="Level1" type="Node3D"]
 
-[node name="layout" type="Node3D" parent="."]
+[node name="child_room" type="Node3D" parent="."]
 
-[node name="GridMap" type="GridMap" parent="layout"]
+[node name="floor" type="GridMap" parent="child_room"]
 mesh_library = ExtResource("1_1l0r3")
 cell_size = Vector3(4, 1, 4)
+data = {
+"cells": PackedInt32Array(0, 65535, 1245221, 65535, 65534, 1245221, 0, 65534, 1245221, 65535, 65535, 1245221, 262143, 65534, 1507365, 196608, 65534, 1507365, 196608, 65535, 1507365, 262143, 65535, 1507365)
+}
+metadata/_editor_floor_ = Vector3(0, 3, 0)
+
+[node name="wall" type="GridMap" parent="child_room"]
+mesh_library = ExtResource("1_1l0r3")
+cell_size = Vector3(1, 1, 1)
+data = {
+"cells": PackedInt32Array(65532, 65533, 1245263, 65532, 65529, 1245263, 65534, 65535, 262223, 2, 65535, 262223, 65534, 65528, 262199, 2, 65528, 262223, 3, 65530, 1507407, 3, 65534, 1507407)
+}
 metadata/_editor_floor_ = Vector3(0, 0, 0)
+
+[node name="child_room_decorations" type="Node3D" parent="child_room"]
+
+[node name="door_hr_122" type="Node3D" parent="child_room/child_room_decorations"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.49927717, -7.539)
+
+[node name="door_hr_12" type="MeshInstance3D" parent="child_room/child_room_decorations/door_hr_122"]
+mesh = SubResource("ArrayMesh_mof8b")
+skeleton = NodePath("")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_ygxt2")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.98603386, 0, 0.166545, 0, 1, 0, -0.166545, 0, -0.98603386, 0, 2.210772, -4.7582955)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.30657586, -0.9518463, -4.510809e-10, -0.93883884, -0.30238637, 0.16475517, -0.15682158, -0.050509956, -0.9863345, 0, 4.3749156, -12.451114)
+light_energy = 5.948
+light_indirect_energy = 11.722
