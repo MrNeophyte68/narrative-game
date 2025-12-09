@@ -7,8 +7,8 @@
 [ext_resource type="Texture2D" uid="uid://d0dadsxijsmv4" path="res://Assets/glb/Misc/knife_001_KnifeProject00_Knife001_BaseColor.png" id="3_j7422"]
 [ext_resource type="Texture2D" uid="uid://bmeavxhn11gir" path="res://Assets/glb/psx_mega_pack1/Furniture/bed_5_old_mattress_mp_2_1.png" id="3_l7jxh"]
 [ext_resource type="Texture2D" uid="uid://fa0qoigqiyht" path="res://Assets/glb/psx_mega_pack1/Furniture/bed_5_wood_1.png" id="4_cdcnp"]
-[ext_resource type="FontFile" uid="uid://cra77s1cky20" path="res://Assets/Autography.otf" id="5_ekxn3"]
 [ext_resource type="AudioStream" uid="uid://deunkeubj85ra" path="res://Music/memory.wav" id="6_ygxt2"]
+[ext_resource type="FontFile" uid="uid://ff7gl3x1bli7" path="res://Assets/font/Sunlight Dreams.otf" id="8_l7jxh"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q0pqi"]
 resource_name = "door_hr_12"
@@ -21855,17 +21855,21 @@ color = Color(0, 0, 0, 1)
 [node name="Quote" type="RichTextLabel" parent="IntroScreen"]
 layout_mode = 1
 anchors_preset = -1
-anchor_right = 49.117
-anchor_bottom = 29.625002
-offset_left = 412.0
-offset_top = 352.0
-offset_right = -372.68005
-offset_bottom = -510.00012
-theme_override_fonts/normal_font = ExtResource("5_ekxn3")
-theme_override_font_sizes/normal_font_size = 50
+anchor_left = 0.15
+anchor_top = 0.175
+anchor_right = 47.917004
+anchor_bottom = 26.94
+offset_left = 399.0
+offset_top = 444.0
+offset_right = -339.68018
+offset_bottom = -491.59998
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("8_l7jxh")
+theme_override_font_sizes/normal_font_size = 40
 text = "“Man is neither angel nor beast, and misfortune wants it that 
  he who would act the angel acts the beast.” 
-														-Blaise Pascal"
+																					     -Blaise Pascal"
 
 [node name="MemoryAudio" type="AudioStreamPlayer3D" parent="IntroScreen"]
 stream = ExtResource("6_ygxt2")

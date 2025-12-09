@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://k228os8axr3f"
-path="res://.godot/imported/Autography.otf-cf65e194f2ab5c2316f5a25e9b4aa063.fontdata"
+uid="uid://1pcwxqcva2yr"
+path="res://.godot/imported/CreatoDisplay-ThinItalic.otf-17596a540565672888057ae38aa4e7a4.fontdata"
 
 [deps]
 
-source_file="res://Assets/glb/Autography.otf"
-dest_files=["res://.godot/imported/Autography.otf-cf65e194f2ab5c2316f5a25e9b4aa063.fontdata"]
+source_file="res://Assets/font/creato_display/CreatoDisplay-ThinItalic.otf"
+dest_files=["res://.godot/imported/CreatoDisplay-ThinItalic.otf-17596a540565672888057ae38aa4e7a4.fontdata"]
 
 [params]
 

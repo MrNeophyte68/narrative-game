@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://cra77s1cky20"
-path="res://.godot/imported/Autography.otf-310ce54a9878dff6d40b19b6bf7f57d4.fontdata"
+uid="uid://ba54kl5y4bmev"
+path="res://.godot/imported/CreatoDisplay-Black.otf-73043324b0cbb0934eb62b4a43c8ca87.fontdata"
 
 [deps]
 
-source_file="res://Assets/Autography.otf"
-dest_files=["res://.godot/imported/Autography.otf-310ce54a9878dff6d40b19b6bf7f57d4.fontdata"]
+source_file="res://Assets/font/creato_display/CreatoDisplay-Black.otf"
+dest_files=["res://.godot/imported/CreatoDisplay-Black.otf-73043324b0cbb0934eb62b4a43c8ca87.fontdata"]
 
 [params]
 
