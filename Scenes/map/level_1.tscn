@@ -8187,6 +8187,30 @@ tracks/887/path = NodePath("../child/rig/Skeleton3D:thigh_ik_target.R")
 tracks/887/interp = 1
 tracks/887/loop_wrap = true
 tracks/887/keys = PackedFloat32Array(0, 1, -0.008449226, 0, -0.31674165, 0.9484742)
+tracks/888/type = "value"
+tracks/888/imported = false
+tracks/888/enabled = true
+tracks/888/path = NodePath("../Cube_001:position")
+tracks/888/interp = 1
+tracks/888/loop_wrap = true
+tracks/888/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.4626046, 2.204895, -3.8511143)]
+}
+tracks/889/type = "value"
+tracks/889/imported = false
+tracks/889/enabled = true
+tracks/889/path = NodePath("../Cube_001:rotation")
+tracks/889/interp = 1
+tracks/889/loop_wrap = true
+tracks/889/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, -1.3229595)]
+}
 
 [sub_resource type="Animation" id="Animation_fd2fp"]
 resource_name = "idle"
@@ -17519,6 +17543,30 @@ tracks/887/path = NodePath("../child/rig/Skeleton3D:thigh_ik_target.R")
 tracks/887/interp = 1
 tracks/887/loop_wrap = true
 tracks/887/keys = PackedFloat32Array(0, 1, -0.008449226, 0, -0.31674165, 0.9484742)
+tracks/888/type = "value"
+tracks/888/imported = false
+tracks/888/enabled = true
+tracks/888/path = NodePath("../Cube_001:position")
+tracks/888/interp = 1
+tracks/888/loop_wrap = true
+tracks/888/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.19, 0.26, 0.32, 0.4, 0.5, 0.57, 0.65, 0.73, 0.8, 0.9, 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(-1.4626046, 2.204895, -3.8511143), Vector3(-1.3662273, 2.1486464, -3.8511143), Vector3(-1.280521, 2.1009111, -3.8511143), Vector3(-1.2355628, 2.0435796, -3.8511143), Vector3(-1.1840233, 2.0013237, -3.8511143), Vector3(-1.1254708, 1.9334671, -3.8511143), Vector3(-1.0729107, 1.8212887, -3.8511143), Vector3(-1.0431088, 1.7746042, -3.8511143), Vector3(-1.0129042, 1.7042253, -3.8511143), Vector3(-0.98203063, 1.6398269, -3.8511143), Vector3(-0.9872385, 1.5639277, -3.8511143), Vector3(-0.9864033, 1.460317, -3.8511143), Vector3(-1.0090796, 1.3964674, -3.8511143), Vector3(-0.96815443, 1.4107176, -3.8511143), Vector3(-0.9629115, 1.4525164, -3.8511143), Vector3(-1.0035963, 1.5092703, -3.8511143), Vector3(-0.993672, 1.5501894, -3.8511143), Vector3(-1.0025744, 1.5871853, -3.8511143), Vector3(-1.0115882, 1.6361598, -3.8511143), Vector3(-1.0235016, 1.6767837, -3.8511143), Vector3(-1.0572788, 1.7316488, -3.8511143), Vector3(-1.0641458, 1.771086, -3.8511143)]
+}
+tracks/889/type = "value"
+tracks/889/imported = false
+tracks/889/enabled = true
+tracks/889/path = NodePath("../Cube_001:rotation")
+tracks/889/interp = 1
+tracks/889/loop_wrap = true
+tracks/889/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -1.3229595), Vector3(0, 0, -2.204351), Vector3(0, 0, -3.5482543)]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_j71x1"]
 _data = {
@@ -21687,7 +21735,7 @@ libraries = {
 speed_scale = 2.0
 
 [node name="Cube_001" type="MeshInstance3D" parent="child_room"]
-transform = Transform3D(-0.13949557, 0.48014683, 0, -0.48014683, -0.13949557, 0, 0, 0, 0.5, 0.23549953, 2.5395186, -2.9199677)
+transform = Transform3D(0.12265369, 0.4847226, 0, -0.4847226, 0.12265369, 0, 0, 0, 0.5, -1.4626046, 2.204895, -3.8511143)
 mesh = SubResource("ArrayMesh_xccjx")
 skeleton = NodePath("")
 
@@ -21695,7 +21743,7 @@ skeleton = NodePath("")
 environment = SubResource("Environment_ygxt2")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(-0.98603386, 0, 0.166545, 0, 1, 0, -0.166545, 0, -0.98603386, 0, 2.210772, -4.7582955)
+transform = Transform3D(-0.877983, -0.105238594, -0.46698046, 0, 0.97553456, -0.2198462, 0.47869188, -0.19302122, -0.8565027, 0.42, 1.501, -2.968)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.30657586, -0.9518463, -4.510809e-10, -0.93883884, -0.30238637, 0.16475517, -0.15682158, -0.050509956, -0.9863345, 0, 4.3749156, -12.451114)
