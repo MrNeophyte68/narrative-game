@@ -11,7 +11,7 @@ extends CharacterBody3D
 const walking_speed: float = 3.0
 const sprinting_speed: float = 5.0
 const crouching_speed: float = 1.0
-var current_speed: float = 3.0
+var current_speed: float = 0.0
 var moving: bool = false
 var input_dir: Vector2 = Vector2.ZERO
 var direction: Vector3 = Vector3.ZERO
@@ -45,7 +45,7 @@ func _input(event: InputEvent) -> void:
 
 func _physics_process(delta: float) -> void:
 	
-	
+	updatePlayerState()
 	
 	#falling
 	if not is_on_floor():
@@ -67,3 +67,21 @@ func _physics_process(delta: float) -> void:
 		velocity.z = move_toward(velocity.z, 0, current_speed)
 	
 	move_and_slide()
+
+func updatePlayerState() -> void:
+	moving = (input_dir != Vector2.ZERO)
+	if not is_on_floor():
+		player_state = PlayerState.AIR
+	else:
+		if Input.is_action_pressed("crouch"):
+			if not moving:
+				player_state = PlayerState.IDLE_CROUCH
+			else:
+				player_state = PlayerState.CROUCHING
+		elif !standup_check.is_colliding():
+			if not moving:
+				player_state = PlayerState.IDLE_STAND
+			elif Input.is_action_pressed("sprint"):
+				player_state = PlayerState.SPRINTING
+			else:
+				player_state = PlayerState.WALKING
