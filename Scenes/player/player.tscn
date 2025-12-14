@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://ihcfomvy087y"]
+
+[ext_resource type="Script" uid="uid://bggl12dwxkqag" path="res://Scripts/player_scripts/player.gd" id="1_8p05u"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_kf5c0"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_8p05u"]
+height = 1.0
+
+[node name="player" type="CharacterBody3D"]
+script = ExtResource("1_8p05u")
+
+[node name="standingCollisionShape" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_kf5c0")
+
+[node name="crouchingCollisionShape" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+shape = SubResource("CapsuleShape3D_8p05u")
+
+[node name="head" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0)
+
+[node name="eyes" type="Node3D" parent="head"]
+
+[node name="Camera3D" type="Camera3D" parent="head/eyes"]
+fov = 65.0
+
+[node name="standupCheck" type="RayCast3D" parent="."]
+target_position = Vector3(0, 2, 0)
