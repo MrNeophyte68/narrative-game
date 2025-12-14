@@ -1,0 +1,34 @@
+[gd_scene load_steps=7 format=3 uid="uid://dstmtb7me0lh8"]
+
+[ext_resource type="Texture2D" uid="uid://c4itmbpuywun8" path="res://Assets/images/hl_office_complex_style_tile_floor_1.png" id="1_2b6ht"]
+[ext_resource type="Texture2D" uid="uid://clcpgvtoisdw5" path="res://Assets/images/metal_wall_tx_3.png" id="2_y0mvb"]
+[ext_resource type="Texture2D" uid="uid://cd3txp3oth7mw" path="res://Assets/images/sponge_hell_2.png" id="3_y0mvb"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s2tkr"]
+albedo_texture = ExtResource("1_2b6ht")
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1cu7a"]
+albedo_texture = ExtResource("2_y0mvb")
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_koc8j"]
+albedo_texture = ExtResource("3_y0mvb")
+uv1_triplanar = true
+
+[node name="Sandbox" type="Node3D"]
+
+[node name="floor" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48118, 0)
+material_override = SubResource("StandardMaterial3D_s2tkr")
+size = Vector3(30, 1, 30)
+
+[node name="wall" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.512381, -9.462865)
+material_override = SubResource("StandardMaterial3D_1cu7a")
+size = Vector3(7, 4, 1)
+
+[node name="crouchcheck" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.4894052, 0)
+size = Vector3(1, 1, 4)
+material = SubResource("StandardMaterial3D_koc8j")
