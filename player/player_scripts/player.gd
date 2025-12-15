@@ -6,6 +6,7 @@ extends CharacterBody3D
 @onready var standing_collision_shape: CollisionShape3D = $standingCollisionShape
 @onready var crouching_collision_shape: CollisionShape3D = $crouchingCollisionShape
 @onready var standup_check: RayCast3D = $standupCheck
+@onready var interaction_controller: Node = %InteractionController
 
 #Movement variables
 const walking_speed: float = 3.0
@@ -55,9 +56,10 @@ func _input(event: InputEvent) -> void:
 		get_tree().quit()
 	
 	if event is InputEventMouseMotion:
-		rotate_y(deg_to_rad(-event.relative.x * mouse_sensitivity))
-		head.rotate_x(deg_to_rad(-event.relative.y * mouse_sensitivity))
-		head.rotation.x = clamp(head.rotation.x, deg_to_rad(-85), deg_to_rad(85))
+		if not interaction_controller.isCameraLocked():
+			rotate_y(deg_to_rad(-event.relative.x * mouse_sensitivity))
+			head.rotate_x(deg_to_rad(-event.relative.y * mouse_sensitivity))
+			head.rotation.x = clamp(head.rotation.x, deg_to_rad(-85), deg_to_rad(85))
 
 func _physics_process(delta: float) -> void:
 	

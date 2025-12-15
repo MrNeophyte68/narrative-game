@@ -38,3 +38,12 @@ func _process(delta: float) -> void:
 				if Input.is_action_pressed("primary"):
 					current_object = potential_object
 					interaction_component.preInteract(hand)
+					
+					if interaction_component.interaction_type == interaction_component.InteractionType.DOOR:
+						interaction_component.set_direction(current_object.to_local(interaction_raycast.get_collision_point()))
+
+func isCameraLocked() -> bool:
+	if interaction_component:
+		if interaction_component.lock_camera and interaction_component.is_interacting:
+			return true
+	return false
