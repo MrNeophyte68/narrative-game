@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2ijkvo6vyaf1"
-path.s3tc="res://.godot/imported/cement_bags_mp_1_pallet_1_cement_bag_mp_1.png-3692861c89b8ff9dd4ed019c1c2a8cad.s3tc.ctex"
+path.s3tc="res://.godot/imported/cement_bags_mp_1_pallet_1_cement_bag_mp_1.png-4ec97752d744a1f642fa131de372498e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/cement_bags_mp_1_pallet_1_cement_bag_mp_1.png"
-dest_files=["res://.godot/imported/cement_bags_mp_1_pallet_1_cement_bag_mp_1.png-3692861c89b8ff9dd4ed019c1c2a8cad.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/cement_bags_mp_1_pallet_1_cement_bag_mp_1.png"
+dest_files=["res://.godot/imported/cement_bags_mp_1_pallet_1_cement_bag_mp_1.png-4ec97752d744a1f642fa131de372498e.s3tc.ctex"]
 
 [params]
 

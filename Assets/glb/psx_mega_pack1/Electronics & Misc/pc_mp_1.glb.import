@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://byh70y34nt4b6"
-path="res://.godot/imported/pc_mp_1.glb-49afcee3e7efa15672791774e244b965.scn"
+path="res://.godot/imported/pc_mp_1.glb-448b23bc9e63b4f28d54eb02e77c8ddd.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/pc_mp_1.glb"
-dest_files=["res://.godot/imported/pc_mp_1.glb-49afcee3e7efa15672791774e244b965.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/pc_mp_1.glb"
+dest_files=["res://.godot/imported/pc_mp_1.glb-448b23bc9e63b4f28d54eb02e77c8ddd.scn"]
 
 [params]
 

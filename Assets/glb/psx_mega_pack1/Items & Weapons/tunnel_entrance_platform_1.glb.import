@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://f4f7kcxaibth"
-path="res://.godot/imported/tunnel_entrance_platform_1.glb-0685e43ec66f370200aaac64cc788b63.scn"
+path="res://.godot/imported/tunnel_entrance_platform_1.glb-bef5679b0288dc3c5596e2b24317fd73.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/tunnel_entrance_platform_1.glb"
-dest_files=["res://.godot/imported/tunnel_entrance_platform_1.glb-0685e43ec66f370200aaac64cc788b63.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/tunnel_entrance_platform_1.glb"
+dest_files=["res://.godot/imported/tunnel_entrance_platform_1.glb-bef5679b0288dc3c5596e2b24317fd73.scn"]
 
 [params]
 

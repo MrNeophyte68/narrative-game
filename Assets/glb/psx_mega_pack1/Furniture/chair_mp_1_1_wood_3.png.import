@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfajk5c1j12k"
-path.s3tc="res://.godot/imported/chair_mp_1_1_wood_3.png-9a499ef0d136b31ea3d60f0da2e3b0f7.s3tc.ctex"
+path.s3tc="res://.godot/imported/chair_mp_1_1_wood_3.png-8ed4662100d145d787c2a812b73be545.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/chair_mp_1_1_wood_3.png"
-dest_files=["res://.godot/imported/chair_mp_1_1_wood_3.png-9a499ef0d136b31ea3d60f0da2e3b0f7.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/chair_mp_1_1_wood_3.png"
+dest_files=["res://.godot/imported/chair_mp_1_1_wood_3.png-8ed4662100d145d787c2a812b73be545.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bycbaocrjd8hy"
-path="res://.godot/imported/paint_brush_mr_1.glb-4cc4d186ec676877b9e2035aed89026e.scn"
+path="res://.godot/imported/paint_brush_mr_1.glb-712ad11abd1b42d655196e770c81e3ce.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/paint_brush_mr_1.glb"
-dest_files=["res://.godot/imported/paint_brush_mr_1.glb-4cc4d186ec676877b9e2035aed89026e.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/paint_brush_mr_1.glb"
+dest_files=["res://.godot/imported/paint_brush_mr_1.glb-712ad11abd1b42d655196e770c81e3ce.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d2furwuifqkff"
-path="res://.godot/imported/canned_food_4.glb-eb2c06bc65782d04954c8f306a9d2e06.scn"
+path="res://.godot/imported/canned_food_4.glb-46390ca47ac06c1cb5645b00bd7a3a9a.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/canned_food_4.glb"
-dest_files=["res://.godot/imported/canned_food_4.glb-eb2c06bc65782d04954c8f306a9d2e06.scn"]
+source_file="res://assets/glb/psx_bunker/canned_food_4.glb"
+dest_files=["res://.godot/imported/canned_food_4.glb-46390ca47ac06c1cb5645b00bd7a3a9a.scn"]
 
 [params]
 

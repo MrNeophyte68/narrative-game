@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://gbw8gyauh0jw"
-path="res://.godot/imported/light_switch_1.glb-381218a41b54680becb98534a1ba47d4.scn"
+path="res://.godot/imported/light_switch_1.glb-077d10f8f61f49d9d2694c2ff6d98d35.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/light_switch_1.glb"
-dest_files=["res://.godot/imported/light_switch_1.glb-381218a41b54680becb98534a1ba47d4.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/light_switch_1.glb"
+dest_files=["res://.godot/imported/light_switch_1.glb-077d10f8f61f49d9d2694c2ff6d98d35.scn"]
 
 [params]
 

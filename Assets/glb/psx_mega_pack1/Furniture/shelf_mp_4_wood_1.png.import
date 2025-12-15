@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cucg6ngq25lum"
-path.s3tc="res://.godot/imported/shelf_mp_4_wood_1.png-b59ac86e16d3445489751afd0e519bf5.s3tc.ctex"
+path.s3tc="res://.godot/imported/shelf_mp_4_wood_1.png-822f2720494c7c2dd171dbf492575e62.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/shelf_mp_4_wood_1.png"
-dest_files=["res://.godot/imported/shelf_mp_4_wood_1.png-b59ac86e16d3445489751afd0e519bf5.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/shelf_mp_4_wood_1.png"
+dest_files=["res://.godot/imported/shelf_mp_4_wood_1.png-822f2720494c7c2dd171dbf492575e62.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cs28l7ct1vbms"
-path="res://.godot/imported/first_aid_kit_hr_2_1.glb-9371668f0a632ecc3b4edf56e7f931bf.scn"
+path="res://.godot/imported/first_aid_kit_hr_2_1.glb-3c9ba84f07f2b996008a0845a9f15812.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/first_aid_kit_hr_2_1.glb"
-dest_files=["res://.godot/imported/first_aid_kit_hr_2_1.glb-9371668f0a632ecc3b4edf56e7f931bf.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/first_aid_kit_hr_2_1.glb"
+dest_files=["res://.godot/imported/first_aid_kit_hr_2_1.glb-3c9ba84f07f2b996008a0845a9f15812.scn"]
 
 [params]
 

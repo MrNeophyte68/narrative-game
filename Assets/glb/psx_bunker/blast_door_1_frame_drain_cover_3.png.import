@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mhbwluvj4wdy"
-path.s3tc="res://.godot/imported/blast_door_1_frame_drain_cover_3.png-30ba4223478d822271d1a9e672fc1e4a.s3tc.ctex"
+path.s3tc="res://.godot/imported/blast_door_1_frame_drain_cover_3.png-d4a9e6973d8b93050e07c2426a91c410.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/blast_door_1_frame_drain_cover_3.png"
-dest_files=["res://.godot/imported/blast_door_1_frame_drain_cover_3.png-30ba4223478d822271d1a9e672fc1e4a.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/blast_door_1_frame_drain_cover_3.png"
+dest_files=["res://.godot/imported/blast_door_1_frame_drain_cover_3.png-d4a9e6973d8b93050e07c2426a91c410.s3tc.ctex"]
 
 [params]
 

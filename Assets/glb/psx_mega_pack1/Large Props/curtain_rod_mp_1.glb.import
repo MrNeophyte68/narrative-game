@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://duhjd80k6q6sk"
-path="res://.godot/imported/curtain_rod_mp_1.glb-2944c3c022672b4d26b1abffc05e1f46.scn"
+path="res://.godot/imported/curtain_rod_mp_1.glb-b3f9155018c6abd34abe02059679b53a.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Large Props/curtain_rod_mp_1.glb"
-dest_files=["res://.godot/imported/curtain_rod_mp_1.glb-2944c3c022672b4d26b1abffc05e1f46.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Large Props/curtain_rod_mp_1.glb"
+dest_files=["res://.godot/imported/curtain_rod_mp_1.glb-b3f9155018c6abd34abe02059679b53a.scn"]
 
 [params]
 

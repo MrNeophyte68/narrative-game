@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dm78sqi1lq5xp"
-path="res://.godot/imported/elevator_1.glb-763149be54c444b7160d6601d63cf686.scn"
+path="res://.godot/imported/elevator_1.glb-59ab0947d4b66b6df5dacbfaa9c85800.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/elevator_1.glb"
-dest_files=["res://.godot/imported/elevator_1.glb-763149be54c444b7160d6601d63cf686.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/elevator_1.glb"
+dest_files=["res://.godot/imported/elevator_1.glb-59ab0947d4b66b6df5dacbfaa9c85800.scn"]
 
 [params]
 

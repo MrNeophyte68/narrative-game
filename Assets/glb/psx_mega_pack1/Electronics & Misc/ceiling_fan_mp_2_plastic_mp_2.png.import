@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7swqt10swgh2"
-path.s3tc="res://.godot/imported/ceiling_fan_mp_2_plastic_mp_2.png-741f6bc6fbb96814bfbfdcf2ef073d8d.s3tc.ctex"
+path.s3tc="res://.godot/imported/ceiling_fan_mp_2_plastic_mp_2.png-9668e0a3bb5cd1d39eeda05f9466edb4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/ceiling_fan_mp_2_plastic_mp_2.png"
-dest_files=["res://.godot/imported/ceiling_fan_mp_2_plastic_mp_2.png-741f6bc6fbb96814bfbfdcf2ef073d8d.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/ceiling_fan_mp_2_plastic_mp_2.png"
+dest_files=["res://.godot/imported/ceiling_fan_mp_2_plastic_mp_2.png-9668e0a3bb5cd1d39eeda05f9466edb4.s3tc.ctex"]
 
 [params]
 

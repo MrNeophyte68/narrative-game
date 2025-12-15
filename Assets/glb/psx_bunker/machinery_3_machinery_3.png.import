@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://jb7hukta7hld"
-path.s3tc="res://.godot/imported/machinery_3_machinery_3.png-cf075dd4edeae98fd8c88498a5aae710.s3tc.ctex"
+path.s3tc="res://.godot/imported/machinery_3_machinery_3.png-de67b0baf021adf91e1b26658ab3edc8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/machinery_3_machinery_3.png"
-dest_files=["res://.godot/imported/machinery_3_machinery_3.png-cf075dd4edeae98fd8c88498a5aae710.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/machinery_3_machinery_3.png"
+dest_files=["res://.godot/imported/machinery_3_machinery_3.png-de67b0baf021adf91e1b26658ab3edc8.s3tc.ctex"]
 
 [params]
 

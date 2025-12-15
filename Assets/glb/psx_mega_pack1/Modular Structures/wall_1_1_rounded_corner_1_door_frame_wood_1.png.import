@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://gxjwhk8neme"
-path.s3tc="res://.godot/imported/wall_1_1_rounded_corner_1_door_frame_wood_1.png-42dd3977c3a368fa9ce5e76a58e721fd.s3tc.ctex"
+path.s3tc="res://.godot/imported/wall_1_1_rounded_corner_1_door_frame_wood_1.png-8e2c1610d591758bca03f7ba4a671a1c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_1_rounded_corner_1_door_frame_wood_1.png"
-dest_files=["res://.godot/imported/wall_1_1_rounded_corner_1_door_frame_wood_1.png-42dd3977c3a368fa9ce5e76a58e721fd.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_1_rounded_corner_1_door_frame_wood_1.png"
+dest_files=["res://.godot/imported/wall_1_1_rounded_corner_1_door_frame_wood_1.png-8e2c1610d591758bca03f7ba4a671a1c.s3tc.ctex"]
 
 [params]
 

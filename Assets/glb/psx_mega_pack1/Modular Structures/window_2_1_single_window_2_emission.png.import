@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfsrudonmpfl8"
-path.s3tc="res://.godot/imported/window_2_1_single_window_2_emission.png-cd1242b2d2201565cc3bbddc4ac1176c.s3tc.ctex"
+path.s3tc="res://.godot/imported/window_2_1_single_window_2_emission.png-5fb27d9f07c6ba42162666d0a97f2a5d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/window_2_1_single_window_2_emission.png"
-dest_files=["res://.godot/imported/window_2_1_single_window_2_emission.png-cd1242b2d2201565cc3bbddc4ac1176c.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/window_2_1_single_window_2_emission.png"
+dest_files=["res://.godot/imported/window_2_1_single_window_2_emission.png-5fb27d9f07c6ba42162666d0a97f2a5d.s3tc.ctex"]
 
 [params]
 

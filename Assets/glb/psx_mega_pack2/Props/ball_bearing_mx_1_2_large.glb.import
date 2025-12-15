@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dwlt0g45348je"
-path="res://.godot/imported/ball_bearing_mx_1_2_large.glb-8576f9ec359cc23f7d669241d1b6825b.scn"
+path="res://.godot/imported/ball_bearing_mx_1_2_large.glb-80b76927f537adaffc5dd50e70612572.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/ball_bearing_mx_1_2_large.glb"
-dest_files=["res://.godot/imported/ball_bearing_mx_1_2_large.glb-8576f9ec359cc23f7d669241d1b6825b.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/ball_bearing_mx_1_2_large.glb"
+dest_files=["res://.godot/imported/ball_bearing_mx_1_2_large.glb-80b76927f537adaffc5dd50e70612572.scn"]
 
 [params]
 

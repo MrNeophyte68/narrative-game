@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4xofq076wwya"
-path.s3tc="res://.godot/imported/wall_rx_1_m1a_1_concrete_hr_3.png-6395e31d367c70ee2b2964e38f4a92bc.s3tc.ctex"
+path.s3tc="res://.godot/imported/wall_rx_1_m1a_1_concrete_hr_3.png-f0f0bbfee4de2d63c49dc03a10ee3eb5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m1a_1_concrete_hr_3.png"
-dest_files=["res://.godot/imported/wall_rx_1_m1a_1_concrete_hr_3.png-6395e31d367c70ee2b2964e38f4a92bc.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m1a_1_concrete_hr_3.png"
+dest_files=["res://.godot/imported/wall_rx_1_m1a_1_concrete_hr_3.png-f0f0bbfee4de2d63c49dc03a10ee3eb5.s3tc.ctex"]
 
 [params]
 

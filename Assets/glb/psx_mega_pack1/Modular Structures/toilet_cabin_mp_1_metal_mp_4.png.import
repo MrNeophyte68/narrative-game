@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://75kp6cn2nc5w"
-path.s3tc="res://.godot/imported/toilet_cabin_mp_1_metal_mp_4.png-7449bfc02ba41dbb2edc7e68f779ee9f.s3tc.ctex"
+path.s3tc="res://.godot/imported/toilet_cabin_mp_1_metal_mp_4.png-2a0bcd4856deb22e2782302cbb1487b4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/toilet_cabin_mp_1_metal_mp_4.png"
-dest_files=["res://.godot/imported/toilet_cabin_mp_1_metal_mp_4.png-7449bfc02ba41dbb2edc7e68f779ee9f.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/toilet_cabin_mp_1_metal_mp_4.png"
+dest_files=["res://.godot/imported/toilet_cabin_mp_1_metal_mp_4.png-2a0bcd4856deb22e2782302cbb1487b4.s3tc.ctex"]
 
 [params]
 

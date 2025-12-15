@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://deqpli7t06b44"
-path.s3tc="res://.godot/imported/roof_hr_3_side_2_angle_edge_2_roof_hr_5.png-9cadc0a904424444f57bb5a0b5c4704e.s3tc.ctex"
+path.s3tc="res://.godot/imported/roof_hr_3_side_2_angle_edge_2_roof_hr_5.png-954df40836daa07f50c36f5395af8232.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/roof_hr_3_side_2_angle_edge_2_roof_hr_5.png"
-dest_files=["res://.godot/imported/roof_hr_3_side_2_angle_edge_2_roof_hr_5.png-9cadc0a904424444f57bb5a0b5c4704e.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/roof_hr_3_side_2_angle_edge_2_roof_hr_5.png"
+dest_files=["res://.godot/imported/roof_hr_3_side_2_angle_edge_2_roof_hr_5.png-954df40836daa07f50c36f5395af8232.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bl440cyd7bqpq"
-path="res://.godot/imported/screwdriver_mp_1_1.glb-de410f1a9eea385440439c2dfc1b2bbb.scn"
+path="res://.godot/imported/screwdriver_mp_1_1.glb-9954d658249244cda99d8ecd8e73b936.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/screwdriver_mp_1_1.glb"
-dest_files=["res://.godot/imported/screwdriver_mp_1_1.glb-de410f1a9eea385440439c2dfc1b2bbb.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/screwdriver_mp_1_1.glb"
+dest_files=["res://.godot/imported/screwdriver_mp_1_1.glb-9954d658249244cda99d8ecd8e73b936.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpo1pu2w5aj7c"
-path.s3tc="res://.godot/imported/melee_cross_mx_1_melee_cross_mx_1.png-8707deba3765e805ac83a9c4c418672b.s3tc.ctex"
+path.s3tc="res://.godot/imported/melee_cross_mx_1_melee_cross_mx_1.png-5dbf120b696db2c94463e78ae4109ed6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/melee_cross_mx_1_melee_cross_mx_1.png"
-dest_files=["res://.godot/imported/melee_cross_mx_1_melee_cross_mx_1.png-8707deba3765e805ac83a9c4c418672b.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/melee_cross_mx_1_melee_cross_mx_1.png"
+dest_files=["res://.godot/imported/melee_cross_mx_1_melee_cross_mx_1.png-5dbf120b696db2c94463e78ae4109ed6.s3tc.ctex"]
 
 [params]
 

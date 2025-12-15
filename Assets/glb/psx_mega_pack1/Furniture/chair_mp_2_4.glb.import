@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b85idt365nnb4"
-path="res://.godot/imported/chair_mp_2_4.glb-4f2f766ac9fc2aec7db877b3d4968f67.scn"
+path="res://.godot/imported/chair_mp_2_4.glb-e001bcd09cb261511765cfcb99068672.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/chair_mp_2_4.glb"
-dest_files=["res://.godot/imported/chair_mp_2_4.glb-4f2f766ac9fc2aec7db877b3d4968f67.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/chair_mp_2_4.glb"
+dest_files=["res://.godot/imported/chair_mp_2_4.glb-e001bcd09cb261511765cfcb99068672.scn"]
 
 [params]
 

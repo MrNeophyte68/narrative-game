@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cimctp54wysg0"
-path="res://.godot/imported/trash_6.glb-66974cda515fd4e30efccbb9d302f197.scn"
+path="res://.godot/imported/trash_6.glb-4f4355c3802b2c4ce9b684982a2a1af3.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/trash_6.glb"
-dest_files=["res://.godot/imported/trash_6.glb-66974cda515fd4e30efccbb9d302f197.scn"]
+source_file="res://assets/glb/psx_bunker/trash_6.glb"
+dest_files=["res://.godot/imported/trash_6.glb-4f4355c3802b2c4ce9b684982a2a1af3.scn"]
 
 [params]
 

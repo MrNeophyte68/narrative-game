@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cb17cxtr3o5r8"
-path.s3tc="res://.godot/imported/window_1_single_door_frame_wood_1.png-bfbe389496a9f34cdd36db1d68075d19.s3tc.ctex"
+path.s3tc="res://.godot/imported/window_1_single_door_frame_wood_1.png-42c5ac3387c184aa497be64ff828e375.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/window_1_single_door_frame_wood_1.png"
-dest_files=["res://.godot/imported/window_1_single_door_frame_wood_1.png-bfbe389496a9f34cdd36db1d68075d19.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/window_1_single_door_frame_wood_1.png"
+dest_files=["res://.godot/imported/window_1_single_door_frame_wood_1.png-42c5ac3387c184aa497be64ff828e375.s3tc.ctex"]
 
 [params]
 

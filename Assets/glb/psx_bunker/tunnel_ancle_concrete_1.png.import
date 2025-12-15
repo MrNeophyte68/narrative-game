@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0x7vg6fg5jal"
-path.s3tc="res://.godot/imported/tunnel_ancle_concrete_1.png-65ed8a590b01621e3250713b3d0b1d31.s3tc.ctex"
+path.s3tc="res://.godot/imported/tunnel_ancle_concrete_1.png-e22991a233eee6d79fa9de0c64880c74.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/tunnel_ancle_concrete_1.png"
-dest_files=["res://.godot/imported/tunnel_ancle_concrete_1.png-65ed8a590b01621e3250713b3d0b1d31.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/tunnel_ancle_concrete_1.png"
+dest_files=["res://.godot/imported/tunnel_ancle_concrete_1.png-e22991a233eee6d79fa9de0c64880c74.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhdvdn1bwe7h"
-path.s3tc="res://.godot/imported/handheld_tablet_1_handheld_tablet_1.png-6a9004e9d1e349a8632d1a1bf0115b06.s3tc.ctex"
+path.s3tc="res://.godot/imported/handheld_tablet_1_handheld_tablet_1.png-cd988b9804964c3615c59cb1ecb860b2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/handheld_tablet_1_handheld_tablet_1.png"
-dest_files=["res://.godot/imported/handheld_tablet_1_handheld_tablet_1.png-6a9004e9d1e349a8632d1a1bf0115b06.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/handheld_tablet_1_handheld_tablet_1.png"
+dest_files=["res://.godot/imported/handheld_tablet_1_handheld_tablet_1.png-cd988b9804964c3615c59cb1ecb860b2.s3tc.ctex"]
 
 [params]
 

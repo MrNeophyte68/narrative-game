@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bt2kisl2agvcp"
-path.s3tc="res://.godot/imported/platform_b_handrail_1_steel_beams_hr_1.png-0efaea3fa5ee071a6602bf7e9a50ee27.s3tc.ctex"
+path.s3tc="res://.godot/imported/platform_b_handrail_1_steel_beams_hr_1.png-91ad3f008b751f3cb28b2c2997748e30.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/platform_b_handrail_1_steel_beams_hr_1.png"
-dest_files=["res://.godot/imported/platform_b_handrail_1_steel_beams_hr_1.png-0efaea3fa5ee071a6602bf7e9a50ee27.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/platform_b_handrail_1_steel_beams_hr_1.png"
+dest_files=["res://.godot/imported/platform_b_handrail_1_steel_beams_hr_1.png-91ad3f008b751f3cb28b2c2997748e30.s3tc.ctex"]
 
 [params]
 

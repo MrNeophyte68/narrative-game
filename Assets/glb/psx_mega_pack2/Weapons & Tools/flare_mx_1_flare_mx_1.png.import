@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1ih7n6sc1y36"
-path.s3tc="res://.godot/imported/flare_mx_1_flare_mx_1.png-2bc3ec5d90239e58734fd7db55d96c39.s3tc.ctex"
+path.s3tc="res://.godot/imported/flare_mx_1_flare_mx_1.png-e0f307a26eaf0e63937b426344142a5e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/flare_mx_1_flare_mx_1.png"
-dest_files=["res://.godot/imported/flare_mx_1_flare_mx_1.png-2bc3ec5d90239e58734fd7db55d96c39.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/flare_mx_1_flare_mx_1.png"
+dest_files=["res://.godot/imported/flare_mx_1_flare_mx_1.png-e0f307a26eaf0e63937b426344142a5e.s3tc.ctex"]
 
 [params]
 

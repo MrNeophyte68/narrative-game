@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkn3t8vg572gr"
-path.s3tc="res://.godot/imported/cell_phone_battery_1_cell_phone_battery_1.png-00f7434f58e50efa668c130aae060f40.s3tc.ctex"
+path.s3tc="res://.godot/imported/cell_phone_battery_1_cell_phone_battery_1.png-360e126678492a6b0255472a513fc892.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/cell_phone_battery_1_cell_phone_battery_1.png"
-dest_files=["res://.godot/imported/cell_phone_battery_1_cell_phone_battery_1.png-00f7434f58e50efa668c130aae060f40.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/cell_phone_battery_1_cell_phone_battery_1.png"
+dest_files=["res://.godot/imported/cell_phone_battery_1_cell_phone_battery_1.png-360e126678492a6b0255472a513fc892.s3tc.ctex"]
 
 [params]
 

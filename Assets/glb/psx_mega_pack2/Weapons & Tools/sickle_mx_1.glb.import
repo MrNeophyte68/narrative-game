@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dhbmn3jv7480"
-path="res://.godot/imported/sickle_mx_1.glb-f734e5d328b0094c514b5235101266e7.scn"
+path="res://.godot/imported/sickle_mx_1.glb-48e7b47209264d4ba6dfd3cd47fcfcd5.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/sickle_mx_1.glb"
-dest_files=["res://.godot/imported/sickle_mx_1.glb-f734e5d328b0094c514b5235101266e7.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/sickle_mx_1.glb"
+dest_files=["res://.godot/imported/sickle_mx_1.glb-48e7b47209264d4ba6dfd3cd47fcfcd5.scn"]
 
 [params]
 

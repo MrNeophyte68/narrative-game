@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fsd03yymvqst"
-path.s3tc="res://.godot/imported/pipe_ax_1_pipe_hr_3.png-64c337159df40b38df8cc5b4927d5bfa.s3tc.ctex"
+path.s3tc="res://.godot/imported/pipe_ax_1_pipe_hr_3.png-06decbbb54c94247bdabd77b3c3613a6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/pipe_ax_1_pipe_hr_3.png"
-dest_files=["res://.godot/imported/pipe_ax_1_pipe_hr_3.png-64c337159df40b38df8cc5b4927d5bfa.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/pipe_ax_1_pipe_hr_3.png"
+dest_files=["res://.godot/imported/pipe_ax_1_pipe_hr_3.png-06decbbb54c94247bdabd77b3c3613a6.s3tc.ctex"]
 
 [params]
 

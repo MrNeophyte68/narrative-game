@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c7s1eq7kq8g5d"
-path="res://.godot/imported/pipe_valve_holder_large_1.glb-d68e38cd1a98578091bc4440e47f51de.scn"
+path="res://.godot/imported/pipe_valve_holder_large_1.glb-af23786cbc9aa0a352091ea4980a355d.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Large Props/pipe_valve_holder_large_1.glb"
-dest_files=["res://.godot/imported/pipe_valve_holder_large_1.glb-d68e38cd1a98578091bc4440e47f51de.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Large Props/pipe_valve_holder_large_1.glb"
+dest_files=["res://.godot/imported/pipe_valve_holder_large_1.glb-af23786cbc9aa0a352091ea4980a355d.scn"]
 
 [params]
 

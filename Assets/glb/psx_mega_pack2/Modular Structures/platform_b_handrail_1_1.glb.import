@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://clg2wd8lnmfdx"
-path="res://.godot/imported/platform_b_handrail_1_1.glb-1a401782215319a1b40e1f58dc1dd5d0.scn"
+path="res://.godot/imported/platform_b_handrail_1_1.glb-8de9d25f410b32db043e5230068fd51e.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/platform_b_handrail_1_1.glb"
-dest_files=["res://.godot/imported/platform_b_handrail_1_1.glb-1a401782215319a1b40e1f58dc1dd5d0.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/platform_b_handrail_1_1.glb"
+dest_files=["res://.godot/imported/platform_b_handrail_1_1.glb-8de9d25f410b32db043e5230068fd51e.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c2mj7jflo1frq"
-path="res://.godot/imported/wooden_plank_5.glb-162e0e5632269704eebb4f516272dedd.scn"
+path="res://.godot/imported/wooden_plank_5.glb-e2dc9f15af7b5068b171d851dc12e5e3.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/wooden_plank_5.glb"
-dest_files=["res://.godot/imported/wooden_plank_5.glb-162e0e5632269704eebb4f516272dedd.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/wooden_plank_5.glb"
+dest_files=["res://.godot/imported/wooden_plank_5.glb-e2dc9f15af7b5068b171d851dc12e5e3.scn"]
 
 [params]
 

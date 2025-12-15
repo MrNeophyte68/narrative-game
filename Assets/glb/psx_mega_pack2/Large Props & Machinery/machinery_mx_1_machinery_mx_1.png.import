@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pfvgt8ptceol"
-path.s3tc="res://.godot/imported/machinery_mx_1_machinery_mx_1.png-330bd6e9000132bc1913503418691bc0.s3tc.ctex"
+path.s3tc="res://.godot/imported/machinery_mx_1_machinery_mx_1.png-defb0c99aa3e8c858e31fb5acd205c77.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/machinery_mx_1_machinery_mx_1.png"
-dest_files=["res://.godot/imported/machinery_mx_1_machinery_mx_1.png-330bd6e9000132bc1913503418691bc0.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/machinery_mx_1_machinery_mx_1.png"
+dest_files=["res://.godot/imported/machinery_mx_1_machinery_mx_1.png-defb0c99aa3e8c858e31fb5acd205c77.s3tc.ctex"]
 
 [params]
 

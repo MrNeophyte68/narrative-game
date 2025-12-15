@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://02re7dwk7j7d"
-path="res://.godot/imported/supply_crate_1_4.glb-9d14ff1af9c915402b96557bd46e3813.scn"
+path="res://.godot/imported/supply_crate_1_4.glb-8d9401068c4815e1ba1b6fb08e68c234.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Large Props/supply_crate_1_4.glb"
-dest_files=["res://.godot/imported/supply_crate_1_4.glb-9d14ff1af9c915402b96557bd46e3813.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Large Props/supply_crate_1_4.glb"
+dest_files=["res://.godot/imported/supply_crate_1_4.glb-8d9401068c4815e1ba1b6fb08e68c234.scn"]
 
 [params]
 

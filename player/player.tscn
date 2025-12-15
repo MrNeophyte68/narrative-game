@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://ihcfomvy087y"]
+[gd_scene load_steps=5 format=3 uid="uid://ihcfomvy087y"]
 
-[ext_resource type="Script" uid="uid://bggl12dwxkqag" path="res://Scripts/player_scripts/player.gd" id="1_8p05u"]
+[ext_resource type="Script" uid="uid://bggl12dwxkqag" path="res://player/player_scripts/player.gd" id="1_8p05u"]
+[ext_resource type="PackedScene" uid="uid://dqmsi6t2g3v7w" path="res://interaction/interaction_controller.tscn" id="2_eo61r"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_kf5c0"]
 
@@ -28,3 +29,5 @@ fov = 90.0
 
 [node name="standupCheck" type="RayCast3D" parent="."]
 target_position = Vector3(0, 2, 0)
+
+[node name="InteractionController" parent="." instance=ExtResource("2_eo61r")]

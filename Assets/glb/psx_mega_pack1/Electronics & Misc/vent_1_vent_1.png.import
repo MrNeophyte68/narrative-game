@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bega7jj0nqcvj"
-path.s3tc="res://.godot/imported/vent_1_vent_1.png-f14d8e8a2387baa02b6c883ebc2343ee.s3tc.ctex"
+path.s3tc="res://.godot/imported/vent_1_vent_1.png-69a47fe16111d60f67a3d1bd60753842.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/vent_1_vent_1.png"
-dest_files=["res://.godot/imported/vent_1_vent_1.png-f14d8e8a2387baa02b6c883ebc2343ee.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/vent_1_vent_1.png"
+dest_files=["res://.godot/imported/vent_1_vent_1.png-69a47fe16111d60f67a3d1bd60753842.s3tc.ctex"]
 
 [params]
 

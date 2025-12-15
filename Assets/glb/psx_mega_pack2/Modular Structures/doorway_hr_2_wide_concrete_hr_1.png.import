@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cv4dpihhqn4rh"
-path.s3tc="res://.godot/imported/doorway_hr_2_wide_concrete_hr_1.png-9ae1f5a9caf052ba6689a15c96870df4.s3tc.ctex"
+path.s3tc="res://.godot/imported/doorway_hr_2_wide_concrete_hr_1.png-ac58fc6887857aad49ab069d07cfcc77.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/doorway_hr_2_wide_concrete_hr_1.png"
-dest_files=["res://.godot/imported/doorway_hr_2_wide_concrete_hr_1.png-9ae1f5a9caf052ba6689a15c96870df4.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/doorway_hr_2_wide_concrete_hr_1.png"
+dest_files=["res://.godot/imported/doorway_hr_2_wide_concrete_hr_1.png-ac58fc6887857aad49ab069d07cfcc77.s3tc.ctex"]
 
 [params]
 

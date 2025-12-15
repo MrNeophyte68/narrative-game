@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ba4ll4po8t0rx"
-path.s3tc="res://.godot/imported/rainwater_pipe_hl_1_middle_metal_hr_5.png-28cd746796b3a11b5feba8250e628dd9.s3tc.ctex"
+path.s3tc="res://.godot/imported/rainwater_pipe_hl_1_middle_metal_hr_5.png-a81cdeebbc03fc13295c399abb9f0abb.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/rainwater_pipe_hl_1_middle_metal_hr_5.png"
-dest_files=["res://.godot/imported/rainwater_pipe_hl_1_middle_metal_hr_5.png-28cd746796b3a11b5feba8250e628dd9.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/rainwater_pipe_hl_1_middle_metal_hr_5.png"
+dest_files=["res://.godot/imported/rainwater_pipe_hl_1_middle_metal_hr_5.png-a81cdeebbc03fc13295c399abb9f0abb.s3tc.ctex"]
 
 [params]
 

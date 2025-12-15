@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://phmye3icj6vd"
-path="res://.godot/imported/tin_can_mp_1_rusty_1.glb-6e1a543949774b22bb393ee867af8bde.scn"
+path="res://.godot/imported/tin_can_mp_1_rusty_1.glb-982dd021ded4ddaddc80a3bb06be98f6.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/tin_can_mp_1_rusty_1.glb"
-dest_files=["res://.godot/imported/tin_can_mp_1_rusty_1.glb-6e1a543949774b22bb393ee867af8bde.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/tin_can_mp_1_rusty_1.glb"
+dest_files=["res://.godot/imported/tin_can_mp_1_rusty_1.glb-982dd021ded4ddaddc80a3bb06be98f6.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d25lstqn3s50g"
-path.s3tc="res://.godot/imported/cardboard_box_2_cardboard_box_2.png-048bada08e885d652f8a1e3fa5bb04bd.s3tc.ctex"
+path.s3tc="res://.godot/imported/cardboard_box_2_cardboard_box_2.png-d2b47a2521b090749423f3211a17eeec.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Large Props/cardboard_box_2_cardboard_box_2.png"
-dest_files=["res://.godot/imported/cardboard_box_2_cardboard_box_2.png-048bada08e885d652f8a1e3fa5bb04bd.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Large Props/cardboard_box_2_cardboard_box_2.png"
+dest_files=["res://.godot/imported/cardboard_box_2_cardboard_box_2.png-d2b47a2521b090749423f3211a17eeec.s3tc.ctex"]
 
 [params]
 

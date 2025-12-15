@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://2cpghkt4oe4g"
-path="res://.godot/imported/wall_rg_1_angle.glb-4a72a719e4ad81585c3d0d87e5d70c16.scn"
+path="res://.godot/imported/wall_rg_1_angle.glb-7093894a898a388b5dfe3fc2d3b69f83.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_angle.glb"
-dest_files=["res://.godot/imported/wall_rg_1_angle.glb-4a72a719e4ad81585c3d0d87e5d70c16.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_angle.glb"
+dest_files=["res://.godot/imported/wall_rg_1_angle.glb-7093894a898a388b5dfe3fc2d3b69f83.scn"]
 
 [params]
 

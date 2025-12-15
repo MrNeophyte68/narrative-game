@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://6jo6gj70ryqb"
-path="res://.godot/imported/fishing_hook_mx_1.glb-7a44834fc3ff1763c186643831f2f0e5.scn"
+path="res://.godot/imported/fishing_hook_mx_1.glb-2aa654a1779472228a066d4716e3e822.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/fishing_hook_mx_1.glb"
-dest_files=["res://.godot/imported/fishing_hook_mx_1.glb-7a44834fc3ff1763c186643831f2f0e5.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/fishing_hook_mx_1.glb"
+dest_files=["res://.godot/imported/fishing_hook_mx_1.glb-2aa654a1779472228a066d4716e3e822.scn"]
 
 [params]
 

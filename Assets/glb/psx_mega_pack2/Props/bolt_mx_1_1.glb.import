@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://btnqyst1aevsy"
-path="res://.godot/imported/bolt_mx_1_1.glb-3b93d67a2a8e5ea19cfa0ed86fdd92f4.scn"
+path="res://.godot/imported/bolt_mx_1_1.glb-c3268a4ef03a66491cae25906a168e9f.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/bolt_mx_1_1.glb"
-dest_files=["res://.godot/imported/bolt_mx_1_1.glb-3b93d67a2a8e5ea19cfa0ed86fdd92f4.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/bolt_mx_1_1.glb"
+dest_files=["res://.godot/imported/bolt_mx_1_1.glb-c3268a4ef03a66491cae25906a168e9f.scn"]
 
 [params]
 

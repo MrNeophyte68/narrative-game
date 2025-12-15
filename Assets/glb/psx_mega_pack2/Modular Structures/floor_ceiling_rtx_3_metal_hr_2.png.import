@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqme7ds1oioo1"
-path.s3tc="res://.godot/imported/floor_ceiling_rtx_3_metal_hr_2.png-bec06f7e684d2a38edac9dac2b110009.s3tc.ctex"
+path.s3tc="res://.godot/imported/floor_ceiling_rtx_3_metal_hr_2.png-6392c9f0cf087951db0cb9af428cdc78.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_3_metal_hr_2.png"
-dest_files=["res://.godot/imported/floor_ceiling_rtx_3_metal_hr_2.png-bec06f7e684d2a38edac9dac2b110009.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_3_metal_hr_2.png"
+dest_files=["res://.godot/imported/floor_ceiling_rtx_3_metal_hr_2.png-6392c9f0cf087951db0cb9af428cdc78.s3tc.ctex"]
 
 [params]
 

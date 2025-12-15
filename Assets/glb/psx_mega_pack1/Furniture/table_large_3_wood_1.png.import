@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3bcx255uohth"
-path.s3tc="res://.godot/imported/table_large_3_wood_1.png-0613ba299e88c8c6ae1d71ebe3fa1248.s3tc.ctex"
+path.s3tc="res://.godot/imported/table_large_3_wood_1.png-a30e53c98fa6e96ea0f48aff83682ef8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/table_large_3_wood_1.png"
-dest_files=["res://.godot/imported/table_large_3_wood_1.png-0613ba299e88c8c6ae1d71ebe3fa1248.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/table_large_3_wood_1.png"
+dest_files=["res://.godot/imported/table_large_3_wood_1.png-a30e53c98fa6e96ea0f48aff83682ef8.s3tc.ctex"]
 
 [params]
 

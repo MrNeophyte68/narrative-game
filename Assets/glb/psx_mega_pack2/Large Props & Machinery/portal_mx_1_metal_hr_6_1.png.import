@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5thy7wenre6x"
-path.s3tc="res://.godot/imported/portal_mx_1_metal_hr_6_1.png-e26698a3e2a2d61627054dbe05e0dd81.s3tc.ctex"
+path.s3tc="res://.godot/imported/portal_mx_1_metal_hr_6_1.png-1b0beda1e245d3f3132e27d800edde83.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/portal_mx_1_metal_hr_6_1.png"
-dest_files=["res://.godot/imported/portal_mx_1_metal_hr_6_1.png-e26698a3e2a2d61627054dbe05e0dd81.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/portal_mx_1_metal_hr_6_1.png"
+dest_files=["res://.godot/imported/portal_mx_1_metal_hr_6_1.png-1b0beda1e245d3f3132e27d800edde83.s3tc.ctex"]
 
 [params]
 

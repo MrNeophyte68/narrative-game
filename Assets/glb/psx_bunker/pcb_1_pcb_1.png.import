@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://da4srwl0ydup0"
-path.s3tc="res://.godot/imported/pcb_1_pcb_1.png-cdf8d122e923605f06be696ffee7ee0e.s3tc.ctex"
+path.s3tc="res://.godot/imported/pcb_1_pcb_1.png-be5e46988a92a17ae871e79a437acd4a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/pcb_1_pcb_1.png"
-dest_files=["res://.godot/imported/pcb_1_pcb_1.png-cdf8d122e923605f06be696ffee7ee0e.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/pcb_1_pcb_1.png"
+dest_files=["res://.godot/imported/pcb_1_pcb_1.png-be5e46988a92a17ae871e79a437acd4a.s3tc.ctex"]
 
 [params]
 

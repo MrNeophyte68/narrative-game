@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c3yn0ex5gnkqa"
-path="res://.godot/imported/misc_tool_mx_2.glb-c33c673ae94ebc06f52028fadce8f0ba.scn"
+path="res://.godot/imported/misc_tool_mx_2.glb-fab4ca66bbd7942660d7d249b20624be.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/misc_tool_mx_2.glb"
-dest_files=["res://.godot/imported/misc_tool_mx_2.glb-c33c673ae94ebc06f52028fadce8f0ba.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/misc_tool_mx_2.glb"
+dest_files=["res://.godot/imported/misc_tool_mx_2.glb-fab4ca66bbd7942660d7d249b20624be.scn"]
 
 [params]
 

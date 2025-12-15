@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://o2w16ut3tuux"
-path.s3tc="res://.godot/imported/wardrobe_mp_1_2_wood_4.png-a1273b7640e3dd3e3e0d85d05a9b63fc.s3tc.ctex"
+path.s3tc="res://.godot/imported/wardrobe_mp_1_2_wood_4.png-7b671812813cdf233ee2e5f09e8abf44.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/wardrobe_mp_1_2_wood_4.png"
-dest_files=["res://.godot/imported/wardrobe_mp_1_2_wood_4.png-a1273b7640e3dd3e3e0d85d05a9b63fc.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/wardrobe_mp_1_2_wood_4.png"
+dest_files=["res://.godot/imported/wardrobe_mp_1_2_wood_4.png-7b671812813cdf233ee2e5f09e8abf44.s3tc.ctex"]
 
 [params]
 

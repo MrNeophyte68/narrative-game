@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bydg5jodr5gaw"
-path="res://.godot/imported/wood_pallet_2.glb-6d0b7980e7f8293bda9fa44583baf79c.scn"
+path="res://.godot/imported/wood_pallet_2.glb-6b1a2d8a9c0f1a6d3ef9ef568529240b.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/wood_pallet_2.glb"
-dest_files=["res://.godot/imported/wood_pallet_2.glb-6d0b7980e7f8293bda9fa44583baf79c.scn"]
+source_file="res://assets/glb/psx_bunker/wood_pallet_2.glb"
+dest_files=["res://.godot/imported/wood_pallet_2.glb-6b1a2d8a9c0f1a6d3ef9ef568529240b.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://j8afg7jjalbq"
-path.s3tc="res://.godot/imported/tv_remote_mp_1_tv_remote_mp_1.png-800e8352ba1c6343e113d16ca915b676.s3tc.ctex"
+path.s3tc="res://.godot/imported/tv_remote_mp_1_tv_remote_mp_1.png-c175e7f35acf1cb87c306d23c17ec9d8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/tv_remote_mp_1_tv_remote_mp_1.png"
-dest_files=["res://.godot/imported/tv_remote_mp_1_tv_remote_mp_1.png-800e8352ba1c6343e113d16ca915b676.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/tv_remote_mp_1_tv_remote_mp_1.png"
+dest_files=["res://.godot/imported/tv_remote_mp_1_tv_remote_mp_1.png-c175e7f35acf1cb87c306d23c17ec9d8.s3tc.ctex"]
 
 [params]
 

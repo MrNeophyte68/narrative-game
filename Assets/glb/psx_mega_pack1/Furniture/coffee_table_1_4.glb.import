@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bvupk8h8g8pxw"
-path="res://.godot/imported/coffee_table_1_4.glb-b0a0746d4913a2702ae99b6e048cf370.scn"
+path="res://.godot/imported/coffee_table_1_4.glb-43eac991357780720ee81d4d766034cd.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/coffee_table_1_4.glb"
-dest_files=["res://.godot/imported/coffee_table_1_4.glb-b0a0746d4913a2702ae99b6e048cf370.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/coffee_table_1_4.glb"
+dest_files=["res://.godot/imported/coffee_table_1_4.glb-43eac991357780720ee81d4d766034cd.scn"]
 
 [params]
 

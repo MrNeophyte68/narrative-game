@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://tdq7n20gh1e7"
-path="res://.godot/imported/beam_hc_horizonatal_2.glb-4b73840707a40e76d547d4ee3a3599dc.scn"
+path="res://.godot/imported/beam_hc_horizonatal_2.glb-a3c98e529b78b37fa99126a0e1782fd4.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/beam_hc_horizonatal_2.glb"
-dest_files=["res://.godot/imported/beam_hc_horizonatal_2.glb-4b73840707a40e76d547d4ee3a3599dc.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/beam_hc_horizonatal_2.glb"
+dest_files=["res://.godot/imported/beam_hc_horizonatal_2.glb-a3c98e529b78b37fa99126a0e1782fd4.scn"]
 
 [params]
 

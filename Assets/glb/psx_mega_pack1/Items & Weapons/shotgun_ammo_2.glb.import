@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ddhviaydgam1"
-path="res://.godot/imported/shotgun_ammo_2.glb-be427aa033650659da1f0daf0de14b23.scn"
+path="res://.godot/imported/shotgun_ammo_2.glb-cdc3f186e9c9e9206505bdb2ca28ebe6.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/shotgun_ammo_2.glb"
-dest_files=["res://.godot/imported/shotgun_ammo_2.glb-be427aa033650659da1f0daf0de14b23.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/shotgun_ammo_2.glb"
+dest_files=["res://.godot/imported/shotgun_ammo_2.glb-cdc3f186e9c9e9206505bdb2ca28ebe6.scn"]
 
 [params]
 

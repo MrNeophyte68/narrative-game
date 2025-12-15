@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bqta7s6a5kcgf"
-path="res://.godot/imported/bucket_mx_3.glb-466e151570396acd95bc283866017609.scn"
+path="res://.godot/imported/bucket_mx_3.glb-a794c750a38ef7884e0e3b77b8cf5fde.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/bucket_mx_3.glb"
-dest_files=["res://.godot/imported/bucket_mx_3.glb-466e151570396acd95bc283866017609.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/bucket_mx_3.glb"
+dest_files=["res://.godot/imported/bucket_mx_3.glb-a794c750a38ef7884e0e3b77b8cf5fde.scn"]
 
 [params]
 

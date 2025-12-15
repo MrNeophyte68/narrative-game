@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://br26gbmgtux2s"
-path.s3tc="res://.godot/imported/button_12_cable_2.png-51c1843ef031a37c605d45fcbf2681b7.s3tc.ctex"
+path.s3tc="res://.godot/imported/button_12_cable_2.png-71ef9b4dff04d71afa7c452e942b4d17.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/button_12_cable_2.png"
-dest_files=["res://.godot/imported/button_12_cable_2.png-51c1843ef031a37c605d45fcbf2681b7.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/button_12_cable_2.png"
+dest_files=["res://.godot/imported/button_12_cable_2.png-71ef9b4dff04d71afa7c452e942b4d17.s3tc.ctex"]
 
 [params]
 

@@ -1,9 +1,9 @@
 [gd_scene load_steps=11 format=3 uid="uid://dstmtb7me0lh8"]
 
-[ext_resource type="Texture2D" uid="uid://c4itmbpuywun8" path="res://Assets/images/hl_office_complex_style_tile_floor_1.png" id="1_2b6ht"]
-[ext_resource type="Texture2D" uid="uid://clcpgvtoisdw5" path="res://Assets/images/metal_wall_tx_3.png" id="2_y0mvb"]
-[ext_resource type="Texture2D" uid="uid://cd3txp3oth7mw" path="res://Assets/images/sponge_hell_2.png" id="3_y0mvb"]
-[ext_resource type="PackedScene" uid="uid://ihcfomvy087y" path="res://Scenes/player/player.tscn" id="4_s2tkr"]
+[ext_resource type="Texture2D" uid="uid://c4itmbpuywun8" path="res://assets/images/hl_office_complex_style_tile_floor_1.png" id="1_0lf1x"]
+[ext_resource type="Texture2D" uid="uid://clcpgvtoisdw5" path="res://assets/images/metal_wall_tx_3.png" id="2_1jmyu"]
+[ext_resource type="Texture2D" uid="uid://cd3txp3oth7mw" path="res://assets/images/sponge_hell_2.png" id="3_6rruu"]
+[ext_resource type="PackedScene" uid="uid://ihcfomvy087y" path="res://player/player.tscn" id="4_fm32m"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_s2tkr"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -19,15 +19,15 @@ tonemap_mode = 2
 glow_enabled = true
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s2tkr"]
-albedo_texture = ExtResource("1_2b6ht")
+albedo_texture = ExtResource("1_0lf1x")
 uv1_triplanar = true
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1cu7a"]
-albedo_texture = ExtResource("2_y0mvb")
+albedo_texture = ExtResource("2_1jmyu")
 uv1_triplanar = true
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_koc8j"]
-albedo_texture = ExtResource("3_y0mvb")
+albedo_texture = ExtResource("3_6rruu")
 uv1_triplanar = true
 
 [node name="Sandbox" type="Node3D"]
@@ -57,5 +57,5 @@ use_collision = true
 size = Vector3(1, 1, 4)
 material = SubResource("StandardMaterial3D_koc8j")
 
-[node name="player" parent="." instance=ExtResource("4_s2tkr")]
+[node name="player" parent="." instance=ExtResource("4_fm32m")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.6184397, 1, 0)

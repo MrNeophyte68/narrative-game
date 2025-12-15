@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkuodqcemi5nk"
-path.s3tc="res://.godot/imported/pillar_1_wall_3.png-e6d0adc4376a3a1f7caf7b75e28bc7a5.s3tc.ctex"
+path.s3tc="res://.godot/imported/pillar_1_wall_3.png-f470462fc7f5aeeb8759abcda83a023c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/pillar_1_wall_3.png"
-dest_files=["res://.godot/imported/pillar_1_wall_3.png-e6d0adc4376a3a1f7caf7b75e28bc7a5.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/pillar_1_wall_3.png"
+dest_files=["res://.godot/imported/pillar_1_wall_3.png-f470462fc7f5aeeb8759abcda83a023c.s3tc.ctex"]
 
 [params]
 

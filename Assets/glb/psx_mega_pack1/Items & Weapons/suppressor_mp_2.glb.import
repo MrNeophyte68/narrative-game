@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://gbo4ebr3w22y"
-path="res://.godot/imported/suppressor_mp_2.glb-5663fcca2c70e86b5c0578ead2fb5fa7.scn"
+path="res://.godot/imported/suppressor_mp_2.glb-30307837b6f75f5e197fd57b8ebfbda6.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/suppressor_mp_2.glb"
-dest_files=["res://.godot/imported/suppressor_mp_2.glb-5663fcca2c70e86b5c0578ead2fb5fa7.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/suppressor_mp_2.glb"
+dest_files=["res://.godot/imported/suppressor_mp_2.glb-30307837b6f75f5e197fd57b8ebfbda6.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vixgahxtb2y1"
-path.s3tc="res://.godot/imported/mail_box_mx_1_1_mail_boxes_mx_1.png-79a785611146f5b3f6552a7c73f3460b.s3tc.ctex"
+path.s3tc="res://.godot/imported/mail_box_mx_1_1_mail_boxes_mx_1.png-91b32cd50aaf699e3916b3bf64094ba5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/mail_box_mx_1_1_mail_boxes_mx_1.png"
-dest_files=["res://.godot/imported/mail_box_mx_1_1_mail_boxes_mx_1.png-79a785611146f5b3f6552a7c73f3460b.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/mail_box_mx_1_1_mail_boxes_mx_1.png"
+dest_files=["res://.godot/imported/mail_box_mx_1_1_mail_boxes_mx_1.png-91b32cd50aaf699e3916b3bf64094ba5.s3tc.ctex"]
 
 [params]
 

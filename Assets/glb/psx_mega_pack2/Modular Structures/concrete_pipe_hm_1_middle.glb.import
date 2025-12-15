@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://di2xunnm8j205"
-path="res://.godot/imported/concrete_pipe_hm_1_middle.glb-e466a1816362015927458ff1fcb090be.scn"
+path="res://.godot/imported/concrete_pipe_hm_1_middle.glb-2224d7db230c6bbdba0c628e1f0d4ecd.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/concrete_pipe_hm_1_middle.glb"
-dest_files=["res://.godot/imported/concrete_pipe_hm_1_middle.glb-e466a1816362015927458ff1fcb090be.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/concrete_pipe_hm_1_middle.glb"
+dest_files=["res://.godot/imported/concrete_pipe_hm_1_middle.glb-2224d7db230c6bbdba0c628e1f0d4ecd.scn"]
 
 [params]
 

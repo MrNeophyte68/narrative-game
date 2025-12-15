@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blo4r0k8henyc"
-path.s3tc="res://.godot/imported/pistol_mp_1_pistols_mp_1.png-b8d5aac5a77dda09abe34d35775af068.s3tc.ctex"
+path.s3tc="res://.godot/imported/pistol_mp_1_pistols_mp_1.png-9642ea0ae189c50afb17f168e9de8ae7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/pistol_mp_1_pistols_mp_1.png"
-dest_files=["res://.godot/imported/pistol_mp_1_pistols_mp_1.png-b8d5aac5a77dda09abe34d35775af068.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/pistol_mp_1_pistols_mp_1.png"
+dest_files=["res://.godot/imported/pistol_mp_1_pistols_mp_1.png-9642ea0ae189c50afb17f168e9de8ae7.s3tc.ctex"]
 
 [params]
 

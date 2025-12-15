@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://v6fs26ptdoux"
-path.s3tc="res://.godot/imported/cross_1_cross_1.png-0349c7212aded8e729e87eb17f12a7ab.s3tc.ctex"
+path.s3tc="res://.godot/imported/cross_1_cross_1.png-ec152fc7700449ead0931345e13b4825.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/cross_1_cross_1.png"
-dest_files=["res://.godot/imported/cross_1_cross_1.png-0349c7212aded8e729e87eb17f12a7ab.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/cross_1_cross_1.png"
+dest_files=["res://.godot/imported/cross_1_cross_1.png-ec152fc7700449ead0931345e13b4825.s3tc.ctex"]
 
 [params]
 

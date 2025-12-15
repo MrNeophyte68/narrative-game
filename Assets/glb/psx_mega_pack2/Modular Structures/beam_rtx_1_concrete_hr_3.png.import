@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://by4pt0n77ksbj"
-path.s3tc="res://.godot/imported/beam_rtx_1_concrete_hr_3.png-7b99315ba321db579b997e159e23156c.s3tc.ctex"
+path.s3tc="res://.godot/imported/beam_rtx_1_concrete_hr_3.png-cc615fee993bab1cda63bc20b399ccb8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/beam_rtx_1_concrete_hr_3.png"
-dest_files=["res://.godot/imported/beam_rtx_1_concrete_hr_3.png-7b99315ba321db579b997e159e23156c.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/beam_rtx_1_concrete_hr_3.png"
+dest_files=["res://.godot/imported/beam_rtx_1_concrete_hr_3.png-cc615fee993bab1cda63bc20b399ccb8.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bjrpttq0eqd6t"
-path="res://.godot/imported/tire_2.glb-815430d210e987c383c562c56c743d75.scn"
+path="res://.godot/imported/tire_2.glb-ccaf91e3d275df726bbee7909a59eb83.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/tire_2.glb"
-dest_files=["res://.godot/imported/tire_2.glb-815430d210e987c383c562c56c743d75.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/tire_2.glb"
+dest_files=["res://.godot/imported/tire_2.glb-ccaf91e3d275df726bbee7909a59eb83.scn"]
 
 [params]
 

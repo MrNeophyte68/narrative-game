@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbamvksaenko"
-path.s3tc="res://.godot/imported/gear_mx_3_metal_hr_6_1.png-ad2a14c9092ebb4ab988e7afddf559c5.s3tc.ctex"
+path.s3tc="res://.godot/imported/gear_mx_3_metal_hr_6_1.png-3cfb4a5cd64444d37861b713b4e6c874.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/gear_mx_3_metal_hr_6_1.png"
-dest_files=["res://.godot/imported/gear_mx_3_metal_hr_6_1.png-ad2a14c9092ebb4ab988e7afddf559c5.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/gear_mx_3_metal_hr_6_1.png"
+dest_files=["res://.godot/imported/gear_mx_3_metal_hr_6_1.png-3cfb4a5cd64444d37861b713b4e6c874.s3tc.ctex"]
 
 [params]
 

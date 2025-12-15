@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://crdpynsgqbw80"
-path="res://.godot/imported/power_supply_1.glb-4a3152a99020192c8e87e18f3bac6b52.scn"
+path="res://.godot/imported/power_supply_1.glb-0fde1144724de7c8f5469823afb3c170.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/power_supply_1.glb"
-dest_files=["res://.godot/imported/power_supply_1.glb-4a3152a99020192c8e87e18f3bac6b52.scn"]
+source_file="res://assets/glb/psx_bunker/power_supply_1.glb"
+dest_files=["res://.godot/imported/power_supply_1.glb-0fde1144724de7c8f5469823afb3c170.scn"]
 
 [params]
 
