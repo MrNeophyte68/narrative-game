@@ -1,9 +1,11 @@
-[gd_scene load_steps=11 format=3 uid="uid://dstmtb7me0lh8"]
+[gd_scene load_steps=13 format=3 uid="uid://dstmtb7me0lh8"]
 
 [ext_resource type="Texture2D" uid="uid://c4itmbpuywun8" path="res://assets/images/hl_office_complex_style_tile_floor_1.png" id="1_0lf1x"]
+[ext_resource type="PackedScene" uid="uid://bgg5wj2yybs01" path="res://objects/cube_5_kg.tscn" id="1_6rruu"]
 [ext_resource type="Texture2D" uid="uid://clcpgvtoisdw5" path="res://assets/images/metal_wall_tx_3.png" id="2_1jmyu"]
 [ext_resource type="Texture2D" uid="uid://cd3txp3oth7mw" path="res://assets/images/sponge_hell_2.png" id="3_6rruu"]
 [ext_resource type="PackedScene" uid="uid://ihcfomvy087y" path="res://player/player.tscn" id="4_fm32m"]
+[ext_resource type="PackedScene" uid="uid://cc2wooa0i6fpr" path="res://objects/cube_1_kg.tscn" id="5_1jmyu"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_s2tkr"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -32,6 +34,9 @@ uv1_triplanar = true
 
 [node name="Sandbox" type="Node3D"]
 
+[node name="cube_5kg" parent="." instance=ExtResource("1_6rruu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.907536, 1.4260492, 0)
+
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_koc8j")
 
@@ -59,3 +64,6 @@ material = SubResource("StandardMaterial3D_koc8j")
 
 [node name="player" parent="." instance=ExtResource("4_fm32m")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.6184397, 1, 0)
+
+[node name="cube_1kg" parent="." instance=ExtResource("5_1jmyu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.4241304, 1.6174853, -3.3370342)

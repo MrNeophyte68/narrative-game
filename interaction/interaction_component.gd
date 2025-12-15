@@ -18,11 +18,11 @@ func _ready() -> void:
 	return
 
 #Runs once, when the player first clicks on an object to interact with
-func preInteract() -> void:
+func preInteract(hand: Marker3D) -> void:
 	is_interacting = true
 	match interaction_type:
 		InteractionType.DEFAULT:
-			player_hand = get_tree().get_root().find_child("Hand", true, false)
+			player_hand = hand
 		
 
 #Runs every frame, perform some logics on this object
@@ -33,6 +33,14 @@ func interact() -> void:
 	match interaction_type:
 		InteractionType.DEFAULT:
 			_default_interact()
+
+func auxInteract() -> void:
+	if not can_interact:
+		return
+	
+	match interaction_type:
+		InteractionType.DEFAULT:
+			_default_throw()
 
 #Runs once, when the player last interacts with an object
 func postInteract() -> void:
@@ -48,4 +56,18 @@ func _default_interact() -> void:
 	
 	var rigid_body_3d: RigidBody3D = object_ref as RigidBody3D
 	if rigid_body_3d:
-		rigid_body_3d.set_linear_velocity((object_distance)*(5/rigid_body_3d.mass ))
+		rigid_body_3d.set_linear_velocity((object_distance)*(5/rigid_body_3d.mass))
+
+func _default_throw() -> void:
+	var object_current_position: Vector3 = object_ref.global_transform.origin
+	var player_hand_position: Vector3 = player_hand.global_transform.origin
+	var object_distance: Vector3 = player_hand_position - object_current_position
+	
+	var rigid_body_3d: RigidBody3D = object_ref as RigidBody3D
+	if rigid_body_3d:
+		var throw_direction: Vector3 = -player_hand.global_transform.basis.z.normalized()
+		var throw_strength: float = (20.0/rigid_body_3d.mass)
+		rigid_body_3d.set_linear_velocity(throw_direction*throw_strength)
+		can_interact = false
+		await get_tree().create_timer(2.0).timeout
+		can_interact = true
