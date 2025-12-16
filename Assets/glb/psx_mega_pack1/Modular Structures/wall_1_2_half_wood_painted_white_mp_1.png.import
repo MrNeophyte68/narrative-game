@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://havyni1li0by"
-path.s3tc="res://.godot/imported/wall_1_2_half_wood_painted_white_mp_1.png-0f7c7268ad4994f3970e331b9ab200c0.s3tc.ctex"
+path.s3tc="res://.godot/imported/wall_1_2_half_wood_painted_white_mp_1.png-b341248a0fc3baf1f50eb57601155875.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_2_half_wood_painted_white_mp_1.png"
-dest_files=["res://.godot/imported/wall_1_2_half_wood_painted_white_mp_1.png-0f7c7268ad4994f3970e331b9ab200c0.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_2_half_wood_painted_white_mp_1.png"
+dest_files=["res://.godot/imported/wall_1_2_half_wood_painted_white_mp_1.png-b341248a0fc3baf1f50eb57601155875.s3tc.ctex"]
 
 [params]
 

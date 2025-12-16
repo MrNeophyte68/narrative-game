@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bruhs303q5ihh"
-path="res://.godot/imported/luggage_mp_1.glb-320d4dbde0cc7d2ee9e63a7de78cb26a.scn"
+path="res://.godot/imported/luggage_mp_1.glb-0c0ce1dd5f1c743dc9e757cb6b5890fb.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/luggage_mp_1.glb"
-dest_files=["res://.godot/imported/luggage_mp_1.glb-320d4dbde0cc7d2ee9e63a7de78cb26a.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/luggage_mp_1.glb"
+dest_files=["res://.godot/imported/luggage_mp_1.glb-0c0ce1dd5f1c743dc9e757cb6b5890fb.scn"]
 
 [params]
 

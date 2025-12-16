@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://donode8i1s0wp"
-path="res://.godot/imported/wooden_board_3.glb-c0ddcf7d19f528cb670c78590866204c.scn"
+path="res://.godot/imported/wooden_board_3.glb-37052b423d6277f82bd4476e963955b4.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/wooden_board_3.glb"
-dest_files=["res://.godot/imported/wooden_board_3.glb-c0ddcf7d19f528cb670c78590866204c.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/wooden_board_3.glb"
+dest_files=["res://.godot/imported/wooden_board_3.glb-37052b423d6277f82bd4476e963955b4.scn"]
 
 [params]
 

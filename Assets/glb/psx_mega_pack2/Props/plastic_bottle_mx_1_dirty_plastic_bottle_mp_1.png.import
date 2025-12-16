@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bymsaum31tmhu"
-path.s3tc="res://.godot/imported/plastic_bottle_mx_1_dirty_plastic_bottle_mp_1.png-d9f260faa428f5050b175546be895451.s3tc.ctex"
+path.s3tc="res://.godot/imported/plastic_bottle_mx_1_dirty_plastic_bottle_mp_1.png-75ed85b9d2a210ddfe6077b15e84bcda.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/plastic_bottle_mx_1_dirty_plastic_bottle_mp_1.png"
-dest_files=["res://.godot/imported/plastic_bottle_mx_1_dirty_plastic_bottle_mp_1.png-d9f260faa428f5050b175546be895451.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/plastic_bottle_mx_1_dirty_plastic_bottle_mp_1.png"
+dest_files=["res://.godot/imported/plastic_bottle_mx_1_dirty_plastic_bottle_mp_1.png-75ed85b9d2a210ddfe6077b15e84bcda.s3tc.ctex"]
 
 [params]
 

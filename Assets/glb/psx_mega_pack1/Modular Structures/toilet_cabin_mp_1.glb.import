@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://u7eci6e63c0g"
-path="res://.godot/imported/toilet_cabin_mp_1.glb-11fd2bc08dcae1653ea886d71494cc35.scn"
+path="res://.godot/imported/toilet_cabin_mp_1.glb-5a14dafc273d7f7a93b7bdc9fa191b20.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/toilet_cabin_mp_1.glb"
-dest_files=["res://.godot/imported/toilet_cabin_mp_1.glb-11fd2bc08dcae1653ea886d71494cc35.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/toilet_cabin_mp_1.glb"
+dest_files=["res://.godot/imported/toilet_cabin_mp_1.glb-5a14dafc273d7f7a93b7bdc9fa191b20.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfcqoxbyfcsp7"
-path.s3tc="res://.godot/imported/wall_1_tunnel_hole_1_metal_mp_6.png-206456a07e60a0662071d3994df8c09b.s3tc.ctex"
+path.s3tc="res://.godot/imported/wall_1_tunnel_hole_1_metal_mp_6.png-7558eae8c9b41363ae8575256928b623.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_1_metal_mp_6.png"
-dest_files=["res://.godot/imported/wall_1_tunnel_hole_1_metal_mp_6.png-206456a07e60a0662071d3994df8c09b.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_1_metal_mp_6.png"
+dest_files=["res://.godot/imported/wall_1_tunnel_hole_1_metal_mp_6.png-7558eae8c9b41363ae8575256928b623.s3tc.ctex"]
 
 [params]
 

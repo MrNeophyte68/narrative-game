@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://s6gosg2p548n"
-path="res://.godot/imported/carpet_mp_1.glb-be93565a1f8906f4f73d3fa09ec48d63.scn"
+path="res://.godot/imported/carpet_mp_1.glb-7f1926ed54f591bd9a2e4524d8b4d8ae.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Large Props/carpet_mp_1.glb"
-dest_files=["res://.godot/imported/carpet_mp_1.glb-be93565a1f8906f4f73d3fa09ec48d63.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Large Props/carpet_mp_1.glb"
+dest_files=["res://.godot/imported/carpet_mp_1.glb-7f1926ed54f591bd9a2e4524d8b4d8ae.scn"]
 
 [params]
 

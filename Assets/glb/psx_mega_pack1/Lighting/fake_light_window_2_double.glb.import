@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cl8alci5661p"
-path="res://.godot/imported/fake_light_window_2_double.glb-b494a670af6a01ada8df835a753c9095.scn"
+path="res://.godot/imported/fake_light_window_2_double.glb-c3fd8b8611393381948a80f9412ca001.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Lighting/fake_light_window_2_double.glb"
-dest_files=["res://.godot/imported/fake_light_window_2_double.glb-b494a670af6a01ada8df835a753c9095.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Lighting/fake_light_window_2_double.glb"
+dest_files=["res://.godot/imported/fake_light_window_2_double.glb-c3fd8b8611393381948a80f9412ca001.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dg6xtdqw8b21j"
-path="res://.godot/imported/makeshift_melee_mx_1.glb-d8a0fd10c30777f4e54b697ee3a3e17d.scn"
+path="res://.godot/imported/makeshift_melee_mx_1.glb-09dfcbdbd21effa8f821bfa9d6102cea.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/makeshift_melee_mx_1.glb"
-dest_files=["res://.godot/imported/makeshift_melee_mx_1.glb-d8a0fd10c30777f4e54b697ee3a3e17d.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/makeshift_melee_mx_1.glb"
+dest_files=["res://.godot/imported/makeshift_melee_mx_1.glb-09dfcbdbd21effa8f821bfa9d6102cea.scn"]
 
 [params]
 

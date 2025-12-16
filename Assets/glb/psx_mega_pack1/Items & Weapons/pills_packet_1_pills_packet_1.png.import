@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvnok26vyo6he"
-path.s3tc="res://.godot/imported/pills_packet_1_pills_packet_1.png-613d969a4f46cad1fe467c751b9e26b1.s3tc.ctex"
+path.s3tc="res://.godot/imported/pills_packet_1_pills_packet_1.png-09124b87c706977e20a51919269c1b7f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/pills_packet_1_pills_packet_1.png"
-dest_files=["res://.godot/imported/pills_packet_1_pills_packet_1.png-613d969a4f46cad1fe467c751b9e26b1.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/pills_packet_1_pills_packet_1.png"
+dest_files=["res://.godot/imported/pills_packet_1_pills_packet_1.png-09124b87c706977e20a51919269c1b7f.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://duwdcwm14spec"
-path.s3tc="res://.godot/imported/fence_a_1_planks_hr_3.png-89ae20346b0f28c7a9c9c7e6d22e5596.s3tc.ctex"
+path.s3tc="res://.godot/imported/fence_a_1_planks_hr_3.png-7941081afc36d7fac047f1c963d122c3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Props/fence_a_1_planks_hr_3.png"
-dest_files=["res://.godot/imported/fence_a_1_planks_hr_3.png-89ae20346b0f28c7a9c9c7e6d22e5596.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Props/fence_a_1_planks_hr_3.png"
+dest_files=["res://.godot/imported/fence_a_1_planks_hr_3.png-7941081afc36d7fac047f1c963d122c3.s3tc.ctex"]
 
 [params]
 

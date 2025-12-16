@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qgx4u3n4m4dr"
-path.s3tc="res://.godot/imported/elevator_2_metal_mp_1.png-03a5eadfa9f4945b448341c7288fc5c1.s3tc.ctex"
+path.s3tc="res://.godot/imported/elevator_2_metal_mp_1.png-90cdaf7a5b089b824b8d13e79a868223.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/elevator_2_metal_mp_1.png"
-dest_files=["res://.godot/imported/elevator_2_metal_mp_1.png-03a5eadfa9f4945b448341c7288fc5c1.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/elevator_2_metal_mp_1.png"
+dest_files=["res://.godot/imported/elevator_2_metal_mp_1.png-90cdaf7a5b089b824b8d13e79a868223.s3tc.ctex"]
 
 [params]
 

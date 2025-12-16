@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b28jotd12ix47"
-path.s3tc="res://.godot/imported/ceiling_peace_1_metal_floor_2.png-83ca743f608a508ac5e5b56fcea49ed2.s3tc.ctex"
+path.s3tc="res://.godot/imported/ceiling_peace_1_metal_floor_2.png-c98ae90444e933aafbdd43733ac3105b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/ceiling_peace_1_metal_floor_2.png"
-dest_files=["res://.godot/imported/ceiling_peace_1_metal_floor_2.png-83ca743f608a508ac5e5b56fcea49ed2.s3tc.ctex"]
+source_file="res://Assets/glb/psx_bunker/ceiling_peace_1_metal_floor_2.png"
+dest_files=["res://.godot/imported/ceiling_peace_1_metal_floor_2.png-c98ae90444e933aafbdd43733ac3105b.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0sbykdfc7sy7"
-path.s3tc="res://.godot/imported/bed_1_frame_metal_mp_5.png-31cf37a06799ff8a3b8e6351275891e4.s3tc.ctex"
+path.s3tc="res://.godot/imported/bed_1_frame_metal_mp_5.png-ecd86b49e672effc48a0a6d8bc91c6b8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Furniture/bed_1_frame_metal_mp_5.png"
-dest_files=["res://.godot/imported/bed_1_frame_metal_mp_5.png-31cf37a06799ff8a3b8e6351275891e4.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Furniture/bed_1_frame_metal_mp_5.png"
+dest_files=["res://.godot/imported/bed_1_frame_metal_mp_5.png-ecd86b49e672effc48a0a6d8bc91c6b8.s3tc.ctex"]
 
 [params]
 

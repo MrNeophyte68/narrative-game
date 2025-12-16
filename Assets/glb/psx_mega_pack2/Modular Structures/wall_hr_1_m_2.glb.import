@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c33pielp17lc0"
-path="res://.godot/imported/wall_hr_1_m_2.glb-ff641a74c0c6d192e7a2630246ce72a2.scn"
+path="res://.godot/imported/wall_hr_1_m_2.glb-155de875214bad0444157788560d6d16.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m_2.glb"
-dest_files=["res://.godot/imported/wall_hr_1_m_2.glb-ff641a74c0c6d192e7a2630246ce72a2.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m_2.glb"
+dest_files=["res://.godot/imported/wall_hr_1_m_2.glb-155de875214bad0444157788560d6d16.scn"]
 
 [params]
 

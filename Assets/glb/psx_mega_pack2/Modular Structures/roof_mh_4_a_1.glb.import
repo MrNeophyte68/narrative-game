@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://lrd6t6e6g81r"
-path="res://.godot/imported/roof_mh_4_a_1.glb-24f3b086249459812ddf7faf69ee9ff1.scn"
+path="res://.godot/imported/roof_mh_4_a_1.glb-73f5e63ffccf2d99649ba5354add3d84.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Structures/roof_mh_4_a_1.glb"
-dest_files=["res://.godot/imported/roof_mh_4_a_1.glb-24f3b086249459812ddf7faf69ee9ff1.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/roof_mh_4_a_1.glb"
+dest_files=["res://.godot/imported/roof_mh_4_a_1.glb-73f5e63ffccf2d99649ba5354add3d84.scn"]
 
 [params]
 

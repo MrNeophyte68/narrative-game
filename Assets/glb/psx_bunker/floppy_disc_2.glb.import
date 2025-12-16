@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://0gg4n6yq5v1v"
-path="res://.godot/imported/floppy_disc_2.glb-e9c71597c304e408d2f71380f30cfab1.scn"
+path="res://.godot/imported/floppy_disc_2.glb-86c68f64f38035b5e4852aa75b156a79.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/floppy_disc_2.glb"
-dest_files=["res://.godot/imported/floppy_disc_2.glb-e9c71597c304e408d2f71380f30cfab1.scn"]
+source_file="res://Assets/glb/psx_bunker/floppy_disc_2.glb"
+dest_files=["res://.godot/imported/floppy_disc_2.glb-86c68f64f38035b5e4852aa75b156a79.scn"]
 
 [params]
 

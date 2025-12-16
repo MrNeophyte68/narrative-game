@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://qk5hu1kvo2el"
-path="res://.godot/imported/monitoring_screen_mp_1_1.glb-aa76943727bade0de4d408c2f78cdb08.scn"
+path="res://.godot/imported/monitoring_screen_mp_1_1.glb-53f7774cc9182ed7cb517855cd365603.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/monitoring_screen_mp_1_1.glb"
-dest_files=["res://.godot/imported/monitoring_screen_mp_1_1.glb-aa76943727bade0de4d408c2f78cdb08.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/monitoring_screen_mp_1_1.glb"
+dest_files=["res://.godot/imported/monitoring_screen_mp_1_1.glb-53f7774cc9182ed7cb517855cd365603.scn"]
 
 [params]
 

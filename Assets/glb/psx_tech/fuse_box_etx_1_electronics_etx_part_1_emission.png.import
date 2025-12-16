@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://omnctdv0loo2"
-path.s3tc="res://.godot/imported/fuse_box_etx_1_electronics_etx_part_1_emission.png-a3b55c0615fa244239c2083dcf4edd19.s3tc.ctex"
+path.s3tc="res://.godot/imported/fuse_box_etx_1_electronics_etx_part_1_emission.png-7243bc14de98d13978bbb43e6efbbb4f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_tech/fuse_box_etx_1_electronics_etx_part_1_emission.png"
-dest_files=["res://.godot/imported/fuse_box_etx_1_electronics_etx_part_1_emission.png-a3b55c0615fa244239c2083dcf4edd19.s3tc.ctex"]
+source_file="res://Assets/glb/psx_tech/fuse_box_etx_1_electronics_etx_part_1_emission.png"
+dest_files=["res://.godot/imported/fuse_box_etx_1_electronics_etx_part_1_emission.png-7243bc14de98d13978bbb43e6efbbb4f.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nbm0408cr7qi"
-path.s3tc="res://.godot/imported/pick_axe_mx_1_wood_mx_3.png-89d69657a838909e00410297666ac7c4.s3tc.ctex"
+path.s3tc="res://.godot/imported/pick_axe_mx_1_wood_mx_3.png-ebf02bd146ea1a1230e110821f1c7b83.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/pick_axe_mx_1_wood_mx_3.png"
-dest_files=["res://.godot/imported/pick_axe_mx_1_wood_mx_3.png-89d69657a838909e00410297666ac7c4.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/pick_axe_mx_1_wood_mx_3.png"
+dest_files=["res://.godot/imported/pick_axe_mx_1_wood_mx_3.png-ebf02bd146ea1a1230e110821f1c7b83.s3tc.ctex"]
 
 [params]
 

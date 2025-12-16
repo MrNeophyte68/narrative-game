@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0fpuoviup2xu"
-path.s3tc="res://.godot/imported/storage_tank_mx_1_metal_hr_6_1.png-6278681f747e10e0f921fd67582d4e8d.s3tc.ctex"
+path.s3tc="res://.godot/imported/storage_tank_mx_1_metal_hr_6_1.png-6ce29003ba90a85be49d2a82a835eb43.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/storage_tank_mx_1_metal_hr_6_1.png"
-dest_files=["res://.godot/imported/storage_tank_mx_1_metal_hr_6_1.png-6278681f747e10e0f921fd67582d4e8d.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/storage_tank_mx_1_metal_hr_6_1.png"
+dest_files=["res://.godot/imported/storage_tank_mx_1_metal_hr_6_1.png-6ce29003ba90a85be49d2a82a835eb43.s3tc.ctex"]
 
 [params]
 

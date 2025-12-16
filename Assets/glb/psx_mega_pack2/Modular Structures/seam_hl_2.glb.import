@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://wabnuvj1fhl8"
-path="res://.godot/imported/seam_hl_2.glb-bbc31c69aea93d22ae3cef55bfc88bd8.scn"
+path="res://.godot/imported/seam_hl_2.glb-6e9096737f35edac7c062c453a2cc54b.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Structures/seam_hl_2.glb"
-dest_files=["res://.godot/imported/seam_hl_2.glb-bbc31c69aea93d22ae3cef55bfc88bd8.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/seam_hl_2.glb"
+dest_files=["res://.godot/imported/seam_hl_2.glb-6e9096737f35edac7c062c453a2cc54b.scn"]
 
 [params]
 

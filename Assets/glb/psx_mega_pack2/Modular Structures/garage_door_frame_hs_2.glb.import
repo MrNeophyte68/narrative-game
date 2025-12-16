@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://yknx0160cb6q"
-path="res://.godot/imported/garage_door_frame_hs_2.glb-c749b3ffb85b6574d723060c6178e07f.scn"
+path="res://.godot/imported/garage_door_frame_hs_2.glb-bb48cf5ccccbc857d00d7b1f0f5ae57d.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Structures/garage_door_frame_hs_2.glb"
-dest_files=["res://.godot/imported/garage_door_frame_hs_2.glb-c749b3ffb85b6574d723060c6178e07f.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/garage_door_frame_hs_2.glb"
+dest_files=["res://.godot/imported/garage_door_frame_hs_2.glb-bb48cf5ccccbc857d00d7b1f0f5ae57d.scn"]
 
 [params]
 

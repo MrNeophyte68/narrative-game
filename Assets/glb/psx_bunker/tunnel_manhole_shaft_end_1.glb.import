@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://xikxv28tyuij"
-path="res://.godot/imported/tunnel_manhole_shaft_end_1.glb-067aad51880dca73cf1be2be8ce1d781.scn"
+path="res://.godot/imported/tunnel_manhole_shaft_end_1.glb-2b691c3b9d53d4882721152eabea5a90.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/tunnel_manhole_shaft_end_1.glb"
-dest_files=["res://.godot/imported/tunnel_manhole_shaft_end_1.glb-067aad51880dca73cf1be2be8ce1d781.scn"]
+source_file="res://Assets/glb/psx_bunker/tunnel_manhole_shaft_end_1.glb"
+dest_files=["res://.godot/imported/tunnel_manhole_shaft_end_1.glb-2b691c3b9d53d4882721152eabea5a90.scn"]
 
 [params]
 

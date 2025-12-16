@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://82b7n1lrlsp2"
-path="res://.godot/imported/military_radio_2.glb-3d9654703e2fedc2c5b11fcb95cf16a5.scn"
+path="res://.godot/imported/military_radio_2.glb-fc7d6e354ba419ad2d6c107681fa13c6.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/military_radio_2.glb"
-dest_files=["res://.godot/imported/military_radio_2.glb-3d9654703e2fedc2c5b11fcb95cf16a5.scn"]
+source_file="res://Assets/glb/psx_bunker/military_radio_2.glb"
+dest_files=["res://.godot/imported/military_radio_2.glb-fc7d6e354ba419ad2d6c107681fa13c6.scn"]
 
 [params]
 

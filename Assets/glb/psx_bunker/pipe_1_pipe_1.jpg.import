@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b61a82svjm4kr"
-path.s3tc="res://.godot/imported/pipe_1_pipe_1.jpg-784acda049faff2bd06a03778bf29f7b.s3tc.ctex"
+path.s3tc="res://.godot/imported/pipe_1_pipe_1.jpg-c780e85a9cc2664c8dab01068da2d31a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/pipe_1_pipe_1.jpg"
-dest_files=["res://.godot/imported/pipe_1_pipe_1.jpg-784acda049faff2bd06a03778bf29f7b.s3tc.ctex"]
+source_file="res://Assets/glb/psx_bunker/pipe_1_pipe_1.jpg"
+dest_files=["res://.godot/imported/pipe_1_pipe_1.jpg-c780e85a9cc2664c8dab01068da2d31a.s3tc.ctex"]
 
 [params]
 

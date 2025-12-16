@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://o0cnub4lcrau"
-path.s3tc="res://.godot/imported/arc_1_wall_2_2_wood_painted_white_mp_1.png-e6b562cf80807eeacc1e564193b6e102.s3tc.ctex"
+path.s3tc="res://.godot/imported/arc_1_wall_2_2_wood_painted_white_mp_1.png-f3d31a93e76aba9d057a37e6d091b1dc.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_2_2_wood_painted_white_mp_1.png"
-dest_files=["res://.godot/imported/arc_1_wall_2_2_wood_painted_white_mp_1.png-e6b562cf80807eeacc1e564193b6e102.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_2_2_wood_painted_white_mp_1.png"
+dest_files=["res://.godot/imported/arc_1_wall_2_2_wood_painted_white_mp_1.png-f3d31a93e76aba9d057a37e6d091b1dc.s3tc.ctex"]
 
 [params]
 

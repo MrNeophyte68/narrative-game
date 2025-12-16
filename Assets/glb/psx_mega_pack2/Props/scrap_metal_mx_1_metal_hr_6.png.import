@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://behksemav7v7b"
-path.s3tc="res://.godot/imported/scrap_metal_mx_1_metal_hr_6.png-894861eb1a176c44dae2d5d07634e58e.s3tc.ctex"
+path.s3tc="res://.godot/imported/scrap_metal_mx_1_metal_hr_6.png-3151243bf04ec9cf1ea50e91b1a95388.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/scrap_metal_mx_1_metal_hr_6.png"
-dest_files=["res://.godot/imported/scrap_metal_mx_1_metal_hr_6.png-894861eb1a176c44dae2d5d07634e58e.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/scrap_metal_mx_1_metal_hr_6.png"
+dest_files=["res://.godot/imported/scrap_metal_mx_1_metal_hr_6.png-3151243bf04ec9cf1ea50e91b1a95388.s3tc.ctex"]
 
 [params]
 

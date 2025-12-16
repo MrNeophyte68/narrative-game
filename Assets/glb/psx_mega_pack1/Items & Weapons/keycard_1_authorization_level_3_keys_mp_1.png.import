@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8awkaaq6x58a"
-path.s3tc="res://.godot/imported/keycard_1_authorization_level_3_keys_mp_1.png-beb9a5f394278c53098b572e2b272384.s3tc.ctex"
+path.s3tc="res://.godot/imported/keycard_1_authorization_level_3_keys_mp_1.png-fd7591bdbe69ac17b46af9194d7c63f9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/keycard_1_authorization_level_3_keys_mp_1.png"
-dest_files=["res://.godot/imported/keycard_1_authorization_level_3_keys_mp_1.png-beb9a5f394278c53098b572e2b272384.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/keycard_1_authorization_level_3_keys_mp_1.png"
+dest_files=["res://.godot/imported/keycard_1_authorization_level_3_keys_mp_1.png-fd7591bdbe69ac17b46af9194d7c63f9.s3tc.ctex"]
 
 [params]
 

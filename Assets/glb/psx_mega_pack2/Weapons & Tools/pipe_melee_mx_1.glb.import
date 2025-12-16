@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dlqnvtplmn5jp"
-path="res://.godot/imported/pipe_melee_mx_1.glb-f32b6fd0d309e6d9bb2db5b8be46a627.scn"
+path="res://.godot/imported/pipe_melee_mx_1.glb-cc3670e49a79b32f061c606389714f6e.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/pipe_melee_mx_1.glb"
-dest_files=["res://.godot/imported/pipe_melee_mx_1.glb-f32b6fd0d309e6d9bb2db5b8be46a627.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/pipe_melee_mx_1.glb"
+dest_files=["res://.godot/imported/pipe_melee_mx_1.glb-cc3670e49a79b32f061c606389714f6e.scn"]
 
 [params]
 

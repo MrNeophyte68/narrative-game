@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://brtoi1igpgjj"
-path="res://.godot/imported/gauge_etx_1_1.glb-a22d0972c47e36b7fbcc96939cd93538.scn"
+path="res://.godot/imported/gauge_etx_1_1.glb-ffd67426a67f447ead1607955a3868f0.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_tech/gauge_etx_1_1.glb"
-dest_files=["res://.godot/imported/gauge_etx_1_1.glb-a22d0972c47e36b7fbcc96939cd93538.scn"]
+source_file="res://Assets/glb/psx_tech/gauge_etx_1_1.glb"
+dest_files=["res://.godot/imported/gauge_etx_1_1.glb-ffd67426a67f447ead1607955a3868f0.scn"]
 
 [params]
 

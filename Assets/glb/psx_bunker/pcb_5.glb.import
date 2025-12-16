@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://db3mr450aicfx"
-path="res://.godot/imported/pcb_5.glb-3f2e1901a45c4fa0e06ebd35696594a8.scn"
+path="res://.godot/imported/pcb_5.glb-36f2fb6857ec350b0e13621dfcf08c83.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/pcb_5.glb"
-dest_files=["res://.godot/imported/pcb_5.glb-3f2e1901a45c4fa0e06ebd35696594a8.scn"]
+source_file="res://Assets/glb/psx_bunker/pcb_5.glb"
+dest_files=["res://.godot/imported/pcb_5.glb-36f2fb6857ec350b0e13621dfcf08c83.scn"]
 
 [params]
 

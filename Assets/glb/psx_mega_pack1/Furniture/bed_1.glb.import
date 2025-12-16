@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ccb83mwtmuc4c"
-path="res://.godot/imported/bed_1.glb-45d434b095a3c221340d2d3533e0aa9a.scn"
+path="res://.godot/imported/bed_1.glb-6da258a7e5f454e16521c9f85cb8f214.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Furniture/bed_1.glb"
-dest_files=["res://.godot/imported/bed_1.glb-45d434b095a3c221340d2d3533e0aa9a.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Furniture/bed_1.glb"
+dest_files=["res://.godot/imported/bed_1.glb-6da258a7e5f454e16521c9f85cb8f214.scn"]
 
 [params]
 

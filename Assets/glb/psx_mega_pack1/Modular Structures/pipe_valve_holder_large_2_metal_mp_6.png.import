@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtg78717c4eqv"
-path.s3tc="res://.godot/imported/pipe_valve_holder_large_2_metal_mp_6.png-2a79dd9a1512c4344a6fb6465e141d48.s3tc.ctex"
+path.s3tc="res://.godot/imported/pipe_valve_holder_large_2_metal_mp_6.png-0c19d3f48f0321f63c1e0159f570bdfd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/pipe_valve_holder_large_2_metal_mp_6.png"
-dest_files=["res://.godot/imported/pipe_valve_holder_large_2_metal_mp_6.png-2a79dd9a1512c4344a6fb6465e141d48.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/pipe_valve_holder_large_2_metal_mp_6.png"
+dest_files=["res://.godot/imported/pipe_valve_holder_large_2_metal_mp_6.png-0c19d3f48f0321f63c1e0159f570bdfd.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cdklrl1f1mw8o"
-path="res://.godot/imported/shed_ax_1.glb-bbe9ef4ef53002180c51b77045de58dd.scn"
+path="res://.godot/imported/shed_ax_1.glb-16d0d3efd345bc54b9c88260a3e083f8.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Buildings/shed_ax_1.glb"
-dest_files=["res://.godot/imported/shed_ax_1.glb-bbe9ef4ef53002180c51b77045de58dd.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Buildings/shed_ax_1.glb"
+dest_files=["res://.godot/imported/shed_ax_1.glb-16d0d3efd345bc54b9c88260a3e083f8.scn"]
 
 [params]
 

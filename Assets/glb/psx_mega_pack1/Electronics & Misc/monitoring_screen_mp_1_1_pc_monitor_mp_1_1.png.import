@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckunosq735uqy"
-path.s3tc="res://.godot/imported/monitoring_screen_mp_1_1_pc_monitor_mp_1_1.png-c149d07c53fc3c77ccb8815c4fe586ac.s3tc.ctex"
+path.s3tc="res://.godot/imported/monitoring_screen_mp_1_1_pc_monitor_mp_1_1.png-b94c3aab93e0fc9181cd9ea442e407fd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/monitoring_screen_mp_1_1_pc_monitor_mp_1_1.png"
-dest_files=["res://.godot/imported/monitoring_screen_mp_1_1_pc_monitor_mp_1_1.png-c149d07c53fc3c77ccb8815c4fe586ac.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/monitoring_screen_mp_1_1_pc_monitor_mp_1_1.png"
+dest_files=["res://.godot/imported/monitoring_screen_mp_1_1_pc_monitor_mp_1_1.png-b94c3aab93e0fc9181cd9ea442e407fd.s3tc.ctex"]
 
 [params]
 

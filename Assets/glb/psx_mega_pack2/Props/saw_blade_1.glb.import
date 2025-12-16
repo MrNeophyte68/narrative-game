@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://fl3tmvqvm5i8"
-path="res://.godot/imported/saw_blade_1.glb-70d1682e76eefa2ea972b1a477123aed.scn"
+path="res://.godot/imported/saw_blade_1.glb-7df3db4e878ba7831b8eb1517171d0dc.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/saw_blade_1.glb"
-dest_files=["res://.godot/imported/saw_blade_1.glb-70d1682e76eefa2ea972b1a477123aed.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/saw_blade_1.glb"
+dest_files=["res://.godot/imported/saw_blade_1.glb-7df3db4e878ba7831b8eb1517171d0dc.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmwjoukqqh35c"
-path.s3tc="res://.godot/imported/boiler_hx_4_wall_rg_1.png-15ea6b80b36de197ec931d04bd4fce73.s3tc.ctex"
+path.s3tc="res://.godot/imported/boiler_hx_4_wall_rg_1.png-97adf6258790b1a5e39fdb50dc14ecee.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Structures/boiler_hx_4_wall_rg_1.png"
-dest_files=["res://.godot/imported/boiler_hx_4_wall_rg_1.png-15ea6b80b36de197ec931d04bd4fce73.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Structures/boiler_hx_4_wall_rg_1.png"
+dest_files=["res://.godot/imported/boiler_hx_4_wall_rg_1.png-97adf6258790b1a5e39fdb50dc14ecee.s3tc.ctex"]
 
 [params]
 

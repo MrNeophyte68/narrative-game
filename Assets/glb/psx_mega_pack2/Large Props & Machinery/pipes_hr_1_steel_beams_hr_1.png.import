@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bua4jx30uxe6r"
-path.s3tc="res://.godot/imported/pipes_hr_1_steel_beams_hr_1.png-c01d317b2a497b2261f3725707386cbb.s3tc.ctex"
+path.s3tc="res://.godot/imported/pipes_hr_1_steel_beams_hr_1.png-8e0ac863e97d43836420f42cdf06a885.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/pipes_hr_1_steel_beams_hr_1.png"
-dest_files=["res://.godot/imported/pipes_hr_1_steel_beams_hr_1.png-c01d317b2a497b2261f3725707386cbb.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/pipes_hr_1_steel_beams_hr_1.png"
+dest_files=["res://.godot/imported/pipes_hr_1_steel_beams_hr_1.png-8e0ac863e97d43836420f42cdf06a885.s3tc.ctex"]
 
 [params]
 

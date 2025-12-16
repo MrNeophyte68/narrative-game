@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://ofjv1ulpj4nl"
-path="res://.godot/imported/CreatoDisplay-BlackItalic.otf-ff7725b2fb3a9543c7655ad8e13d46f2.fontdata"
+path="res://.godot/imported/CreatoDisplay-BlackItalic.otf-33fda9561aba19bbd142aec49f2160ac.fontdata"
 
 [deps]
 
-source_file="res://assets/font/creato_display/CreatoDisplay-BlackItalic.otf"
-dest_files=["res://.godot/imported/CreatoDisplay-BlackItalic.otf-ff7725b2fb3a9543c7655ad8e13d46f2.fontdata"]
+source_file="res://Assets/font/creato_display/CreatoDisplay-BlackItalic.otf"
+dest_files=["res://.godot/imported/CreatoDisplay-BlackItalic.otf-33fda9561aba19bbd142aec49f2160ac.fontdata"]
 
 [params]
 

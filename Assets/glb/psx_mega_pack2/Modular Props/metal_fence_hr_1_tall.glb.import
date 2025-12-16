@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b32uccgb37dnr"
-path="res://.godot/imported/metal_fence_hr_1_tall.glb-48e937820b7031ac87bdb778d8c51f33.scn"
+path="res://.godot/imported/metal_fence_hr_1_tall.glb-a49af7ab66aca92c1b43a35ca98bc510.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Props/metal_fence_hr_1_tall.glb"
-dest_files=["res://.godot/imported/metal_fence_hr_1_tall.glb-48e937820b7031ac87bdb778d8c51f33.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Props/metal_fence_hr_1_tall.glb"
+dest_files=["res://.godot/imported/metal_fence_hr_1_tall.glb-a49af7ab66aca92c1b43a35ca98bc510.scn"]
 
 [params]
 

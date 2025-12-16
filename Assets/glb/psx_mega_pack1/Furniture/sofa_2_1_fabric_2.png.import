@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0rfpyih0u0ao"
-path.s3tc="res://.godot/imported/sofa_2_1_fabric_2.png-4629b81997e1f2560e517311c62371b0.s3tc.ctex"
+path.s3tc="res://.godot/imported/sofa_2_1_fabric_2.png-12a482c21eef6136ad5bb87f2350abb4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Furniture/sofa_2_1_fabric_2.png"
-dest_files=["res://.godot/imported/sofa_2_1_fabric_2.png-4629b81997e1f2560e517311c62371b0.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Furniture/sofa_2_1_fabric_2.png"
+dest_files=["res://.godot/imported/sofa_2_1_fabric_2.png-12a482c21eef6136ad5bb87f2350abb4.s3tc.ctex"]
 
 [params]
 

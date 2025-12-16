@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cda4dyjt2d3b1"
-path.s3tc="res://.godot/imported/metal_shelf_1_metal_6.png-3b1d93ed36d1ec94cacaa6a2a033939b.s3tc.ctex"
+path.s3tc="res://.godot/imported/metal_shelf_1_metal_6.png-3237218767bd769953700fd325939939.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/metal_shelf_1_metal_6.png"
-dest_files=["res://.godot/imported/metal_shelf_1_metal_6.png-3b1d93ed36d1ec94cacaa6a2a033939b.s3tc.ctex"]
+source_file="res://Assets/glb/psx_bunker/metal_shelf_1_metal_6.png"
+dest_files=["res://.godot/imported/metal_shelf_1_metal_6.png-3237218767bd769953700fd325939939.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://uolmr83rv2r0"
-path.s3tc="res://.godot/imported/tunnel_entrance_platform_1_metal_mp_6.png-95bf08159f48928c23b3eaaaf0a07c8f.s3tc.ctex"
+path.s3tc="res://.godot/imported/tunnel_entrance_platform_1_metal_mp_6.png-1b2ea7b37069e9dac85ce7d29a15d449.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/tunnel_entrance_platform_1_metal_mp_6.png"
-dest_files=["res://.godot/imported/tunnel_entrance_platform_1_metal_mp_6.png-95bf08159f48928c23b3eaaaf0a07c8f.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/tunnel_entrance_platform_1_metal_mp_6.png"
+dest_files=["res://.godot/imported/tunnel_entrance_platform_1_metal_mp_6.png-1b2ea7b37069e9dac85ce7d29a15d449.s3tc.ctex"]
 
 [params]
 

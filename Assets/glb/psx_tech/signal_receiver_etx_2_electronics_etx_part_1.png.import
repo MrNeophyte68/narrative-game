@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7pdgv4a821q0"
-path.s3tc="res://.godot/imported/signal_receiver_etx_2_electronics_etx_part_1.png-b826d071f08d97e70820f8ce2c32a8dc.s3tc.ctex"
+path.s3tc="res://.godot/imported/signal_receiver_etx_2_electronics_etx_part_1.png-f81b686793cdb14bd914e54c53c25ef8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_tech/signal_receiver_etx_2_electronics_etx_part_1.png"
-dest_files=["res://.godot/imported/signal_receiver_etx_2_electronics_etx_part_1.png-b826d071f08d97e70820f8ce2c32a8dc.s3tc.ctex"]
+source_file="res://Assets/glb/psx_tech/signal_receiver_etx_2_electronics_etx_part_1.png"
+dest_files=["res://.godot/imported/signal_receiver_etx_2_electronics_etx_part_1.png-f81b686793cdb14bd914e54c53c25ef8.s3tc.ctex"]
 
 [params]
 

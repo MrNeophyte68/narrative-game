@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://8j4gifwoq5hw"
-path.s3tc="res://.godot/imported/fence_e_pillar_1_metal_hr_2.png-eaac29c3c49eff2a9ce56af42bdac7ac.s3tc.ctex"
+path.s3tc="res://.godot/imported/fence_e_pillar_1_metal_hr_2.png-30973b8d96e6ab876974f607b7700b91.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Props/fence_e_pillar_1_metal_hr_2.png"
-dest_files=["res://.godot/imported/fence_e_pillar_1_metal_hr_2.png-eaac29c3c49eff2a9ce56af42bdac7ac.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Props/fence_e_pillar_1_metal_hr_2.png"
+dest_files=["res://.godot/imported/fence_e_pillar_1_metal_hr_2.png-30973b8d96e6ab876974f607b7700b91.s3tc.ctex"]
 
 [params]
 

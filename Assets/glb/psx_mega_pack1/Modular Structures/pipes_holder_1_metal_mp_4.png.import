@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ml4wjs74pjso"
-path.s3tc="res://.godot/imported/pipes_holder_1_metal_mp_4.png-7465e9cdc694554bab1f2f7cc236f1fb.s3tc.ctex"
+path.s3tc="res://.godot/imported/pipes_holder_1_metal_mp_4.png-5b6843a2d8802717073a6fb5a2602d4e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/pipes_holder_1_metal_mp_4.png"
-dest_files=["res://.godot/imported/pipes_holder_1_metal_mp_4.png-7465e9cdc694554bab1f2f7cc236f1fb.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/pipes_holder_1_metal_mp_4.png"
+dest_files=["res://.godot/imported/pipes_holder_1_metal_mp_4.png-5b6843a2d8802717073a6fb5a2602d4e.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yrniweb6lvmv"
-path.s3tc="res://.godot/imported/warehouse_hs_1_roof_1_metal_hr_2.png-5f7fe5a3b0abf1cbd902fff485d556ca.s3tc.ctex"
+path.s3tc="res://.godot/imported/warehouse_hs_1_roof_1_metal_hr_2.png-03aea25a5e8479a9f089aebf7490b9aa.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Structures/warehouse_hs_1_roof_1_metal_hr_2.png"
-dest_files=["res://.godot/imported/warehouse_hs_1_roof_1_metal_hr_2.png-5f7fe5a3b0abf1cbd902fff485d556ca.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/warehouse_hs_1_roof_1_metal_hr_2.png"
+dest_files=["res://.godot/imported/warehouse_hs_1_roof_1_metal_hr_2.png-03aea25a5e8479a9f089aebf7490b9aa.s3tc.ctex"]
 
 [params]
 

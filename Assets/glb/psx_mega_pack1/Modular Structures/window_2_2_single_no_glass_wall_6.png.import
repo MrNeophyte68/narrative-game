@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brh6tg5qtjm8l"
-path.s3tc="res://.godot/imported/window_2_2_single_no_glass_wall_6.png-5a404a76e9063cc5672f9cd321a7f538.s3tc.ctex"
+path.s3tc="res://.godot/imported/window_2_2_single_no_glass_wall_6.png-e386e169ae00af3778e9d08f735a6a25.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/window_2_2_single_no_glass_wall_6.png"
-dest_files=["res://.godot/imported/window_2_2_single_no_glass_wall_6.png-5a404a76e9063cc5672f9cd321a7f538.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/window_2_2_single_no_glass_wall_6.png"
+dest_files=["res://.godot/imported/window_2_2_single_no_glass_wall_6.png-e386e169ae00af3778e9d08f735a6a25.s3tc.ctex"]
 
 [params]
 

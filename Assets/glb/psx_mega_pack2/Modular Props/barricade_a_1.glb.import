@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://j4dhcm8x6085"
-path="res://.godot/imported/barricade_a_1.glb-ff2bb579f784cfc80b4ecdb55b9abf94.scn"
+path="res://.godot/imported/barricade_a_1.glb-954faf9991c8269a078dc85b99b77b4e.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Props/barricade_a_1.glb"
-dest_files=["res://.godot/imported/barricade_a_1.glb-ff2bb579f784cfc80b4ecdb55b9abf94.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Props/barricade_a_1.glb"
+dest_files=["res://.godot/imported/barricade_a_1.glb-954faf9991c8269a078dc85b99b77b4e.scn"]
 
 [params]
 

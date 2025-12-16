@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cs6vlfihd3v0f"
-path.s3tc="res://.godot/imported/shed_ax_4_planks_hr_3.png-707098dc12c5330b23935a3b5a0c3aa0.s3tc.ctex"
+path.s3tc="res://.godot/imported/shed_ax_4_planks_hr_3.png-b3f1704d7deb14ac109b7f68d180d7f7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Buildings/shed_ax_4_planks_hr_3.png"
-dest_files=["res://.godot/imported/shed_ax_4_planks_hr_3.png-707098dc12c5330b23935a3b5a0c3aa0.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Buildings/shed_ax_4_planks_hr_3.png"
+dest_files=["res://.godot/imported/shed_ax_4_planks_hr_3.png-b3f1704d7deb14ac109b7f68d180d7f7.s3tc.ctex"]
 
 [params]
 

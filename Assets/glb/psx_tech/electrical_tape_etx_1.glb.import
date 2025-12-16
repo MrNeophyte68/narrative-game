@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dlcte7vyhgr3o"
-path="res://.godot/imported/electrical_tape_etx_1.glb-2135e8b20612f984c2a028a7dc801b9c.scn"
+path="res://.godot/imported/electrical_tape_etx_1.glb-7ad643efc0989596238067ccd0e8f775.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_tech/electrical_tape_etx_1.glb"
-dest_files=["res://.godot/imported/electrical_tape_etx_1.glb-2135e8b20612f984c2a028a7dc801b9c.scn"]
+source_file="res://Assets/glb/psx_tech/electrical_tape_etx_1.glb"
+dest_files=["res://.godot/imported/electrical_tape_etx_1.glb-7ad643efc0989596238067ccd0e8f775.scn"]
 
 [params]
 

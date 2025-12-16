@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b50r40t4t3pcv"
-path="res://.godot/imported/mask_mx_2_1.glb-e133c736b2252f8de57e6362b063950f.scn"
+path="res://.godot/imported/mask_mx_2_1.glb-389453a415a089b1d955b8fe4cb429e5.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Masks/mask_mx_2_1.glb"
-dest_files=["res://.godot/imported/mask_mx_2_1.glb-e133c736b2252f8de57e6362b063950f.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Masks/mask_mx_2_1.glb"
+dest_files=["res://.godot/imported/mask_mx_2_1.glb-389453a415a089b1d955b8fe4cb429e5.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dunrqld3xkmnl"
-path.s3tc="res://.godot/imported/generator_1_metal_4.png-7d10d58cfec142bd26cc3b53ce529a33.s3tc.ctex"
+path.s3tc="res://.godot/imported/generator_1_metal_4.png-e6b7c94ce32c7538a1c15522f9acea34.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/generator_1_metal_4.png"
-dest_files=["res://.godot/imported/generator_1_metal_4.png-7d10d58cfec142bd26cc3b53ce529a33.s3tc.ctex"]
+source_file="res://Assets/glb/psx_bunker/generator_1_metal_4.png"
+dest_files=["res://.godot/imported/generator_1_metal_4.png-e6b7c94ce32c7538a1c15522f9acea34.s3tc.ctex"]
 
 [params]
 

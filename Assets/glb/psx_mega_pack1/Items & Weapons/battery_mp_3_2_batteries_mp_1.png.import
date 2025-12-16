@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ps57md2nrb1v"
-path.s3tc="res://.godot/imported/battery_mp_3_2_batteries_mp_1.png-f283349f190a26c204af0f05ec0886e7.s3tc.ctex"
+path.s3tc="res://.godot/imported/battery_mp_3_2_batteries_mp_1.png-fbc1026b8539f76e6413546e2643c600.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/battery_mp_3_2_batteries_mp_1.png"
-dest_files=["res://.godot/imported/battery_mp_3_2_batteries_mp_1.png-f283349f190a26c204af0f05ec0886e7.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/battery_mp_3_2_batteries_mp_1.png"
+dest_files=["res://.godot/imported/battery_mp_3_2_batteries_mp_1.png-fbc1026b8539f76e6413546e2643c600.s3tc.ctex"]
 
 [params]
 

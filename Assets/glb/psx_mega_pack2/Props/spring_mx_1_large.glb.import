@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cmg2atu7m08n0"
-path="res://.godot/imported/spring_mx_1_large.glb-370cbe6d8545336af52c7bf11cefbf62.scn"
+path="res://.godot/imported/spring_mx_1_large.glb-2ff4662357ca313161ab0495930bdd86.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/spring_mx_1_large.glb"
-dest_files=["res://.godot/imported/spring_mx_1_large.glb-370cbe6d8545336af52c7bf11cefbf62.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/spring_mx_1_large.glb"
+dest_files=["res://.godot/imported/spring_mx_1_large.glb-2ff4662357ca313161ab0495930bdd86.scn"]
 
 [params]
 

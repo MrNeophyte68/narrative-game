@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cigwj81iqovib"
-path.s3tc="res://.godot/imported/pillar_rgx_2_steel_beams_hr_1.png-868505cb8521dd75adcf7e244245657f.s3tc.ctex"
+path.s3tc="res://.godot/imported/pillar_rgx_2_steel_beams_hr_1.png-0689ab04397834c9748a6d48fd1661c3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Structures/pillar_rgx_2_steel_beams_hr_1.png"
-dest_files=["res://.godot/imported/pillar_rgx_2_steel_beams_hr_1.png-868505cb8521dd75adcf7e244245657f.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/pillar_rgx_2_steel_beams_hr_1.png"
+dest_files=["res://.godot/imported/pillar_rgx_2_steel_beams_hr_1.png-0689ab04397834c9748a6d48fd1661c3.s3tc.ctex"]
 
 [params]
 

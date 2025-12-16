@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxotsgqpwk360"
-path.s3tc="res://.godot/imported/floor_1_concrete_1.png-5bb37a5bb218b30aa68ecc90cd005fb7.s3tc.ctex"
+path.s3tc="res://.godot/imported/floor_1_concrete_1.png-51677749218a2f4bc05f02b730f5b07c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/floor_1_concrete_1.png"
-dest_files=["res://.godot/imported/floor_1_concrete_1.png-5bb37a5bb218b30aa68ecc90cd005fb7.s3tc.ctex"]
+source_file="res://Assets/glb/psx_bunker/floor_1_concrete_1.png"
+dest_files=["res://.godot/imported/floor_1_concrete_1.png-51677749218a2f4bc05f02b730f5b07c.s3tc.ctex"]
 
 [params]
 

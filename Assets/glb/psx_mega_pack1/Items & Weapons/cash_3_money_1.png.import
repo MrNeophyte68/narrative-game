@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwj0ldsdrmw6n"
-path.s3tc="res://.godot/imported/cash_3_money_1.png-2a99b3174fa53019050e999e78c7ef6e.s3tc.ctex"
+path.s3tc="res://.godot/imported/cash_3_money_1.png-f587c5738c4997031df2e3a1d57251ab.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/cash_3_money_1.png"
-dest_files=["res://.godot/imported/cash_3_money_1.png-2a99b3174fa53019050e999e78c7ef6e.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/cash_3_money_1.png"
+dest_files=["res://.godot/imported/cash_3_money_1.png-f587c5738c4997031df2e3a1d57251ab.s3tc.ctex"]
 
 [params]
 

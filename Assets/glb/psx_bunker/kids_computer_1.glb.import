@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b71m28olagh0r"
-path="res://.godot/imported/kids_computer_1.glb-b34bfaa0b2cc567df7232369ad19afbb.scn"
+path="res://.godot/imported/kids_computer_1.glb-0bce9e763b36a139c73d1f53d69fb7ed.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/kids_computer_1.glb"
-dest_files=["res://.godot/imported/kids_computer_1.glb-b34bfaa0b2cc567df7232369ad19afbb.scn"]
+source_file="res://Assets/glb/psx_bunker/kids_computer_1.glb"
+dest_files=["res://.godot/imported/kids_computer_1.glb-0bce9e763b36a139c73d1f53d69fb7ed.scn"]
 
 [params]
 

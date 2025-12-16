@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bd7in8fmbxc3"
-path="res://.godot/imported/garage_hm_2.glb-1240ad5992aa4573abdb2fc8f9c3f917.scn"
+path="res://.godot/imported/garage_hm_2.glb-c72db11d49cc98d8e7cb943122a2ed4a.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Buildings/garage_hm_2.glb"
-dest_files=["res://.godot/imported/garage_hm_2.glb-1240ad5992aa4573abdb2fc8f9c3f917.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Buildings/garage_hm_2.glb"
+dest_files=["res://.godot/imported/garage_hm_2.glb-c72db11d49cc98d8e7cb943122a2ed4a.scn"]
 
 [params]
 

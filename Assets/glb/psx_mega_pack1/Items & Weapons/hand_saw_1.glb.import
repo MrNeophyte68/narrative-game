@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://5fm60f0uw5rl"
-path="res://.godot/imported/hand_saw_1.glb-34c2a4d0bd8cdb476dc156b5d4a98ca4.scn"
+path="res://.godot/imported/hand_saw_1.glb-f9bbd637d8c710e38ba76a96b9306749.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/hand_saw_1.glb"
-dest_files=["res://.godot/imported/hand_saw_1.glb-34c2a4d0bd8cdb476dc156b5d4a98ca4.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/hand_saw_1.glb"
+dest_files=["res://.godot/imported/hand_saw_1.glb-f9bbd637d8c710e38ba76a96b9306749.scn"]
 
 [params]
 

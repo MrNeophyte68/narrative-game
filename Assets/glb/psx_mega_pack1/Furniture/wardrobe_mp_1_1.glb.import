@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d0y3ayy520jol"
-path="res://.godot/imported/wardrobe_mp_1_1.glb-d4c95f86df38b66049177142474749b3.scn"
+path="res://.godot/imported/wardrobe_mp_1_1.glb-dda34da1830bf5329f17e690c9c0508a.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Furniture/wardrobe_mp_1_1.glb"
-dest_files=["res://.godot/imported/wardrobe_mp_1_1.glb-d4c95f86df38b66049177142474749b3.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Furniture/wardrobe_mp_1_1.glb"
+dest_files=["res://.godot/imported/wardrobe_mp_1_1.glb-dda34da1830bf5329f17e690c9c0508a.scn"]
 
 [params]
 

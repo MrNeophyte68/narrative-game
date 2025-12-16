@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dm8tyqt73wbjj"
-path="res://.godot/imported/blast_door_1_frame.glb-79b7c72fe7a8766532a0c0197d67bd61.scn"
+path="res://.godot/imported/blast_door_1_frame.glb-676644a496de328eff3fed38d98ec9c1.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/blast_door_1_frame.glb"
-dest_files=["res://.godot/imported/blast_door_1_frame.glb-79b7c72fe7a8766532a0c0197d67bd61.scn"]
+source_file="res://Assets/glb/psx_bunker/blast_door_1_frame.glb"
+dest_files=["res://.godot/imported/blast_door_1_frame.glb-676644a496de328eff3fed38d98ec9c1.scn"]
 
 [params]
 

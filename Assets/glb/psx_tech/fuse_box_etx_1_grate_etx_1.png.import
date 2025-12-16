@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqjcjoamakymq"
-path.s3tc="res://.godot/imported/fuse_box_etx_1_grate_etx_1.png-831edb394874f1fda9cfdc7680543ede.s3tc.ctex"
+path.s3tc="res://.godot/imported/fuse_box_etx_1_grate_etx_1.png-b719ed8b0a5ed7beed63fb2f750f9f49.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_tech/fuse_box_etx_1_grate_etx_1.png"
-dest_files=["res://.godot/imported/fuse_box_etx_1_grate_etx_1.png-831edb394874f1fda9cfdc7680543ede.s3tc.ctex"]
+source_file="res://Assets/glb/psx_tech/fuse_box_etx_1_grate_etx_1.png"
+dest_files=["res://.godot/imported/fuse_box_etx_1_grate_etx_1.png-b719ed8b0a5ed7beed63fb2f750f9f49.s3tc.ctex"]
 
 [params]
 

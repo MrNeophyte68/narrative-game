@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cbo4mey4x5kpp"
-path.s3tc="res://.godot/imported/ceiling_lamp_4_1_on_lamp_3.png-5348bacd63663c904cccb64ad5306b67.s3tc.ctex"
+path.s3tc="res://.godot/imported/ceiling_lamp_4_1_on_lamp_3.png-d943fb9b93ab9308fd4072022dd9ba5d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Lighting/ceiling_lamp_4_1_on_lamp_3.png"
-dest_files=["res://.godot/imported/ceiling_lamp_4_1_on_lamp_3.png-5348bacd63663c904cccb64ad5306b67.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Lighting/ceiling_lamp_4_1_on_lamp_3.png"
+dest_files=["res://.godot/imported/ceiling_lamp_4_1_on_lamp_3.png-d943fb9b93ab9308fd4072022dd9ba5d.s3tc.ctex"]
 
 [params]
 

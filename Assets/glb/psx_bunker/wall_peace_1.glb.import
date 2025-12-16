@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dx7esdfkupf3"
-path="res://.godot/imported/wall_peace_1.glb-5c1dff2bcbd8387773589c297a94710c.scn"
+path="res://.godot/imported/wall_peace_1.glb-4be0614997053a6a8bb8eb77ea914fca.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/wall_peace_1.glb"
-dest_files=["res://.godot/imported/wall_peace_1.glb-5c1dff2bcbd8387773589c297a94710c.scn"]
+source_file="res://Assets/glb/psx_bunker/wall_peace_1.glb"
+dest_files=["res://.godot/imported/wall_peace_1.glb-4be0614997053a6a8bb8eb77ea914fca.scn"]
 
 [params]
 

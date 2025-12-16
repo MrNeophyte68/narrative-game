@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bt2qbl0tasg10"
-path.s3tc="res://.godot/imported/garage_hm_2_garage_door_hm_7.png-1714a9d74e9702e723bee67765c378c6.s3tc.ctex"
+path.s3tc="res://.godot/imported/garage_hm_2_garage_door_hm_7.png-b5957d6b82f0711f2acef9f686d8c689.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Buildings/garage_hm_2_garage_door_hm_7.png"
-dest_files=["res://.godot/imported/garage_hm_2_garage_door_hm_7.png-1714a9d74e9702e723bee67765c378c6.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Buildings/garage_hm_2_garage_door_hm_7.png"
+dest_files=["res://.godot/imported/garage_hm_2_garage_door_hm_7.png-b5957d6b82f0711f2acef9f686d8c689.s3tc.ctex"]
 
 [params]
 

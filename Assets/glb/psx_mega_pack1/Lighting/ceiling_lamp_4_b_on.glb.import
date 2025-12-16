@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dltpfs74no2ap"
-path="res://.godot/imported/ceiling_lamp_4_b_on.glb-05b7b08d13a40d076df00c0a7874c97c.scn"
+path="res://.godot/imported/ceiling_lamp_4_b_on.glb-9673fdfa5b7104026a72fc3c086c0732.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Lighting/ceiling_lamp_4_b_on.glb"
-dest_files=["res://.godot/imported/ceiling_lamp_4_b_on.glb-05b7b08d13a40d076df00c0a7874c97c.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Lighting/ceiling_lamp_4_b_on.glb"
+dest_files=["res://.godot/imported/ceiling_lamp_4_b_on.glb-9673fdfa5b7104026a72fc3c086c0732.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clnfj32gi5jak"
-path.s3tc="res://.godot/imported/pipe_cx_1_concrete_hr_4.png-fe3a8007116d5bfedbc9e8e822599775.s3tc.ctex"
+path.s3tc="res://.godot/imported/pipe_cx_1_concrete_hr_4.png-ef98ae301ea213ebeaf290230e0c33f2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Structures/pipe_cx_1_concrete_hr_4.png"
-dest_files=["res://.godot/imported/pipe_cx_1_concrete_hr_4.png-fe3a8007116d5bfedbc9e8e822599775.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/pipe_cx_1_concrete_hr_4.png"
+dest_files=["res://.godot/imported/pipe_cx_1_concrete_hr_4.png-ef98ae301ea213ebeaf290230e0c33f2.s3tc.ctex"]
 
 [params]
 

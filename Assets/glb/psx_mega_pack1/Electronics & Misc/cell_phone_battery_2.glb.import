@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://chsbp2ccvco1x"
-path="res://.godot/imported/cell_phone_battery_2.glb-bc056ac4ea38721c4b8971f45dffebc0.scn"
+path="res://.godot/imported/cell_phone_battery_2.glb-ee621f1853934b84c20ed39b037ed513.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/cell_phone_battery_2.glb"
-dest_files=["res://.godot/imported/cell_phone_battery_2.glb-bc056ac4ea38721c4b8971f45dffebc0.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/cell_phone_battery_2.glb"
+dest_files=["res://.godot/imported/cell_phone_battery_2.glb-ee621f1853934b84c20ed39b037ed513.scn"]
 
 [params]
 

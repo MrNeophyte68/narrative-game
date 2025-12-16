@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dxm57bb3tgmlt"
-path="res://.godot/imported/window_metal_bars_double.glb-511b9fabfb9fe34153875a459e70c30d.scn"
+path="res://.godot/imported/window_metal_bars_double.glb-75713ea2770ecdb0e702b7d29fd9ebfa.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/window_metal_bars_double.glb"
-dest_files=["res://.godot/imported/window_metal_bars_double.glb-511b9fabfb9fe34153875a459e70c30d.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/window_metal_bars_double.glb"
+dest_files=["res://.godot/imported/window_metal_bars_double.glb-75713ea2770ecdb0e702b7d29fd9ebfa.scn"]
 
 [params]
 
