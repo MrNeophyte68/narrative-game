@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dasco4bdquib6"
+uid="uid://bgh1g2ptvel16"
 path.s3tc="res://.godot/imported/doorway_rg_2_wide_door_hm_3.png-a77f6f6102941c3ebf83725e4de38e93.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "55c29a36510d5958d46ee80f58d2b9f9"
 }
 
 [deps]

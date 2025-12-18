@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://di6p022r1k7nm"
+uid="uid://5b0lfvjtug6d"
 path.s3tc="res://.godot/imported/cobweb_2_cobweb_2.png-c979844be4dee33bd3d38fa8424dd430.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "46406e7aa57ffb3822e53915c32f8de5"
 }
 
 [deps]

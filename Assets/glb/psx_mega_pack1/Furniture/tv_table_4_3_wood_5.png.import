@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://lvq3nti7qtjq"
+uid="uid://dnmrqtnj4gps4"
 path.s3tc="res://.godot/imported/tv_table_4_3_wood_5.png-105cd0f18f0ab44ffc4649ffd1407a82.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "7d331191197d1b81cdb300945e9aae0f"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bju1y5k5ljqar"
+uid="uid://bvpx84n6pqerj"
 path.s3tc="res://.godot/imported/lever_etx_7_electronics_etx_part_1.png-89813e093127587ca324830619f7811a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "0da64dbe590d2fc3da4129f98394ce29"
 }
 
 [deps]

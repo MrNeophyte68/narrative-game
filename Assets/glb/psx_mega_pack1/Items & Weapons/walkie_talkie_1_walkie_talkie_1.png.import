@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d26n7ec0ynydx"
+uid="uid://seowg2iie2w8"
 path.s3tc="res://.godot/imported/walkie_talkie_1_walkie_talkie_1.png-5961d49defea87f3fe91152a16d87006.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "e4e6e3aab5fc5ce1d19f5f51f18d562f"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d2omsusm1lbk"
+uid="uid://byt0m1t0gfdsp"
 path.s3tc="res://.godot/imported/ball_bearing_mx_1_2_large_metal_hr_6.png-e3c16ef166f30d53ab611779ee65aeef.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "3a8030112746fc1290c09b75be604fdc"
 }
 
 [deps]

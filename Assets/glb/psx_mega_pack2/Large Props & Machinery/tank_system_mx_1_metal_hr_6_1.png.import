@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ceo6tgc1n5d3i"
+uid="uid://dn43jy1jqs2he"
 path.s3tc="res://.godot/imported/tank_system_mx_1_metal_hr_6_1.png-47639bc896fe579aa26fa877d80a2fcf.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "a2e18f687d11ab37f21102d5fe7c470f"
 }
 
 [deps]

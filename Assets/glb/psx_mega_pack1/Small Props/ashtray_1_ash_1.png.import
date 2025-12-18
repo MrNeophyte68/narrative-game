@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c4vqb5rqhwsp4"
+uid="uid://dde8fqvdajv0w"
 path.s3tc="res://.godot/imported/ashtray_1_ash_1.png-d87ede0a375683a2ac0e37cd64a9d896.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "7096661435cd7373df832f21f72cc0e7"
 }
 
 [deps]

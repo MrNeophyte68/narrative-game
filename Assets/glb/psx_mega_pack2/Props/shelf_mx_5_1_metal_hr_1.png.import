@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1ukuxk44k6fb"
+uid="uid://3xxw1dm77jxr"
 path.s3tc="res://.godot/imported/shelf_mx_5_1_metal_hr_1.png-bd9411517dc222dc3afdd63fda20ff8c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "32c104a4f3bc5c467f232b40e9c1506c"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dpi6ax6nuumjy"
+uid="uid://kdfcpuvfess2"
 path.s3tc="res://.godot/imported/table_large_3_1_wood_3.png-56bf4e32a66efff6c4964ffbc6507b8c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "ba22f0b3d6c9c0dfd7b68f7bd59e51e8"
 }
 
 [deps]

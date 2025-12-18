@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://j8afg7jjalbq"
+uid="uid://nl4fd3y0d1qs"
 path.s3tc="res://.godot/imported/tv_remote_mp_1_tv_remote_mp_1.png-c175e7f35acf1cb87c306d23c17ec9d8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "dbd4708f94c022408fab992cbb14b379"
 }
 
 [deps]

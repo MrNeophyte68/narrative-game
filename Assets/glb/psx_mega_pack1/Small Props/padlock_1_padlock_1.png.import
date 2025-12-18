@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://byadql24rws66"
+uid="uid://0srlqrq2lwcf"
 path.s3tc="res://.godot/imported/padlock_1_padlock_1.png-aaa36b5ab2c004a7c14fb785ebecaa89.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "bbf1f60023058a4a5f609c02f7582e39"
 }
 
 [deps]

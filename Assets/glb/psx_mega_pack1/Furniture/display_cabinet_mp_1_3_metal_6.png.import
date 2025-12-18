@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dapowetst3a2"
+uid="uid://bkxmhnoygkebo"
 path.s3tc="res://.godot/imported/display_cabinet_mp_1_3_metal_6.png-513a1cfef4a5c3f3fe889d8be0b67464.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "1c517bf86d29a1a9cc0e245d7ea26dcf"
 }
 
 [deps]

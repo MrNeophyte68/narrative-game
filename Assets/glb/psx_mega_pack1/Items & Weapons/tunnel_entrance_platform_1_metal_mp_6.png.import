@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://uolmr83rv2r0"
+uid="uid://bxs46nnfedehw"
 path.s3tc="res://.godot/imported/tunnel_entrance_platform_1_metal_mp_6.png-95bf08159f48928c23b3eaaaf0a07c8f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "530f2890b80f915448219acfa58edbb7"
 }
 
 [deps]

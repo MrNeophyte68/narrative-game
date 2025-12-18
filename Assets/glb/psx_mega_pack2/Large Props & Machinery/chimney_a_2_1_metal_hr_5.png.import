@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cokyjvrgs074r"
+uid="uid://c0i2encjqqg0y"
 path.s3tc="res://.godot/imported/chimney_a_2_1_metal_hr_5.png-608b8f2583803ff5755e4d087abec347.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "93fda03b7b7f974d192fb6a95780fa9d"
 }
 
 [deps]

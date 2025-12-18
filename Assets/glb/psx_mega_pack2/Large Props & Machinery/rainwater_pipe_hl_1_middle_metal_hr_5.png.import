@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ba4ll4po8t0rx"
+uid="uid://r8uaqyr6d8qg"
 path.s3tc="res://.godot/imported/rainwater_pipe_hl_1_middle_metal_hr_5.png-a81cdeebbc03fc13295c399abb9f0abb.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "93fda03b7b7f974d192fb6a95780fa9d"
 }
 
 [deps]

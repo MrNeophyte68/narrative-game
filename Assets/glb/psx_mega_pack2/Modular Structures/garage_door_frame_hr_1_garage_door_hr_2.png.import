@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://clmy13uke1l40"
+uid="uid://fott1ksnpnhq"
 path.s3tc="res://.godot/imported/garage_door_frame_hr_1_garage_door_hr_2.png-3762d308dd159e64c2fe94b4cced6c96.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "d61d75ff24c2e77f318fe2018aebe02d"
 }
 
 [deps]

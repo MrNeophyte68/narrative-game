@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vthbi5irlu73"
+uid="uid://mv7nykqtk4xu"
 path.s3tc="res://.godot/imported/pillar_rgx_3_steel_beams_hr_1.png-a17b38263be39fc35de626bc267e96b5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "70d72c6bff35a1f56a368b28bd806d39"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://day5wrecnrpd7"
+uid="uid://83s6imb7kpd1"
 path.s3tc="res://.godot/imported/elevator_doorway_3_elevator_call_button_1.png-7cd77e0058c5e0e59abee9e6f0e5a208.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "b01361a8addbb8ac9e25977783cbe20c"
 }
 
 [deps]

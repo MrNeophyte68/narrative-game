@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5j8wedqix8ur"
+uid="uid://dtunxgaihhgl2"
 path.s3tc="res://.godot/imported/mask_mx_1_1_mask_mx_1.png-ef536e876495abd09240815bd1ce00fb.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "71016cc2bec37405e99fb5d00ecc48fc"
 }
 
 [deps]

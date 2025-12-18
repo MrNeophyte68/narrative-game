@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bxw8db4dk4ctw"
+uid="uid://blr6rlreu6lwn"
 path.s3tc="res://.godot/imported/floor_ceiling_hr_4_concrete_hr_1.png-584803c25cfc8e9c0741d561428837cd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "6b68812ca1192c55adb97820fddac433"
 }
 
 [deps]

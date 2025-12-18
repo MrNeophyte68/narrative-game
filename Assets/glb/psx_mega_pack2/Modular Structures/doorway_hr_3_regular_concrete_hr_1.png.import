@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://doflxneunfis4"
+uid="uid://dmkv8jghp3tlm"
 path.s3tc="res://.godot/imported/doorway_hr_3_regular_concrete_hr_1.png-643beaf3f98ad3995eab19fb8679f0c6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "6b68812ca1192c55adb97820fddac433"
 }
 
 [deps]

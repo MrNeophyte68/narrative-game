@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cppaxkdn6drgt"
+uid="uid://wcdrgocys66t"
 path.s3tc="res://.godot/imported/roof_bx_1_side_metal_hr_5.png-e55bb3ab7ac1df3718f12ee2b220e15a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "93fda03b7b7f974d192fb6a95780fa9d"
 }
 
 [deps]

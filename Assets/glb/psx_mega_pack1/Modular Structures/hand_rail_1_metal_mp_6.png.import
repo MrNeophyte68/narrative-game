@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8sat7yr6edlf"
+uid="uid://bg6rjj7j4qame"
 path.s3tc="res://.godot/imported/hand_rail_1_metal_mp_6.png-1fa7c24e541b7ae84508293f2395f0ab.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "530f2890b80f915448219acfa58edbb7"
 }
 
 [deps]

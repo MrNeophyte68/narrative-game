@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1rx5jgmxsju7"
+uid="uid://vlsc71gd5hb1"
 path.s3tc="res://.godot/imported/speaker_mx_1_2_metal_hr_2.png-4c5511dfc2e12e449d63b0221d96ea49.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "077b0177652e5ec1193a7e03acd48658"
 }
 
 [deps]

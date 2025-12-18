@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmtfqx5gueq6d"
+uid="uid://c0gjf1rxeixd5"
 path.s3tc="res://.godot/imported/pillar_hs_6_concrete_hr_3.png-f6d5989febee8c916f1556b20137a2e6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "080a4fd51e53c2526ee8d6fc757d1640"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bemol47jvyogt"
+uid="uid://bx5pi2ei552la"
 path.s3tc="res://.godot/imported/doorway_1_half_door_frame_wood_1.png-d5cdc328741f80b70170a6389dda2d75.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "466d7a534237dce978f698ba34ec8234"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://by4loc0fxyxqn"
+uid="uid://vy5mx81bsfog"
 path.s3tc="res://.godot/imported/canned_food_mp_3_canned_foods_mp_1.png-18819863012b5dca99cac344b659a316.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "603e07125a41d254b17d12f2dfcd82fb"
 }
 
 [deps]

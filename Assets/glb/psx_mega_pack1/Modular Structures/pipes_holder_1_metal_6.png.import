@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7x03kv8ld12w"
+uid="uid://ccd2wnqtrwsdu"
 path.s3tc="res://.godot/imported/pipes_holder_1_metal_6.png-957a017e2abb0ea66b5695e268d7f27c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "1c517bf86d29a1a9cc0e245d7ea26dcf"
 }
 
 [deps]

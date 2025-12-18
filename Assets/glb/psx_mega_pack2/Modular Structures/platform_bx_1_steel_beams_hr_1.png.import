@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://sjvofok3miv8"
+uid="uid://d4k7xtb448d5t"
 path.s3tc="res://.godot/imported/platform_bx_1_steel_beams_hr_1.png-e6b8a3d853dc7aeb148f16669b4ddfdc.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "70d72c6bff35a1f56a368b28bd806d39"
 }
 
 [deps]

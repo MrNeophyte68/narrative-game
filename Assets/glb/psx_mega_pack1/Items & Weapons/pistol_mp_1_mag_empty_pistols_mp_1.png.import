@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnhvp61ple2q0"
+uid="uid://f5mi38grrquf"
 path.s3tc="res://.godot/imported/pistol_mp_1_mag_empty_pistols_mp_1.png-6feb427d90467d297dea2879b50b6fe9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "65de72339cbba9ae4be0b56a2d509b5d"
 }
 
 [deps]

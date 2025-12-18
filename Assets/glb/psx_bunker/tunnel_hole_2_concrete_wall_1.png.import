@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bgw5w7njom0xi"
+uid="uid://cgm5mlx81exgr"
 path.s3tc="res://.godot/imported/tunnel_hole_2_concrete_wall_1.png-21098025f18962bcf6847c6476d277b7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "3778e26f03ac8c216fbe1a4310dfa1e5"
 }
 
 [deps]

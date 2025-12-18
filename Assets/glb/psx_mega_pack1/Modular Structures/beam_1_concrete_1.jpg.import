@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bs4c0phih4ipp"
+uid="uid://b0ij23c5sjytd"
 path.s3tc="res://.godot/imported/beam_1_concrete_1.jpg-1a425ac6907649e7781482b0ae510e87.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "18312d7e56ea7db0fa7d2fa2bb4f7113"
 }
 
 [deps]

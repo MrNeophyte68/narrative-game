@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmg2iyiggvsbx"
+uid="uid://b5kua8fx2jn2j"
 path.s3tc="res://.godot/imported/wooden_crate_3_wooden_crate_3.png-367b6fb7afa08bc2efa90122e7fab674.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "a0252dc14df30c92d5998cde569d80a3"
 }
 
 [deps]

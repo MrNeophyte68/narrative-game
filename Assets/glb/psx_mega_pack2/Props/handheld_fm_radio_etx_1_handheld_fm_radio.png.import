@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmkhoiyqcrsth"
+uid="uid://wwpjklsxje4s"
 path.s3tc="res://.godot/imported/handheld_fm_radio_etx_1_handheld_fm_radio.png-8f7ef6a50366ac2b1ffa42d0c119d3ec.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "abf07b85d922e763d0002202b42c97c4"
 }
 
 [deps]

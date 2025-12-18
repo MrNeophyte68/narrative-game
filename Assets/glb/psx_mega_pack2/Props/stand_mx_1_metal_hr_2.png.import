@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dsbxgrvekma8m"
+uid="uid://bu0mdh4crbhoc"
 path.s3tc="res://.godot/imported/stand_mx_1_metal_hr_2.png-c64b575829866d148a58cd07dfd2a957.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "077b0177652e5ec1193a7e03acd48658"
 }
 
 [deps]

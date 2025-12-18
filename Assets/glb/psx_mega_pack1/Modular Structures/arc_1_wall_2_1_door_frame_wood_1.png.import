@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dafi4orakfd3k"
+uid="uid://c16kqayp0ftjo"
 path.s3tc="res://.godot/imported/arc_1_wall_2_1_door_frame_wood_1.png-293af1e40351e93133e183256abf680b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "466d7a534237dce978f698ba34ec8234"
 }
 
 [deps]

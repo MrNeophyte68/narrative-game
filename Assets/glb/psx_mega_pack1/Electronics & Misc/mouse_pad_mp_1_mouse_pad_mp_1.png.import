@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b1x751w3g6glg"
+uid="uid://cs0pswjijnhgf"
 path.s3tc="res://.godot/imported/mouse_pad_mp_1_mouse_pad_mp_1.png-144a7b741ce36d84810cbb762904adcc.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "85f9117e6d76b1df7eb58e45fb3fd930"
 }
 
 [deps]

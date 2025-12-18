@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ld8so6fc7mje"
+uid="uid://dx3vlbxb53nee"
 path.s3tc="res://.godot/imported/cell_phone_2_cell_phone_2.png-780d2d62f37d6014cb8e95c2137f4afa.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "d04fd0a490f0ff2af24d9d1840bc4156"
 }
 
 [deps]

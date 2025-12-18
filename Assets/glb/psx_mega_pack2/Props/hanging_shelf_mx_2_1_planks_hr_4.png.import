@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cr4xakvtr45ox"
+uid="uid://cmkpp2e5i3wv7"
 path.s3tc="res://.godot/imported/hanging_shelf_mx_2_1_planks_hr_4.png-6f5bce4862290095a6cf7533c337f78b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "42471e1323f9d8294753575cb7f20ec3"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://btx6fk1f553ej"
+uid="uid://is8mkbhe0b86"
 path.s3tc="res://.godot/imported/door_hr_14_door_hr_14.png-c53af49371e2d6ce20ddff9e4e5270fc.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "f76bcd4f3858bc8a44adb3f7cf73f0be"
 }
 
 [deps]

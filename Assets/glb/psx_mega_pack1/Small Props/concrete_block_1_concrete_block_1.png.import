@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://r551jywvipnf"
+uid="uid://d1xffmnbegfir"
 path.s3tc="res://.godot/imported/concrete_block_1_concrete_block_1.png-3f93fedd76da27a54afb1839b47ddcc3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "62d91cff573406360526cd7c893fce27"
 }
 
 [deps]

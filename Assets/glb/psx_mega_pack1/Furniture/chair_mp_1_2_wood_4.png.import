@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bh7lhpvt16x7m"
+uid="uid://blidg6hn3qgtp"
 path.s3tc="res://.godot/imported/chair_mp_1_2_wood_4.png-a05984225c35131a394204e635d29346.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "e5d8d1fc4a75ca0f5e34ee6b47c9461b"
 }
 
 [deps]

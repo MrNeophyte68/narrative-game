@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dy3nqry22484p"
+uid="uid://r8tvxm751h0d"
 path.s3tc="res://.godot/imported/spring_mx_1_small_metal_hr_5.png-d5e689498a90fdd96808c731cad02c0c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "93fda03b7b7f974d192fb6a95780fa9d"
 }
 
 [deps]

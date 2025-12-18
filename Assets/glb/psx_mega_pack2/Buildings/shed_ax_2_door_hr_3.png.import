@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blrfaoncdpdvp"
+uid="uid://xr23n1ms4ejv"
 path.s3tc="res://.godot/imported/shed_ax_2_door_hr_3.png-f8c2d2a6e94680797e307455a4fc9859.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "c0f3a501422ef6b368eab69121232531"
 }
 
 [deps]

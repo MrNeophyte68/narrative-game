@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://v5jjt5sh7frf"
+uid="uid://rqh3svab2o7m"
 path.s3tc="res://.godot/imported/curtain_rod_mp_1_metal_mp_6.png-5c7cc9e24e1e213879f7375a71e969a5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "530f2890b80f915448219acfa58edbb7"
 }
 
 [deps]

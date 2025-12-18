@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cggjdvg1frldt"
+uid="uid://cinvtvjj5kg17"
 path.s3tc="res://.godot/imported/buttons_etx_black_2_electronics_etx_part_1.png-1ecef8ee332d7d8b31d50447671da531.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "0da64dbe590d2fc3da4129f98394ce29"
 }
 
 [deps]

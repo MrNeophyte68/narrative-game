@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dnlt150jdn6jh"
+uid="uid://cusoi3yd6apua"
 path.s3tc="res://.godot/imported/ladder_hr_1_short_steel_beams_hr_1.png-c8162d5ee2c6f6db93340674dc1c1e12.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "70d72c6bff35a1f56a368b28bd806d39"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7h3a6aw3ix4a"
+uid="uid://8cdw4vlebph5"
 path.s3tc="res://.godot/imported/car_battery_1_batteries_mp_1.png-909efa58d2ce601c4d984476f98cd068.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "fb01aeb2edc8abb7422e0b80072f11ce"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8u30q7sgad3k"
+uid="uid://bfe0cri4obled"
 path.s3tc="res://.godot/imported/suppressor_mp_1_pistol_mp_1.png-b49736eead4be72d72ae6d20a9481b4d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "221a7072ef9ff3eb7eb631984b5a7fb7"
 }
 
 [deps]

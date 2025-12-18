@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvb2jf073tk5x"
+uid="uid://ca5rydaelhksg"
 path.s3tc="res://.godot/imported/bedside_table_2_1_metal_6.png-7bdbfbe655f8157de44a0a1131e3646b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "1c517bf86d29a1a9cc0e245d7ea26dcf"
 }
 
 [deps]

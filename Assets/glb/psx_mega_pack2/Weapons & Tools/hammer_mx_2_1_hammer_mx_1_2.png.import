@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ct6jq33vuf4cc"
+uid="uid://xo2r137pq8qr"
 path.s3tc="res://.godot/imported/hammer_mx_2_1_hammer_mx_1_2.png-98183d898c6defd3be45c122b750eea6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "aef99887025b2886e18f4cdcadd9154e"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bsjdxwtauwh5q"
+uid="uid://cqtdtsem34hhy"
 path.s3tc="res://.godot/imported/pills_1_pills_bottle_1.png-1f9d675fef4a13f85a64ec7a51f37aa1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "cbf4cd63e0cb4c47ec0455b511ce7555"
 }
 
 [deps]

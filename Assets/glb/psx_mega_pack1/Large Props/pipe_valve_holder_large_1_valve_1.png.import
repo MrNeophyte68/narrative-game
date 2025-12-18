@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cova5bqq5m6ay"
+uid="uid://dv8pwro1bfchg"
 path.s3tc="res://.godot/imported/pipe_valve_holder_large_1_valve_1.png-9ccb9f2f5a8187f44d02bbeae1dac98d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "7a912e19e52e2a81f86d7c37fd0d4bbd"
 }
 
 [deps]

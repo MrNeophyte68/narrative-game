@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ftwhmdtsxyjc"
+uid="uid://s4ia23voe2b2"
 path.s3tc="res://.godot/imported/brick_mx_1_1_bricks_mx_1.png-95a37e4a8f0bade7ddc7b024e55ef372.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "ea147290b05d3243bad40acbd18f43a6"
 }
 
 [deps]

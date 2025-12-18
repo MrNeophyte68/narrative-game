@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bstjpks3vitd1"
+uid="uid://bwbanvarae5bv"
 path.s3tc="res://.godot/imported/pipe_bx_4_metal_hr_5.png-31679970fcc27774ddeec5d78b226120.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "93fda03b7b7f974d192fb6a95780fa9d"
 }
 
 [deps]

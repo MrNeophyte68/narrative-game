@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcoobbhj5jixe"
+uid="uid://dessmi71h1bvx"
 path.s3tc="res://.godot/imported/ammo_pistol_loose_1pc_mp_1_ammo_mp_1.png-77370c8a4bfedddca5b1a6d490edfb9f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "0271219aae95040a4beffa8e6f6b6157"
 }
 
 [deps]

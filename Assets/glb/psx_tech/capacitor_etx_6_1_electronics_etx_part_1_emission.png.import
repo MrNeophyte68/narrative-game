@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dif74swua0ags"
+uid="uid://csyc8hor2fnji"
 path.s3tc="res://.godot/imported/capacitor_etx_6_1_electronics_etx_part_1_emission.png-7a73a5fd156f3939a1ef823a6a405a7b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "f7e1266ea99f54b63724f68404e93995"
 }
 
 [deps]

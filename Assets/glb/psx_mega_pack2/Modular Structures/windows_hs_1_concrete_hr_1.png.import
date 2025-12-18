@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7smucoevppw1"
+uid="uid://cbch5tmpp5f1s"
 path.s3tc="res://.godot/imported/windows_hs_1_concrete_hr_1.png-d15ba2ffb3d981ebff34c4bd92c3a52c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "6b68812ca1192c55adb97820fddac433"
 }
 
 [deps]

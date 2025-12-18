@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ct852tbslwhw8"
+uid="uid://cuqop5mhlk2a1"
 path.s3tc="res://.godot/imported/ceiling_lamp_1_off_ceiling_lamp_1_off.png-913309a04a3cf9076c3e8ef2b038e851.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "3230da515f1747007840d6f795571a30"
 }
 
 [deps]

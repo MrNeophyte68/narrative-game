@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cts24gb8uue6k"
+uid="uid://yj28a2r8qmah"
 path.s3tc="res://.godot/imported/melee_fish_skewer_mx_1_metal_hr_2.png-3597ef4919222f2a52c4b6457d7d274a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "077b0177652e5ec1193a7e03acd48658"
 }
 
 [deps]

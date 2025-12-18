@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0w61pvyi7glv"
+uid="uid://bo7f7s13nmqt6"
 path.s3tc="res://.godot/imported/scrap_metal_mx_1_2_metal_hr_7.png-d191c9e5178f319df37ffdaae63d8810.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "29e00e9b467b1bc45f7abfcff5b38600"
 }
 
 [deps]

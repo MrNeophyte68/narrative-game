@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c45rjvxjydqc6"
+uid="uid://bxswuxoxd6gt3"
 path.s3tc="res://.godot/imported/nails_1_rusty_metal_mp_6.png-f94c7ee0dcf35ceed76988832a78d3f6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "530f2890b80f915448219acfa58edbb7"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://2ls6fk0ih1el"
+uid="uid://br0wcbmne7gwi"
 path.s3tc="res://.godot/imported/barricade_a_1_barricade_hr_1.png-f36fec2f2a52d04c90e5e37d9c8c3fb2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "acb61a815cdf086d85b5866d6a25ea2c"
 }
 
 [deps]

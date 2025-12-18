@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://xhm25mjmeti4"
+uid="uid://b4hcaqewt3sq0"
 path.s3tc="res://.godot/imported/concrete_fence_hr_1_pillar_1_concrete_fence_hr_1.png-2d95d0185bfa50711773dd941b500f43.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "fd2c99c7adad9160fef027933b5d8809"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://xidxrx8aa67m"
+uid="uid://b4rnku4f6w5l1"
 path.s3tc="res://.godot/imported/display_cabinet_mp_1_4_glass_mp_1.png-1b4e5bda6d4cb5ffbb2fd26cc26f7518.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "1079e55b4c07e737626c02d3f8fae831"
 }
 
 [deps]

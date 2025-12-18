@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vixgahxtb2y1"
+uid="uid://dajwfrwjqt2ki"
 path.s3tc="res://.godot/imported/mail_box_mx_1_1_mail_boxes_mx_1.png-91b32cd50aaf699e3916b3bf64094ba5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "097f94f991af59237e161450c63d334b"
 }
 
 [deps]

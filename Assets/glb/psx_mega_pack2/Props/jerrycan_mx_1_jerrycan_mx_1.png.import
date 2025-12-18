@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6ume3eaie7rt"
+uid="uid://daww0d6vpmdhk"
 path.s3tc="res://.godot/imported/jerrycan_mx_1_jerrycan_mx_1.png-8d12bdea0c8773cbc0069e19562c1633.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "c3c43c4b034740d8bfffe0d69b06599f"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddgmym4khv5yw"
+uid="uid://m6e4mwdil5qa"
 path.s3tc="res://.godot/imported/syringe_mp_1_1_misc_mp_1.png-048ab871e619f1f8f4afaaa3d102ce59.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "62e705dcd19376c45b48e5bdd3ea31d0"
 }
 
 [deps]

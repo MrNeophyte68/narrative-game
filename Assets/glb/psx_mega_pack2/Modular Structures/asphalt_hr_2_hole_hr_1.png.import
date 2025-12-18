@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvl20f5ofawby"
+uid="uid://b4owtril77skc"
 path.s3tc="res://.godot/imported/asphalt_hr_2_hole_hr_1.png-6aa86f6dd9477a0953aebf5500ae3839.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "f69951b27c2a28b54e36c1a105ef92b0"
 }
 
 [deps]

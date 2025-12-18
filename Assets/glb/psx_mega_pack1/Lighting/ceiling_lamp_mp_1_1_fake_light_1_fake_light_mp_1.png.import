@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cb58p2af5yb30"
+uid="uid://b3cllxoy1rr1b"
 path.s3tc="res://.godot/imported/ceiling_lamp_mp_1_1_fake_light_1_fake_light_mp_1.png-4d99126ada3e3ef4830f68d51b8c0288.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "b5342e21a4af252b37f9f72c5ff3cc85"
 }
 
 [deps]

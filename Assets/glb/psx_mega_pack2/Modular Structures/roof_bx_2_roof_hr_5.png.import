@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cpu7y885o7mxi"
+uid="uid://buwbx233w785x"
 path.s3tc="res://.godot/imported/roof_bx_2_roof_hr_5.png-5975aea4dfc9daed26e0db9e1ec2a208.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "98d826cb9bd76858c2be9fa0bfd2041e"
 }
 
 [deps]

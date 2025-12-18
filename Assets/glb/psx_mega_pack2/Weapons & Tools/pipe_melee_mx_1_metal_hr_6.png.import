@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bx6gc45vbwpsx"
+uid="uid://bufsx2xtbcoh0"
 path.s3tc="res://.godot/imported/pipe_melee_mx_1_metal_hr_6.png-f6c56359f81fc9f16a668bb4a7f8f162.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "3a8030112746fc1290c09b75be604fdc"
 }
 
 [deps]

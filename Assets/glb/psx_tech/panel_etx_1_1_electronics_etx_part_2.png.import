@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dyohxva3kcmxm"
+uid="uid://dxgybgag8ikoh"
 path.s3tc="res://.godot/imported/panel_etx_1_1_electronics_etx_part_2.png-f4e7ea07aab89a11d7df8ce1193002c4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "32b22d2296ef0795a9bf29087d45271a"
 }
 
 [deps]

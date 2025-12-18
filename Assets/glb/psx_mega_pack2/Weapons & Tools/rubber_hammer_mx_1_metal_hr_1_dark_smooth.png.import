@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cutm08uyje6jh"
+uid="uid://c10qt3jtrmm0c"
 path.s3tc="res://.godot/imported/rubber_hammer_mx_1_metal_hr_1_dark_smooth.png-dcad10b53358c77b3e9d9b95acecdac1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "b7bc18a7fbec7732f5f7e7dbae0ceb6b"
 }
 
 [deps]

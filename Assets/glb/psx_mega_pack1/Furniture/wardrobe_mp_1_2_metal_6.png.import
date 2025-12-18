@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b26bqgvixlyjw"
+uid="uid://cinblfu2td5l0"
 path.s3tc="res://.godot/imported/wardrobe_mp_1_2_metal_6.png-1d98a4146c5b6326266258e3fdd21622.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "1c517bf86d29a1a9cc0e245d7ea26dcf"
 }
 
 [deps]
