@@ -4,8 +4,10 @@
 [ext_resource type="PackedScene" uid="uid://dqmsi6t2g3v7w" path="res://interaction/interaction_controller.tscn" id="2_eo61r"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_kf5c0"]
+radius = 0.4
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_8p05u"]
+radius = 0.4
 height = 1.0
 
 [node name="player" type="CharacterBody3D"]

@@ -1,0 +1,68 @@
+[gd_scene load_steps=7 format=4 uid="uid://bitd1fhsd7o34"]
+
+[ext_resource type="Texture2D" uid="uid://is8mkbhe0b86" path="res://assets/glb/psx_mega_pack2/Doors & Gates/door_hr_14_door_hr_14.png" id="1_ctci5"]
+[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_n153x"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m2o6l"]
+resource_name = "door_hr_14"
+cull_mode = 2
+albedo_texture = ExtResource("1_ctci5")
+texture_filter = 2
+texture_repeat = false
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_mdy60"]
+_surfaces = [{
+"aabb": AABB(-1, -9.313226e-09, 0, 1, 2.1000001, 0.049999997),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "door_hr_14",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_22155"]
+resource_name = "door_hr_14_door_hr_14"
+_surfaces = [{
+"aabb": AABB(-1, -9.313226e-09, 0, 1, 2.1000001, 0.049999997),
+"attribute_data": PackedByteArray("kvH//zH+AACS8QAAMf7//yrs//8AAAAAKuwAAAAA//8x/v//kvEAADH+AACS8f//Kuz//wAAAAAq7AAAAAD//5Lx8fkx/v9/kvH/fzH+8fmS8YQGMf52gJLxdoAx/oQG"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_m2o6l"),
+"name": "door_hr_14",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAD///////8AAP//AAD//wAA/////wAAAAD/////AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAACqKv//AAD//6oq//8AAAAAqioAAAAA//+qKv////8AAFTVAAD/////VNUAAP//AABU1f///////1TV/z//f/8//3//P/9//z//f/9/////f////3////9/////fwAA/38AAP9/AAD/fwAA/3////9/////f////3///6oqVNWqKlTVqipU1aoqVNWqqqqqqqqqqqqqqqqqqqqq")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_mdy60")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ctci5"]
+size = Vector3(0.99853516, 2.2368927, 0.053497314)
+
+[node name="Maintenance_Door" type="Node3D"]
+
+[node name="Pivot_Point" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0079696, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Pivot_Point"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0079696, 0, 0)
+
+[node name="door_model" type="MeshInstance3D" parent="Pivot_Point/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1.065, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("ArrayMesh_22155")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Pivot_Point/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.49975586, 1.118187, 0.025131226)
+shape = SubResource("BoxShape3D_ctci5")
+
+[node name="InteractionComponent" parent="Pivot_Point/StaticBody3D" node_paths=PackedStringArray("object_ref", "pivot_point") instance=ExtResource("2_n153x")]
+object_ref = NodePath("..")
+interaction_type = 1
+pivot_point = NodePath("../..")
