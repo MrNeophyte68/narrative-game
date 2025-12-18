@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b2tqjfxpusub3"
-path.s3tc="res://.godot/imported/gear_mx_6_metal_hr_6_1.png-7de51bba5a9e3e609b95f6997098d201.s3tc.ctex"
+uid="uid://chrwff67x6x8s"
+path.s3tc="res://.godot/imported/gear_mx_6_metal_hr_6_1.png-c340ca5a85bf780adf76f49804f67949.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "a2e18f687d11ab37f21102d5fe7c470f"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/gear_mx_6_metal_hr_6_1.png"
-dest_files=["res://.godot/imported/gear_mx_6_metal_hr_6_1.png-7de51bba5a9e3e609b95f6997098d201.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/gear_mx_6_metal_hr_6_1.png"
+dest_files=["res://.godot/imported/gear_mx_6_metal_hr_6_1.png-c340ca5a85bf780adf76f49804f67949.s3tc.ctex"]
 
 [params]
 

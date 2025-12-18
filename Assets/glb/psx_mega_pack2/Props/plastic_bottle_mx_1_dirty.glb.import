@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://becbx2b8eggt0"
-path="res://.godot/imported/plastic_bottle_mx_1_dirty.glb-856531b26d9b47dc6b27d65ab34cf633.scn"
+path="res://.godot/imported/plastic_bottle_mx_1_dirty.glb-d640608d48e361b7811bbfa9ac7d8114.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/plastic_bottle_mx_1_dirty.glb"
-dest_files=["res://.godot/imported/plastic_bottle_mx_1_dirty.glb-856531b26d9b47dc6b27d65ab34cf633.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/plastic_bottle_mx_1_dirty.glb"
+dest_files=["res://.godot/imported/plastic_bottle_mx_1_dirty.glb-d640608d48e361b7811bbfa9ac7d8114.scn"]
 
 [params]
 

@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dk4c41cp8gyuw"
-path.s3tc="res://.godot/imported/baseball_bat_mx_2_baseball_bat_mx_2.png-67813234e0dc6b1a8c12b1c0b18da26e.s3tc.ctex"
+uid="uid://ckw5oy6wjb5sh"
+path.s3tc="res://.godot/imported/baseball_bat_mx_2_baseball_bat_mx_2.png-a2afb5cc8d1efcf42a6db18d3d07e008.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "63c7c1ba6e20f52e89bf6051bd0fcf7f"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/baseball_bat_mx_2_baseball_bat_mx_2.png"
-dest_files=["res://.godot/imported/baseball_bat_mx_2_baseball_bat_mx_2.png-67813234e0dc6b1a8c12b1c0b18da26e.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/baseball_bat_mx_2_baseball_bat_mx_2.png"
+dest_files=["res://.godot/imported/baseball_bat_mx_2_baseball_bat_mx_2.png-a2afb5cc8d1efcf42a6db18d3d07e008.s3tc.ctex"]
 
 [params]
 

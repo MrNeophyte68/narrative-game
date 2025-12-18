@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b2b4laws7earl"
-path="res://.godot/imported/fence_e_1.glb-4131c8e1827851eec55d739b7d0a1d98.scn"
+path="res://.godot/imported/fence_e_1.glb-02fb4d35a25e42fb6efcbba2a6aef1c7.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Props/fence_e_1.glb"
-dest_files=["res://.godot/imported/fence_e_1.glb-4131c8e1827851eec55d739b7d0a1d98.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Props/fence_e_1.glb"
+dest_files=["res://.godot/imported/fence_e_1.glb-02fb4d35a25e42fb6efcbba2a6aef1c7.scn"]
 
 [params]
 

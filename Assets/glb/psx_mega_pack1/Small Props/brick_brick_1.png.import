@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cr53svelc8ldr"
-path.s3tc="res://.godot/imported/brick_brick_1.png-da35221bc60d5c376aaadb3c2302d09c.s3tc.ctex"
+path.s3tc="res://.godot/imported/brick_brick_1.png-0d39610bcb8290971f004b2ce5caffe8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/brick_brick_1.png"
-dest_files=["res://.godot/imported/brick_brick_1.png-da35221bc60d5c376aaadb3c2302d09c.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/brick_brick_1.png"
+dest_files=["res://.godot/imported/brick_brick_1.png-0d39610bcb8290971f004b2ce5caffe8.s3tc.ctex"]
 
 [params]
 

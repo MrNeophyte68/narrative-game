@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bupvd55m5pcrw"
-path.s3tc="res://.godot/imported/pillar_hs_1_broken_wall_hs_1.png-a4ada56de81eabd172fc9701cf85f391.s3tc.ctex"
+path.s3tc="res://.godot/imported/pillar_hs_1_broken_wall_hs_1.png-a6ad5b870dd65f757b4d22a206650e62.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/pillar_hs_1_broken_wall_hs_1.png"
-dest_files=["res://.godot/imported/pillar_hs_1_broken_wall_hs_1.png-a4ada56de81eabd172fc9701cf85f391.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/pillar_hs_1_broken_wall_hs_1.png"
+dest_files=["res://.godot/imported/pillar_hs_1_broken_wall_hs_1.png-a6ad5b870dd65f757b4d22a206650e62.s3tc.ctex"]
 
 [params]
 

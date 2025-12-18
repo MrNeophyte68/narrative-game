@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://jkqf5qyehmyo"
-path="res://.godot/imported/ashtray_1.glb-6b5225648aa0e2dd7e9ae1ab0421e0bd.scn"
+path="res://.godot/imported/ashtray_1.glb-3221e143f0ec147e2c2fe6cb2a7dd80e.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/ashtray_1.glb"
-dest_files=["res://.godot/imported/ashtray_1.glb-6b5225648aa0e2dd7e9ae1ab0421e0bd.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/ashtray_1.glb"
+dest_files=["res://.godot/imported/ashtray_1.glb-3221e143f0ec147e2c2fe6cb2a7dd80e.scn"]
 
 [params]
 

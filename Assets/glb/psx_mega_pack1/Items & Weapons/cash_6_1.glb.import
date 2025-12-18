@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d1oud58uh6vp1"
-path="res://.godot/imported/cash_6_1.glb-3653db495423db4e74071ac7b4f0d509.scn"
+path="res://.godot/imported/cash_6_1.glb-18641b279be72cb3a4cd208e8b3f849d.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/cash_6_1.glb"
-dest_files=["res://.godot/imported/cash_6_1.glb-3653db495423db4e74071ac7b4f0d509.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/cash_6_1.glb"
+dest_files=["res://.godot/imported/cash_6_1.glb-18641b279be72cb3a4cd208e8b3f849d.scn"]
 
 [params]
 

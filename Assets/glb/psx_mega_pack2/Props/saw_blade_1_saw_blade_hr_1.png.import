@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1vgq27axi73q"
-path.s3tc="res://.godot/imported/saw_blade_1_saw_blade_hr_1.png-517f324ca5deea23410e85787331898e.s3tc.ctex"
+uid="uid://cefpmrsbussre"
+path.s3tc="res://.godot/imported/saw_blade_1_saw_blade_hr_1.png-119980cef4780210016325ecb0035bd8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "af6e5e462c5baf03d692a30bb7ee30e1"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/saw_blade_1_saw_blade_hr_1.png"
-dest_files=["res://.godot/imported/saw_blade_1_saw_blade_hr_1.png-517f324ca5deea23410e85787331898e.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/saw_blade_1_saw_blade_hr_1.png"
+dest_files=["res://.godot/imported/saw_blade_1_saw_blade_hr_1.png-119980cef4780210016325ecb0035bd8.s3tc.ctex"]
 
 [params]
 

@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjfxhx5fryhju"
-path.s3tc="res://.godot/imported/cage_mx_1_metal_floor_mx_1.png-791e1cbe52ee00d6c1dea8ae76764491.s3tc.ctex"
+uid="uid://wq8myqh4v224"
+path.s3tc="res://.godot/imported/cage_mx_1_metal_floor_mx_1.png-439378fa3e5ddceffe245a61bd7f18b8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "2e6f5aafac1ef494fc53fd167371f8d5"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/cage_mx_1_metal_floor_mx_1.png"
-dest_files=["res://.godot/imported/cage_mx_1_metal_floor_mx_1.png-791e1cbe52ee00d6c1dea8ae76764491.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/cage_mx_1_metal_floor_mx_1.png"
+dest_files=["res://.godot/imported/cage_mx_1_metal_floor_mx_1.png-439378fa3e5ddceffe245a61bd7f18b8.s3tc.ctex"]
 
 [params]
 

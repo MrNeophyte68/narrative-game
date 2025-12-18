@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cylq1tiyvl6lk"
-path.s3tc="res://.godot/imported/makeshift_melee_mx_1_makeshift_melee_mx_1.png-96c56f46d8c66ed42b99a5727f300a44.s3tc.ctex"
+path.s3tc="res://.godot/imported/makeshift_melee_mx_1_makeshift_melee_mx_1.png-437f99b85344a75b284dbe13d21e3de0.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/makeshift_melee_mx_1_makeshift_melee_mx_1.png"
-dest_files=["res://.godot/imported/makeshift_melee_mx_1_makeshift_melee_mx_1.png-96c56f46d8c66ed42b99a5727f300a44.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/makeshift_melee_mx_1_makeshift_melee_mx_1.png"
+dest_files=["res://.godot/imported/makeshift_melee_mx_1_makeshift_melee_mx_1.png-437f99b85344a75b284dbe13d21e3de0.s3tc.ctex"]
 
 [params]
 

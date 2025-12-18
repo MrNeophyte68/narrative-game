@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://di0yah70ileyt"
-path="res://.godot/imported/pick_axe_mx_1.glb-809dfed7a14558a90f05f544570aa915.scn"
+path="res://.godot/imported/pick_axe_mx_1.glb-1f6c70fb88cc294c6bf44b9a6699cab7.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/pick_axe_mx_1.glb"
-dest_files=["res://.godot/imported/pick_axe_mx_1.glb-809dfed7a14558a90f05f544570aa915.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/pick_axe_mx_1.glb"
+dest_files=["res://.godot/imported/pick_axe_mx_1.glb-1f6c70fb88cc294c6bf44b9a6699cab7.scn"]
 
 [params]
 

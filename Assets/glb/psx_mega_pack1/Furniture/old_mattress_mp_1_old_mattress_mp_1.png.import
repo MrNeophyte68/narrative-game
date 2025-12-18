@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://h8j82ev5qdxm"
-path.s3tc="res://.godot/imported/old_mattress_mp_1_old_mattress_mp_1.png-1c0231ff3ea0379fcd2c3ed4c1be2a88.s3tc.ctex"
+uid="uid://bovjikj8idgfq"
+path.s3tc="res://.godot/imported/old_mattress_mp_1_old_mattress_mp_1.png-19546f51cc0580e2d394d21c5c4fef43.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "73275a87a027a5bc6284e029ccb9fd5d"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/old_mattress_mp_1_old_mattress_mp_1.png"
-dest_files=["res://.godot/imported/old_mattress_mp_1_old_mattress_mp_1.png-1c0231ff3ea0379fcd2c3ed4c1be2a88.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/old_mattress_mp_1_old_mattress_mp_1.png"
+dest_files=["res://.godot/imported/old_mattress_mp_1_old_mattress_mp_1.png-19546f51cc0580e2d394d21c5c4fef43.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://snndbkoygjpj"
-path="res://.godot/imported/wall_1_tunnel_hole_1.glb-534dfbdd5c990f74174a5e948a620a11.scn"
+path="res://.godot/imported/wall_1_tunnel_hole_1.glb-0deb39833cefa35ff64866b340db05a2.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_1.glb"
-dest_files=["res://.godot/imported/wall_1_tunnel_hole_1.glb-534dfbdd5c990f74174a5e948a620a11.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_1.glb"
+dest_files=["res://.godot/imported/wall_1_tunnel_hole_1.glb-0deb39833cefa35ff64866b340db05a2.scn"]
 
 [params]
 

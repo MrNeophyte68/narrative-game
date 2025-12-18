@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnvtq62kp27u7"
-path.s3tc="res://.godot/imported/coffee_table_1_3_wood_5.png-f119401f64cf049c0da64f972aa4eda2.s3tc.ctex"
+uid="uid://d3x1uqeg48r1r"
+path.s3tc="res://.godot/imported/coffee_table_1_3_wood_5.png-0502d125561b864be22c9424cdcca3d5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "7d331191197d1b81cdb300945e9aae0f"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/coffee_table_1_3_wood_5.png"
-dest_files=["res://.godot/imported/coffee_table_1_3_wood_5.png-f119401f64cf049c0da64f972aa4eda2.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/coffee_table_1_3_wood_5.png"
+dest_files=["res://.godot/imported/coffee_table_1_3_wood_5.png-0502d125561b864be22c9424cdcca3d5.s3tc.ctex"]
 
 [params]
 

@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://r551jywvipnf"
-path.s3tc="res://.godot/imported/concrete_block_1_concrete_block_1.png-cecddbd816e67200aa4cd5f41550699e.s3tc.ctex"
+uid="uid://d1xffmnbegfir"
+path.s3tc="res://.godot/imported/concrete_block_1_concrete_block_1.png-3f93fedd76da27a54afb1839b47ddcc3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "62d91cff573406360526cd7c893fce27"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/concrete_block_1_concrete_block_1.png"
-dest_files=["res://.godot/imported/concrete_block_1_concrete_block_1.png-cecddbd816e67200aa4cd5f41550699e.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/concrete_block_1_concrete_block_1.png"
+dest_files=["res://.godot/imported/concrete_block_1_concrete_block_1.png-3f93fedd76da27a54afb1839b47ddcc3.s3tc.ctex"]
 
 [params]
 

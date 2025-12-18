@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dbhyumwus6qo6"
-path="res://.godot/imported/pipe_mx_2.glb-5e630c04a2a3eac37a9531cba219f729.scn"
+path="res://.godot/imported/pipe_mx_2.glb-c0243c665ccdeb73539026d766a7d476.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/pipe_mx_2.glb"
-dest_files=["res://.godot/imported/pipe_mx_2.glb-5e630c04a2a3eac37a9531cba219f729.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/pipe_mx_2.glb"
+dest_files=["res://.godot/imported/pipe_mx_2.glb-c0243c665ccdeb73539026d766a7d476.scn"]
 
 [params]
 

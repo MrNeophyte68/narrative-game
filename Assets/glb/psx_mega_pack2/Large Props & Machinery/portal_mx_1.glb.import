@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b16bsb4s3ok8i"
-path="res://.godot/imported/portal_mx_1.glb-3f269522fc24667523ebbb37c0e67fc5.scn"
+path="res://.godot/imported/portal_mx_1.glb-add844089de92e62cd788d12e7fbb2de.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/portal_mx_1.glb"
-dest_files=["res://.godot/imported/portal_mx_1.glb-3f269522fc24667523ebbb37c0e67fc5.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/portal_mx_1.glb"
+dest_files=["res://.godot/imported/portal_mx_1.glb-add844089de92e62cd788d12e7fbb2de.scn"]
 
 [params]
 

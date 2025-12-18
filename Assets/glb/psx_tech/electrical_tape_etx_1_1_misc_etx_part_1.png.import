@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://83jk8y1smbj4"
-path.s3tc="res://.godot/imported/electrical_tape_etx_1_1_misc_etx_part_1.png-bdc78d7543b6db10bf5850c007d559f9.s3tc.ctex"
+uid="uid://dxp8ttb1w306e"
+path.s3tc="res://.godot/imported/electrical_tape_etx_1_1_misc_etx_part_1.png-c3842800d096034a3d7fbbdadd652af6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "70ae561ed8a507164df3f801695b9ac4"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_tech/electrical_tape_etx_1_1_misc_etx_part_1.png"
-dest_files=["res://.godot/imported/electrical_tape_etx_1_1_misc_etx_part_1.png-bdc78d7543b6db10bf5850c007d559f9.s3tc.ctex"]
+source_file="res://assets/glb/psx_tech/electrical_tape_etx_1_1_misc_etx_part_1.png"
+dest_files=["res://.godot/imported/electrical_tape_etx_1_1_misc_etx_part_1.png-c3842800d096034a3d7fbbdadd652af6.s3tc.ctex"]
 
 [params]
 

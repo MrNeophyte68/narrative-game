@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mbyiykue7njf"
-path.s3tc="res://.godot/imported/speaker_mx_1_2_metal_hr_1_dark_smooth.png-da5e300a858e097bfe48e6e2ac98e37a.s3tc.ctex"
+path.s3tc="res://.godot/imported/speaker_mx_1_2_metal_hr_1_dark_smooth.png-6ca306627691c56e337b1a4795a545b9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/speaker_mx_1_2_metal_hr_1_dark_smooth.png"
-dest_files=["res://.godot/imported/speaker_mx_1_2_metal_hr_1_dark_smooth.png-da5e300a858e097bfe48e6e2ac98e37a.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/speaker_mx_1_2_metal_hr_1_dark_smooth.png"
+dest_files=["res://.godot/imported/speaker_mx_1_2_metal_hr_1_dark_smooth.png-6ca306627691c56e337b1a4795a545b9.s3tc.ctex"]
 
 [params]
 

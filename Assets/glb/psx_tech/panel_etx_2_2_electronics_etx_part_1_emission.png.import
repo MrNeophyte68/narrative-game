@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6sbcbxkrtvet"
-path.s3tc="res://.godot/imported/panel_etx_2_2_electronics_etx_part_1_emission.png-e36726556a1561f941a470d82c8a9eb7.s3tc.ctex"
+uid="uid://blcdo8hiyc7fi"
+path.s3tc="res://.godot/imported/panel_etx_2_2_electronics_etx_part_1_emission.png-db44d2886f835759d18ce27adaaf631d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "f7e1266ea99f54b63724f68404e93995"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_tech/panel_etx_2_2_electronics_etx_part_1_emission.png"
-dest_files=["res://.godot/imported/panel_etx_2_2_electronics_etx_part_1_emission.png-e36726556a1561f941a470d82c8a9eb7.s3tc.ctex"]
+source_file="res://assets/glb/psx_tech/panel_etx_2_2_electronics_etx_part_1_emission.png"
+dest_files=["res://.godot/imported/panel_etx_2_2_electronics_etx_part_1_emission.png-db44d2886f835759d18ce27adaaf631d.s3tc.ctex"]
 
 [params]
 

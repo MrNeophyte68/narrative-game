@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csy4v2auaqh2a"
-path.s3tc="res://.godot/imported/electrical_equipment_2_transformer_box_hr_1.png-0543cce8f7e3568f8050223f87490ffc.s3tc.ctex"
+path.s3tc="res://.godot/imported/electrical_equipment_2_transformer_box_hr_1.png-f7ba621ea49dc78221476b74ceaa13ff.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/electrical_equipment_2_transformer_box_hr_1.png"
-dest_files=["res://.godot/imported/electrical_equipment_2_transformer_box_hr_1.png-0543cce8f7e3568f8050223f87490ffc.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/electrical_equipment_2_transformer_box_hr_1.png"
+dest_files=["res://.godot/imported/electrical_equipment_2_transformer_box_hr_1.png-f7ba621ea49dc78221476b74ceaa13ff.s3tc.ctex"]
 
 [params]
 

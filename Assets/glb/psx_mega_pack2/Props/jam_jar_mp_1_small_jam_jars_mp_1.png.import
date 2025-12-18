@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://61rkx8o47ra7"
-path.s3tc="res://.godot/imported/jam_jar_mp_1_small_jam_jars_mp_1.png-5900c94ff7d9df7118971224e81707a3.s3tc.ctex"
+uid="uid://qvwj23gllpyl"
+path.s3tc="res://.godot/imported/jam_jar_mp_1_small_jam_jars_mp_1.png-6c57220ff21eb96a6a480c4ac9c36880.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "f51cb728da90f00013ea14023142d849"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/jam_jar_mp_1_small_jam_jars_mp_1.png"
-dest_files=["res://.godot/imported/jam_jar_mp_1_small_jam_jars_mp_1.png-5900c94ff7d9df7118971224e81707a3.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/jam_jar_mp_1_small_jam_jars_mp_1.png"
+dest_files=["res://.godot/imported/jam_jar_mp_1_small_jam_jars_mp_1.png-6c57220ff21eb96a6a480c4ac9c36880.s3tc.ctex"]
 
 [params]
 

@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bw7ns1luipqbb"
-path.s3tc="res://.godot/imported/capacitor_etx_5_1_electronics_etx_part_1.png-1a6438cd46299cf4921451a67cbc9a06.s3tc.ctex"
+uid="uid://d1lbirhvymtn1"
+path.s3tc="res://.godot/imported/capacitor_etx_5_1_electronics_etx_part_1.png-308cfcfa64db7e88a430dbe520d54845.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "0da64dbe590d2fc3da4129f98394ce29"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_tech/capacitor_etx_5_1_electronics_etx_part_1.png"
-dest_files=["res://.godot/imported/capacitor_etx_5_1_electronics_etx_part_1.png-1a6438cd46299cf4921451a67cbc9a06.s3tc.ctex"]
+source_file="res://assets/glb/psx_tech/capacitor_etx_5_1_electronics_etx_part_1.png"
+dest_files=["res://.godot/imported/capacitor_etx_5_1_electronics_etx_part_1.png-308cfcfa64db7e88a430dbe520d54845.s3tc.ctex"]
 
 [params]
 

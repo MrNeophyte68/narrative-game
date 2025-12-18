@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://chcna03iq6tt4"
-path.s3tc="res://.godot/imported/ball_bearing_mx_1_2_small_metal_hr_6.png-e50aa7db70fb1949703465caafb23bb3.s3tc.ctex"
+uid="uid://bima8rk65m1p5"
+path.s3tc="res://.godot/imported/ball_bearing_mx_1_2_small_metal_hr_6.png-b1f47d2854e46872132897af4ed78639.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "3a8030112746fc1290c09b75be604fdc"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/ball_bearing_mx_1_2_small_metal_hr_6.png"
-dest_files=["res://.godot/imported/ball_bearing_mx_1_2_small_metal_hr_6.png-e50aa7db70fb1949703465caafb23bb3.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/ball_bearing_mx_1_2_small_metal_hr_6.png"
+dest_files=["res://.godot/imported/ball_bearing_mx_1_2_small_metal_hr_6.png-b1f47d2854e46872132897af4ed78639.s3tc.ctex"]
 
 [params]
 

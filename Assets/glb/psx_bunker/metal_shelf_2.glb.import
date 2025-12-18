@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b5fhjl5ssmepe"
-path="res://.godot/imported/metal_shelf_2.glb-9ada74d7c371d841ae645833c9f1fc77.scn"
+path="res://.godot/imported/metal_shelf_2.glb-c8994f3a08dda81ef7779d6e85ef40e4.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/metal_shelf_2.glb"
-dest_files=["res://.godot/imported/metal_shelf_2.glb-9ada74d7c371d841ae645833c9f1fc77.scn"]
+source_file="res://assets/glb/psx_bunker/metal_shelf_2.glb"
+dest_files=["res://.godot/imported/metal_shelf_2.glb-c8994f3a08dda81ef7779d6e85ef40e4.scn"]
 
 [params]
 

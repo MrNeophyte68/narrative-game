@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5jdn072t2swc"
-path.s3tc="res://.godot/imported/water_tower_hm_1_wall_rgx_1.png-ddd8afae8e4c35728dfd5e86d40e0f75.s3tc.ctex"
+path.s3tc="res://.godot/imported/water_tower_hm_1_wall_rgx_1.png-12fec5dea03a4ed671d1a600f1b847e5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Structures/water_tower_hm_1_wall_rgx_1.png"
-dest_files=["res://.godot/imported/water_tower_hm_1_wall_rgx_1.png-ddd8afae8e4c35728dfd5e86d40e0f75.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Structures/water_tower_hm_1_wall_rgx_1.png"
+dest_files=["res://.godot/imported/water_tower_hm_1_wall_rgx_1.png-12fec5dea03a4ed671d1a600f1b847e5.s3tc.ctex"]
 
 [params]
 

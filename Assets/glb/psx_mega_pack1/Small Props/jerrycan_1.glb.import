@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dtwl5kfnvj6d6"
-path="res://.godot/imported/jerrycan_1.glb-5a577476778253d6b89392c50d8192c5.scn"
+path="res://.godot/imported/jerrycan_1.glb-176f8e7627d1dff9ee6066287dae20dc.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/jerrycan_1.glb"
-dest_files=["res://.godot/imported/jerrycan_1.glb-5a577476778253d6b89392c50d8192c5.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/jerrycan_1.glb"
+dest_files=["res://.godot/imported/jerrycan_1.glb-176f8e7627d1dff9ee6066287dae20dc.scn"]
 
 [params]
 

@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://n81ngra3b5kf"
-path.s3tc="res://.godot/imported/roof_bx_1_corner_1_glass_general_mx_1.png-28cdfb5bc58c21651631f9bf13e3a78c.s3tc.ctex"
+uid="uid://dxw50d76xxqpu"
+path.s3tc="res://.godot/imported/roof_bx_1_corner_1_glass_general_mx_1.png-27d6c7fd1f838dc6bd48308816d045fd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "7e6219de08a416648d8af3b4d04a9cef"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/roof_bx_1_corner_1_glass_general_mx_1.png"
-dest_files=["res://.godot/imported/roof_bx_1_corner_1_glass_general_mx_1.png-28cdfb5bc58c21651631f9bf13e3a78c.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/roof_bx_1_corner_1_glass_general_mx_1.png"
+dest_files=["res://.godot/imported/roof_bx_1_corner_1_glass_general_mx_1.png-27d6c7fd1f838dc6bd48308816d045fd.s3tc.ctex"]
 
 [params]
 

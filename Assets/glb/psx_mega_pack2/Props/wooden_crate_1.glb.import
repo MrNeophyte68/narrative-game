@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://lx1ot4knyce0"
-path="res://.godot/imported/wooden_crate_1.glb-f7710caa0b923a2485a13a5c4c187f7e.scn"
+path="res://.godot/imported/wooden_crate_1.glb-3b2f43fb3f250cc1b863291b5da4611a.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/wooden_crate_1.glb"
-dest_files=["res://.godot/imported/wooden_crate_1.glb-f7710caa0b923a2485a13a5c4c187f7e.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/wooden_crate_1.glb"
+dest_files=["res://.godot/imported/wooden_crate_1.glb-3b2f43fb3f250cc1b863291b5da4611a.scn"]
 
 [params]
 

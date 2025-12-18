@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cyy0a0kj1mbhb"
-path="res://.godot/imported/floor_ceiling_hr_6.glb-bdcc716c227914b2c680e2f0d9dc7e91.scn"
+path="res://.godot/imported/floor_ceiling_hr_6.glb-548790fc87a3e55b6e881ff8e758552f.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_6.glb"
-dest_files=["res://.godot/imported/floor_ceiling_hr_6.glb-bdcc716c227914b2c680e2f0d9dc7e91.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_6.glb"
+dest_files=["res://.godot/imported/floor_ceiling_hr_6.glb-548790fc87a3e55b6e881ff8e758552f.scn"]
 
 [params]
 

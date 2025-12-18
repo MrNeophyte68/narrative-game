@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bv26qjkgnuq5a"
-path.s3tc="res://.godot/imported/keypad_2_keypad_2_emission.png-337fb651fb27f56c84d4a795786d8808.s3tc.ctex"
+path.s3tc="res://.godot/imported/keypad_2_keypad_2_emission.png-2114029a264c70b18b8e1abe8494f2ee.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/keypad_2_keypad_2_emission.png"
-dest_files=["res://.godot/imported/keypad_2_keypad_2_emission.png-337fb651fb27f56c84d4a795786d8808.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/keypad_2_keypad_2_emission.png"
+dest_files=["res://.godot/imported/keypad_2_keypad_2_emission.png-2114029a264c70b18b8e1abe8494f2ee.s3tc.ctex"]
 
 [params]
 

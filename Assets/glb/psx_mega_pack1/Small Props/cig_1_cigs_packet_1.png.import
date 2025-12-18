@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tsbsu6it6kpy"
-path.s3tc="res://.godot/imported/cig_1_cigs_packet_1.png-3c1f03e3479cbc77d6e2959e34bafe0b.s3tc.ctex"
+path.s3tc="res://.godot/imported/cig_1_cigs_packet_1.png-616db273121ed7853311a8249cbe3f14.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/cig_1_cigs_packet_1.png"
-dest_files=["res://.godot/imported/cig_1_cigs_packet_1.png-3c1f03e3479cbc77d6e2959e34bafe0b.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/cig_1_cigs_packet_1.png"
+dest_files=["res://.godot/imported/cig_1_cigs_packet_1.png-616db273121ed7853311a8249cbe3f14.s3tc.ctex"]
 
 [params]
 

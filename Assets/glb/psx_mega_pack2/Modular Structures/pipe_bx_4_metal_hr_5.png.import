@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bstjpks3vitd1"
-path.s3tc="res://.godot/imported/pipe_bx_4_metal_hr_5.png-0f413bd437daa2640d0cb1e04e2b7734.s3tc.ctex"
+uid="uid://bwbanvarae5bv"
+path.s3tc="res://.godot/imported/pipe_bx_4_metal_hr_5.png-31679970fcc27774ddeec5d78b226120.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "93fda03b7b7f974d192fb6a95780fa9d"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/pipe_bx_4_metal_hr_5.png"
-dest_files=["res://.godot/imported/pipe_bx_4_metal_hr_5.png-0f413bd437daa2640d0cb1e04e2b7734.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/pipe_bx_4_metal_hr_5.png"
+dest_files=["res://.godot/imported/pipe_bx_4_metal_hr_5.png-31679970fcc27774ddeec5d78b226120.s3tc.ctex"]
 
 [params]
 

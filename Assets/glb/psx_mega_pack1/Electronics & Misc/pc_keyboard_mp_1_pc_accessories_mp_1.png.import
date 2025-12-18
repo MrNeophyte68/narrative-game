@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cq0nlyeuuwohv"
-path.s3tc="res://.godot/imported/pc_keyboard_mp_1_pc_accessories_mp_1.png-ea27a9d002fee2d2aaf3b6f34003405a.s3tc.ctex"
+path.s3tc="res://.godot/imported/pc_keyboard_mp_1_pc_accessories_mp_1.png-f57764507cbdb5c15cfe64fcb673fd03.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/pc_keyboard_mp_1_pc_accessories_mp_1.png"
-dest_files=["res://.godot/imported/pc_keyboard_mp_1_pc_accessories_mp_1.png-ea27a9d002fee2d2aaf3b6f34003405a.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/pc_keyboard_mp_1_pc_accessories_mp_1.png"
+dest_files=["res://.godot/imported/pc_keyboard_mp_1_pc_accessories_mp_1.png-f57764507cbdb5c15cfe64fcb673fd03.s3tc.ctex"]
 
 [params]
 

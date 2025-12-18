@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lsq7lnv5xttj"
-path.s3tc="res://.godot/imported/notebook_1_metal_mp_1.png-fc8784f4449aeebea179305e91edc730.s3tc.ctex"
+path.s3tc="res://.godot/imported/notebook_1_metal_mp_1.png-35a84789185648fdbb669c600a0923d9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/notebook_1_metal_mp_1.png"
-dest_files=["res://.godot/imported/notebook_1_metal_mp_1.png-fc8784f4449aeebea179305e91edc730.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/notebook_1_metal_mp_1.png"
+dest_files=["res://.godot/imported/notebook_1_metal_mp_1.png-35a84789185648fdbb669c600a0923d9.s3tc.ctex"]
 
 [params]
 

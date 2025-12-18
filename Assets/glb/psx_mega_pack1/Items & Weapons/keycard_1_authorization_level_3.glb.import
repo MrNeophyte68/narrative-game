@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b3xh37t7i1mqy"
-path="res://.godot/imported/keycard_1_authorization_level_3.glb-da2bfe7e390a1e97077e5fcfe3c25bef.scn"
+path="res://.godot/imported/keycard_1_authorization_level_3.glb-24edf6a917b3a22dfacbc26574d19b2d.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/keycard_1_authorization_level_3.glb"
-dest_files=["res://.godot/imported/keycard_1_authorization_level_3.glb-da2bfe7e390a1e97077e5fcfe3c25bef.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/keycard_1_authorization_level_3.glb"
+dest_files=["res://.godot/imported/keycard_1_authorization_level_3.glb-24edf6a917b3a22dfacbc26574d19b2d.scn"]
 
 [params]
 

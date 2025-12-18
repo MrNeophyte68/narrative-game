@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://qkymi560bdhw"
-path="res://.godot/imported/stairs_3.glb-33b743685bfc1b94ff27ddc5f76ed303.scn"
+path="res://.godot/imported/stairs_3.glb-0a8f7632118051bf660b1e45a7696a13.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/stairs_3.glb"
-dest_files=["res://.godot/imported/stairs_3.glb-33b743685bfc1b94ff27ddc5f76ed303.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/stairs_3.glb"
+dest_files=["res://.godot/imported/stairs_3.glb-0a8f7632118051bf660b1e45a7696a13.scn"]
 
 [params]
 

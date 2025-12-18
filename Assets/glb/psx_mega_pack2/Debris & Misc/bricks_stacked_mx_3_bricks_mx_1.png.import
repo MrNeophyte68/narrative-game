@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xxs8um88bi83"
-path.s3tc="res://.godot/imported/bricks_stacked_mx_3_bricks_mx_1.png-96f453e95534fe5e13be6bbe77b1b9f0.s3tc.ctex"
+path.s3tc="res://.godot/imported/bricks_stacked_mx_3_bricks_mx_1.png-624f576ef76651f729f4c0b95d6edc9c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Debris & Misc/bricks_stacked_mx_3_bricks_mx_1.png"
-dest_files=["res://.godot/imported/bricks_stacked_mx_3_bricks_mx_1.png-96f453e95534fe5e13be6bbe77b1b9f0.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Debris & Misc/bricks_stacked_mx_3_bricks_mx_1.png"
+dest_files=["res://.godot/imported/bricks_stacked_mx_3_bricks_mx_1.png-624f576ef76651f729f4c0b95d6edc9c.s3tc.ctex"]
 
 [params]
 

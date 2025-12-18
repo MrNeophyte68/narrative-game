@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dhw6rtun1d3tq"
-path="res://.godot/imported/melee_cross_mx_1.glb-04f8198ca8ea03951de5fa1a5c3fadc3.scn"
+path="res://.godot/imported/melee_cross_mx_1.glb-30b787c96efe0a2d68ce7ca6b05d7548.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/melee_cross_mx_1.glb"
-dest_files=["res://.godot/imported/melee_cross_mx_1.glb-04f8198ca8ea03951de5fa1a5c3fadc3.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/melee_cross_mx_1.glb"
+dest_files=["res://.godot/imported/melee_cross_mx_1.glb-30b787c96efe0a2d68ce7ca6b05d7548.scn"]
 
 [params]
 

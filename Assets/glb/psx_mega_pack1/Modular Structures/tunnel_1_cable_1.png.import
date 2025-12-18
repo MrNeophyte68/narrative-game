@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://kleuss16s01"
-path.s3tc="res://.godot/imported/tunnel_1_cable_1.png-27b4aa852edbd3b16d10882d831a37e2.s3tc.ctex"
+path.s3tc="res://.godot/imported/tunnel_1_cable_1.png-7938d2e876e78d79ae47f6fa2b21b78b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/tunnel_1_cable_1.png"
-dest_files=["res://.godot/imported/tunnel_1_cable_1.png-27b4aa852edbd3b16d10882d831a37e2.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/tunnel_1_cable_1.png"
+dest_files=["res://.godot/imported/tunnel_1_cable_1.png-7938d2e876e78d79ae47f6fa2b21b78b.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dyrmltp77ha7g"
-path.s3tc="res://.godot/imported/shed_ax_3_steel_beams_hr_1.png-a9f55f7a7a1ce7596012766594c40e76.s3tc.ctex"
+path.s3tc="res://.godot/imported/shed_ax_3_steel_beams_hr_1.png-20db38bf49137c66cb136c10a43a072e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Buildings/shed_ax_3_steel_beams_hr_1.png"
-dest_files=["res://.godot/imported/shed_ax_3_steel_beams_hr_1.png-a9f55f7a7a1ce7596012766594c40e76.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Buildings/shed_ax_3_steel_beams_hr_1.png"
+dest_files=["res://.godot/imported/shed_ax_3_steel_beams_hr_1.png-20db38bf49137c66cb136c10a43a072e.s3tc.ctex"]
 
 [params]
 

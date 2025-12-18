@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://gf5mqfa3vtxv"
-path.s3tc="res://.godot/imported/axe_mx_1_axe_mx_1.png-f9ccdba836b5abdace3a0b01c1c8787e.s3tc.ctex"
+uid="uid://0hkpndl0fa67"
+path.s3tc="res://.godot/imported/axe_mx_1_axe_mx_1.png-9273c763dc43dedee4d076d29566f996.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "9d6038c7e18c187bb6b9686f40d1093f"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/axe_mx_1_axe_mx_1.png"
-dest_files=["res://.godot/imported/axe_mx_1_axe_mx_1.png-f9ccdba836b5abdace3a0b01c1c8787e.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/axe_mx_1_axe_mx_1.png"
+dest_files=["res://.godot/imported/axe_mx_1_axe_mx_1.png-9273c763dc43dedee4d076d29566f996.s3tc.ctex"]
 
 [params]
 

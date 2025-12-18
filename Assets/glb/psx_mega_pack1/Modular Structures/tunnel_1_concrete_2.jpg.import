@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dkxwwhaikpcuh"
-path.s3tc="res://.godot/imported/tunnel_1_concrete_2.jpg-e49dfc837e8c4f1d110552b5f2335e23.s3tc.ctex"
+uid="uid://cq30msy1lqn12"
+path.s3tc="res://.godot/imported/tunnel_1_concrete_2.jpg-27e6b89191adf25f2939ac2e43a472df.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "ff586e4edd2e0d6a6c608841ef3c6c93"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/tunnel_1_concrete_2.jpg"
-dest_files=["res://.godot/imported/tunnel_1_concrete_2.jpg-e49dfc837e8c4f1d110552b5f2335e23.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/tunnel_1_concrete_2.jpg"
+dest_files=["res://.godot/imported/tunnel_1_concrete_2.jpg-27e6b89191adf25f2939ac2e43a472df.s3tc.ctex"]
 
 [params]
 

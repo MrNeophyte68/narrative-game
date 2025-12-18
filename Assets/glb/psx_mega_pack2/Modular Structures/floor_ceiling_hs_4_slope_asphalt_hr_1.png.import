@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vnkrkodhyhry"
-path.s3tc="res://.godot/imported/floor_ceiling_hs_4_slope_asphalt_hr_1.png-288cb74c4648ae787cf955e49c0454b7.s3tc.ctex"
+path.s3tc="res://.godot/imported/floor_ceiling_hs_4_slope_asphalt_hr_1.png-ab12de1315c09803d05b9bd94d4839fd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hs_4_slope_asphalt_hr_1.png"
-dest_files=["res://.godot/imported/floor_ceiling_hs_4_slope_asphalt_hr_1.png-288cb74c4648ae787cf955e49c0454b7.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hs_4_slope_asphalt_hr_1.png"
+dest_files=["res://.godot/imported/floor_ceiling_hs_4_slope_asphalt_hr_1.png-ab12de1315c09803d05b9bd94d4839fd.s3tc.ctex"]
 
 [params]
 

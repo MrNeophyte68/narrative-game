@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dbqd1ww8y28us"
-path="res://.godot/imported/graffiti_mx_4.glb-bc79616d3a8c695956e6f66c6b85b81d.scn"
+path="res://.godot/imported/graffiti_mx_4.glb-86d8feaf9f0454bf8f8ded564b119a13.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Decals/graffiti_mx_4.glb"
-dest_files=["res://.godot/imported/graffiti_mx_4.glb-bc79616d3a8c695956e6f66c6b85b81d.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Decals/graffiti_mx_4.glb"
+dest_files=["res://.godot/imported/graffiti_mx_4.glb-86d8feaf9f0454bf8f8ded564b119a13.scn"]
 
 [params]
 

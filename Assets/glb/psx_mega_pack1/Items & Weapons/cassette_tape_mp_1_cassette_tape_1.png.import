@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cq1dhxcafj5k7"
-path.s3tc="res://.godot/imported/cassette_tape_mp_1_cassette_tape_1.png-4807135b42e6dc898d9b5ffc9cd068ad.s3tc.ctex"
+uid="uid://cujqhuq63fyoo"
+path.s3tc="res://.godot/imported/cassette_tape_mp_1_cassette_tape_1.png-1bae952d149d05e5315085a38690c160.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "b669c0d4ab9d019b83f866142b75a386"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/cassette_tape_mp_1_cassette_tape_1.png"
-dest_files=["res://.godot/imported/cassette_tape_mp_1_cassette_tape_1.png-4807135b42e6dc898d9b5ffc9cd068ad.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/cassette_tape_mp_1_cassette_tape_1.png"
+dest_files=["res://.godot/imported/cassette_tape_mp_1_cassette_tape_1.png-1bae952d149d05e5315085a38690c160.s3tc.ctex"]
 
 [params]
 

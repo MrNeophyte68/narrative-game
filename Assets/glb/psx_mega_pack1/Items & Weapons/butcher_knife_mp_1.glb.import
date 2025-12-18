@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cle17stsuurfj"
-path="res://.godot/imported/butcher_knife_mp_1.glb-a0b67b03e212d31749466e059ab0c8a9.scn"
+path="res://.godot/imported/butcher_knife_mp_1.glb-d4c07b728ed0627df7b951b1f64561ca.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/butcher_knife_mp_1.glb"
-dest_files=["res://.godot/imported/butcher_knife_mp_1.glb-a0b67b03e212d31749466e059ab0c8a9.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/butcher_knife_mp_1.glb"
+dest_files=["res://.godot/imported/butcher_knife_mp_1.glb-d4c07b728ed0627df7b951b1f64561ca.scn"]
 
 [params]
 

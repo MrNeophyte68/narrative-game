@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bf2uoh3wpewc4"
-path.s3tc="res://.godot/imported/scanner_1_scanner_1.png-7598b9dbedbdf5abd91fb85297d817da.s3tc.ctex"
+path.s3tc="res://.godot/imported/scanner_1_scanner_1.png-cd768d052d2e65ee1c99f9d1e914c8b5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/scanner_1_scanner_1.png"
-dest_files=["res://.godot/imported/scanner_1_scanner_1.png-7598b9dbedbdf5abd91fb85297d817da.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/scanner_1_scanner_1.png"
+dest_files=["res://.godot/imported/scanner_1_scanner_1.png-cd768d052d2e65ee1c99f9d1e914c8b5.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dpe3hiiow4iyl"
-path="res://.godot/imported/rainwater_pipe_hl_1_middle.glb-10e61ef88fc13efd5e31956d77d902c1.scn"
+path="res://.godot/imported/rainwater_pipe_hl_1_middle.glb-a00774cf49081ba9b80e7f6ae9263e8e.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/rainwater_pipe_hl_1_middle.glb"
-dest_files=["res://.godot/imported/rainwater_pipe_hl_1_middle.glb-10e61ef88fc13efd5e31956d77d902c1.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/rainwater_pipe_hl_1_middle.glb"
+dest_files=["res://.godot/imported/rainwater_pipe_hl_1_middle.glb-a00774cf49081ba9b80e7f6ae9263e8e.scn"]
 
 [params]
 

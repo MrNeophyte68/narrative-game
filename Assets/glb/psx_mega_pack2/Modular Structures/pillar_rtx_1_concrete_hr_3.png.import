@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dyhyjnkjehgl6"
-path.s3tc="res://.godot/imported/pillar_rtx_1_concrete_hr_3.png-d84082e1d4e85d3d7757ef573297e75e.s3tc.ctex"
+uid="uid://1n7auwgi4f0d"
+path.s3tc="res://.godot/imported/pillar_rtx_1_concrete_hr_3.png-3b4e2d93115c655181d3d40963bf0ff9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "080a4fd51e53c2526ee8d6fc757d1640"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/pillar_rtx_1_concrete_hr_3.png"
-dest_files=["res://.godot/imported/pillar_rtx_1_concrete_hr_3.png-d84082e1d4e85d3d7757ef573297e75e.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/pillar_rtx_1_concrete_hr_3.png"
+dest_files=["res://.godot/imported/pillar_rtx_1_concrete_hr_3.png-3b4e2d93115c655181d3d40963bf0ff9.s3tc.ctex"]
 
 [params]
 

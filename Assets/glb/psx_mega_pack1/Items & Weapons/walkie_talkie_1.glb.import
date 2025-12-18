@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dti0fyd016da2"
-path="res://.godot/imported/walkie_talkie_1.glb-e67582d90d7b92596f653a22b3b9f5fd.scn"
+path="res://.godot/imported/walkie_talkie_1.glb-46497954c6acac6d0263bbea372eae42.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/walkie_talkie_1.glb"
-dest_files=["res://.godot/imported/walkie_talkie_1.glb-e67582d90d7b92596f653a22b3b9f5fd.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/walkie_talkie_1.glb"
+dest_files=["res://.godot/imported/walkie_talkie_1.glb-46497954c6acac6d0263bbea372eae42.scn"]
 
 [params]
 

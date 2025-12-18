@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cw6nhtx4udgg7"
-path.s3tc="res://.godot/imported/roof_small_hr_1_planks_hr_3.png-051f019bee7cdd2b90813bda0767cd6d.s3tc.ctex"
+path.s3tc="res://.godot/imported/roof_small_hr_1_planks_hr_3.png-8c4eb2713c2517e8d1875802c871f22e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/roof_small_hr_1_planks_hr_3.png"
-dest_files=["res://.godot/imported/roof_small_hr_1_planks_hr_3.png-051f019bee7cdd2b90813bda0767cd6d.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/roof_small_hr_1_planks_hr_3.png"
+dest_files=["res://.godot/imported/roof_small_hr_1_planks_hr_3.png-8c4eb2713c2517e8d1875802c871f22e.s3tc.ctex"]
 
 [params]
 

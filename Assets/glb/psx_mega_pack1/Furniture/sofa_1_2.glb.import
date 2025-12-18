@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b81jdo7bod5xr"
-path="res://.godot/imported/sofa_1_2.glb-9012941c4b00c48bb0a337e8f3eb2204.scn"
+path="res://.godot/imported/sofa_1_2.glb-3cab75cc83bd889cb15aa8c27358f61b.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/sofa_1_2.glb"
-dest_files=["res://.godot/imported/sofa_1_2.glb-9012941c4b00c48bb0a337e8f3eb2204.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/sofa_1_2.glb"
+dest_files=["res://.godot/imported/sofa_1_2.glb-3cab75cc83bd889cb15aa8c27358f61b.scn"]
 
 [params]
 

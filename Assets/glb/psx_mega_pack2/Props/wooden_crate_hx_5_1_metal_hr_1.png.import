@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://pp7ritwplqth"
-path.s3tc="res://.godot/imported/wooden_crate_hx_5_1_metal_hr_1.png-7650faf00dedf2e39bea4bc4c2c8d9b0.s3tc.ctex"
+uid="uid://1uqe4kq4hanv"
+path.s3tc="res://.godot/imported/wooden_crate_hx_5_1_metal_hr_1.png-a423687845147381ee1bc19e8898e90d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "32c104a4f3bc5c467f232b40e9c1506c"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/wooden_crate_hx_5_1_metal_hr_1.png"
-dest_files=["res://.godot/imported/wooden_crate_hx_5_1_metal_hr_1.png-7650faf00dedf2e39bea4bc4c2c8d9b0.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/wooden_crate_hx_5_1_metal_hr_1.png"
+dest_files=["res://.godot/imported/wooden_crate_hx_5_1_metal_hr_1.png-a423687845147381ee1bc19e8898e90d.s3tc.ctex"]
 
 [params]
 

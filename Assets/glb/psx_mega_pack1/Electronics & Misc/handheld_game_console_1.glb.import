@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://u7b4dw5lsjwk"
-path="res://.godot/imported/handheld_game_console_1.glb-ab050d4373f4784e793d3e12e53e1d82.scn"
+path="res://.godot/imported/handheld_game_console_1.glb-dd045d7ec9d0cfd8da39d5f2b9041d6d.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/handheld_game_console_1.glb"
-dest_files=["res://.godot/imported/handheld_game_console_1.glb-ab050d4373f4784e793d3e12e53e1d82.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/handheld_game_console_1.glb"
+dest_files=["res://.godot/imported/handheld_game_console_1.glb-dd045d7ec9d0cfd8da39d5f2b9041d6d.scn"]
 
 [params]
 

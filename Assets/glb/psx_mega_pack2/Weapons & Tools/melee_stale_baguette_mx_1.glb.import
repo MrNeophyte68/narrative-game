@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cli3iewpqwq42"
-path="res://.godot/imported/melee_stale_baguette_mx_1.glb-73e8c5d678aaefe8fd4e597a71bedb96.scn"
+path="res://.godot/imported/melee_stale_baguette_mx_1.glb-f9b0503e68bdede318fdde9cd37dc4af.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/melee_stale_baguette_mx_1.glb"
-dest_files=["res://.godot/imported/melee_stale_baguette_mx_1.glb-73e8c5d678aaefe8fd4e597a71bedb96.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/melee_stale_baguette_mx_1.glb"
+dest_files=["res://.godot/imported/melee_stale_baguette_mx_1.glb-f9b0503e68bdede318fdde9cd37dc4af.scn"]
 
 [params]
 

@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://sbthap27ef1"
-path.s3tc="res://.godot/imported/trash_6_trash_6.png-dc713250897e9accd7125fe823983841.s3tc.ctex"
+uid="uid://cbvp411s4e5ch"
+path.s3tc="res://.godot/imported/trash_6_trash_6.png-ebd2dc3d2287aeeaffe53485f781fdb1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "07bb13c6cbae1040e06d284cda2e5b4b"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/trash_6_trash_6.png"
-dest_files=["res://.godot/imported/trash_6_trash_6.png-dc713250897e9accd7125fe823983841.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/trash_6_trash_6.png"
+dest_files=["res://.godot/imported/trash_6_trash_6.png-ebd2dc3d2287aeeaffe53485f781fdb1.s3tc.ctex"]
 
 [params]
 

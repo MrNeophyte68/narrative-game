@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ceo6tgc1n5d3i"
-path.s3tc="res://.godot/imported/tank_system_mx_1_metal_hr_6_1.png-eecfb38a44c61dfcb3da8bb663a53a19.s3tc.ctex"
+uid="uid://dn43jy1jqs2he"
+path.s3tc="res://.godot/imported/tank_system_mx_1_metal_hr_6_1.png-47639bc896fe579aa26fa877d80a2fcf.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "a2e18f687d11ab37f21102d5fe7c470f"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/tank_system_mx_1_metal_hr_6_1.png"
-dest_files=["res://.godot/imported/tank_system_mx_1_metal_hr_6_1.png-eecfb38a44c61dfcb3da8bb663a53a19.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/tank_system_mx_1_metal_hr_6_1.png"
+dest_files=["res://.godot/imported/tank_system_mx_1_metal_hr_6_1.png-47639bc896fe579aa26fa877d80a2fcf.s3tc.ctex"]
 
 [params]
 

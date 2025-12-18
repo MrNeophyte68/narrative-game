@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5qcigtysfhic"
-path.s3tc="res://.godot/imported/hanging_shelf_mx_2_1_metal_hr_2.png-a04e552d332fe9032e58af88849ffc86.s3tc.ctex"
+uid="uid://cpiipshgt0oao"
+path.s3tc="res://.godot/imported/hanging_shelf_mx_2_1_metal_hr_2.png-85912c5bb1abcb9e3b61a37d48ffcd86.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "077b0177652e5ec1193a7e03acd48658"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/hanging_shelf_mx_2_1_metal_hr_2.png"
-dest_files=["res://.godot/imported/hanging_shelf_mx_2_1_metal_hr_2.png-a04e552d332fe9032e58af88849ffc86.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/hanging_shelf_mx_2_1_metal_hr_2.png"
+dest_files=["res://.godot/imported/hanging_shelf_mx_2_1_metal_hr_2.png-85912c5bb1abcb9e3b61a37d48ffcd86.s3tc.ctex"]
 
 [params]
 

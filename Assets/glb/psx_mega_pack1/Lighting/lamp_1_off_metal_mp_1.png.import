@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://36ej41u4duoh"
-path.s3tc="res://.godot/imported/lamp_1_off_metal_mp_1.png-89b9b19a31ad750f958d4c0620d49581.s3tc.ctex"
+path.s3tc="res://.godot/imported/lamp_1_off_metal_mp_1.png-f322cc69443b30aea883167631b4905c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Lighting/lamp_1_off_metal_mp_1.png"
-dest_files=["res://.godot/imported/lamp_1_off_metal_mp_1.png-89b9b19a31ad750f958d4c0620d49581.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Lighting/lamp_1_off_metal_mp_1.png"
+dest_files=["res://.godot/imported/lamp_1_off_metal_mp_1.png-f322cc69443b30aea883167631b4905c.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c055seqe3germ"
-path="res://.godot/imported/mouse_pad_mp_1.glb-439869aa87d8b859a6142817469df259.scn"
+path="res://.godot/imported/mouse_pad_mp_1.glb-637624f6905309dbb3cb0ffe69f557ec.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/mouse_pad_mp_1.glb"
-dest_files=["res://.godot/imported/mouse_pad_mp_1.glb-439869aa87d8b859a6142817469df259.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/mouse_pad_mp_1.glb"
+dest_files=["res://.godot/imported/mouse_pad_mp_1.glb-637624f6905309dbb3cb0ffe69f557ec.scn"]
 
 [params]
 

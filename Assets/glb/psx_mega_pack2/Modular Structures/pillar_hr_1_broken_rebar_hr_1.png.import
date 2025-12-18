@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d4bhtsrpgvyb5"
-path.s3tc="res://.godot/imported/pillar_hr_1_broken_rebar_hr_1.png-23bf2e832d0727e3b6bb60eefbd3391c.s3tc.ctex"
+path.s3tc="res://.godot/imported/pillar_hr_1_broken_rebar_hr_1.png-bd3884df47e2d3eb4a70c48b64db3f18.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/pillar_hr_1_broken_rebar_hr_1.png"
-dest_files=["res://.godot/imported/pillar_hr_1_broken_rebar_hr_1.png-23bf2e832d0727e3b6bb60eefbd3391c.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/pillar_hr_1_broken_rebar_hr_1.png"
+dest_files=["res://.godot/imported/pillar_hr_1_broken_rebar_hr_1.png-bd3884df47e2d3eb4a70c48b64db3f18.s3tc.ctex"]
 
 [params]
 

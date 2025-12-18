@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cu51eo1li17xc"
-path="res://.godot/imported/dosimeter_2.glb-38eecd4df698ed443e1c6b5fb1e1ed65.scn"
+path="res://.godot/imported/dosimeter_2.glb-883a689a05267eff6d72053f2926bccb.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/dosimeter_2.glb"
-dest_files=["res://.godot/imported/dosimeter_2.glb-38eecd4df698ed443e1c6b5fb1e1ed65.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/dosimeter_2.glb"
+dest_files=["res://.godot/imported/dosimeter_2.glb-883a689a05267eff6d72053f2926bccb.scn"]
 
 [params]
 

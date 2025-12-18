@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dy6r00j4rbow2"
-path.s3tc="res://.godot/imported/pcb_4_pcb_4.png-88f9e0534676059455071354d0470897.s3tc.ctex"
+uid="uid://dflwrta18npxe"
+path.s3tc="res://.godot/imported/pcb_4_pcb_4.png-786ddfc00b8ff367380c2d0ccdd04a01.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "b3cc63f49016a3be21914807a10b2576"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/pcb_4_pcb_4.png"
-dest_files=["res://.godot/imported/pcb_4_pcb_4.png-88f9e0534676059455071354d0470897.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/pcb_4_pcb_4.png"
+dest_files=["res://.godot/imported/pcb_4_pcb_4.png-786ddfc00b8ff367380c2d0ccdd04a01.s3tc.ctex"]
 
 [params]
 

@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://nrvnfyu2gbqh"
-path.s3tc="res://.godot/imported/display_cabinet_mp_2_1_metal_6.png-ecd1cd6bfc55219bd0af6347fa502452.s3tc.ctex"
+uid="uid://rulekls277w0"
+path.s3tc="res://.godot/imported/display_cabinet_mp_2_1_metal_6.png-492158a5ed9f882a28eb7b0772b9748d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "1c517bf86d29a1a9cc0e245d7ea26dcf"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/display_cabinet_mp_2_1_metal_6.png"
-dest_files=["res://.godot/imported/display_cabinet_mp_2_1_metal_6.png-ecd1cd6bfc55219bd0af6347fa502452.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/display_cabinet_mp_2_1_metal_6.png"
+dest_files=["res://.godot/imported/display_cabinet_mp_2_1_metal_6.png-492158a5ed9f882a28eb7b0772b9748d.s3tc.ctex"]
 
 [params]
 

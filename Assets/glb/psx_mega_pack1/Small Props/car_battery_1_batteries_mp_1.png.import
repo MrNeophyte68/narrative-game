@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7h3a6aw3ix4a"
-path.s3tc="res://.godot/imported/car_battery_1_batteries_mp_1.png-9eaa50166264d292a2b21d2acd4ec8be.s3tc.ctex"
+uid="uid://8cdw4vlebph5"
+path.s3tc="res://.godot/imported/car_battery_1_batteries_mp_1.png-909efa58d2ce601c4d984476f98cd068.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "fb01aeb2edc8abb7422e0b80072f11ce"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/car_battery_1_batteries_mp_1.png"
-dest_files=["res://.godot/imported/car_battery_1_batteries_mp_1.png-9eaa50166264d292a2b21d2acd4ec8be.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/car_battery_1_batteries_mp_1.png"
+dest_files=["res://.godot/imported/car_battery_1_batteries_mp_1.png-909efa58d2ce601c4d984476f98cd068.s3tc.ctex"]
 
 [params]
 

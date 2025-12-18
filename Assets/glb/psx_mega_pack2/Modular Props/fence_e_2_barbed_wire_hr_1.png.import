@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://un8ecj0jidqv"
-path.s3tc="res://.godot/imported/fence_e_2_barbed_wire_hr_1.png-b9b140fc4d34871204b85b2ba7ab10bb.s3tc.ctex"
+path.s3tc="res://.godot/imported/fence_e_2_barbed_wire_hr_1.png-4278326a96dd98dfd4739b8daf038a47.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Props/fence_e_2_barbed_wire_hr_1.png"
-dest_files=["res://.godot/imported/fence_e_2_barbed_wire_hr_1.png-b9b140fc4d34871204b85b2ba7ab10bb.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Props/fence_e_2_barbed_wire_hr_1.png"
+dest_files=["res://.godot/imported/fence_e_2_barbed_wire_hr_1.png-4278326a96dd98dfd4739b8daf038a47.s3tc.ctex"]
 
 [params]
 

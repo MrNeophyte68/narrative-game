@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://brgis1c5m1cd3"
-path.s3tc="res://.godot/imported/wardrobe_mp_1_3_metal_6.png-6a147fa015850123eb8a6cca3fffe462.s3tc.ctex"
+uid="uid://dx0x5h3ooqmf0"
+path.s3tc="res://.godot/imported/wardrobe_mp_1_3_metal_6.png-b636336c0b01552644744a3012a874fd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "1c517bf86d29a1a9cc0e245d7ea26dcf"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/wardrobe_mp_1_3_metal_6.png"
-dest_files=["res://.godot/imported/wardrobe_mp_1_3_metal_6.png-6a147fa015850123eb8a6cca3fffe462.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/wardrobe_mp_1_3_metal_6.png"
+dest_files=["res://.godot/imported/wardrobe_mp_1_3_metal_6.png-b636336c0b01552644744a3012a874fd.s3tc.ctex"]
 
 [params]
 

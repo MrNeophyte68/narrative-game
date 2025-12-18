@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://leigq3rvt2k5"
-path="res://.godot/imported/cardboard_box_2.glb-c0161174182e3224649fd77d2cc8b8d8.scn"
+path="res://.godot/imported/cardboard_box_2.glb-b0d7f91ab43282a5f3b02d2eb496c461.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Large Props/cardboard_box_2.glb"
-dest_files=["res://.godot/imported/cardboard_box_2.glb-c0161174182e3224649fd77d2cc8b8d8.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Large Props/cardboard_box_2.glb"
+dest_files=["res://.godot/imported/cardboard_box_2.glb-b0d7f91ab43282a5f3b02d2eb496c461.scn"]
 
 [params]
 

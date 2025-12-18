@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bi5u6x5vndhfw"
-path.s3tc="res://.godot/imported/shelf_mx_7_grate_hm_1.png-9bf633f143efaf4d365247882ae9598a.s3tc.ctex"
+uid="uid://br1ns1mrfnudm"
+path.s3tc="res://.godot/imported/shelf_mx_7_grate_hm_1.png-0faddb647302f76be297c33533a4af04.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "f36c5c897063218a9685e8cd906b1bb8"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/shelf_mx_7_grate_hm_1.png"
-dest_files=["res://.godot/imported/shelf_mx_7_grate_hm_1.png-9bf633f143efaf4d365247882ae9598a.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/shelf_mx_7_grate_hm_1.png"
+dest_files=["res://.godot/imported/shelf_mx_7_grate_hm_1.png-0faddb647302f76be297c33533a4af04.s3tc.ctex"]
 
 [params]
 

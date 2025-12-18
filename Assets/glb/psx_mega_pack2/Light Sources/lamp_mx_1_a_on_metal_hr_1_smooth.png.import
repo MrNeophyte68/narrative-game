@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://by0q4ma50uyp3"
-path.s3tc="res://.godot/imported/lamp_mx_1_a_on_metal_hr_1_smooth.png-81ace71cf518816201f0457bda3b17dd.s3tc.ctex"
+uid="uid://d02u8n3s1qah"
+path.s3tc="res://.godot/imported/lamp_mx_1_a_on_metal_hr_1_smooth.png-19b891f48319601c469a4e7f4e365db8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "809b9d5a3da23a6d692ff4d6e9f8a8d8"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Light Sources/lamp_mx_1_a_on_metal_hr_1_smooth.png"
-dest_files=["res://.godot/imported/lamp_mx_1_a_on_metal_hr_1_smooth.png-81ace71cf518816201f0457bda3b17dd.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Light Sources/lamp_mx_1_a_on_metal_hr_1_smooth.png"
+dest_files=["res://.godot/imported/lamp_mx_1_a_on_metal_hr_1_smooth.png-19b891f48319601c469a4e7f4e365db8.s3tc.ctex"]
 
 [params]
 

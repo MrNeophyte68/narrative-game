@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byekwacqoo8tq"
-path.s3tc="res://.godot/imported/toilet_mp_1_1_plastic_mp_2.png-92b9e288c54793708b67ab0b8ebc41bf.s3tc.ctex"
+path.s3tc="res://.godot/imported/toilet_mp_1_1_plastic_mp_2.png-0e569f2ee9d3e96fe08711b9962eb438.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Large Props/toilet_mp_1_1_plastic_mp_2.png"
-dest_files=["res://.godot/imported/toilet_mp_1_1_plastic_mp_2.png-92b9e288c54793708b67ab0b8ebc41bf.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Large Props/toilet_mp_1_1_plastic_mp_2.png"
+dest_files=["res://.godot/imported/toilet_mp_1_1_plastic_mp_2.png-0e569f2ee9d3e96fe08711b9962eb438.s3tc.ctex"]
 
 [params]
 

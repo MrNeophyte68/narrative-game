@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cba0a0x18slq"
-path="res://.godot/imported/bars_metal_3.glb-085e6f0b5cd14ecabcfd51ce861f48c1.scn"
+path="res://.godot/imported/bars_metal_3.glb-be4897a9e0e8dfed991e448055589102.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/bars_metal_3.glb"
-dest_files=["res://.godot/imported/bars_metal_3.glb-085e6f0b5cd14ecabcfd51ce861f48c1.scn"]
+source_file="res://assets/glb/psx_bunker/bars_metal_3.glb"
+dest_files=["res://.godot/imported/bars_metal_3.glb-be4897a9e0e8dfed991e448055589102.scn"]
 
 [params]
 

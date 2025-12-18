@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b6wowcad42gs2"
-path.s3tc="res://.godot/imported/pc_monitor_mp_1_crt_screen_mp_2.png-49de27e5d075679372b16f2cceb23c24.s3tc.ctex"
+uid="uid://dlxjr8u7eiabv"
+path.s3tc="res://.godot/imported/pc_monitor_mp_1_crt_screen_mp_2.png-dcc776550e7ff7d10e6bcdddbb61557f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "f3cf4b514704f08268bb92cc3fc9fa3d"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/pc_monitor_mp_1_crt_screen_mp_2.png"
-dest_files=["res://.godot/imported/pc_monitor_mp_1_crt_screen_mp_2.png-49de27e5d075679372b16f2cceb23c24.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/pc_monitor_mp_1_crt_screen_mp_2.png"
+dest_files=["res://.godot/imported/pc_monitor_mp_1_crt_screen_mp_2.png-dcc776550e7ff7d10e6bcdddbb61557f.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://nrdjah4j41q5"
-path="res://.godot/imported/ceiling_lamp_2_fake_light_2.glb-cea4f29d52217455411ffe2278154fb5.scn"
+path="res://.godot/imported/ceiling_lamp_2_fake_light_2.glb-e9e6a0588f258034e358fd819a27b154.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Lighting/ceiling_lamp_2_fake_light_2.glb"
-dest_files=["res://.godot/imported/ceiling_lamp_2_fake_light_2.glb-cea4f29d52217455411ffe2278154fb5.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Lighting/ceiling_lamp_2_fake_light_2.glb"
+dest_files=["res://.godot/imported/ceiling_lamp_2_fake_light_2.glb-e9e6a0588f258034e358fd819a27b154.scn"]
 
 [params]
 

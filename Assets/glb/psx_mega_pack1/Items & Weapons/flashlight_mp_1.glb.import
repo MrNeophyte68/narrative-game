@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://doc8q6lc0ev0h"
-path="res://.godot/imported/flashlight_mp_1.glb-0044fe9a92ef9766a1e0504e5623b49f.scn"
+path="res://.godot/imported/flashlight_mp_1.glb-d071aeeb06382c016a6c0a8b4cb81fa6.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/flashlight_mp_1.glb"
-dest_files=["res://.godot/imported/flashlight_mp_1.glb-0044fe9a92ef9766a1e0504e5623b49f.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/flashlight_mp_1.glb"
+dest_files=["res://.godot/imported/flashlight_mp_1.glb-d071aeeb06382c016a6c0a8b4cb81fa6.scn"]
 
 [params]
 

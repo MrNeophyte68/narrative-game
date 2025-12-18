@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cw4ktcd4la80x"
-path.s3tc="res://.godot/imported/blast_door_1_frame_metal_6.png-abf0319076e80d85ce0f9d8dba551a32.s3tc.ctex"
+path.s3tc="res://.godot/imported/blast_door_1_frame_metal_6.png-efb718c6dbc78b720a61afc4ba2d83b2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/blast_door_1_frame_metal_6.png"
-dest_files=["res://.godot/imported/blast_door_1_frame_metal_6.png-abf0319076e80d85ce0f9d8dba551a32.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/blast_door_1_frame_metal_6.png"
+dest_files=["res://.godot/imported/blast_door_1_frame_metal_6.png-efb718c6dbc78b720a61afc4ba2d83b2.s3tc.ctex"]
 
 [params]
 

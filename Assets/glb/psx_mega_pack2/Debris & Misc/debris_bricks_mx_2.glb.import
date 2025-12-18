@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://du0wv7ry424wp"
-path="res://.godot/imported/debris_bricks_mx_2.glb-d530dfb36e30a12399fec90f8eaed125.scn"
+path="res://.godot/imported/debris_bricks_mx_2.glb-1f715cf27dbb086844e0a29d17151ca3.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Debris & Misc/debris_bricks_mx_2.glb"
-dest_files=["res://.godot/imported/debris_bricks_mx_2.glb-d530dfb36e30a12399fec90f8eaed125.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Debris & Misc/debris_bricks_mx_2.glb"
+dest_files=["res://.godot/imported/debris_bricks_mx_2.glb-1f715cf27dbb086844e0a29d17151ca3.scn"]
 
 [params]
 

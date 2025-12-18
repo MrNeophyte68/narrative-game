@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhp3cx7e1ffd6"
-path.s3tc="res://.godot/imported/kids_computer_1_kids_computer_1.png-a4e383aba391555b04021b2e908bab4d.s3tc.ctex"
+path.s3tc="res://.godot/imported/kids_computer_1_kids_computer_1.png-686e46839c3bbdb07f0d6c258735e988.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/kids_computer_1_kids_computer_1.png"
-dest_files=["res://.godot/imported/kids_computer_1_kids_computer_1.png-a4e383aba391555b04021b2e908bab4d.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/kids_computer_1_kids_computer_1.png"
+dest_files=["res://.godot/imported/kids_computer_1_kids_computer_1.png-686e46839c3bbdb07f0d6c258735e988.s3tc.ctex"]
 
 [params]
 

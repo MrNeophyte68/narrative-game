@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bgw5w7njom0xi"
-path.s3tc="res://.godot/imported/tunnel_hole_2_concrete_wall_1.png-1828d070e750a2dc16fbeafe2ae3648f.s3tc.ctex"
+uid="uid://cgm5mlx81exgr"
+path.s3tc="res://.godot/imported/tunnel_hole_2_concrete_wall_1.png-21098025f18962bcf6847c6476d277b7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "3778e26f03ac8c216fbe1a4310dfa1e5"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/tunnel_hole_2_concrete_wall_1.png"
-dest_files=["res://.godot/imported/tunnel_hole_2_concrete_wall_1.png-1828d070e750a2dc16fbeafe2ae3648f.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/tunnel_hole_2_concrete_wall_1.png"
+dest_files=["res://.godot/imported/tunnel_hole_2_concrete_wall_1.png-21098025f18962bcf6847c6476d277b7.s3tc.ctex"]
 
 [params]
 

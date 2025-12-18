@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://csheveroqhjjl"
-path="res://.godot/imported/CreatoDisplay-Regular.otf-4c1d673e2ff46fda2ff6f0b5f9fe79ec.fontdata"
+path="res://.godot/imported/CreatoDisplay-Regular.otf-fb611ea0cd114e4eb7ca42fdf2876ef0.fontdata"
 
 [deps]
 
-source_file="res://Assets/font/creato_display/CreatoDisplay-Regular.otf"
-dest_files=["res://.godot/imported/CreatoDisplay-Regular.otf-4c1d673e2ff46fda2ff6f0b5f9fe79ec.fontdata"]
+source_file="res://assets/font/creato_display/CreatoDisplay-Regular.otf"
+dest_files=["res://.godot/imported/CreatoDisplay-Regular.otf-fb611ea0cd114e4eb7ca42fdf2876ef0.fontdata"]
 
 [params]
 

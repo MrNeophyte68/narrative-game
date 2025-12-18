@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dyu4nci1lymov"
-path.s3tc="res://.godot/imported/structure_piece_rg_1_1_metal_floor_mx_1.png-ad5985558d2139bd5e82e81d529d7210.s3tc.ctex"
+uid="uid://c2ew8eydwsqk3"
+path.s3tc="res://.godot/imported/structure_piece_rg_1_1_metal_floor_mx_1.png-bc3580c17008aafc5c0e422e0bf36e84.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "2e6f5aafac1ef494fc53fd167371f8d5"
-}
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/structure_piece_rg_1_1_metal_floor_mx_1.png"
-dest_files=["res://.godot/imported/structure_piece_rg_1_1_metal_floor_mx_1.png-ad5985558d2139bd5e82e81d529d7210.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/structure_piece_rg_1_1_metal_floor_mx_1.png"
+dest_files=["res://.godot/imported/structure_piece_rg_1_1_metal_floor_mx_1.png-bc3580c17008aafc5c0e422e0bf36e84.s3tc.ctex"]
 
 [params]
 

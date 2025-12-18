@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwx1chvtx2lbm"
-path.s3tc="res://.godot/imported/power_supply_1_power_supply_1.png-6f363a0fc3a90520bb8ef5c6f1f9fa98.s3tc.ctex"
+path.s3tc="res://.godot/imported/power_supply_1_power_supply_1.png-a0487fadedc848734b221cb4c01fc008.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/power_supply_1_power_supply_1.png"
-dest_files=["res://.godot/imported/power_supply_1_power_supply_1.png-6f363a0fc3a90520bb8ef5c6f1f9fa98.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/power_supply_1_power_supply_1.png"
+dest_files=["res://.godot/imported/power_supply_1_power_supply_1.png-a0487fadedc848734b221cb4c01fc008.s3tc.ctex"]
 
 [params]
 

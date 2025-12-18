@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://paaixffuqcw4"
-path.s3tc="res://.godot/imported/platform_bx_2_steel_beams_hr_1.png-be34944b5f2716def5b3387b11515842.s3tc.ctex"
+path.s3tc="res://.godot/imported/platform_bx_2_steel_beams_hr_1.png-935e6f5164f9af60334b262bb27c7cfc.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/platform_bx_2_steel_beams_hr_1.png"
-dest_files=["res://.godot/imported/platform_bx_2_steel_beams_hr_1.png-be34944b5f2716def5b3387b11515842.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/platform_bx_2_steel_beams_hr_1.png"
+dest_files=["res://.godot/imported/platform_bx_2_steel_beams_hr_1.png-935e6f5164f9af60334b262bb27c7cfc.s3tc.ctex"]
 
 [params]
 

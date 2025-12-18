@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://drgy3jr3bq1jg"
-path="res://.godot/imported/jam_jar_mp_1_small.glb-949e790c411f18e1f9db9e1b6088e4eb.scn"
+path="res://.godot/imported/jam_jar_mp_1_small.glb-7b09285171de1b3a98e4bb9f3e4fa871.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/jam_jar_mp_1_small.glb"
-dest_files=["res://.godot/imported/jam_jar_mp_1_small.glb-949e790c411f18e1f9db9e1b6088e4eb.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/jam_jar_mp_1_small.glb"
+dest_files=["res://.godot/imported/jam_jar_mp_1_small.glb-7b09285171de1b3a98e4bb9f3e4fa871.scn"]
 
 [params]
 

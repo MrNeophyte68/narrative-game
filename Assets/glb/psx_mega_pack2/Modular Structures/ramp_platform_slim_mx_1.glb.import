@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dolfaw8yhvl8k"
-path="res://.godot/imported/ramp_platform_slim_mx_1.glb-d6bf303d66217c925ee41238b44c016d.scn"
+path="res://.godot/imported/ramp_platform_slim_mx_1.glb-89ff437c5e868d360d05118b2680ae10.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/ramp_platform_slim_mx_1.glb"
-dest_files=["res://.godot/imported/ramp_platform_slim_mx_1.glb-d6bf303d66217c925ee41238b44c016d.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/ramp_platform_slim_mx_1.glb"
+dest_files=["res://.godot/imported/ramp_platform_slim_mx_1.glb-89ff437c5e868d360d05118b2680ae10.scn"]
 
 [params]
 
