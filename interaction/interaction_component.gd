@@ -6,7 +6,8 @@ enum InteractionType {
 	DEFAULT,
 	DOOR,
 	ROTATING_SWITCH,
-	WHEEL
+	WHEEL,
+	ITEM
 }
 
 @export var object_ref: Node3D
@@ -24,6 +25,9 @@ var player_hand: Marker3D
 var camera: Camera3D
 var previous_mouse_position: Vector2
 var wheel_rotation: float = 0.0
+
+#Signals
+signal item_collected(item: Node)
 
 func _ready() -> void:
 	match interaction_type:
@@ -64,6 +68,8 @@ func interact() -> void:
 	match interaction_type:
 		InteractionType.DEFAULT:
 			_default_interact()
+		InteractionType.ITEM:
+			_collect_item()
 
 func auxInteract() -> void:
 	if not can_interact:
@@ -153,3 +159,6 @@ func calculate_cross_product(_mouse_position: Vector2) -> float:
 	var cross_product = vector_to_current.x * vector_to_previous.y - vector_to_current.y * vector_to_previous.x
 	return cross_product
 	
+func _collect_item() -> void:
+	emit_signal("item_collected", get_parent())
+	get_parent().queue_free()

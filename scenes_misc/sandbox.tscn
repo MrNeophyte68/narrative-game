@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=4 uid="uid://dstmtb7me0lh8"]
+[gd_scene load_steps=33 format=4 uid="uid://dstmtb7me0lh8"]
 
 [ext_resource type="Texture2D" uid="uid://c4itmbpuywun8" path="res://assets/images/hl_office_complex_style_tile_floor_1.png" id="1_0lf1x"]
 [ext_resource type="PackedScene" uid="uid://bgg5wj2yybs01" path="res://objects/cube_5_kg.tscn" id="1_6rruu"]
@@ -13,6 +13,7 @@
 [ext_resource type="Script" uid="uid://q6srrxbjnau5" path="res://scripts_misc/light.gd" id="11_guthx"]
 [ext_resource type="Script" uid="uid://c8qyctcfo8lph" path="res://scripts_misc/bridge.gd" id="12_f115k"]
 [ext_resource type="Texture2D" uid="uid://oxsww25uois6" path="res://assets/glb/psx_mega_pack2/Props/gear_mx_1_metal_hr_6_1.png" id="12_guthx"]
+[ext_resource type="PackedScene" uid="uid://cnhlycm4bxj8q" path="res://objects/pill_bottle.tscn" id="14_cpxhe"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_s2tkr"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -279,3 +280,6 @@ object_ref = NodePath("..")
 interaction_type = 3
 maximum_rotation = 360.0
 nodes_to_affect = [NodePath("../../../../floor2/pivotpoint")]
+
+[node name="Pill_Bottle" parent="." instance=ExtResource("14_cpxhe")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.594359, 1.9260492, 9.780988)
