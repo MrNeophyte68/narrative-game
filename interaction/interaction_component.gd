@@ -150,6 +150,6 @@ func calculate_cross_product(_mouse_position: Vector2) -> float:
 	var center_position = camera.unproject_position(object_ref.global_transform.origin)
 	var vector_to_previous = previous_mouse_position - center_position
 	var vector_to_current = _mouse_position - center_position
-	var cross_product = vector_to_current.x * vector_to_previous.y - vector_to_previous.y * vector_to_previous.x
+	var cross_product = vector_to_current.x * vector_to_previous.y - vector_to_current.y * vector_to_previous.x
 	return cross_product
 	
