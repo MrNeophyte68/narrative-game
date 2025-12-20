@@ -25,6 +25,7 @@ var player_hand: Marker3D
 var camera: Camera3D
 var previous_mouse_position: Vector2
 var wheel_rotation: float = 0.0
+var door_angle: float = 0.0
 
 #Signals
 signal item_collected(item: Node)
@@ -90,11 +91,15 @@ func _input(event: InputEvent) -> void:
 		match interaction_type:
 			InteractionType.DOOR:
 				if event is InputEventMouseMotion:
+					var delta: float = -event.relative.y * 0.001
 					if is_front:
-						pivot_point.rotate_y(-event.relative.y * 0.001)
+						pivot_point.rotate_y(delta)
 					else:
-						pivot_point.rotate_y(event.relative.y * 0.001)
-					pivot_point.rotation.y = clamp(pivot_point.rotation.y, starting_rotation, maximum_rotation)
+						pivot_point.rotate_y(delta)
+						delta = -delta
+					door_angle += delta
+					door_angle = clamp(door_angle, starting_rotation, maximum_rotation)
+					pivot_point.rotation.y = door_angle
 			InteractionType.ROTATING_SWITCH:
 				if event is InputEventMouseMotion:
 					var percentage: float
@@ -116,6 +121,9 @@ func _input(event: InputEvent) -> void:
 					object_ref.rotation.x = clamp(object_ref.rotation.x, starting_rotation, maximum_rotation)
 					percentage = (object_ref.rotation.x - starting_rotation) / (maximum_rotation - starting_rotation)
 					previous_mouse_position = mouse_position
+					var min_wheel_rotation: float = starting_rotation / 0.1
+					var max_wheel_rotation: float = maximum_rotation / 0.1
+					wheel_rotation = clamp(wheel_rotation, min_wheel_rotation, max_wheel_rotation)
 					notify_nodes(percentage) 
 
 func _default_interact() -> void:
@@ -149,7 +157,7 @@ func set_direction(_normal: Vector3) -> void:
 
 func notify_nodes(percentage: float) -> void:
 	for node in nodes_to_affect:
-		if node.has_method("execute"):
+		if node and node.has_method("execute"):
 			node.call("execute", percentage)
 
 func calculate_cross_product(_mouse_position: Vector2) -> float:

@@ -28,6 +28,13 @@ func _process(delta: float) -> void:
 	
 	#if on the previous frame, we were interacting with an object, let's keep interacting with it
 	if current_object:
+	
+		if player_camera.global_transform.origin.distance_to(current_object.global_transform.origin) > 3.0:
+			if interaction_component:
+				interaction_component.postInteract()
+			current_object = null
+			_unfocus()
+	
 		if Input.is_action_just_pressed("secondary"):
 			if interaction_component:
 				interaction_component.auxInteract()
@@ -61,6 +68,8 @@ func _process(delta: float) -> void:
 					
 					if interaction_component.interaction_type == interaction_component.InteractionType.DOOR:
 						interaction_component.set_direction(current_object.to_local(interaction_raycast.get_collision_point()))
+			else:
+				_unfocus()
 		else:
 			_unfocus()
 
