@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=4 uid="uid://cnhlycm4bxj8q"]
+[gd_scene load_steps=9 format=4 uid="uid://cnhlycm4bxj8q"]
 
 [ext_resource type="Texture2D" uid="uid://c2ukgna76lld4" path="res://assets/glb/psx_mega_pack1/Items & Weapons/pills_bottle_1_2_pills_bottle_1.png" id="1_vwl5q"]
 [ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_ahq5s"]
+[ext_resource type="Material" uid="uid://b3luvact7lk58" path="res://materials/item_highlight.tres" id="2_oswjr"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3dh16"]
 resource_name = "pills_bottle_1"
@@ -44,6 +45,7 @@ blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_dc0te")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gdr0s"]
+next_pass = ExtResource("2_oswjr")
 albedo_texture = ExtResource("1_vwl5q")
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_ahq5s"]
@@ -59,7 +61,7 @@ skeleton = NodePath("")
 surface_material_override/0 = SubResource("StandardMaterial3D_gdr0s")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00024363399, 0.09113306, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00024363399, 0.09311074, 0)
 shape = SubResource("CylinderShape3D_ahq5s")
 
 [node name="InteractionComponent" parent="." node_paths=PackedStringArray("object_ref") instance=ExtResource("2_ahq5s")]
