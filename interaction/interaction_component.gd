@@ -7,7 +7,8 @@ enum InteractionType {
 	DOOR,
 	ROTATING_SWITCH,
 	WHEEL,
-	ITEM
+	ITEM,
+	HEAVY
 }
 
 @export var object_ref: Node3D
@@ -65,6 +66,8 @@ func preInteract(hand: Marker3D) -> void:
 	match interaction_type:
 		InteractionType.DEFAULT:
 			player_hand = hand
+		InteractionType.HEAVY:
+			player_hand = hand
 		InteractionType.DOOR:
 			lock_camera = true
 		InteractionType.ROTATING_SWITCH:
@@ -112,6 +115,8 @@ func interact() -> void:
 	match interaction_type:
 		InteractionType.DEFAULT:
 			_default_interact()
+		InteractionType.HEAVY:
+			_heavy_interact()
 		InteractionType.ITEM:
 			_collect_item()
 
@@ -204,6 +209,20 @@ func _default_throw() -> void:
 		can_interact = false
 		await get_tree().create_timer(2.0).timeout
 		can_interact = true
+
+func _heavy_interact() -> void:
+	var object_current_position: Vector3 = object_ref.global_position
+	var player_hand_position: Vector3 = player_hand.global_position
+	var object_distance: Vector3 = player_hand_position - object_current_position
+	object_distance.y = 0.0
+
+	var distance_xz: float = object_distance.length()
+
+	var rigid_body_3d: RigidBody3D = object_ref as RigidBody3D
+	if rigid_body_3d and distance_xz > 0.15:
+		var direction: Vector3 = object_distance.normalized()
+
+		rigid_body_3d.linear_velocity = direction * (5.0 / rigid_body_3d.mass)
 
 func set_direction(_normal: Vector3) -> void:
 	if _normal.z > 0:
