@@ -14,7 +14,7 @@ albedo_texture = ExtResource("1_xwsty")
 [sub_resource type="BoxShape3D" id="BoxShape3D_dnjkn"]
 
 [node name="cube_5kg" type="RigidBody3D"]
-mass = 5.0
+mass = 10.0
 physics_material_override = SubResource("PhysicsMaterial_3abmj")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]

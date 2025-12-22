@@ -214,7 +214,10 @@ func _heavy_interact() -> void:
 	var object_current_position: Vector3 = object_ref.global_position
 	var player_hand_position: Vector3 = player_hand.global_position
 	var object_distance: Vector3 = player_hand_position - object_current_position
-	object_distance.y = 0.0
+	if object_distance.y > 0.1:
+		return
+	else:
+		object_distance.y = 0.0
 
 	var distance_xz: float = object_distance.length()
 

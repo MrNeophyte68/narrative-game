@@ -8,6 +8,7 @@ extends Node
 @onready var grab: TextureRect = %Grab
 @onready var interactable_check: Area3D = $"../InteractableCheck"
 @onready var outline_material: Material = preload("res://materials/outline.tres")
+@onready var heavy_marker: Marker3D = %heavy_marker
 
 var current_object: Object
 var last_potential_object: Object
@@ -61,7 +62,10 @@ func _process(delta: float) -> void:
 				_focus()
 				if Input.is_action_just_pressed("primary"):
 					current_object = potential_object
-					interaction_component.preInteract(hand)
+					if interaction_component.interaction_type != interaction_component.InteractionType.HEAVY:
+						interaction_component.preInteract(hand)
+					else:
+						interaction_component.preInteract(heavy_marker)
 					
 					if interaction_component.interaction_type == interaction_component.InteractionType.ITEM:
 						interaction_component.connect("item_collected", Callable(self, "_on_item_collected"))
