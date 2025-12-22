@@ -55,16 +55,16 @@ size = Vector3(0.99853516, 2.2368927, 0.053497314)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0065615103, 0, 0)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Pivot_Point"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0065615103, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0102196, 0, 0)
 
 [node name="door_model" type="MeshInstance3D" parent="Pivot_Point/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1.065, 0, 0, 0, 1, 0, 0, 0)
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1.065, 0, 8.742278e-08, 0, -1, -1, 0, 0)
 mesh = SubResource("ArrayMesh_2yl07")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("StandardMaterial3D_5qf8n")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Pivot_Point/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.49975586, 1.118187, 0.025131226)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.49975586, 1.118187, -0.02321434)
 shape = SubResource("BoxShape3D_4i42v")
 
 [node name="InteractionComponent" parent="Pivot_Point/StaticBody3D" node_paths=PackedStringArray("object_ref", "pivot_point") instance=ExtResource("3_j75pe")]
