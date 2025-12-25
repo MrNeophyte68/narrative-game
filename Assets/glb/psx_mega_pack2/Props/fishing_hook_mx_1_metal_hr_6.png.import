@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cm7iuhxays4la"
-path.s3tc="res://.godot/imported/fishing_hook_mx_1_metal_hr_6.png-e4bb0d75282a01859ea363fdc51f1c5c.s3tc.ctex"
+path.s3tc="res://.godot/imported/fishing_hook_mx_1_metal_hr_6.png-0fbdb3460f766dab53ff9d1d713ebc8e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/fishing_hook_mx_1_metal_hr_6.png"
-dest_files=["res://.godot/imported/fishing_hook_mx_1_metal_hr_6.png-e4bb0d75282a01859ea363fdc51f1c5c.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/fishing_hook_mx_1_metal_hr_6.png"
+dest_files=["res://.godot/imported/fishing_hook_mx_1_metal_hr_6.png-0fbdb3460f766dab53ff9d1d713ebc8e.s3tc.ctex"]
 
 [params]
 

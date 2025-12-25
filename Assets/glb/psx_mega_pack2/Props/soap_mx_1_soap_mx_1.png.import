@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dk8scaalxqhl1"
-path.s3tc="res://.godot/imported/soap_mx_1_soap_mx_1.png-a637fe3f04093552ae806fd8838fbf66.s3tc.ctex"
+path.s3tc="res://.godot/imported/soap_mx_1_soap_mx_1.png-e150038cb07b34d6ee4992f615b932d5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/soap_mx_1_soap_mx_1.png"
-dest_files=["res://.godot/imported/soap_mx_1_soap_mx_1.png-a637fe3f04093552ae806fd8838fbf66.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/soap_mx_1_soap_mx_1.png"
+dest_files=["res://.godot/imported/soap_mx_1_soap_mx_1.png-e150038cb07b34d6ee4992f615b932d5.s3tc.ctex"]
 
 [params]
 

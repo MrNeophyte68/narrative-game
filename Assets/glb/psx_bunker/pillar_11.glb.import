@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b2wr6getvpmm0"
-path="res://.godot/imported/pillar_11.glb-ba07ecd87d25abe14db5e5492ec885d8.scn"
+path="res://.godot/imported/pillar_11.glb-c9d72719b2766e27a3830d3a3fbfe7f8.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/pillar_11.glb"
-dest_files=["res://.godot/imported/pillar_11.glb-ba07ecd87d25abe14db5e5492ec885d8.scn"]
+source_file="res://Assets/glb/psx_bunker/pillar_11.glb"
+dest_files=["res://.godot/imported/pillar_11.glb-c9d72719b2766e27a3830d3a3fbfe7f8.scn"]
 
 [params]
 

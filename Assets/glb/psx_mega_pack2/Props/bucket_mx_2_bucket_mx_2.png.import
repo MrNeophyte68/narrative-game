@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0i580r5x1bpu"
-path.s3tc="res://.godot/imported/bucket_mx_2_bucket_mx_2.png-d75d89fd83edfa6a44c09edd7501d387.s3tc.ctex"
+path.s3tc="res://.godot/imported/bucket_mx_2_bucket_mx_2.png-e240ad1b7a2b1d5e0e258b248a4646bd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/bucket_mx_2_bucket_mx_2.png"
-dest_files=["res://.godot/imported/bucket_mx_2_bucket_mx_2.png-d75d89fd83edfa6a44c09edd7501d387.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/bucket_mx_2_bucket_mx_2.png"
+dest_files=["res://.godot/imported/bucket_mx_2_bucket_mx_2.png-e240ad1b7a2b1d5e0e258b248a4646bd.s3tc.ctex"]
 
 [params]
 

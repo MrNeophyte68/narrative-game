@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://yvchyhsmrxt5"
-path="res://.godot/imported/concrete_fence_hr_1.glb-c6b4ae396a9057243b3080420a8c1ce9.scn"
+path="res://.godot/imported/concrete_fence_hr_1.glb-5b6da68aa2ea4921f2f408ec99997a8d.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Props/concrete_fence_hr_1.glb"
-dest_files=["res://.godot/imported/concrete_fence_hr_1.glb-c6b4ae396a9057243b3080420a8c1ce9.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Props/concrete_fence_hr_1.glb"
+dest_files=["res://.godot/imported/concrete_fence_hr_1.glb-5b6da68aa2ea4921f2f408ec99997a8d.scn"]
 
 [params]
 

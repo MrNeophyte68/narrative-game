@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0n8he4uieymu"
-path.s3tc="res://.godot/imported/pillar_11_concrete_1.png-477aa97c7a1aedfdf32288812a59d7f5.s3tc.ctex"
+path.s3tc="res://.godot/imported/pillar_11_concrete_1.png-1e8e3facac340c7eb584ae7a09f732fa.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/pillar_11_concrete_1.png"
-dest_files=["res://.godot/imported/pillar_11_concrete_1.png-477aa97c7a1aedfdf32288812a59d7f5.s3tc.ctex"]
+source_file="res://Assets/glb/psx_bunker/pillar_11_concrete_1.png"
+dest_files=["res://.godot/imported/pillar_11_concrete_1.png-1e8e3facac340c7eb584ae7a09f732fa.s3tc.ctex"]
 
 [params]
 

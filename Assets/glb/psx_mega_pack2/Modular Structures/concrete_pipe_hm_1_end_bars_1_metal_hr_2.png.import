@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfgwq0yw6myh6"
-path.s3tc="res://.godot/imported/concrete_pipe_hm_1_end_bars_1_metal_hr_2.png-12d5a273e20986f195fb0b25e71f536b.s3tc.ctex"
+path.s3tc="res://.godot/imported/concrete_pipe_hm_1_end_bars_1_metal_hr_2.png-087d5c234fe0741e3524e170225b8883.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Structures/concrete_pipe_hm_1_end_bars_1_metal_hr_2.png"
-dest_files=["res://.godot/imported/concrete_pipe_hm_1_end_bars_1_metal_hr_2.png-12d5a273e20986f195fb0b25e71f536b.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/concrete_pipe_hm_1_end_bars_1_metal_hr_2.png"
+dest_files=["res://.godot/imported/concrete_pipe_hm_1_end_bars_1_metal_hr_2.png-087d5c234fe0741e3524e170225b8883.s3tc.ctex"]
 
 [params]
 

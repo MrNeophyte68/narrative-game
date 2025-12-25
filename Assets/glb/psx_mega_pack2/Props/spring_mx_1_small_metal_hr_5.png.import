@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r8tvxm751h0d"
-path.s3tc="res://.godot/imported/spring_mx_1_small_metal_hr_5.png-d5e689498a90fdd96808c731cad02c0c.s3tc.ctex"
+path.s3tc="res://.godot/imported/spring_mx_1_small_metal_hr_5.png-0395a4b0da2c1944721384d680f2437e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/spring_mx_1_small_metal_hr_5.png"
-dest_files=["res://.godot/imported/spring_mx_1_small_metal_hr_5.png-d5e689498a90fdd96808c731cad02c0c.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/spring_mx_1_small_metal_hr_5.png"
+dest_files=["res://.godot/imported/spring_mx_1_small_metal_hr_5.png-0395a4b0da2c1944721384d680f2437e.s3tc.ctex"]
 
 [params]
 

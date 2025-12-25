@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dwk53b3w5d8o1"
-path="res://.godot/imported/ancient_artifact_mx_1.glb-bf80dd050dfa5bb2721df42b0511c23b.scn"
+path="res://.godot/imported/ancient_artifact_mx_1.glb-7127971409316bd462002547b920b466.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/ancient_artifact_mx_1.glb"
-dest_files=["res://.godot/imported/ancient_artifact_mx_1.glb-bf80dd050dfa5bb2721df42b0511c23b.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/ancient_artifact_mx_1.glb"
+dest_files=["res://.godot/imported/ancient_artifact_mx_1.glb-7127971409316bd462002547b920b466.scn"]
 
 [params]
 

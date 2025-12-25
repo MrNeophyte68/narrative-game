@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://vumk8iq8g5rt"
-path="res://.godot/imported/shovel_mx_1.glb-6d5bbacc891c32984071664cc0ef79ca.scn"
+path="res://.godot/imported/shovel_mx_1.glb-bcfca31bf0f14795330c8820a76e6a9b.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/shovel_mx_1.glb"
-dest_files=["res://.godot/imported/shovel_mx_1.glb-6d5bbacc891c32984071664cc0ef79ca.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/shovel_mx_1.glb"
+dest_files=["res://.godot/imported/shovel_mx_1.glb-bcfca31bf0f14795330c8820a76e6a9b.scn"]
 
 [params]
 

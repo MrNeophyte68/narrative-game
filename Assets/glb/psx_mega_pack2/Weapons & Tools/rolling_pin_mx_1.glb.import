@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://718n7ou8e263"
-path="res://.godot/imported/rolling_pin_mx_1.glb-a874a440562793b47ef4ebf66b940a12.scn"
+path="res://.godot/imported/rolling_pin_mx_1.glb-1db87347930025376da210a2d881576f.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/rolling_pin_mx_1.glb"
-dest_files=["res://.godot/imported/rolling_pin_mx_1.glb-a874a440562793b47ef4ebf66b940a12.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/rolling_pin_mx_1.glb"
+dest_files=["res://.godot/imported/rolling_pin_mx_1.glb-1db87347930025376da210a2d881576f.scn"]
 
 [params]
 

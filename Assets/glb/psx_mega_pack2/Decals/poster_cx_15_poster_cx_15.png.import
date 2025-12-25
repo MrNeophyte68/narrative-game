@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdipfl8wv3ibx"
-path.s3tc="res://.godot/imported/poster_cx_15_poster_cx_15.png-488ca25f4db1616549b0a61ff996325a.s3tc.ctex"
+path.s3tc="res://.godot/imported/poster_cx_15_poster_cx_15.png-3896846f2f5504d24ba5e8f9960c02eb.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Decals/poster_cx_15_poster_cx_15.png"
-dest_files=["res://.godot/imported/poster_cx_15_poster_cx_15.png-488ca25f4db1616549b0a61ff996325a.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Decals/poster_cx_15_poster_cx_15.png"
+dest_files=["res://.godot/imported/poster_cx_15_poster_cx_15.png-3896846f2f5504d24ba5e8f9960c02eb.s3tc.ctex"]
 
 [params]
 

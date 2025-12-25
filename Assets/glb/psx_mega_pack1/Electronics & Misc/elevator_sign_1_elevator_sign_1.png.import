@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1h2w0lcrcjor"
-path.s3tc="res://.godot/imported/elevator_sign_1_elevator_sign_1.png-ddd6b83cc010937b0c8a727e12a1f381.s3tc.ctex"
+path.s3tc="res://.godot/imported/elevator_sign_1_elevator_sign_1.png-0e511b72ad15e51532fb99977ffe639c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/elevator_sign_1_elevator_sign_1.png"
-dest_files=["res://.godot/imported/elevator_sign_1_elevator_sign_1.png-ddd6b83cc010937b0c8a727e12a1f381.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/elevator_sign_1_elevator_sign_1.png"
+dest_files=["res://.godot/imported/elevator_sign_1_elevator_sign_1.png-0e511b72ad15e51532fb99977ffe639c.s3tc.ctex"]
 
 [params]
 

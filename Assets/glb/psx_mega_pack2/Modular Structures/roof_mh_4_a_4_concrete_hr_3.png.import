@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjliwx4i00f7g"
-path.s3tc="res://.godot/imported/roof_mh_4_a_4_concrete_hr_3.png-b76bcdf1ee0b5422ec3e31b5f7e4e9b1.s3tc.ctex"
+path.s3tc="res://.godot/imported/roof_mh_4_a_4_concrete_hr_3.png-fccb58d58be8186803829ca2faf657f8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Structures/roof_mh_4_a_4_concrete_hr_3.png"
-dest_files=["res://.godot/imported/roof_mh_4_a_4_concrete_hr_3.png-b76bcdf1ee0b5422ec3e31b5f7e4e9b1.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/roof_mh_4_a_4_concrete_hr_3.png"
+dest_files=["res://.godot/imported/roof_mh_4_a_4_concrete_hr_3.png-fccb58d58be8186803829ca2faf657f8.s3tc.ctex"]
 
 [params]
 

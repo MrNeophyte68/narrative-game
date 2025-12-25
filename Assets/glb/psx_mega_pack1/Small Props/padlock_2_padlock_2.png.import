@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2nfhwm04cetg"
-path.s3tc="res://.godot/imported/padlock_2_padlock_2.png-12c97edc9750862cdd19a96d89ca3e17.s3tc.ctex"
+path.s3tc="res://.godot/imported/padlock_2_padlock_2.png-9b65264acc6513bbd70d3dd8c4708436.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Small Props/padlock_2_padlock_2.png"
-dest_files=["res://.godot/imported/padlock_2_padlock_2.png-12c97edc9750862cdd19a96d89ca3e17.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Small Props/padlock_2_padlock_2.png"
+dest_files=["res://.godot/imported/padlock_2_padlock_2.png-9b65264acc6513bbd70d3dd8c4708436.s3tc.ctex"]
 
 [params]
 

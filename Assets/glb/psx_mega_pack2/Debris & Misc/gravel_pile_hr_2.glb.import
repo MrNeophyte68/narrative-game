@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bgr3umwn6rodr"
-path="res://.godot/imported/gravel_pile_hr_2.glb-c3800cd1a57bca25e6fc1a61431ff5af.scn"
+path="res://.godot/imported/gravel_pile_hr_2.glb-b478da950eacf8c9914a91cd8a57be1e.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Debris & Misc/gravel_pile_hr_2.glb"
-dest_files=["res://.godot/imported/gravel_pile_hr_2.glb-c3800cd1a57bca25e6fc1a61431ff5af.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Debris & Misc/gravel_pile_hr_2.glb"
+dest_files=["res://.godot/imported/gravel_pile_hr_2.glb-b478da950eacf8c9914a91cd8a57be1e.scn"]
 
 [params]
 

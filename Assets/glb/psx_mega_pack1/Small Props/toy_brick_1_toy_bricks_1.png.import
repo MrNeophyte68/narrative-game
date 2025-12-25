@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpesig8ob6yir"
-path.s3tc="res://.godot/imported/toy_brick_1_toy_bricks_1.png-09f666947e15fe4a40dc1640e2199bfe.s3tc.ctex"
+path.s3tc="res://.godot/imported/toy_brick_1_toy_bricks_1.png-2b4386a4581419a7ef741cbfddb62ad0.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Small Props/toy_brick_1_toy_bricks_1.png"
-dest_files=["res://.godot/imported/toy_brick_1_toy_bricks_1.png-09f666947e15fe4a40dc1640e2199bfe.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Small Props/toy_brick_1_toy_bricks_1.png"
+dest_files=["res://.godot/imported/toy_brick_1_toy_bricks_1.png-2b4386a4581419a7ef741cbfddb62ad0.s3tc.ctex"]
 
 [params]
 

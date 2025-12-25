@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b7qje8cpkalc1"
-path="res://.godot/imported/handheld_fm_radio_etx_1.glb-5331ee1122e25119194df7b69a3a2094.scn"
+path="res://.godot/imported/handheld_fm_radio_etx_1.glb-2642c55544973609d3452a58718c0116.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/handheld_fm_radio_etx_1.glb"
-dest_files=["res://.godot/imported/handheld_fm_radio_etx_1.glb-5331ee1122e25119194df7b69a3a2094.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/handheld_fm_radio_etx_1.glb"
+dest_files=["res://.godot/imported/handheld_fm_radio_etx_1.glb-2642c55544973609d3452a58718c0116.scn"]
 
 [params]
 

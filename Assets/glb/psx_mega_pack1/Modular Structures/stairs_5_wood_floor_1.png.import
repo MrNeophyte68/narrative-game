@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c38afj87a38me"
-path.s3tc="res://.godot/imported/stairs_5_wood_floor_1.png-bd27e86362092750a318a11a03125e61.s3tc.ctex"
+path.s3tc="res://.godot/imported/stairs_5_wood_floor_1.png-34f283bbdc25bc67c2f217d6f067ae35.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/stairs_5_wood_floor_1.png"
-dest_files=["res://.godot/imported/stairs_5_wood_floor_1.png-bd27e86362092750a318a11a03125e61.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/stairs_5_wood_floor_1.png"
+dest_files=["res://.godot/imported/stairs_5_wood_floor_1.png-34f283bbdc25bc67c2f217d6f067ae35.s3tc.ctex"]
 
 [params]
 

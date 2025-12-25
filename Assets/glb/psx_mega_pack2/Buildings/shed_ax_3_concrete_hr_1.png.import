@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwjqab052ta17"
-path.s3tc="res://.godot/imported/shed_ax_3_concrete_hr_1.png-26a261315f61229277d64765f888892f.s3tc.ctex"
+path.s3tc="res://.godot/imported/shed_ax_3_concrete_hr_1.png-008230ccfd93d2a71bcf058e9e9d7005.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Buildings/shed_ax_3_concrete_hr_1.png"
-dest_files=["res://.godot/imported/shed_ax_3_concrete_hr_1.png-26a261315f61229277d64765f888892f.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Buildings/shed_ax_3_concrete_hr_1.png"
+dest_files=["res://.godot/imported/shed_ax_3_concrete_hr_1.png-008230ccfd93d2a71bcf058e9e9d7005.s3tc.ctex"]
 
 [params]
 

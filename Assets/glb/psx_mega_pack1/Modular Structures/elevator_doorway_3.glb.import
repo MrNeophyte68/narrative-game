@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ejxarnqfumiy"
-path="res://.godot/imported/elevator_doorway_3.glb-a9250ca04b0092467836086985c3c202.scn"
+path="res://.godot/imported/elevator_doorway_3.glb-331e431c1cfb812560cd653446194514.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/elevator_doorway_3.glb"
-dest_files=["res://.godot/imported/elevator_doorway_3.glb-a9250ca04b0092467836086985c3c202.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/elevator_doorway_3.glb"
+dest_files=["res://.godot/imported/elevator_doorway_3.glb-331e431c1cfb812560cd653446194514.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://daxfbowpe1qyj"
-path.s3tc="res://.godot/imported/tunnel_straight_metal_floor_2.png-8245fe248dfc0e72070171f5a467e4c0.s3tc.ctex"
+path.s3tc="res://.godot/imported/tunnel_straight_metal_floor_2.png-80a3106c95dc6dc7136696470fd13975.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/tunnel_straight_metal_floor_2.png"
-dest_files=["res://.godot/imported/tunnel_straight_metal_floor_2.png-8245fe248dfc0e72070171f5a467e4c0.s3tc.ctex"]
+source_file="res://Assets/glb/psx_bunker/tunnel_straight_metal_floor_2.png"
+dest_files=["res://.godot/imported/tunnel_straight_metal_floor_2.png-80a3106c95dc6dc7136696470fd13975.s3tc.ctex"]
 
 [params]
 

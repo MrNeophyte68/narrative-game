@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5o0bgqyxcqqi"
-path.s3tc="res://.godot/imported/gas_cylinder_mx_1_gas_cylinder_mx_1.png-cdad6bd6a590ec95ab7e7c587044ab36.s3tc.ctex"
+path.s3tc="res://.godot/imported/gas_cylinder_mx_1_gas_cylinder_mx_1.png-d2c17cfef5c4e1773c1900304ed4c5ce.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/gas_cylinder_mx_1_gas_cylinder_mx_1.png"
-dest_files=["res://.godot/imported/gas_cylinder_mx_1_gas_cylinder_mx_1.png-cdad6bd6a590ec95ab7e7c587044ab36.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/gas_cylinder_mx_1_gas_cylinder_mx_1.png"
+dest_files=["res://.godot/imported/gas_cylinder_mx_1_gas_cylinder_mx_1.png-d2c17cfef5c4e1773c1900304ed4c5ce.s3tc.ctex"]
 
 [params]
 

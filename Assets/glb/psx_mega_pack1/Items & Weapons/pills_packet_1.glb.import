@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bdp62wg2hci7w"
-path="res://.godot/imported/pills_packet_1.glb-8293d76c596886ccc75d3a8c25a0f64b.scn"
+path="res://.godot/imported/pills_packet_1.glb-191a3591b70fbdb943050042258ad684.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/pills_packet_1.glb"
-dest_files=["res://.godot/imported/pills_packet_1.glb-8293d76c596886ccc75d3a8c25a0f64b.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/pills_packet_1.glb"
+dest_files=["res://.godot/imported/pills_packet_1.glb-191a3591b70fbdb943050042258ad684.scn"]
 
 [params]
 

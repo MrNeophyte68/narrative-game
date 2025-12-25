@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dc363n32rpckf"
-path.s3tc="res://.godot/imported/ammo_pistol_loose_5pcs_mp_1_ammo_mp_1.png-0f1a90b703770e66604fd4ea607a561f.s3tc.ctex"
+path.s3tc="res://.godot/imported/ammo_pistol_loose_5pcs_mp_1_ammo_mp_1.png-7bf73d73a6300af12f68520f9f043f39.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/ammo_pistol_loose_5pcs_mp_1_ammo_mp_1.png"
-dest_files=["res://.godot/imported/ammo_pistol_loose_5pcs_mp_1_ammo_mp_1.png-0f1a90b703770e66604fd4ea607a561f.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/ammo_pistol_loose_5pcs_mp_1_ammo_mp_1.png"
+dest_files=["res://.godot/imported/ammo_pistol_loose_5pcs_mp_1_ammo_mp_1.png-7bf73d73a6300af12f68520f9f043f39.s3tc.ctex"]
 
 [params]
 

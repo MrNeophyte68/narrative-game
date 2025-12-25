@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://i1r5jbxqf1dr"
-path="res://.godot/imported/shipping_container_mx_2_2.glb-99da627e97d4c813fe49834885047b2f.scn"
+path="res://.godot/imported/shipping_container_mx_2_2.glb-29e38eaf8140f2883eb18952c024db51.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/shipping_container_mx_2_2.glb"
-dest_files=["res://.godot/imported/shipping_container_mx_2_2.glb-99da627e97d4c813fe49834885047b2f.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/shipping_container_mx_2_2.glb"
+dest_files=["res://.godot/imported/shipping_container_mx_2_2.glb-29e38eaf8140f2883eb18952c024db51.scn"]
 
 [params]
 

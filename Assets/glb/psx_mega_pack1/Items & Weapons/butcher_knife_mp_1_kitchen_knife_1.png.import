@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bo5x8atykkdyc"
-path.s3tc="res://.godot/imported/butcher_knife_mp_1_kitchen_knife_1.png-550bdebe20cd4beead8fe2e85631f2b8.s3tc.ctex"
+path.s3tc="res://.godot/imported/butcher_knife_mp_1_kitchen_knife_1.png-2ac5838252d0a641bb458472b4b11eb0.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/butcher_knife_mp_1_kitchen_knife_1.png"
-dest_files=["res://.godot/imported/butcher_knife_mp_1_kitchen_knife_1.png-550bdebe20cd4beead8fe2e85631f2b8.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/butcher_knife_mp_1_kitchen_knife_1.png"
+dest_files=["res://.godot/imported/butcher_knife_mp_1_kitchen_knife_1.png-2ac5838252d0a641bb458472b4b11eb0.s3tc.ctex"]
 
 [params]
 

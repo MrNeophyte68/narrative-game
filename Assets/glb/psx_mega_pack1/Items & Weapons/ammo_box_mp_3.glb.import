@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dvi2shd763mai"
-path="res://.godot/imported/ammo_box_mp_3.glb-13957a711f1f673dafbf69229fbacc8d.scn"
+path="res://.godot/imported/ammo_box_mp_3.glb-76c0be96b13ab65293d29381c6bbf95b.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/ammo_box_mp_3.glb"
-dest_files=["res://.godot/imported/ammo_box_mp_3.glb-13957a711f1f673dafbf69229fbacc8d.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/ammo_box_mp_3.glb"
+dest_files=["res://.godot/imported/ammo_box_mp_3.glb-76c0be96b13ab65293d29381c6bbf95b.scn"]
 
 [params]
 

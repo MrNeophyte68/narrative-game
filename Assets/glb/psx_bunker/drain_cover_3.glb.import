@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://mqg5nl101djn"
-path="res://.godot/imported/drain_cover_3.glb-e82ae33077c1e0547cb1b0438f3a6bfd.scn"
+path="res://.godot/imported/drain_cover_3.glb-50c000568b98b91d9077721f77d9c726.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/drain_cover_3.glb"
-dest_files=["res://.godot/imported/drain_cover_3.glb-e82ae33077c1e0547cb1b0438f3a6bfd.scn"]
+source_file="res://Assets/glb/psx_bunker/drain_cover_3.glb"
+dest_files=["res://.godot/imported/drain_cover_3.glb-50c000568b98b91d9077721f77d9c726.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dngcaieollit2"
-path="res://.godot/imported/vent_4.glb-686efa5c9b31a227cdf55add197ecd15.scn"
+path="res://.godot/imported/vent_4.glb-943a5fe2ae41e6b6ae85bad55902e94c.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/vent_4.glb"
-dest_files=["res://.godot/imported/vent_4.glb-686efa5c9b31a227cdf55add197ecd15.scn"]
+source_file="res://Assets/glb/psx_bunker/vent_4.glb"
+dest_files=["res://.godot/imported/vent_4.glb-943a5fe2ae41e6b6ae85bad55902e94c.scn"]
 
 [params]
 

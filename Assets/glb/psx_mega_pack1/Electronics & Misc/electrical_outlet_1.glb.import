@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://yfawqadw4ja1"
-path="res://.godot/imported/electrical_outlet_1.glb-393e4e0e47292ac3a191878ada6e185a.scn"
+path="res://.godot/imported/electrical_outlet_1.glb-b9ddde387c9e42888799117e6c683006.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/electrical_outlet_1.glb"
-dest_files=["res://.godot/imported/electrical_outlet_1.glb-393e4e0e47292ac3a191878ada6e185a.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/electrical_outlet_1.glb"
+dest_files=["res://.godot/imported/electrical_outlet_1.glb-b9ddde387c9e42888799117e6c683006.scn"]
 
 [params]
 

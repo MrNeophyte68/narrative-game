@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xr23n1ms4ejv"
-path.s3tc="res://.godot/imported/shed_ax_2_door_hr_3.png-f8c2d2a6e94680797e307455a4fc9859.s3tc.ctex"
+path.s3tc="res://.godot/imported/shed_ax_2_door_hr_3.png-0e5af56f95463942ee429c86bb5336e7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Buildings/shed_ax_2_door_hr_3.png"
-dest_files=["res://.godot/imported/shed_ax_2_door_hr_3.png-f8c2d2a6e94680797e307455a4fc9859.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Buildings/shed_ax_2_door_hr_3.png"
+dest_files=["res://.godot/imported/shed_ax_2_door_hr_3.png-0e5af56f95463942ee429c86bb5336e7.s3tc.ctex"]
 
 [params]
 

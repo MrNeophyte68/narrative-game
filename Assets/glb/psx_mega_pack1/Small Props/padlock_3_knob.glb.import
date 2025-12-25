@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://q4gdg5p7sgf2"
-path="res://.godot/imported/padlock_3_knob.glb-d22d6c8928594d45c1f46bc4e4b4d63b.scn"
+path="res://.godot/imported/padlock_3_knob.glb-8753e77ba7df978d15fe0ea855a9bd25.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Small Props/padlock_3_knob.glb"
-dest_files=["res://.godot/imported/padlock_3_knob.glb-d22d6c8928594d45c1f46bc4e4b4d63b.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Small Props/padlock_3_knob.glb"
+dest_files=["res://.godot/imported/padlock_3_knob.glb-8753e77ba7df978d15fe0ea855a9bd25.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://djb1ulqvesklo"
-path="res://.godot/imported/signal_receiver_etx_2.glb-1dbaea68583572f160102f925a27c313.scn"
+path="res://.godot/imported/signal_receiver_etx_2.glb-56054291826069778b37c91183f36b81.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_tech/signal_receiver_etx_2.glb"
-dest_files=["res://.godot/imported/signal_receiver_etx_2.glb-1dbaea68583572f160102f925a27c313.scn"]
+source_file="res://Assets/glb/psx_tech/signal_receiver_etx_2.glb"
+dest_files=["res://.godot/imported/signal_receiver_etx_2.glb-56054291826069778b37c91183f36b81.scn"]
 
 [params]
 

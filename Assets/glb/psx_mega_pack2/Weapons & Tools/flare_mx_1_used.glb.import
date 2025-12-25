@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://lvqt1hxof23k"
-path="res://.godot/imported/flare_mx_1_used.glb-ed27a20974c2162d6180b8b716278c32.scn"
+path="res://.godot/imported/flare_mx_1_used.glb-62b8741573ad5202f27f4b71b9388fe3.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/flare_mx_1_used.glb"
-dest_files=["res://.godot/imported/flare_mx_1_used.glb-ed27a20974c2162d6180b8b716278c32.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/flare_mx_1_used.glb"
+dest_files=["res://.godot/imported/flare_mx_1_used.glb-62b8741573ad5202f27f4b71b9388fe3.scn"]
 
 [params]
 

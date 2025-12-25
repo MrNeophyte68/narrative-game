@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crskv8s2p56ng"
-path.s3tc="res://.godot/imported/lighter_mp_1_1_lighters_mp_1.png-f07ae4d49ec5dd9241fab8879617e442.s3tc.ctex"
+path.s3tc="res://.godot/imported/lighter_mp_1_1_lighters_mp_1.png-3387ba59d08525745caef46c1855467f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/lighter_mp_1_1_lighters_mp_1.png"
-dest_files=["res://.godot/imported/lighter_mp_1_1_lighters_mp_1.png-f07ae4d49ec5dd9241fab8879617e442.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/lighter_mp_1_1_lighters_mp_1.png"
+dest_files=["res://.godot/imported/lighter_mp_1_1_lighters_mp_1.png-3387ba59d08525745caef46c1855467f.s3tc.ctex"]
 
 [params]
 

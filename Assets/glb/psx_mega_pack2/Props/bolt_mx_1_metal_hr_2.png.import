@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ccc5kiadn10jl"
-path.s3tc="res://.godot/imported/bolt_mx_1_metal_hr_2.png-c11150da04d4e431f5077f7712ae856e.s3tc.ctex"
+path.s3tc="res://.godot/imported/bolt_mx_1_metal_hr_2.png-46ae9afecf1a91e6ae81d5ec9b8c3770.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/bolt_mx_1_metal_hr_2.png"
-dest_files=["res://.godot/imported/bolt_mx_1_metal_hr_2.png-c11150da04d4e431f5077f7712ae856e.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/bolt_mx_1_metal_hr_2.png"
+dest_files=["res://.godot/imported/bolt_mx_1_metal_hr_2.png-46ae9afecf1a91e6ae81d5ec9b8c3770.s3tc.ctex"]
 
 [params]
 

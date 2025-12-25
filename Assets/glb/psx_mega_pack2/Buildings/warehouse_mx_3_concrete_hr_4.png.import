@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbc8ft8i73yyt"
-path.s3tc="res://.godot/imported/warehouse_mx_3_concrete_hr_4.png-00a3976328f9311557b3b21848799c60.s3tc.ctex"
+path.s3tc="res://.godot/imported/warehouse_mx_3_concrete_hr_4.png-0f8488fbd41c635272204d0c56f8d048.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Buildings/warehouse_mx_3_concrete_hr_4.png"
-dest_files=["res://.godot/imported/warehouse_mx_3_concrete_hr_4.png-00a3976328f9311557b3b21848799c60.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Buildings/warehouse_mx_3_concrete_hr_4.png"
+dest_files=["res://.godot/imported/warehouse_mx_3_concrete_hr_4.png-0f8488fbd41c635272204d0c56f8d048.s3tc.ctex"]
 
 [params]
 

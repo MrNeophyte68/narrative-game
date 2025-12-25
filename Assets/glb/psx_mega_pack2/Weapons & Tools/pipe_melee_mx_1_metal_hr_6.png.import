@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bufsx2xtbcoh0"
-path.s3tc="res://.godot/imported/pipe_melee_mx_1_metal_hr_6.png-f6c56359f81fc9f16a668bb4a7f8f162.s3tc.ctex"
+path.s3tc="res://.godot/imported/pipe_melee_mx_1_metal_hr_6.png-adb42456eb5ad6e9ba2745581db90dcd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/pipe_melee_mx_1_metal_hr_6.png"
-dest_files=["res://.godot/imported/pipe_melee_mx_1_metal_hr_6.png-f6c56359f81fc9f16a668bb4a7f8f162.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/pipe_melee_mx_1_metal_hr_6.png"
+dest_files=["res://.godot/imported/pipe_melee_mx_1_metal_hr_6.png-adb42456eb5ad6e9ba2745581db90dcd.s3tc.ctex"]
 
 [params]
 

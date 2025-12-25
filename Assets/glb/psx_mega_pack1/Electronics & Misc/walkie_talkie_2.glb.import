@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ulqkeromyun0"
-path="res://.godot/imported/walkie_talkie_2.glb-29983682740f5f086131c6eacfd13a80.scn"
+path="res://.godot/imported/walkie_talkie_2.glb-99a83c7ebd8daeac62c34c4422a28746.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/walkie_talkie_2.glb"
-dest_files=["res://.godot/imported/walkie_talkie_2.glb-29983682740f5f086131c6eacfd13a80.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/walkie_talkie_2.glb"
+dest_files=["res://.godot/imported/walkie_talkie_2.glb-99a83c7ebd8daeac62c34c4422a28746.scn"]
 
 [params]
 

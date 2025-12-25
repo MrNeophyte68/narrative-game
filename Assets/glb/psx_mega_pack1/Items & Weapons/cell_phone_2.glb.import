@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dl1y4tsvfudp0"
-path="res://.godot/imported/cell_phone_2.glb-625e561109697d946cbf71708c98d2e1.scn"
+path="res://.godot/imported/cell_phone_2.glb-061d06644d49c32145d6defe6943efd9.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/cell_phone_2.glb"
-dest_files=["res://.godot/imported/cell_phone_2.glb-625e561109697d946cbf71708c98d2e1.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/cell_phone_2.glb"
+dest_files=["res://.godot/imported/cell_phone_2.glb-061d06644d49c32145d6defe6943efd9.scn"]
 
 [params]
 

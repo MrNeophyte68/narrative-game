@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://caqumb2fxpjgh"
-path.s3tc="res://.godot/imported/half_arc_pillar_1_wall_1_plain_wall_mp_1.png-656a570aa44490356d4f8586fee98524.s3tc.ctex"
+path.s3tc="res://.godot/imported/half_arc_pillar_1_wall_1_plain_wall_mp_1.png-ff3947ee6fc8c19702bc017fc28484d6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/half_arc_pillar_1_wall_1_plain_wall_mp_1.png"
-dest_files=["res://.godot/imported/half_arc_pillar_1_wall_1_plain_wall_mp_1.png-656a570aa44490356d4f8586fee98524.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/half_arc_pillar_1_wall_1_plain_wall_mp_1.png"
+dest_files=["res://.godot/imported/half_arc_pillar_1_wall_1_plain_wall_mp_1.png-ff3947ee6fc8c19702bc017fc28484d6.s3tc.ctex"]
 
 [params]
 

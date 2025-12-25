@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://deunkeubj85ra"
-path="res://.godot/imported/memory.wav-fbe3db5421f038054e9689ce660086ff.sample"
+path="res://.godot/imported/memory.wav-3f1972bb3e8e82905cb3a81058518b10.sample"
 
 [deps]
 
-source_file="res://music/memory.wav"
-dest_files=["res://.godot/imported/memory.wav-fbe3db5421f038054e9689ce660086ff.sample"]
+source_file="res://Music/memory.wav"
+dest_files=["res://.godot/imported/memory.wav-3f1972bb3e8e82905cb3a81058518b10.sample"]
 
 [params]
 

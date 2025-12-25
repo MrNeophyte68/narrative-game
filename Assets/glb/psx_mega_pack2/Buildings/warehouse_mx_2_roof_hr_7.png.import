@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://be07hvovnbpmx"
-path.s3tc="res://.godot/imported/warehouse_mx_2_roof_hr_7.png-c8f74c4b4de544133bd22f398671032b.s3tc.ctex"
+path.s3tc="res://.godot/imported/warehouse_mx_2_roof_hr_7.png-05828471f1370aec0a47a361b0608962.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Buildings/warehouse_mx_2_roof_hr_7.png"
-dest_files=["res://.godot/imported/warehouse_mx_2_roof_hr_7.png-c8f74c4b4de544133bd22f398671032b.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Buildings/warehouse_mx_2_roof_hr_7.png"
+dest_files=["res://.godot/imported/warehouse_mx_2_roof_hr_7.png-05828471f1370aec0a47a361b0608962.s3tc.ctex"]
 
 [params]
 

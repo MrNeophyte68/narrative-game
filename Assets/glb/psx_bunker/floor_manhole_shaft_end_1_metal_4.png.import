@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bk4sueilegmmp"
-path.s3tc="res://.godot/imported/floor_manhole_shaft_end_1_metal_4.png-454d04d7fab89e142003f6d07de0eefd.s3tc.ctex"
+path.s3tc="res://.godot/imported/floor_manhole_shaft_end_1_metal_4.png-103a73fcd437f1d83cab8586011f6900.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/floor_manhole_shaft_end_1_metal_4.png"
-dest_files=["res://.godot/imported/floor_manhole_shaft_end_1_metal_4.png-454d04d7fab89e142003f6d07de0eefd.s3tc.ctex"]
+source_file="res://Assets/glb/psx_bunker/floor_manhole_shaft_end_1_metal_4.png"
+dest_files=["res://.godot/imported/floor_manhole_shaft_end_1_metal_4.png-103a73fcd437f1d83cab8586011f6900.s3tc.ctex"]
 
 [params]
 

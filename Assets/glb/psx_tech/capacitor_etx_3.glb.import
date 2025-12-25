@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cyxqxyiv227lk"
-path="res://.godot/imported/capacitor_etx_3.glb-0b9831c881c0882044093a1ad2d9d30b.scn"
+path="res://.godot/imported/capacitor_etx_3.glb-3d77bb32e90389ea64989979870a9625.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_tech/capacitor_etx_3.glb"
-dest_files=["res://.godot/imported/capacitor_etx_3.glb-0b9831c881c0882044093a1ad2d9d30b.scn"]
+source_file="res://Assets/glb/psx_tech/capacitor_etx_3.glb"
+dest_files=["res://.godot/imported/capacitor_etx_3.glb-3d77bb32e90389ea64989979870a9625.scn"]
 
 [params]
 

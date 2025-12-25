@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://cra77s1cky20"
-path="res://.godot/imported/Autography.otf-4d5c40d0dcf5e07820762030aac39635.fontdata"
+path="res://.godot/imported/Autography.otf-92094d600be3ac3e209a36e80b0ea667.fontdata"
 
 [deps]
 
-source_file="res://assets/font/Autography.otf"
-dest_files=["res://.godot/imported/Autography.otf-4d5c40d0dcf5e07820762030aac39635.fontdata"]
+source_file="res://Assets/font/Autography.otf"
+dest_files=["res://.godot/imported/Autography.otf-92094d600be3ac3e209a36e80b0ea667.fontdata"]
 
 [params]
 

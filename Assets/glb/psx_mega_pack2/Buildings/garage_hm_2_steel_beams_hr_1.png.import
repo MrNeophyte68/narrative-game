@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://q3tp2swhhhng"
-path.s3tc="res://.godot/imported/garage_hm_2_steel_beams_hr_1.png-f18614ba3dcaa2f459c0b75e321d45a6.s3tc.ctex"
+path.s3tc="res://.godot/imported/garage_hm_2_steel_beams_hr_1.png-97e093fa54b35b13dd5218c3df295727.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Buildings/garage_hm_2_steel_beams_hr_1.png"
-dest_files=["res://.godot/imported/garage_hm_2_steel_beams_hr_1.png-f18614ba3dcaa2f459c0b75e321d45a6.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Buildings/garage_hm_2_steel_beams_hr_1.png"
+dest_files=["res://.godot/imported/garage_hm_2_steel_beams_hr_1.png-97e093fa54b35b13dd5218c3df295727.s3tc.ctex"]
 
 [params]
 

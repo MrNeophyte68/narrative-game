@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bg6rjj7j4qame"
-path.s3tc="res://.godot/imported/hand_rail_1_metal_mp_6.png-1fa7c24e541b7ae84508293f2395f0ab.s3tc.ctex"
+path.s3tc="res://.godot/imported/hand_rail_1_metal_mp_6.png-b795639ead1cc51b2b49c107b35482c4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/hand_rail_1_metal_mp_6.png"
-dest_files=["res://.godot/imported/hand_rail_1_metal_mp_6.png-1fa7c24e541b7ae84508293f2395f0ab.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/hand_rail_1_metal_mp_6.png"
+dest_files=["res://.godot/imported/hand_rail_1_metal_mp_6.png-b795639ead1cc51b2b49c107b35482c4.s3tc.ctex"]
 
 [params]
 

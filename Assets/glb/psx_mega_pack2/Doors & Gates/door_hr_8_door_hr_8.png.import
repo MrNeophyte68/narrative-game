@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xg6ofcrqak5k"
-path.s3tc="res://.godot/imported/door_hr_8_door_hr_8.png-2fd70c5e6b6056cc33196b3c3ffe4e74.s3tc.ctex"
+path.s3tc="res://.godot/imported/door_hr_8_door_hr_8.png-af64bcc58e531ef8707302e01efda234.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Doors & Gates/door_hr_8_door_hr_8.png"
-dest_files=["res://.godot/imported/door_hr_8_door_hr_8.png-2fd70c5e6b6056cc33196b3c3ffe4e74.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Doors & Gates/door_hr_8_door_hr_8.png"
+dest_files=["res://.godot/imported/door_hr_8_door_hr_8.png-af64bcc58e531ef8707302e01efda234.s3tc.ctex"]
 
 [params]
 

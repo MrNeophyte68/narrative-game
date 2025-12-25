@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3j71wqq1iwu7"
-path.s3tc="res://.godot/imported/gauge_etx_2_1_glass_etx_1.png-9a78156dfff8325055566534150c38f2.s3tc.ctex"
+path.s3tc="res://.godot/imported/gauge_etx_2_1_glass_etx_1.png-6cd7da7ce48480de56e40eed9f179e0d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_tech/gauge_etx_2_1_glass_etx_1.png"
-dest_files=["res://.godot/imported/gauge_etx_2_1_glass_etx_1.png-9a78156dfff8325055566534150c38f2.s3tc.ctex"]
+source_file="res://Assets/glb/psx_tech/gauge_etx_2_1_glass_etx_1.png"
+dest_files=["res://.godot/imported/gauge_etx_2_1_glass_etx_1.png-6cd7da7ce48480de56e40eed9f179e0d.s3tc.ctex"]
 
 [params]
 

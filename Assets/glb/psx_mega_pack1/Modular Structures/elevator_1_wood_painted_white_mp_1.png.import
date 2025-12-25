@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://h2bh3aitdkbv"
-path.s3tc="res://.godot/imported/elevator_1_wood_painted_white_mp_1.png-0a252746cab6f07b44a82e279a0d8cba.s3tc.ctex"
+path.s3tc="res://.godot/imported/elevator_1_wood_painted_white_mp_1.png-f6c7604ff00a6f1b8f4daac9531291a0.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/elevator_1_wood_painted_white_mp_1.png"
-dest_files=["res://.godot/imported/elevator_1_wood_painted_white_mp_1.png-0a252746cab6f07b44a82e279a0d8cba.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/elevator_1_wood_painted_white_mp_1.png"
+dest_files=["res://.godot/imported/elevator_1_wood_painted_white_mp_1.png-f6c7604ff00a6f1b8f4daac9531291a0.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b7aoxtv3frdbr"
-path="res://.godot/imported/buttons_etx_green_1.glb-af9d98eac74c4090cfcd551cfa8d757c.scn"
+path="res://.godot/imported/buttons_etx_green_1.glb-401e7e3e4823532ee3d23d11d3bee8cd.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_tech/buttons_etx_green_1.glb"
-dest_files=["res://.godot/imported/buttons_etx_green_1.glb-af9d98eac74c4090cfcd551cfa8d757c.scn"]
+source_file="res://Assets/glb/psx_tech/buttons_etx_green_1.glb"
+dest_files=["res://.godot/imported/buttons_etx_green_1.glb-401e7e3e4823532ee3d23d11d3bee8cd.scn"]
 
 [params]
 

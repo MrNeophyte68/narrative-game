@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://v55gtchrv03e"
-path="res://.godot/imported/notebook_1.glb-5f7c7ee32b0c1ebcb81296caf3605949.scn"
+path="res://.godot/imported/notebook_1.glb-6d93c062534fe973cba3ea9b01013c65.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/notebook_1.glb"
-dest_files=["res://.godot/imported/notebook_1.glb-5f7c7ee32b0c1ebcb81296caf3605949.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/notebook_1.glb"
+dest_files=["res://.godot/imported/notebook_1.glb-6d93c062534fe973cba3ea9b01013c65.scn"]
 
 [params]
 

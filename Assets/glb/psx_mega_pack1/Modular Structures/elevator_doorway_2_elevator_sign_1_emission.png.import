@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cme7gw6orf3x1"
-path.s3tc="res://.godot/imported/elevator_doorway_2_elevator_sign_1_emission.png-95bfd5fdff2214d77647d8292119afbd.s3tc.ctex"
+path.s3tc="res://.godot/imported/elevator_doorway_2_elevator_sign_1_emission.png-8666dde9cdeb8ad2e72891f8924ffe3f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/elevator_doorway_2_elevator_sign_1_emission.png"
-dest_files=["res://.godot/imported/elevator_doorway_2_elevator_sign_1_emission.png-95bfd5fdff2214d77647d8292119afbd.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/elevator_doorway_2_elevator_sign_1_emission.png"
+dest_files=["res://.godot/imported/elevator_doorway_2_elevator_sign_1_emission.png-8666dde9cdeb8ad2e72891f8924ffe3f.s3tc.ctex"]
 
 [params]
 

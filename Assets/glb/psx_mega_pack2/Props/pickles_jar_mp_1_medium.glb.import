@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://7unu7ojdvqwn"
-path="res://.godot/imported/pickles_jar_mp_1_medium.glb-2c9d3aa3a031adfb557eaa33fc27df35.scn"
+path="res://.godot/imported/pickles_jar_mp_1_medium.glb-9adabab6c46ce320872b3cb223c1cf69.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/pickles_jar_mp_1_medium.glb"
-dest_files=["res://.godot/imported/pickles_jar_mp_1_medium.glb-2c9d3aa3a031adfb557eaa33fc27df35.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/pickles_jar_mp_1_medium.glb"
+dest_files=["res://.godot/imported/pickles_jar_mp_1_medium.glb-9adabab6c46ce320872b3cb223c1cf69.scn"]
 
 [params]
 

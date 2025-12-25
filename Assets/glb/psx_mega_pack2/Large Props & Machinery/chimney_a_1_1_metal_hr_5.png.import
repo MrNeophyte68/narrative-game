@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://beixsv57upd3r"
-path.s3tc="res://.godot/imported/chimney_a_1_1_metal_hr_5.png-e393a6f7e95c48d98049ee322d92f5da.s3tc.ctex"
+path.s3tc="res://.godot/imported/chimney_a_1_1_metal_hr_5.png-b5e832adae80a072302e62ffc4c1c406.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/chimney_a_1_1_metal_hr_5.png"
-dest_files=["res://.godot/imported/chimney_a_1_1_metal_hr_5.png-e393a6f7e95c48d98049ee322d92f5da.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/chimney_a_1_1_metal_hr_5.png"
+dest_files=["res://.godot/imported/chimney_a_1_1_metal_hr_5.png-b5e832adae80a072302e62ffc4c1c406.s3tc.ctex"]
 
 [params]
 

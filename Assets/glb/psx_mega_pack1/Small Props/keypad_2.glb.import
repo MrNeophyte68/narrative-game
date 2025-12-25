@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bvpco4fiuken7"
-path="res://.godot/imported/keypad_2.glb-e43edbea53cbf5a1f3bf1a63bbb509fb.scn"
+path="res://.godot/imported/keypad_2.glb-50766f48177b93e876fc25bffcfaa1a2.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Small Props/keypad_2.glb"
-dest_files=["res://.godot/imported/keypad_2.glb-e43edbea53cbf5a1f3bf1a63bbb509fb.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Small Props/keypad_2.glb"
+dest_files=["res://.godot/imported/keypad_2.glb-50766f48177b93e876fc25bffcfaa1a2.scn"]
 
 [params]
 
