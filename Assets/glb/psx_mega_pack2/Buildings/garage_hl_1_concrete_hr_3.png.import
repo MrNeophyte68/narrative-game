@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://g2ulwhiuo5w"
-path.s3tc="res://.godot/imported/garage_hl_1_concrete_hr_3.png-27354b40ff1a57eab65aad5d4b461908.s3tc.ctex"
+path.s3tc="res://.godot/imported/garage_hl_1_concrete_hr_3.png-7d299c7004caeafc0421d3e4ac1a0003.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Buildings/garage_hl_1_concrete_hr_3.png"
-dest_files=["res://.godot/imported/garage_hl_1_concrete_hr_3.png-27354b40ff1a57eab65aad5d4b461908.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Buildings/garage_hl_1_concrete_hr_3.png"
+dest_files=["res://.godot/imported/garage_hl_1_concrete_hr_3.png-7d299c7004caeafc0421d3e4ac1a0003.s3tc.ctex"]
 
 [params]
 

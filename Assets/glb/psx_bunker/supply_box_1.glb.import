@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ulmvd1opw38s"
-path="res://.godot/imported/supply_box_1.glb-51fd764380fe207466c0fdd5002974fb.scn"
+path="res://.godot/imported/supply_box_1.glb-7fc4eef519d360d4ff40be9e1f0a795f.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/supply_box_1.glb"
-dest_files=["res://.godot/imported/supply_box_1.glb-51fd764380fe207466c0fdd5002974fb.scn"]
+source_file="res://assets/glb/psx_bunker/supply_box_1.glb"
+dest_files=["res://.godot/imported/supply_box_1.glb-7fc4eef519d360d4ff40be9e1f0a795f.scn"]
 
 [params]
 

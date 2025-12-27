@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcxx8iy8gyln0"
-path.s3tc="res://.godot/imported/paint_can_mx_1_paint_can_mx_1.png-fe936697cd64a6692982b7c5b6cd8ceb.s3tc.ctex"
+path.s3tc="res://.godot/imported/paint_can_mx_1_paint_can_mx_1.png-f70100486c9601241122163a8c356b44.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/paint_can_mx_1_paint_can_mx_1.png"
-dest_files=["res://.godot/imported/paint_can_mx_1_paint_can_mx_1.png-fe936697cd64a6692982b7c5b6cd8ceb.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/paint_can_mx_1_paint_can_mx_1.png"
+dest_files=["res://.godot/imported/paint_can_mx_1_paint_can_mx_1.png-f70100486c9601241122163a8c356b44.s3tc.ctex"]
 
 [params]
 

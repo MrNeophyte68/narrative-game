@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://1gr5qji7gbi8"
-path="res://.godot/imported/bars_metal_2.glb-beb44dfd8a63a3b9c2e877aebb9a0193.scn"
+path="res://.godot/imported/bars_metal_2.glb-4f49803ea24a0b6955ffb6cd12320635.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/bars_metal_2.glb"
-dest_files=["res://.godot/imported/bars_metal_2.glb-beb44dfd8a63a3b9c2e877aebb9a0193.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/bars_metal_2.glb"
+dest_files=["res://.godot/imported/bars_metal_2.glb-4f49803ea24a0b6955ffb6cd12320635.scn"]
 
 [params]
 

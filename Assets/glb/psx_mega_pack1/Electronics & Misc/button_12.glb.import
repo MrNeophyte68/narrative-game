@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c0whexpg3wycv"
-path="res://.godot/imported/button_12.glb-075e556cf43f5ae83a7d8bfec0c519a8.scn"
+path="res://.godot/imported/button_12.glb-6923fe67917a20bc0031eadf94198c4a.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/button_12.glb"
-dest_files=["res://.godot/imported/button_12.glb-075e556cf43f5ae83a7d8bfec0c519a8.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/button_12.glb"
+dest_files=["res://.godot/imported/button_12.glb-6923fe67917a20bc0031eadf94198c4a.scn"]
 
 [params]
 

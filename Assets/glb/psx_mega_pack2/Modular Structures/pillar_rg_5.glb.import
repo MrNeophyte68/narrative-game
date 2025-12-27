@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://culib4u6wy4m4"
-path="res://.godot/imported/pillar_rg_5.glb-bc5805d3c33857f06b81ca158eecd9cf.scn"
+path="res://.godot/imported/pillar_rg_5.glb-3a20246d2e24c4bed3dccdee2dc020ed.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/pillar_rg_5.glb"
-dest_files=["res://.godot/imported/pillar_rg_5.glb-bc5805d3c33857f06b81ca158eecd9cf.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/pillar_rg_5.glb"
+dest_files=["res://.godot/imported/pillar_rg_5.glb-3a20246d2e24c4bed3dccdee2dc020ed.scn"]
 
 [params]
 

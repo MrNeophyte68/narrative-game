@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bmwgid3fuasev"
-path="res://.godot/imported/toilet_mp_1_1.glb-a5407a8f521d41abccc877f4f3534a58.scn"
+path="res://.godot/imported/toilet_mp_1_1.glb-5c05cb7ad6beffde46bf7e29c971057f.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Large Props/toilet_mp_1_1.glb"
-dest_files=["res://.godot/imported/toilet_mp_1_1.glb-a5407a8f521d41abccc877f4f3534a58.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Large Props/toilet_mp_1_1.glb"
+dest_files=["res://.godot/imported/toilet_mp_1_1.glb-5c05cb7ad6beffde46bf7e29c971057f.scn"]
 
 [params]
 

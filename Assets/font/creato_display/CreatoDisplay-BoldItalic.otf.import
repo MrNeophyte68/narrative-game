@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://cpd58fc5m5k71"
-path="res://.godot/imported/CreatoDisplay-BoldItalic.otf-92099a6f4abe08fe5481dc594fce37da.fontdata"
+path="res://.godot/imported/CreatoDisplay-BoldItalic.otf-58a0ee741735c2bbf806f8c61ac4221a.fontdata"
 
 [deps]
 
-source_file="res://Assets/font/creato_display/CreatoDisplay-BoldItalic.otf"
-dest_files=["res://.godot/imported/CreatoDisplay-BoldItalic.otf-92099a6f4abe08fe5481dc594fce37da.fontdata"]
+source_file="res://assets/font/creato_display/CreatoDisplay-BoldItalic.otf"
+dest_files=["res://.godot/imported/CreatoDisplay-BoldItalic.otf-58a0ee741735c2bbf806f8c61ac4221a.fontdata"]
 
 [params]
 

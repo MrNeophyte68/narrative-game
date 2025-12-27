@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://naaxce5grhj5"
-path="res://.godot/imported/roof_hr_3_side_2_angle_corner_1.glb-2688069e68d8e13f1f3a127df7688933.scn"
+path="res://.godot/imported/roof_hr_3_side_2_angle_corner_1.glb-00918ab789dff87bff53fbd006cef56e.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/roof_hr_3_side_2_angle_corner_1.glb"
-dest_files=["res://.godot/imported/roof_hr_3_side_2_angle_corner_1.glb-2688069e68d8e13f1f3a127df7688933.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/roof_hr_3_side_2_angle_corner_1.glb"
+dest_files=["res://.godot/imported/roof_hr_3_side_2_angle_corner_1.glb-00918ab789dff87bff53fbd006cef56e.scn"]
 
 [params]
 

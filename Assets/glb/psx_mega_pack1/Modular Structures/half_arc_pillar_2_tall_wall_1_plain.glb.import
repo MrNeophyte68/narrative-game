@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dye2dv1l027fq"
-path="res://.godot/imported/half_arc_pillar_2_tall_wall_1_plain.glb-3148d8b0b8ba75cf4d4c9ca6526dff17.scn"
+path="res://.godot/imported/half_arc_pillar_2_tall_wall_1_plain.glb-6b19152bb22ed2ba62cf7428a1421e2b.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/half_arc_pillar_2_tall_wall_1_plain.glb"
-dest_files=["res://.godot/imported/half_arc_pillar_2_tall_wall_1_plain.glb-3148d8b0b8ba75cf4d4c9ca6526dff17.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/half_arc_pillar_2_tall_wall_1_plain.glb"
+dest_files=["res://.godot/imported/half_arc_pillar_2_tall_wall_1_plain.glb-6b19152bb22ed2ba62cf7428a1421e2b.scn"]
 
 [params]
 

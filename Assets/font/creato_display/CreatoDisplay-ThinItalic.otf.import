@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://1pcwxqcva2yr"
-path="res://.godot/imported/CreatoDisplay-ThinItalic.otf-17596a540565672888057ae38aa4e7a4.fontdata"
+path="res://.godot/imported/CreatoDisplay-ThinItalic.otf-10d64a794a394de945c51f394de6a641.fontdata"
 
 [deps]
 
-source_file="res://Assets/font/creato_display/CreatoDisplay-ThinItalic.otf"
-dest_files=["res://.godot/imported/CreatoDisplay-ThinItalic.otf-17596a540565672888057ae38aa4e7a4.fontdata"]
+source_file="res://assets/font/creato_display/CreatoDisplay-ThinItalic.otf"
+dest_files=["res://.godot/imported/CreatoDisplay-ThinItalic.otf-10d64a794a394de945c51f394de6a641.fontdata"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctpis3km7j4e8"
-path.s3tc="res://.godot/imported/first_aid_kit_hr_2_1_first_aid_kit_hr_2.png-0aa95383c3bf5a6479b6a5794f7118a3.s3tc.ctex"
+path.s3tc="res://.godot/imported/first_aid_kit_hr_2_1_first_aid_kit_hr_2.png-1f3581b96ea61b0419e06ef4a6927445.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/first_aid_kit_hr_2_1_first_aid_kit_hr_2.png"
-dest_files=["res://.godot/imported/first_aid_kit_hr_2_1_first_aid_kit_hr_2.png-0aa95383c3bf5a6479b6a5794f7118a3.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/first_aid_kit_hr_2_1_first_aid_kit_hr_2.png"
+dest_files=["res://.godot/imported/first_aid_kit_hr_2_1_first_aid_kit_hr_2.png-1f3581b96ea61b0419e06ef4a6927445.s3tc.ctex"]
 
 [params]
 

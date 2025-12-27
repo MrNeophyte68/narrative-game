@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dcgu8gs3uw3l1"
-path="res://.godot/imported/syringe_mp_1.glb-ba24b8d7f8b15234164e9604d3e8b6f4.scn"
+path="res://.godot/imported/syringe_mp_1.glb-5ee79f870507be1823a295cecbe54b3b.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/syringe_mp_1.glb"
-dest_files=["res://.godot/imported/syringe_mp_1.glb-ba24b8d7f8b15234164e9604d3e8b6f4.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/syringe_mp_1.glb"
+dest_files=["res://.godot/imported/syringe_mp_1.glb-5ee79f870507be1823a295cecbe54b3b.scn"]
 
 [params]
 

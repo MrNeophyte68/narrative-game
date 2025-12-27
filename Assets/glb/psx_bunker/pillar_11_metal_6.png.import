@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d26wjs7co048m"
-path.s3tc="res://.godot/imported/pillar_11_metal_6.png-4e8588943f9e56bfd70c0ed158e3e779.s3tc.ctex"
+path.s3tc="res://.godot/imported/pillar_11_metal_6.png-c876c67d4ea4ba5f3ced45b9b17298d6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/pillar_11_metal_6.png"
-dest_files=["res://.godot/imported/pillar_11_metal_6.png-4e8588943f9e56bfd70c0ed158e3e779.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/pillar_11_metal_6.png"
+dest_files=["res://.godot/imported/pillar_11_metal_6.png-c876c67d4ea4ba5f3ced45b9b17298d6.s3tc.ctex"]
 
 [params]
 

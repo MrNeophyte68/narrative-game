@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crok6e64yd2h7"
-path.s3tc="res://.godot/imported/metal_crate_3_metal_crate_3.png-83759ca8915cafdf8d8d2716710b48d7.s3tc.ctex"
+path.s3tc="res://.godot/imported/metal_crate_3_metal_crate_3.png-2785027b41268942a16e5ff99ce42bde.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/metal_crate_3_metal_crate_3.png"
-dest_files=["res://.godot/imported/metal_crate_3_metal_crate_3.png-83759ca8915cafdf8d8d2716710b48d7.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/metal_crate_3_metal_crate_3.png"
+dest_files=["res://.godot/imported/metal_crate_3_metal_crate_3.png-2785027b41268942a16e5ff99ce42bde.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bhiprvuqnqpvu"
-path="res://.godot/imported/fence_b_pillar.glb-e549f139f542dff1157cf3fda146d1a6.scn"
+path="res://.godot/imported/fence_b_pillar.glb-9dde0e6a24904f3b1085c5db677286bf.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Props/fence_b_pillar.glb"
-dest_files=["res://.godot/imported/fence_b_pillar.glb-e549f139f542dff1157cf3fda146d1a6.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Props/fence_b_pillar.glb"
+dest_files=["res://.godot/imported/fence_b_pillar.glb-9dde0e6a24904f3b1085c5db677286bf.scn"]
 
 [params]
 

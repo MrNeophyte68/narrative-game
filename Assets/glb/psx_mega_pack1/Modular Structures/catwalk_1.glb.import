@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://doqqip87qx301"
-path="res://.godot/imported/catwalk_1.glb-71064fdb301429050993c194e7b790ec.scn"
+path="res://.godot/imported/catwalk_1.glb-b3d013253e8ad7033b6739d507be9fd1.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/catwalk_1.glb"
-dest_files=["res://.godot/imported/catwalk_1.glb-71064fdb301429050993c194e7b790ec.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/catwalk_1.glb"
+dest_files=["res://.godot/imported/catwalk_1.glb-b3d013253e8ad7033b6739d507be9fd1.scn"]
 
 [params]
 

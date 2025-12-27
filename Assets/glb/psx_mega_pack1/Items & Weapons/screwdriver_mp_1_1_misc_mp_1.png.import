@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b264tj8u68w1"
-path.s3tc="res://.godot/imported/screwdriver_mp_1_1_misc_mp_1.png-8a78c564d3e5060fdf13619159b9c928.s3tc.ctex"
+path.s3tc="res://.godot/imported/screwdriver_mp_1_1_misc_mp_1.png-42e680c44e73fd38d0823c674be53dd7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/screwdriver_mp_1_1_misc_mp_1.png"
-dest_files=["res://.godot/imported/screwdriver_mp_1_1_misc_mp_1.png-8a78c564d3e5060fdf13619159b9c928.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/screwdriver_mp_1_1_misc_mp_1.png"
+dest_files=["res://.godot/imported/screwdriver_mp_1_1_misc_mp_1.png-42e680c44e73fd38d0823c674be53dd7.s3tc.ctex"]
 
 [params]
 

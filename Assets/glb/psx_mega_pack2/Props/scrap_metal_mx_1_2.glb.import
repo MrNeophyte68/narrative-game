@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dhni831xyoxvn"
-path="res://.godot/imported/scrap_metal_mx_1_2.glb-06ef92b071e5a4ee083956a76896f035.scn"
+path="res://.godot/imported/scrap_metal_mx_1_2.glb-8b24dff0f74d6b7507e9fe63f16766fd.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/scrap_metal_mx_1_2.glb"
-dest_files=["res://.godot/imported/scrap_metal_mx_1_2.glb-06ef92b071e5a4ee083956a76896f035.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/scrap_metal_mx_1_2.glb"
+dest_files=["res://.godot/imported/scrap_metal_mx_1_2.glb-8b24dff0f74d6b7507e9fe63f16766fd.scn"]
 
 [params]
 

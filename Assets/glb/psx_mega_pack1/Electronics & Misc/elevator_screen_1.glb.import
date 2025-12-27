@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d1joghti61i0c"
-path="res://.godot/imported/elevator_screen_1.glb-fa78216a55f98ff8c663a147f75050ca.scn"
+path="res://.godot/imported/elevator_screen_1.glb-151de68bc84129510e1456e481f2f2ca.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/elevator_screen_1.glb"
-dest_files=["res://.godot/imported/elevator_screen_1.glb-fa78216a55f98ff8c663a147f75050ca.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/elevator_screen_1.glb"
+dest_files=["res://.godot/imported/elevator_screen_1.glb-151de68bc84129510e1456e481f2f2ca.scn"]
 
 [params]
 

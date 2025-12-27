@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1h1tqpvy3b4b"
-path.s3tc="res://.godot/imported/warehouse_mx_1_door_hr_5.png-dd8a76baa9f0de145422cbf4b3c3bb24.s3tc.ctex"
+path.s3tc="res://.godot/imported/warehouse_mx_1_door_hr_5.png-bbb96fb5818b1d471ef3c8a3af4e3850.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Buildings/warehouse_mx_1_door_hr_5.png"
-dest_files=["res://.godot/imported/warehouse_mx_1_door_hr_5.png-dd8a76baa9f0de145422cbf4b3c3bb24.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Buildings/warehouse_mx_1_door_hr_5.png"
+dest_files=["res://.godot/imported/warehouse_mx_1_door_hr_5.png-bbb96fb5818b1d471ef3c8a3af4e3850.s3tc.ctex"]
 
 [params]
 

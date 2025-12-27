@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dx7wg2vc6j10n"
-path.s3tc="res://.godot/imported/barricade_b_2_barricade_hm_2.png-5c4022e77a58331c27d7ee7ab8228d42.s3tc.ctex"
+path.s3tc="res://.godot/imported/barricade_b_2_barricade_hm_2.png-0b21de05e39b6f4de76173c94dbb171d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Props/barricade_b_2_barricade_hm_2.png"
-dest_files=["res://.godot/imported/barricade_b_2_barricade_hm_2.png-5c4022e77a58331c27d7ee7ab8228d42.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Props/barricade_b_2_barricade_hm_2.png"
+dest_files=["res://.godot/imported/barricade_b_2_barricade_hm_2.png-0b21de05e39b6f4de76173c94dbb171d.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://83t1q4in11pi"
-path.s3tc="res://.godot/imported/concrete_block_mx_1_metal_hr_2.png-4e9fac51a09d987517ee6007ee3f4ed7.s3tc.ctex"
+path.s3tc="res://.godot/imported/concrete_block_mx_1_metal_hr_2.png-252b197b9674794df5568e7159ef141e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/concrete_block_mx_1_metal_hr_2.png"
-dest_files=["res://.godot/imported/concrete_block_mx_1_metal_hr_2.png-4e9fac51a09d987517ee6007ee3f4ed7.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/concrete_block_mx_1_metal_hr_2.png"
+dest_files=["res://.godot/imported/concrete_block_mx_1_metal_hr_2.png-252b197b9674794df5568e7159ef141e.s3tc.ctex"]
 
 [params]
 

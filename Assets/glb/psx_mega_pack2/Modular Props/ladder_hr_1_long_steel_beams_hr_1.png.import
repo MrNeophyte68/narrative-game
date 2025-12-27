@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://db4v5fvda7qh1"
-path.s3tc="res://.godot/imported/ladder_hr_1_long_steel_beams_hr_1.png-99353017a2d5bde68166dedf00c9bd4b.s3tc.ctex"
+path.s3tc="res://.godot/imported/ladder_hr_1_long_steel_beams_hr_1.png-baae019380b2b2d0db4408b258705fce.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Props/ladder_hr_1_long_steel_beams_hr_1.png"
-dest_files=["res://.godot/imported/ladder_hr_1_long_steel_beams_hr_1.png-99353017a2d5bde68166dedf00c9bd4b.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Props/ladder_hr_1_long_steel_beams_hr_1.png"
+dest_files=["res://.godot/imported/ladder_hr_1_long_steel_beams_hr_1.png-baae019380b2b2d0db4408b258705fce.s3tc.ctex"]
 
 [params]
 

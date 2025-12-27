@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnjal2ag250i6"
-path.s3tc="res://.godot/imported/concrete_fence_hr_2_metal_hr_1.png-c743274a16acb1ed0032806d6d86cff2.s3tc.ctex"
+path.s3tc="res://.godot/imported/concrete_fence_hr_2_metal_hr_1.png-a3c7a8fcdebf62bee81eccb561a28b49.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Props/concrete_fence_hr_2_metal_hr_1.png"
-dest_files=["res://.godot/imported/concrete_fence_hr_2_metal_hr_1.png-c743274a16acb1ed0032806d6d86cff2.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Props/concrete_fence_hr_2_metal_hr_1.png"
+dest_files=["res://.godot/imported/concrete_fence_hr_2_metal_hr_1.png-a3c7a8fcdebf62bee81eccb561a28b49.s3tc.ctex"]
 
 [params]
 

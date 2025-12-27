@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dt3h7dpos737w"
-path="res://.godot/imported/baking_soda_1.glb-f5ce37f012f2a4d055d40ff917be72d6.scn"
+path="res://.godot/imported/baking_soda_1.glb-c831b511335d0d296819c603ca893f1a.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/baking_soda_1.glb"
-dest_files=["res://.godot/imported/baking_soda_1.glb-f5ce37f012f2a4d055d40ff917be72d6.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/baking_soda_1.glb"
+dest_files=["res://.godot/imported/baking_soda_1.glb-c831b511335d0d296819c603ca893f1a.scn"]
 
 [params]
 

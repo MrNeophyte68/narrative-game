@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dotr4phcy3625"
-path.s3tc="res://.godot/imported/beam_hc_horizonatal_2_metal_hr_2.png-385929727fa54243204bc574ae20b9c6.s3tc.ctex"
+path.s3tc="res://.godot/imported/beam_hc_horizonatal_2_metal_hr_2.png-f047c4c9ef75239853c8d18774ae4d2d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/beam_hc_horizonatal_2_metal_hr_2.png"
-dest_files=["res://.godot/imported/beam_hc_horizonatal_2_metal_hr_2.png-385929727fa54243204bc574ae20b9c6.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/beam_hc_horizonatal_2_metal_hr_2.png"
+dest_files=["res://.godot/imported/beam_hc_horizonatal_2_metal_hr_2.png-f047c4c9ef75239853c8d18774ae4d2d.s3tc.ctex"]
 
 [params]
 

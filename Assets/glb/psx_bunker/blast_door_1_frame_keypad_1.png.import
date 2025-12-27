@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cq3hbio54v5my"
-path.s3tc="res://.godot/imported/blast_door_1_frame_keypad_1.png-8b2090fff5d2b1390dca38e3bea9e7f2.s3tc.ctex"
+path.s3tc="res://.godot/imported/blast_door_1_frame_keypad_1.png-a38a22c5abfbcd27fb4b9edf7b36a696.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/blast_door_1_frame_keypad_1.png"
-dest_files=["res://.godot/imported/blast_door_1_frame_keypad_1.png-8b2090fff5d2b1390dca38e3bea9e7f2.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/blast_door_1_frame_keypad_1.png"
+dest_files=["res://.godot/imported/blast_door_1_frame_keypad_1.png-a38a22c5abfbcd27fb4b9edf7b36a696.s3tc.ctex"]
 
 [params]
 

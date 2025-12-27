@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cgdoveeglyuxv"
-path="res://.godot/imported/glass_bottle_mx_3.glb-12a637af25e35140405e06394a8383ee.scn"
+path="res://.godot/imported/glass_bottle_mx_3.glb-c2094ea7a36a2383f42527900d61350b.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/glass_bottle_mx_3.glb"
-dest_files=["res://.godot/imported/glass_bottle_mx_3.glb-12a637af25e35140405e06394a8383ee.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/glass_bottle_mx_3.glb"
+dest_files=["res://.godot/imported/glass_bottle_mx_3.glb-c2094ea7a36a2383f42527900d61350b.scn"]
 
 [params]
 

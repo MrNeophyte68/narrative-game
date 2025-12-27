@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwvl4tj61yh0x"
-path.s3tc="res://.godot/imported/windows_hr_2_planks_hr_4.png-01e9f02a6ff538d39d4215fd8de0960b.s3tc.ctex"
+path.s3tc="res://.godot/imported/windows_hr_2_planks_hr_4.png-52f0a6f4a9680baf06d074eada11381a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/windows_hr_2_planks_hr_4.png"
-dest_files=["res://.godot/imported/windows_hr_2_planks_hr_4.png-01e9f02a6ff538d39d4215fd8de0960b.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/windows_hr_2_planks_hr_4.png"
+dest_files=["res://.godot/imported/windows_hr_2_planks_hr_4.png-52f0a6f4a9680baf06d074eada11381a.s3tc.ctex"]
 
 [params]
 

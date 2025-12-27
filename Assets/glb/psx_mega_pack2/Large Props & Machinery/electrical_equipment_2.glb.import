@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dhbhtwveyhfup"
-path="res://.godot/imported/electrical_equipment_2.glb-7ab96c5e5712ec78b316099d661e8425.scn"
+path="res://.godot/imported/electrical_equipment_2.glb-4829f23acfc4ceacb936c36e2a9e7577.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/electrical_equipment_2.glb"
-dest_files=["res://.godot/imported/electrical_equipment_2.glb-7ab96c5e5712ec78b316099d661e8425.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/electrical_equipment_2.glb"
+dest_files=["res://.godot/imported/electrical_equipment_2.glb-4829f23acfc4ceacb936c36e2a9e7577.scn"]
 
 [params]
 

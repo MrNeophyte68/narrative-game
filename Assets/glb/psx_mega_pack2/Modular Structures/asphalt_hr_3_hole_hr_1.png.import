@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0xqs7j5js65d"
-path.s3tc="res://.godot/imported/asphalt_hr_3_hole_hr_1.png-3dd0c7a0c44209cb2c7c2118e0c654f2.s3tc.ctex"
+path.s3tc="res://.godot/imported/asphalt_hr_3_hole_hr_1.png-5e3abfbc5ccea17a2f14d1dbfb45a8b3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/asphalt_hr_3_hole_hr_1.png"
-dest_files=["res://.godot/imported/asphalt_hr_3_hole_hr_1.png-3dd0c7a0c44209cb2c7c2118e0c654f2.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/asphalt_hr_3_hole_hr_1.png"
+dest_files=["res://.godot/imported/asphalt_hr_3_hole_hr_1.png-5e3abfbc5ccea17a2f14d1dbfb45a8b3.s3tc.ctex"]
 
 [params]
 

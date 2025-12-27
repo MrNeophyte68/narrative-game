@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://diapmc5ywht11"
-path="res://.godot/imported/pipe_1_cross.glb-3c4871d26f71343912870fb27b34268e.scn"
+path="res://.godot/imported/pipe_1_cross.glb-0739184f57436d6d2e23e272d5334ecd.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Large Props/pipe_1_cross.glb"
-dest_files=["res://.godot/imported/pipe_1_cross.glb-3c4871d26f71343912870fb27b34268e.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Large Props/pipe_1_cross.glb"
+dest_files=["res://.godot/imported/pipe_1_cross.glb-0739184f57436d6d2e23e272d5334ecd.scn"]
 
 [params]
 

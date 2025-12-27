@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpa86tpn3jw5r"
-path="res://.godot/imported/hl_office_complex_style_concrete_wall_1_1.png-97b4d11bfc12936e04f2dbbf397f4eb8.ctex"
+path="res://.godot/imported/hl_office_complex_style_concrete_wall_1_1.png-6e07022000ef06111a74fa3a75fe2aa6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/hl_office_complex_style_concrete_wall_1_1.png"
-dest_files=["res://.godot/imported/hl_office_complex_style_concrete_wall_1_1.png-97b4d11bfc12936e04f2dbbf397f4eb8.ctex"]
+source_file="res://assets/images/hl_office_complex_style_concrete_wall_1_1.png"
+dest_files=["res://.godot/imported/hl_office_complex_style_concrete_wall_1_1.png-6e07022000ef06111a74fa3a75fe2aa6.ctex"]
 
 [params]
 

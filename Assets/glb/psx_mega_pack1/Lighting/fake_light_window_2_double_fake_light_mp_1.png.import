@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1aahbblwo63h"
-path.s3tc="res://.godot/imported/fake_light_window_2_double_fake_light_mp_1.png-16968513af0d41df242c793252c085d4.s3tc.ctex"
+path.s3tc="res://.godot/imported/fake_light_window_2_double_fake_light_mp_1.png-fcc2f84de4ccf29b31b7e0ec57e5eac3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Lighting/fake_light_window_2_double_fake_light_mp_1.png"
-dest_files=["res://.godot/imported/fake_light_window_2_double_fake_light_mp_1.png-16968513af0d41df242c793252c085d4.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Lighting/fake_light_window_2_double_fake_light_mp_1.png"
+dest_files=["res://.godot/imported/fake_light_window_2_double_fake_light_mp_1.png-fcc2f84de4ccf29b31b7e0ec57e5eac3.s3tc.ctex"]
 
 [params]
 

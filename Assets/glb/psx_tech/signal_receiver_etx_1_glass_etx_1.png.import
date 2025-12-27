@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0o1j5hi4r1dh"
-path.s3tc="res://.godot/imported/signal_receiver_etx_1_glass_etx_1.png-13c2617b4bb8ba9da9745303164d4862.s3tc.ctex"
+path.s3tc="res://.godot/imported/signal_receiver_etx_1_glass_etx_1.png-15130c151c541d0697ecd4d19a2b926c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_tech/signal_receiver_etx_1_glass_etx_1.png"
-dest_files=["res://.godot/imported/signal_receiver_etx_1_glass_etx_1.png-13c2617b4bb8ba9da9745303164d4862.s3tc.ctex"]
+source_file="res://assets/glb/psx_tech/signal_receiver_etx_1_glass_etx_1.png"
+dest_files=["res://.godot/imported/signal_receiver_etx_1_glass_etx_1.png-15130c151c541d0697ecd4d19a2b926c.s3tc.ctex"]
 
 [params]
 

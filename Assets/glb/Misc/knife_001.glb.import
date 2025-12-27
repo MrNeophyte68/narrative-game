@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bwupuw013lqmp"
-path="res://.godot/imported/knife_001.glb-cbb362888cd81b57b432a4bb2f3f36c6.scn"
+path="res://.godot/imported/knife_001.glb-9827bc56f9caa18c0664e268d12d412d.scn"
 
 [deps]
 
-source_file="res://Assets/glb/Misc/knife_001.glb"
-dest_files=["res://.godot/imported/knife_001.glb-cbb362888cd81b57b432a4bb2f3f36c6.scn"]
+source_file="res://assets/glb/Misc/knife_001.glb"
+dest_files=["res://.godot/imported/knife_001.glb-9827bc56f9caa18c0664e268d12d412d.scn"]
 
 [params]
 

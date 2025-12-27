@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ohqm06ankiy1"
-path="res://.godot/imported/asphalt_hr_1_large.glb-53cc6600cebd611dd14f372ac340d00e.scn"
+path="res://.godot/imported/asphalt_hr_1_large.glb-80428c694023ffa4bc955c1c830d18cf.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/asphalt_hr_1_large.glb"
-dest_files=["res://.godot/imported/asphalt_hr_1_large.glb-53cc6600cebd611dd14f372ac340d00e.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/asphalt_hr_1_large.glb"
+dest_files=["res://.godot/imported/asphalt_hr_1_large.glb-80428c694023ffa4bc955c1c830d18cf.scn"]
 
 [params]
 

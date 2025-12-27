@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://hn8ystx7lxlx"
-path="res://.godot/imported/hexagon_nut_mx_2_1.glb-80d9e55fcbffbd383f5e6970bdcf1ebe.scn"
+path="res://.godot/imported/hexagon_nut_mx_2_1.glb-42bec2fb86299d5312497ddd43e7128f.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/hexagon_nut_mx_2_1.glb"
-dest_files=["res://.godot/imported/hexagon_nut_mx_2_1.glb-80d9e55fcbffbd383f5e6970bdcf1ebe.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/hexagon_nut_mx_2_1.glb"
+dest_files=["res://.godot/imported/hexagon_nut_mx_2_1.glb-42bec2fb86299d5312497ddd43e7128f.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c0l5h0q18b4eh"
-path="res://.godot/imported/glass_bottle_mx_3_broken.glb-70a4edf58563056d312117cf8f2b5cf5.scn"
+path="res://.godot/imported/glass_bottle_mx_3_broken.glb-26af07612c1cfc335b567d200dea7a8d.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/glass_bottle_mx_3_broken.glb"
-dest_files=["res://.godot/imported/glass_bottle_mx_3_broken.glb-70a4edf58563056d312117cf8f2b5cf5.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/glass_bottle_mx_3_broken.glb"
+dest_files=["res://.godot/imported/glass_bottle_mx_3_broken.glb-26af07612c1cfc335b567d200dea7a8d.scn"]
 
 [params]
 

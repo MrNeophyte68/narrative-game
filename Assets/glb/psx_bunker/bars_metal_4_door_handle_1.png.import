@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rsdmw73sgb0i"
-path.s3tc="res://.godot/imported/bars_metal_4_door_handle_1.png-2296cd4b8498cc08740a5e30b894f4ec.s3tc.ctex"
+path.s3tc="res://.godot/imported/bars_metal_4_door_handle_1.png-3e7792a6637eea3406ef9557656b150b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/bars_metal_4_door_handle_1.png"
-dest_files=["res://.godot/imported/bars_metal_4_door_handle_1.png-2296cd4b8498cc08740a5e30b894f4ec.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/bars_metal_4_door_handle_1.png"
+dest_files=["res://.godot/imported/bars_metal_4_door_handle_1.png-3e7792a6637eea3406ef9557656b150b.s3tc.ctex"]
 
 [params]
 

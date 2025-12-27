@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://2mgkcr1q0xff"
-path="res://.godot/imported/pipes_hr_1_elbow_1.glb-87a05ea9a4c6b52444dad6d1825abe5c.scn"
+path="res://.godot/imported/pipes_hr_1_elbow_1.glb-4e83c8692b18f19764a569662261779d.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/pipes_hr_1_elbow_1.glb"
-dest_files=["res://.godot/imported/pipes_hr_1_elbow_1.glb-87a05ea9a4c6b52444dad6d1825abe5c.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/pipes_hr_1_elbow_1.glb"
+dest_files=["res://.godot/imported/pipes_hr_1_elbow_1.glb-4e83c8692b18f19764a569662261779d.scn"]
 
 [params]
 

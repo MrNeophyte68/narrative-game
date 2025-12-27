@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ciac2qinwgim7"
-path.s3tc="res://.godot/imported/stairs_4_concrete_4.png-0badbee1f22828baeea175fb53afe142.s3tc.ctex"
+path.s3tc="res://.godot/imported/stairs_4_concrete_4.png-a28a2cab037b702d2fdf1ea2984d212c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/stairs_4_concrete_4.png"
-dest_files=["res://.godot/imported/stairs_4_concrete_4.png-0badbee1f22828baeea175fb53afe142.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/stairs_4_concrete_4.png"
+dest_files=["res://.godot/imported/stairs_4_concrete_4.png-a28a2cab037b702d2fdf1ea2984d212c.s3tc.ctex"]
 
 [params]
 

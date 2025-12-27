@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://u3joo6xi6mmp"
-path="res://.godot/imported/door_hr_13.glb-56f28dc71873fdbd6feeb2c0d9cc8796.scn"
+path="res://.godot/imported/door_hr_13.glb-9793d807c38f5d9b08688e170d879faa.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Doors & Gates/door_hr_13.glb"
-dest_files=["res://.godot/imported/door_hr_13.glb-56f28dc71873fdbd6feeb2c0d9cc8796.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Doors & Gates/door_hr_13.glb"
+dest_files=["res://.godot/imported/door_hr_13.glb-9793d807c38f5d9b08688e170d879faa.scn"]
 
 [params]
 

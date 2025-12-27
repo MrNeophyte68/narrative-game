@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5h103amwmo1u"
-path.s3tc="res://.godot/imported/cup_etx_1_misc_etx_part_1.png-4be56845bb839e87372e0d28b3311650.s3tc.ctex"
+path.s3tc="res://.godot/imported/cup_etx_1_misc_etx_part_1.png-fcf9d68985ac08291caaf047fa32dfb7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_tech/cup_etx_1_misc_etx_part_1.png"
-dest_files=["res://.godot/imported/cup_etx_1_misc_etx_part_1.png-4be56845bb839e87372e0d28b3311650.s3tc.ctex"]
+source_file="res://assets/glb/psx_tech/cup_etx_1_misc_etx_part_1.png"
+dest_files=["res://.godot/imported/cup_etx_1_misc_etx_part_1.png-fcf9d68985ac08291caaf047fa32dfb7.s3tc.ctex"]
 
 [params]
 

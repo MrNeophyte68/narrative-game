@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ds666kobcwci8"
-path="res://.godot/imported/computer_terminal_etx_1.glb-d8ebb3f65b6ce7bdb71f3b34213fd210.scn"
+path="res://.godot/imported/computer_terminal_etx_1.glb-65592fd7717a2ff3b5194012c073a412.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_tech/computer_terminal_etx_1.glb"
-dest_files=["res://.godot/imported/computer_terminal_etx_1.glb-d8ebb3f65b6ce7bdb71f3b34213fd210.scn"]
+source_file="res://assets/glb/psx_tech/computer_terminal_etx_1.glb"
+dest_files=["res://.godot/imported/computer_terminal_etx_1.glb-65592fd7717a2ff3b5194012c073a412.scn"]
 
 [params]
 

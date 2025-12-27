@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://uu8md45d656h"
-path="res://.godot/imported/pillow_mp_1.glb-469af34f08e35e8fed442d0653eaf840.scn"
+path="res://.godot/imported/pillow_mp_1.glb-08d9a17739afc288eb1403e9575964ef.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/pillow_mp_1.glb"
-dest_files=["res://.godot/imported/pillow_mp_1.glb-469af34f08e35e8fed442d0653eaf840.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/pillow_mp_1.glb"
+dest_files=["res://.godot/imported/pillow_mp_1.glb-08d9a17739afc288eb1403e9575964ef.scn"]
 
 [params]
 

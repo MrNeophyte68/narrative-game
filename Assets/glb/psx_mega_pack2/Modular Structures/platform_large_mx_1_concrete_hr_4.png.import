@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crvncx350v2b0"
-path.s3tc="res://.godot/imported/platform_large_mx_1_concrete_hr_4.png-988dbd698abd90986267227c913cb6fa.s3tc.ctex"
+path.s3tc="res://.godot/imported/platform_large_mx_1_concrete_hr_4.png-c45d7f5a7b92f9b7321feabf598809c7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/platform_large_mx_1_concrete_hr_4.png"
-dest_files=["res://.godot/imported/platform_large_mx_1_concrete_hr_4.png-988dbd698abd90986267227c913cb6fa.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/platform_large_mx_1_concrete_hr_4.png"
+dest_files=["res://.godot/imported/platform_large_mx_1_concrete_hr_4.png-c45d7f5a7b92f9b7321feabf598809c7.s3tc.ctex"]
 
 [params]
 

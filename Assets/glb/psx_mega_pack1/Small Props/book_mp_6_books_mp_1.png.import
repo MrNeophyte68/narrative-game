@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxfin1fxtstqw"
-path.s3tc="res://.godot/imported/book_mp_6_books_mp_1.png-1eb2840a11bfb2b18b4acd5d6ace4ebd.s3tc.ctex"
+path.s3tc="res://.godot/imported/book_mp_6_books_mp_1.png-1807e46e77135c3fcefbff56af3c114d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/book_mp_6_books_mp_1.png"
-dest_files=["res://.godot/imported/book_mp_6_books_mp_1.png-1eb2840a11bfb2b18b4acd5d6ace4ebd.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/book_mp_6_books_mp_1.png"
+dest_files=["res://.godot/imported/book_mp_6_books_mp_1.png-1807e46e77135c3fcefbff56af3c114d.s3tc.ctex"]
 
 [params]
 

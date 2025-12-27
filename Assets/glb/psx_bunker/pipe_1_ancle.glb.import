@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cmr3ggxv2cfh1"
-path="res://.godot/imported/pipe_1_ancle.glb-96239e783dd3c2952602c0a8344ebb8c.scn"
+path="res://.godot/imported/pipe_1_ancle.glb-2fff8e29f1baccce73df7445ddda64d7.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/pipe_1_ancle.glb"
-dest_files=["res://.godot/imported/pipe_1_ancle.glb-96239e783dd3c2952602c0a8344ebb8c.scn"]
+source_file="res://assets/glb/psx_bunker/pipe_1_ancle.glb"
+dest_files=["res://.godot/imported/pipe_1_ancle.glb-2fff8e29f1baccce73df7445ddda64d7.scn"]
 
 [params]
 

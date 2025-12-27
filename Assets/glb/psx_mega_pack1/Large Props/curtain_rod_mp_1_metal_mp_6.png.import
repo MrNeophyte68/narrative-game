@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rqh3svab2o7m"
-path.s3tc="res://.godot/imported/curtain_rod_mp_1_metal_mp_6.png-a5cdc2975866684407a0d579107d765c.s3tc.ctex"
+path.s3tc="res://.godot/imported/curtain_rod_mp_1_metal_mp_6.png-5c7cc9e24e1e213879f7375a71e969a5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Large Props/curtain_rod_mp_1_metal_mp_6.png"
-dest_files=["res://.godot/imported/curtain_rod_mp_1_metal_mp_6.png-a5cdc2975866684407a0d579107d765c.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Large Props/curtain_rod_mp_1_metal_mp_6.png"
+dest_files=["res://.godot/imported/curtain_rod_mp_1_metal_mp_6.png-5c7cc9e24e1e213879f7375a71e969a5.s3tc.ctex"]
 
 [params]
 

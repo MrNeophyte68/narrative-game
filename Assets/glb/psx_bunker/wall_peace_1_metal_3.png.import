@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://eala4swruumg"
-path.s3tc="res://.godot/imported/wall_peace_1_metal_3.png-06a2df8e16000f99b9df278316df8bf7.s3tc.ctex"
+path.s3tc="res://.godot/imported/wall_peace_1_metal_3.png-b8f973302b0ef31357cfe9d130d0fe3e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/wall_peace_1_metal_3.png"
-dest_files=["res://.godot/imported/wall_peace_1_metal_3.png-06a2df8e16000f99b9df278316df8bf7.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/wall_peace_1_metal_3.png"
+dest_files=["res://.godot/imported/wall_peace_1_metal_3.png-b8f973302b0ef31357cfe9d130d0fe3e.s3tc.ctex"]
 
 [params]
 
