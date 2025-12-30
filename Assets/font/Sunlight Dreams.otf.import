@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://ff7gl3x1bli7"
-path="res://.godot/imported/Sunlight Dreams.otf-0e99906166400025fd12ba16bed4accd.fontdata"
+path="res://.godot/imported/Sunlight Dreams.otf-e9e18986dcf5812575e69ac70a2da504.fontdata"
 
 [deps]
 
-source_file="res://assets/font/Sunlight Dreams.otf"
-dest_files=["res://.godot/imported/Sunlight Dreams.otf-0e99906166400025fd12ba16bed4accd.fontdata"]
+source_file="res://Assets/font/Sunlight Dreams.otf"
+dest_files=["res://.godot/imported/Sunlight Dreams.otf-e9e18986dcf5812575e69ac70a2da504.fontdata"]
 
 [params]
 

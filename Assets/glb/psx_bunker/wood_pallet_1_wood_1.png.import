@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkgt52airemge"
-path.s3tc="res://.godot/imported/wood_pallet_1_wood_1.png-fd1be9e3fa19b0e8db6ee8c8e368223b.s3tc.ctex"
+path.s3tc="res://.godot/imported/wood_pallet_1_wood_1.png-a9aaa1f8ed8c0736659c1e21838afa94.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/wood_pallet_1_wood_1.png"
-dest_files=["res://.godot/imported/wood_pallet_1_wood_1.png-fd1be9e3fa19b0e8db6ee8c8e368223b.s3tc.ctex"]
+source_file="res://Assets/glb/psx_bunker/wood_pallet_1_wood_1.png"
+dest_files=["res://.godot/imported/wood_pallet_1_wood_1.png-a9aaa1f8ed8c0736659c1e21838afa94.s3tc.ctex"]
 
 [params]
 

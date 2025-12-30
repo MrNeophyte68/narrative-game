@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdgeixgll3jud"
-path.s3tc="res://.godot/imported/shotgun_ammo_2_1_ammo_mp_1.png-e7b3e55a0fcfa45c90df11f5ebdd3d66.s3tc.ctex"
+path.s3tc="res://.godot/imported/shotgun_ammo_2_1_ammo_mp_1.png-5511ac578664883a2b233b5d261daaa2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/shotgun_ammo_2_1_ammo_mp_1.png"
-dest_files=["res://.godot/imported/shotgun_ammo_2_1_ammo_mp_1.png-e7b3e55a0fcfa45c90df11f5ebdd3d66.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/shotgun_ammo_2_1_ammo_mp_1.png"
+dest_files=["res://.godot/imported/shotgun_ammo_2_1_ammo_mp_1.png-5511ac578664883a2b233b5d261daaa2.s3tc.ctex"]
 
 [params]
 

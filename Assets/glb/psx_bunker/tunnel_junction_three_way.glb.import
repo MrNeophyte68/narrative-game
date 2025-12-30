@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://boqfwut1ksuia"
-path="res://.godot/imported/tunnel_junction_three_way.glb-d2daa2991b1a71f98e950800b4276e22.scn"
+path="res://.godot/imported/tunnel_junction_three_way.glb-546591f5380613e0915c2b5eb096e7e0.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/tunnel_junction_three_way.glb"
-dest_files=["res://.godot/imported/tunnel_junction_three_way.glb-d2daa2991b1a71f98e950800b4276e22.scn"]
+source_file="res://Assets/glb/psx_bunker/tunnel_junction_three_way.glb"
+dest_files=["res://.godot/imported/tunnel_junction_three_way.glb-546591f5380613e0915c2b5eb096e7e0.scn"]
 
 [params]
 

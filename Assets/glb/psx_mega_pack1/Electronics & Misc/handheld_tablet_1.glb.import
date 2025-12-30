@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://0m30vnr6k1vx"
-path="res://.godot/imported/handheld_tablet_1.glb-af9409a3d36116baa90e7ffae193502f.scn"
+path="res://.godot/imported/handheld_tablet_1.glb-e074894141553703730e4157abe9daa4.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/handheld_tablet_1.glb"
-dest_files=["res://.godot/imported/handheld_tablet_1.glb-af9409a3d36116baa90e7ffae193502f.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/handheld_tablet_1.glb"
+dest_files=["res://.godot/imported/handheld_tablet_1.glb-e074894141553703730e4157abe9daa4.scn"]
 
 [params]
 

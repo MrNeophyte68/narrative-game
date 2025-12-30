@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c25rmcb0cq5dd"
-path.s3tc="res://.godot/imported/roof_mh_2_steel_beams_hr_1.png-5610de26c5a8316bf495363e1ef2403c.s3tc.ctex"
+path.s3tc="res://.godot/imported/roof_mh_2_steel_beams_hr_1.png-9578976372cff1005b7785aec3f9e83c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Structures/roof_mh_2_steel_beams_hr_1.png"
-dest_files=["res://.godot/imported/roof_mh_2_steel_beams_hr_1.png-5610de26c5a8316bf495363e1ef2403c.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/roof_mh_2_steel_beams_hr_1.png"
+dest_files=["res://.godot/imported/roof_mh_2_steel_beams_hr_1.png-9578976372cff1005b7785aec3f9e83c.s3tc.ctex"]
 
 [params]
 

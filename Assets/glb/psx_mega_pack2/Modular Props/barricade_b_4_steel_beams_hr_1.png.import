@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcwp8qnpki1x"
-path.s3tc="res://.godot/imported/barricade_b_4_steel_beams_hr_1.png-2b80025fd2fb38cf4fbfa8b7d8fafce8.s3tc.ctex"
+path.s3tc="res://.godot/imported/barricade_b_4_steel_beams_hr_1.png-5d7f36a5a8b24aee2933e7185a9f6db8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Props/barricade_b_4_steel_beams_hr_1.png"
-dest_files=["res://.godot/imported/barricade_b_4_steel_beams_hr_1.png-2b80025fd2fb38cf4fbfa8b7d8fafce8.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Props/barricade_b_4_steel_beams_hr_1.png"
+dest_files=["res://.godot/imported/barricade_b_4_steel_beams_hr_1.png-5d7f36a5a8b24aee2933e7185a9f6db8.s3tc.ctex"]
 
 [params]
 

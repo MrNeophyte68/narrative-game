@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2fju6u5wpo7r"
-path.s3tc="res://.godot/imported/elevator_doorway_1_door_frame_wood_1.png-575d813086d5a26a14dc2ff01532f5ba.s3tc.ctex"
+path.s3tc="res://.godot/imported/elevator_doorway_1_door_frame_wood_1.png-f064a96eaefac22dcbb5ef072766bee0.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/elevator_doorway_1_door_frame_wood_1.png"
-dest_files=["res://.godot/imported/elevator_doorway_1_door_frame_wood_1.png-575d813086d5a26a14dc2ff01532f5ba.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/elevator_doorway_1_door_frame_wood_1.png"
+dest_files=["res://.godot/imported/elevator_doorway_1_door_frame_wood_1.png-f064a96eaefac22dcbb5ef072766bee0.s3tc.ctex"]
 
 [params]
 

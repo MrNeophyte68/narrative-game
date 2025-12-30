@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvgi54nqhs42n"
-path.s3tc="res://.godot/imported/double_single_doorway_2_1_wood_painted_white_mp_1.png-02635470f12a116ed63209a1ece67fef.s3tc.ctex"
+path.s3tc="res://.godot/imported/double_single_doorway_2_1_wood_painted_white_mp_1.png-18b8f31b7bf2efa9b2aa917ee2236c88.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/double_single_doorway_2_1_wood_painted_white_mp_1.png"
-dest_files=["res://.godot/imported/double_single_doorway_2_1_wood_painted_white_mp_1.png-02635470f12a116ed63209a1ece67fef.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/double_single_doorway_2_1_wood_painted_white_mp_1.png"
+dest_files=["res://.godot/imported/double_single_doorway_2_1_wood_painted_white_mp_1.png-18b8f31b7bf2efa9b2aa917ee2236c88.s3tc.ctex"]
 
 [params]
 

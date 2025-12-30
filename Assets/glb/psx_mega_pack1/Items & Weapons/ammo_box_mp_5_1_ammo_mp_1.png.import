@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://doj28uuwryc8"
-path.s3tc="res://.godot/imported/ammo_box_mp_5_1_ammo_mp_1.png-52828ddea7c4603960ea613218f549f8.s3tc.ctex"
+path.s3tc="res://.godot/imported/ammo_box_mp_5_1_ammo_mp_1.png-a1f68c1333932ec1d462d16b54bf8e68.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/ammo_box_mp_5_1_ammo_mp_1.png"
-dest_files=["res://.godot/imported/ammo_box_mp_5_1_ammo_mp_1.png-52828ddea7c4603960ea613218f549f8.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/ammo_box_mp_5_1_ammo_mp_1.png"
+dest_files=["res://.godot/imported/ammo_box_mp_5_1_ammo_mp_1.png-a1f68c1333932ec1d462d16b54bf8e68.s3tc.ctex"]
 
 [params]
 

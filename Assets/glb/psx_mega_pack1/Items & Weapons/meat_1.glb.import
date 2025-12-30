@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b6fhgk4cnwj5p"
-path="res://.godot/imported/meat_1.glb-4cc246ffbff64dc1d90191b1d031aee5.scn"
+path="res://.godot/imported/meat_1.glb-f3fb117869db1dd7d41dd08db249c271.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/meat_1.glb"
-dest_files=["res://.godot/imported/meat_1.glb-4cc246ffbff64dc1d90191b1d031aee5.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/meat_1.glb"
+dest_files=["res://.godot/imported/meat_1.glb-f3fb117869db1dd7d41dd08db249c271.scn"]
 
 [params]
 

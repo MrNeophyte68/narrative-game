@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://br0172yhk0pr0"
-path="res://.godot/imported/tv_remote_mp_1.glb-b195db31767b278ac3673be2563f5858.scn"
+path="res://.godot/imported/tv_remote_mp_1.glb-c186c41bbe3bf80fc877c0a4fafd3c70.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Small Props/tv_remote_mp_1.glb"
-dest_files=["res://.godot/imported/tv_remote_mp_1.glb-b195db31767b278ac3673be2563f5858.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Small Props/tv_remote_mp_1.glb"
+dest_files=["res://.godot/imported/tv_remote_mp_1.glb-c186c41bbe3bf80fc877c0a4fafd3c70.scn"]
 
 [params]
 

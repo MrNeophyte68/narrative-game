@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dg0tfmo0buoip"
-path="res://.godot/imported/fader_etx_1.glb-0891e2d3a5282aedf613d9b0b38b2916.scn"
+path="res://.godot/imported/fader_etx_1.glb-b0bb0737b50aad454b8273bca1122c44.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_tech/fader_etx_1.glb"
-dest_files=["res://.godot/imported/fader_etx_1.glb-0891e2d3a5282aedf613d9b0b38b2916.scn"]
+source_file="res://Assets/glb/psx_tech/fader_etx_1.glb"
+dest_files=["res://.godot/imported/fader_etx_1.glb-b0bb0737b50aad454b8273bca1122c44.scn"]
 
 [params]
 

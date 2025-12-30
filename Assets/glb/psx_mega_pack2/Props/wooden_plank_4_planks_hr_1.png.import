@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brvjucfl7sh21"
-path.s3tc="res://.godot/imported/wooden_plank_4_planks_hr_1.png-9da05f775f98591fffacc1e7c23380a9.s3tc.ctex"
+path.s3tc="res://.godot/imported/wooden_plank_4_planks_hr_1.png-017731725bc5545e796f3e781c2af439.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/wooden_plank_4_planks_hr_1.png"
-dest_files=["res://.godot/imported/wooden_plank_4_planks_hr_1.png-9da05f775f98591fffacc1e7c23380a9.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/wooden_plank_4_planks_hr_1.png"
+dest_files=["res://.godot/imported/wooden_plank_4_planks_hr_1.png-017731725bc5545e796f3e781c2af439.s3tc.ctex"]
 
 [params]
 

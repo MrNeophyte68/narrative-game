@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buowdkategoa7"
-path.s3tc="res://.godot/imported/pc_mp_1_pc_mp_1.png-406923832b336dd63b5a4cd9315aa626.s3tc.ctex"
+path.s3tc="res://.godot/imported/pc_mp_1_pc_mp_1.png-555d125d32766eaf3b4cf9f85eea95e1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/pc_mp_1_pc_mp_1.png"
-dest_files=["res://.godot/imported/pc_mp_1_pc_mp_1.png-406923832b336dd63b5a4cd9315aa626.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/pc_mp_1_pc_mp_1.png"
+dest_files=["res://.godot/imported/pc_mp_1_pc_mp_1.png-555d125d32766eaf3b4cf9f85eea95e1.s3tc.ctex"]
 
 [params]
 

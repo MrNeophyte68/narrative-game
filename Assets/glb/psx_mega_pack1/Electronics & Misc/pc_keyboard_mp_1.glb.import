@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c1r2vpd8uc1g0"
-path="res://.godot/imported/pc_keyboard_mp_1.glb-10e46c70fcb692c4fa03a1a67099d537.scn"
+path="res://.godot/imported/pc_keyboard_mp_1.glb-8638dc78aa9d7850fa44209ae53c0657.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/pc_keyboard_mp_1.glb"
-dest_files=["res://.godot/imported/pc_keyboard_mp_1.glb-10e46c70fcb692c4fa03a1a67099d537.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/pc_keyboard_mp_1.glb"
+dest_files=["res://.godot/imported/pc_keyboard_mp_1.glb-8638dc78aa9d7850fa44209ae53c0657.scn"]
 
 [params]
 

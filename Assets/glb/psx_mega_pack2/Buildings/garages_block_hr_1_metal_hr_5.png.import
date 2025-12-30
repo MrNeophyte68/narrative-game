@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6lwlfhyh6nmk"
-path.s3tc="res://.godot/imported/garages_block_hr_1_metal_hr_5.png-1312388744ec15785a0b65d257297778.s3tc.ctex"
+path.s3tc="res://.godot/imported/garages_block_hr_1_metal_hr_5.png-45b4680c70d79500eece5b7715483758.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Buildings/garages_block_hr_1_metal_hr_5.png"
-dest_files=["res://.godot/imported/garages_block_hr_1_metal_hr_5.png-1312388744ec15785a0b65d257297778.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Buildings/garages_block_hr_1_metal_hr_5.png"
+dest_files=["res://.godot/imported/garages_block_hr_1_metal_hr_5.png-45b4680c70d79500eece5b7715483758.s3tc.ctex"]
 
 [params]
 

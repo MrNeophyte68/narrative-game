@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c83w4n62koeu6"
-path.s3tc="res://.godot/imported/wall_peace_1_pipe_1.jpg-7444b3852f31c50d92d287147c0d70e1.s3tc.ctex"
+path.s3tc="res://.godot/imported/wall_peace_1_pipe_1.jpg-2dd85caa48693899f500f5d74a8ffb6b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/wall_peace_1_pipe_1.jpg"
-dest_files=["res://.godot/imported/wall_peace_1_pipe_1.jpg-7444b3852f31c50d92d287147c0d70e1.s3tc.ctex"]
+source_file="res://Assets/glb/psx_bunker/wall_peace_1_pipe_1.jpg"
+dest_files=["res://.godot/imported/wall_peace_1_pipe_1.jpg-2dd85caa48693899f500f5d74a8ffb6b.s3tc.ctex"]
 
 [params]
 

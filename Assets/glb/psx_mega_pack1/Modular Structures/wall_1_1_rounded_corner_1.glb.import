@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bt0y4rn7ys0er"
-path="res://.godot/imported/wall_1_1_rounded_corner_1.glb-9904a565a68fccdee7923f2ead2b5444.scn"
+path="res://.godot/imported/wall_1_1_rounded_corner_1.glb-9fa07ecfd12b1b03b066bdc4fbc91f10.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_1_rounded_corner_1.glb"
-dest_files=["res://.godot/imported/wall_1_1_rounded_corner_1.glb-9904a565a68fccdee7923f2ead2b5444.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_1_rounded_corner_1.glb"
+dest_files=["res://.godot/imported/wall_1_1_rounded_corner_1.glb-9fa07ecfd12b1b03b066bdc4fbc91f10.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://neu8nfl6atnt"
-path="res://.godot/imported/cobweb_4.glb-3ad2119d45b47129b6b078377c6d0405.scn"
+path="res://.godot/imported/cobweb_4.glb-e7686f3ca8f04a0d0c91df675dc0d692.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Decals/cobweb_4.glb"
-dest_files=["res://.godot/imported/cobweb_4.glb-3ad2119d45b47129b6b078377c6d0405.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Decals/cobweb_4.glb"
+dest_files=["res://.godot/imported/cobweb_4.glb-e7686f3ca8f04a0d0c91df675dc0d692.scn"]
 
 [params]
 

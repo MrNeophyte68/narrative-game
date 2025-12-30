@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dry2kd5gcugdu"
-path="res://.godot/imported/hammer_mx_2.glb-d5f4ca54df6fcccdd82dba86302e0573.scn"
+path="res://.godot/imported/hammer_mx_2.glb-aab7f1fb2424fe0350eefd332a3cc046.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/hammer_mx_2.glb"
-dest_files=["res://.godot/imported/hammer_mx_2.glb-d5f4ca54df6fcccdd82dba86302e0573.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/hammer_mx_2.glb"
+dest_files=["res://.godot/imported/hammer_mx_2.glb-aab7f1fb2424fe0350eefd332a3cc046.scn"]
 
 [params]
 

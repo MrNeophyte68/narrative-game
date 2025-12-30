@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dv850eccbngnt"
-path.s3tc="res://.godot/imported/melee_fish_skewer_mx_1_fish_mx_1.png-966474a398288fb924b42211a2ee5633.s3tc.ctex"
+path.s3tc="res://.godot/imported/melee_fish_skewer_mx_1_fish_mx_1.png-bd2bc2f346eb1a62b74280d511fe3671.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/melee_fish_skewer_mx_1_fish_mx_1.png"
-dest_files=["res://.godot/imported/melee_fish_skewer_mx_1_fish_mx_1.png-966474a398288fb924b42211a2ee5633.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/melee_fish_skewer_mx_1_fish_mx_1.png"
+dest_files=["res://.godot/imported/melee_fish_skewer_mx_1_fish_mx_1.png-bd2bc2f346eb1a62b74280d511fe3671.s3tc.ctex"]
 
 [params]
 

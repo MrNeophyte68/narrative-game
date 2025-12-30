@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://brmlwayputk5i"
-path="res://.godot/imported/fence_e_2.glb-57ffbae24c531e05af3ee43262e9a495.scn"
+path="res://.godot/imported/fence_e_2.glb-0841dc86304b59a291ddd2b816d28360.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Props/fence_e_2.glb"
-dest_files=["res://.godot/imported/fence_e_2.glb-57ffbae24c531e05af3ee43262e9a495.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Props/fence_e_2.glb"
+dest_files=["res://.godot/imported/fence_e_2.glb-0841dc86304b59a291ddd2b816d28360.scn"]
 
 [params]
 

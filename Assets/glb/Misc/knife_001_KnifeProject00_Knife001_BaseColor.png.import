@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0dadsxijsmv4"
-path.s3tc="res://.godot/imported/knife_001_KnifeProject00_Knife001_BaseColor.png-22e820ffac6b55d6337380c634fad1f5.s3tc.ctex"
+path.s3tc="res://.godot/imported/knife_001_KnifeProject00_Knife001_BaseColor.png-23de0904ff794d5e5cb5a45e288c8cf0.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/Misc/knife_001_KnifeProject00_Knife001_BaseColor.png"
-dest_files=["res://.godot/imported/knife_001_KnifeProject00_Knife001_BaseColor.png-22e820ffac6b55d6337380c634fad1f5.s3tc.ctex"]
+source_file="res://Assets/glb/Misc/knife_001_KnifeProject00_Knife001_BaseColor.png"
+dest_files=["res://.godot/imported/knife_001_KnifeProject00_Knife001_BaseColor.png-23de0904ff794d5e5cb5a45e288c8cf0.s3tc.ctex"]
 
 [params]
 

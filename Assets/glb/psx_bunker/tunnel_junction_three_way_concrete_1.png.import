@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dc6rd6wcq18qe"
-path.s3tc="res://.godot/imported/tunnel_junction_three_way_concrete_1.png-cb4dcd12cade09271dff25aec9a58de2.s3tc.ctex"
+path.s3tc="res://.godot/imported/tunnel_junction_three_way_concrete_1.png-3a64abd745b6e98e1888680b341ad134.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/tunnel_junction_three_way_concrete_1.png"
-dest_files=["res://.godot/imported/tunnel_junction_three_way_concrete_1.png-cb4dcd12cade09271dff25aec9a58de2.s3tc.ctex"]
+source_file="res://Assets/glb/psx_bunker/tunnel_junction_three_way_concrete_1.png"
+dest_files=["res://.godot/imported/tunnel_junction_three_way_concrete_1.png-3a64abd745b6e98e1888680b341ad134.s3tc.ctex"]
 
 [params]
 

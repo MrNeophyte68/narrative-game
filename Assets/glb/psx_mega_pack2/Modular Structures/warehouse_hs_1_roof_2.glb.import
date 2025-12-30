@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ca3pa4b3cm1so"
-path="res://.godot/imported/warehouse_hs_1_roof_2.glb-e5e16342ad996a26b9569aaeb36ea368.scn"
+path="res://.godot/imported/warehouse_hs_1_roof_2.glb-9e1a829eb864be71097214b95bf9dab5.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Structures/warehouse_hs_1_roof_2.glb"
-dest_files=["res://.godot/imported/warehouse_hs_1_roof_2.glb-e5e16342ad996a26b9569aaeb36ea368.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/warehouse_hs_1_roof_2.glb"
+dest_files=["res://.godot/imported/warehouse_hs_1_roof_2.glb-9e1a829eb864be71097214b95bf9dab5.scn"]
 
 [params]
 

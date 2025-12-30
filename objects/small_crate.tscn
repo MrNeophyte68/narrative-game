@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=4 uid="uid://bj3s1qqwojt7x"]
 
-[ext_resource type="Texture2D" uid="uid://y7f2ry1buv8u" path="res://assets/glb/psx_mega_pack1/Large Props/wooden_crate_6_wooden_crate_6.png" id="1_rihqm"]
+[ext_resource type="Texture2D" uid="uid://y7f2ry1buv8u" path="res://Assets/glb/psx_mega_pack1/Large Props/wooden_crate_6_wooden_crate_6.png" id="1_rihqm"]
 [ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_3rea4"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_3rea4"]
@@ -45,7 +45,7 @@ blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_kb8l3")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_3rea4"]
-size = Vector3(0.77093506, 0.78518677, 0.7696533)
+size = Vector3(0.7541504, 0.76342773, 0.7597351)
 
 [node name="Node3D" type="RigidBody3D"]
 mass = 8.0
@@ -56,10 +56,10 @@ transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
 mesh = SubResource("ArrayMesh_tl8g4")
 skeleton = NodePath("")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.006011963, 0.370224, -0.002746582)
-shape = SubResource("BoxShape3D_3rea4")
-
 [node name="InteractionComponent" parent="." node_paths=PackedStringArray("object_ref") instance=ExtResource("2_3rea4")]
 object_ref = NodePath("..")
 interaction_type = 5
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00036621094, 0.37365723, -4.5776367e-05)
+shape = SubResource("BoxShape3D_3rea4")

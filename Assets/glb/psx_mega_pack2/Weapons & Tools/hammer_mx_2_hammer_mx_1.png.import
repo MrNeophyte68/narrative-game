@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://uqx0q7r2ut4g"
-path.s3tc="res://.godot/imported/hammer_mx_2_hammer_mx_1.png-b0af3baf25811636e9269cf2c38447e2.s3tc.ctex"
+path.s3tc="res://.godot/imported/hammer_mx_2_hammer_mx_1.png-aa3c2c5058e72991d11a4d14e0039d37.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/hammer_mx_2_hammer_mx_1.png"
-dest_files=["res://.godot/imported/hammer_mx_2_hammer_mx_1.png-b0af3baf25811636e9269cf2c38447e2.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/hammer_mx_2_hammer_mx_1.png"
+dest_files=["res://.godot/imported/hammer_mx_2_hammer_mx_1.png-aa3c2c5058e72991d11a4d14e0039d37.s3tc.ctex"]
 
 [params]
 

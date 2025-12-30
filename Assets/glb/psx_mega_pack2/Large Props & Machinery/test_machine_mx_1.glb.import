@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cxjxd5rb6tchu"
-path="res://.godot/imported/test_machine_mx_1.glb-670ae8a163094c7f122ce928d80f1ead.scn"
+path="res://.godot/imported/test_machine_mx_1.glb-1ab29044913274e8bcedaef01dc0a903.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/test_machine_mx_1.glb"
-dest_files=["res://.godot/imported/test_machine_mx_1.glb-670ae8a163094c7f122ce928d80f1ead.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/test_machine_mx_1.glb"
+dest_files=["res://.godot/imported/test_machine_mx_1.glb-1ab29044913274e8bcedaef01dc0a903.scn"]
 
 [params]
 

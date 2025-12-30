@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://drum7c4f0lnjc"
-path.s3tc="res://.godot/imported/metal_fence_hr_2_tall_barbed_wire_hr_1.png-27f821a213edca3f17666ff6984f8471.s3tc.ctex"
+path.s3tc="res://.godot/imported/metal_fence_hr_2_tall_barbed_wire_hr_1.png-0ff404b1e38c4279bdc07c6ba1940eaa.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Props/metal_fence_hr_2_tall_barbed_wire_hr_1.png"
-dest_files=["res://.godot/imported/metal_fence_hr_2_tall_barbed_wire_hr_1.png-27f821a213edca3f17666ff6984f8471.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Props/metal_fence_hr_2_tall_barbed_wire_hr_1.png"
+dest_files=["res://.godot/imported/metal_fence_hr_2_tall_barbed_wire_hr_1.png-0ff404b1e38c4279bdc07c6ba1940eaa.s3tc.ctex"]
 
 [params]
 

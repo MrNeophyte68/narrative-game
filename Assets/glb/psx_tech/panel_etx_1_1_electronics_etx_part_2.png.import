@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxgybgag8ikoh"
-path.s3tc="res://.godot/imported/panel_etx_1_1_electronics_etx_part_2.png-f4e7ea07aab89a11d7df8ce1193002c4.s3tc.ctex"
+path.s3tc="res://.godot/imported/panel_etx_1_1_electronics_etx_part_2.png-f01d7dbfa5f76b0281453b8b23bd9876.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/glb/psx_tech/panel_etx_1_1_electronics_etx_part_2.png"
-dest_files=["res://.godot/imported/panel_etx_1_1_electronics_etx_part_2.png-f4e7ea07aab89a11d7df8ce1193002c4.s3tc.ctex"]
+source_file="res://Assets/glb/psx_tech/panel_etx_1_1_electronics_etx_part_2.png"
+dest_files=["res://.godot/imported/panel_etx_1_1_electronics_etx_part_2.png-f01d7dbfa5f76b0281453b8b23bd9876.s3tc.ctex"]
 
 [params]
 

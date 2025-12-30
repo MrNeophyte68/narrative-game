@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b7xcphmtdgedb"
-path="res://.godot/imported/lighter_mp_1_2.glb-219134ddac299872136256ce7f6cfe37.scn"
+path="res://.godot/imported/lighter_mp_1_2.glb-c380949dc6ae60948d00d5e14366d58f.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/lighter_mp_1_2.glb"
-dest_files=["res://.godot/imported/lighter_mp_1_2.glb-219134ddac299872136256ce7f6cfe37.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/lighter_mp_1_2.glb"
+dest_files=["res://.godot/imported/lighter_mp_1_2.glb-c380949dc6ae60948d00d5e14366d58f.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bx6hnvk8qgvwc"
-path="res://.godot/imported/battery_mp_3_2.glb-04e7ac17184f9183b8e1a9ab54d58bdd.scn"
+path="res://.godot/imported/battery_mp_3_2.glb-fd352ffd65717283e579e22135efe159.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/battery_mp_3_2.glb"
-dest_files=["res://.godot/imported/battery_mp_3_2.glb-04e7ac17184f9183b8e1a9ab54d58bdd.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/battery_mp_3_2.glb"
+dest_files=["res://.godot/imported/battery_mp_3_2.glb-fd352ffd65717283e579e22135efe159.scn"]
 
 [params]
 

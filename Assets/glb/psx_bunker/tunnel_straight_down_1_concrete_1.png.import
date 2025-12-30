@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://da3iikvibrppj"
-path.s3tc="res://.godot/imported/tunnel_straight_down_1_concrete_1.png-4371a26950b634e19e1c2256b6c35f96.s3tc.ctex"
+path.s3tc="res://.godot/imported/tunnel_straight_down_1_concrete_1.png-d39a4f44bc9c1eb7b9d6542e3cb2ff9e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/tunnel_straight_down_1_concrete_1.png"
-dest_files=["res://.godot/imported/tunnel_straight_down_1_concrete_1.png-4371a26950b634e19e1c2256b6c35f96.s3tc.ctex"]
+source_file="res://Assets/glb/psx_bunker/tunnel_straight_down_1_concrete_1.png"
+dest_files=["res://.godot/imported/tunnel_straight_down_1_concrete_1.png-d39a4f44bc9c1eb7b9d6542e3cb2ff9e.s3tc.ctex"]
 
 [params]
 

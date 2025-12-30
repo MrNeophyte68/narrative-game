@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://upvbrv8pxlcx"
-path="res://.godot/imported/water_barrel_1.glb-38b10d7179adf4745b4471ad1cd3520c.scn"
+path="res://.godot/imported/water_barrel_1.glb-25c45a92cb36d3e359f71c0fe95f108f.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/water_barrel_1.glb"
-dest_files=["res://.godot/imported/water_barrel_1.glb-38b10d7179adf4745b4471ad1cd3520c.scn"]
+source_file="res://Assets/glb/psx_bunker/water_barrel_1.glb"
+dest_files=["res://.godot/imported/water_barrel_1.glb-25c45a92cb36d3e359f71c0fe95f108f.scn"]
 
 [params]
 

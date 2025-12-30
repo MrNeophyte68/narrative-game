@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxvbr6cgofov0"
-path.s3tc="res://.godot/imported/supply_box_1_supply_box_1.png-620a2892193acd71b7e0c5b73b1f5759.s3tc.ctex"
+path.s3tc="res://.godot/imported/supply_box_1_supply_box_1.png-2b3d7e1b9d9fa295249dc24e74be1a23.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/supply_box_1_supply_box_1.png"
-dest_files=["res://.godot/imported/supply_box_1_supply_box_1.png-620a2892193acd71b7e0c5b73b1f5759.s3tc.ctex"]
+source_file="res://Assets/glb/psx_bunker/supply_box_1_supply_box_1.png"
+dest_files=["res://.godot/imported/supply_box_1_supply_box_1.png-2b3d7e1b9d9fa295249dc24e74be1a23.s3tc.ctex"]
 
 [params]
 

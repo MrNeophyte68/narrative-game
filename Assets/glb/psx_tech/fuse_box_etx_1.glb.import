@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dipjmd255kqlv"
-path="res://.godot/imported/fuse_box_etx_1.glb-76e875e1c6559a772dc7af7da4603835.scn"
+path="res://.godot/imported/fuse_box_etx_1.glb-a3e16fc4756e25056130a8d80e11db51.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_tech/fuse_box_etx_1.glb"
-dest_files=["res://.godot/imported/fuse_box_etx_1.glb-76e875e1c6559a772dc7af7da4603835.scn"]
+source_file="res://Assets/glb/psx_tech/fuse_box_etx_1.glb"
+dest_files=["res://.godot/imported/fuse_box_etx_1.glb-a3e16fc4756e25056130a8d80e11db51.scn"]
 
 [params]
 

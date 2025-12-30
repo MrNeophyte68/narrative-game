@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cdq2pai0ulcl5"
-path="res://.godot/imported/boiler_hx_4.glb-64fc6a264511f54c7924ad29bea593c5.scn"
+path="res://.godot/imported/boiler_hx_4.glb-ca90029f78b8d21f0f3029f93633bd64.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Structures/boiler_hx_4.glb"
-dest_files=["res://.godot/imported/boiler_hx_4.glb-64fc6a264511f54c7924ad29bea593c5.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Structures/boiler_hx_4.glb"
+dest_files=["res://.godot/imported/boiler_hx_4.glb-ca90029f78b8d21f0f3029f93633bd64.scn"]
 
 [params]
 

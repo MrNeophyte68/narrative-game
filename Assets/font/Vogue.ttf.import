@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://jlw0jcevbftc"
-path="res://.godot/imported/Vogue.ttf-41a6a51048ac15eddd69b34b3b77ba06.fontdata"
+path="res://.godot/imported/Vogue.ttf-e84b806b470d7abd68085caca8730623.fontdata"
 
 [deps]
 
-source_file="res://assets/font/Vogue.ttf"
-dest_files=["res://.godot/imported/Vogue.ttf-41a6a51048ac15eddd69b34b3b77ba06.fontdata"]
+source_file="res://Assets/font/Vogue.ttf"
+dest_files=["res://.godot/imported/Vogue.ttf-e84b806b470d7abd68085caca8730623.fontdata"]
 
 [params]
 

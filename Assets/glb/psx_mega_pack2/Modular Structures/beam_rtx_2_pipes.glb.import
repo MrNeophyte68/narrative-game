@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://l18h0mtmjxer"
-path="res://.godot/imported/beam_rtx_2_pipes.glb-4a0cf9750264f2658835600dac37b6b4.scn"
+path="res://.godot/imported/beam_rtx_2_pipes.glb-4514f4398e50af2800f3b87adf57edd8.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Structures/beam_rtx_2_pipes.glb"
-dest_files=["res://.godot/imported/beam_rtx_2_pipes.glb-4a0cf9750264f2658835600dac37b6b4.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/beam_rtx_2_pipes.glb"
+dest_files=["res://.godot/imported/beam_rtx_2_pipes.glb-4514f4398e50af2800f3b87adf57edd8.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bodmxclqj2svl"
-path="res://.godot/imported/glass_bottle_2.glb-c5617afe1bc567154c03cba47b8672ef.scn"
+path="res://.godot/imported/glass_bottle_2.glb-da5203ca0d79fc771e66ccb2a62fee55.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/glass_bottle_2.glb"
-dest_files=["res://.godot/imported/glass_bottle_2.glb-c5617afe1bc567154c03cba47b8672ef.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/glass_bottle_2.glb"
+dest_files=["res://.godot/imported/glass_bottle_2.glb-da5203ca0d79fc771e66ccb2a62fee55.scn"]
 
 [params]
 

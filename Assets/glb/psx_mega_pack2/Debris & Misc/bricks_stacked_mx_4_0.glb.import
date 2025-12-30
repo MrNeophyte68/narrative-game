@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bge08e1ft83ft"
-path="res://.godot/imported/bricks_stacked_mx_4_0.glb-1fd467dad86bc82c5c1ce20b23fbaa08.scn"
+path="res://.godot/imported/bricks_stacked_mx_4_0.glb-dfc2a86936ba2a67536594dd11f5ea1d.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Debris & Misc/bricks_stacked_mx_4_0.glb"
-dest_files=["res://.godot/imported/bricks_stacked_mx_4_0.glb-1fd467dad86bc82c5c1ce20b23fbaa08.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Debris & Misc/bricks_stacked_mx_4_0.glb"
+dest_files=["res://.godot/imported/bricks_stacked_mx_4_0.glb-dfc2a86936ba2a67536594dd11f5ea1d.scn"]
 
 [params]
 

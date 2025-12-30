@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://6k06yveeq2e6"
-path="res://.godot/imported/stand_mx_2.glb-43bfeca4478f636ca794f70cc94a8b0c.scn"
+path="res://.godot/imported/stand_mx_2.glb-7abc66728fa4d2095ad9c66df359038e.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/stand_mx_2.glb"
-dest_files=["res://.godot/imported/stand_mx_2.glb-43bfeca4478f636ca794f70cc94a8b0c.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/stand_mx_2.glb"
+dest_files=["res://.godot/imported/stand_mx_2.glb-7abc66728fa4d2095ad9c66df359038e.scn"]
 
 [params]
 

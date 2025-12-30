@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://drvln2ljy7707"
-path="res://.godot/imported/nails_1_rusty.glb-1558289801f8f3f8e8292cd9b875d39e.scn"
+path="res://.godot/imported/nails_1_rusty.glb-01cb3c66d269fffa342807e974450aa2.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/nails_1_rusty.glb"
-dest_files=["res://.godot/imported/nails_1_rusty.glb-1558289801f8f3f8e8292cd9b875d39e.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/nails_1_rusty.glb"
+dest_files=["res://.godot/imported/nails_1_rusty.glb-01cb3c66d269fffa342807e974450aa2.scn"]
 
 [params]
 

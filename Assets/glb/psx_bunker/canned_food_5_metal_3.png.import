@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hrfvsjk31013"
-path.s3tc="res://.godot/imported/canned_food_5_metal_3.png-39b7587a0fdc2e2f7e572caf2a904f30.s3tc.ctex"
+path.s3tc="res://.godot/imported/canned_food_5_metal_3.png-d97fe39f5ce4484fea17c75c7e1d9b69.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_bunker/canned_food_5_metal_3.png"
-dest_files=["res://.godot/imported/canned_food_5_metal_3.png-39b7587a0fdc2e2f7e572caf2a904f30.s3tc.ctex"]
+source_file="res://Assets/glb/psx_bunker/canned_food_5_metal_3.png"
+dest_files=["res://.godot/imported/canned_food_5_metal_3.png-d97fe39f5ce4484fea17c75c7e1d9b69.s3tc.ctex"]
 
 [params]
 

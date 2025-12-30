@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfe0cri4obled"
-path.s3tc="res://.godot/imported/suppressor_mp_1_pistol_mp_1.png-b49736eead4be72d72ae6d20a9481b4d.s3tc.ctex"
+path.s3tc="res://.godot/imported/suppressor_mp_1_pistol_mp_1.png-12d7c9b94d07f91c4acd9dd1d94da74d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/suppressor_mp_1_pistol_mp_1.png"
-dest_files=["res://.godot/imported/suppressor_mp_1_pistol_mp_1.png-b49736eead4be72d72ae6d20a9481b4d.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/suppressor_mp_1_pistol_mp_1.png"
+dest_files=["res://.godot/imported/suppressor_mp_1_pistol_mp_1.png-12d7c9b94d07f91c4acd9dd1d94da74d.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clcpgvtoisdw5"
-path.s3tc="res://.godot/imported/metal_wall_tx_3.png-0fc70a768d90be98d07a89586a343961.s3tc.ctex"
+path.s3tc="res://.godot/imported/metal_wall_tx_3.png-81f7883ac9b229fbb6f638d8ac3a0d53.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/images/metal_wall_tx_3.png"
-dest_files=["res://.godot/imported/metal_wall_tx_3.png-0fc70a768d90be98d07a89586a343961.s3tc.ctex"]
+source_file="res://Assets/images/metal_wall_tx_3.png"
+dest_files=["res://.godot/imported/metal_wall_tx_3.png-81f7883ac9b229fbb6f638d8ac3a0d53.s3tc.ctex"]
 
 [params]
 

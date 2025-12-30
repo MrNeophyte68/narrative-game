@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bx2hsmm1m36is"
-path.s3tc="res://.godot/imported/gauge_etx_1_1_electronics_etx_part_2.png-699e13007a0d7def60c666e6bd61c0d4.s3tc.ctex"
+path.s3tc="res://.godot/imported/gauge_etx_1_1_electronics_etx_part_2.png-fd88252df161956fad8febc07c2a569f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_tech/gauge_etx_1_1_electronics_etx_part_2.png"
-dest_files=["res://.godot/imported/gauge_etx_1_1_electronics_etx_part_2.png-699e13007a0d7def60c666e6bd61c0d4.s3tc.ctex"]
+source_file="res://Assets/glb/psx_tech/gauge_etx_1_1_electronics_etx_part_2.png"
+dest_files=["res://.godot/imported/gauge_etx_1_1_electronics_etx_part_2.png-fd88252df161956fad8febc07c2a569f.s3tc.ctex"]
 
 [params]
 

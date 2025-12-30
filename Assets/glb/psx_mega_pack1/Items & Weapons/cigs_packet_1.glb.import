@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ci1rlajh5g2h7"
-path="res://.godot/imported/cigs_packet_1.glb-ab0b84225a3edfe5f5f9de0a704f085c.scn"
+path="res://.godot/imported/cigs_packet_1.glb-b792be7ce0c156da28857a5aae454110.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/cigs_packet_1.glb"
-dest_files=["res://.godot/imported/cigs_packet_1.glb-ab0b84225a3edfe5f5f9de0a704f085c.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/cigs_packet_1.glb"
+dest_files=["res://.godot/imported/cigs_packet_1.glb-b792be7ce0c156da28857a5aae454110.scn"]
 
 [params]
 

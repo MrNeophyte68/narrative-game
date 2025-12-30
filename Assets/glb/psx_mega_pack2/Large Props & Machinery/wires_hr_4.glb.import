@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bof4aky4ffrxx"
-path="res://.godot/imported/wires_hr_4.glb-f050631a6165423631071cd7f1bccd71.scn"
+path="res://.godot/imported/wires_hr_4.glb-11115b42d3889962677466701be67172.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/wires_hr_4.glb"
-dest_files=["res://.godot/imported/wires_hr_4.glb-f050631a6165423631071cd7f1bccd71.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/wires_hr_4.glb"
+dest_files=["res://.godot/imported/wires_hr_4.glb-11115b42d3889962677466701be67172.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cvf85qgwb14cl"
-path="res://.godot/imported/cement_bag_mp_1.glb-417275170120f7ce55a7a443408f3ef1.scn"
+path="res://.godot/imported/cement_bag_mp_1.glb-6fa5c2a271789b65c51e02e73aead516.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/cement_bag_mp_1.glb"
-dest_files=["res://.godot/imported/cement_bag_mp_1.glb-417275170120f7ce55a7a443408f3ef1.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/cement_bag_mp_1.glb"
+dest_files=["res://.godot/imported/cement_bag_mp_1.glb-6fa5c2a271789b65c51e02e73aead516.scn"]
 
 [params]
 

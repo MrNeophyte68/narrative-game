@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjackgulueqyi"
-path.s3tc="res://.godot/imported/metal_barrel_hr_1_metal_barrel_hr_1.png-e36f3d44fa171c329df24610aca3cf79.s3tc.ctex"
+path.s3tc="res://.godot/imported/metal_barrel_hr_1_metal_barrel_hr_1.png-158c049c2c4d3940a5016871b266234a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/metal_barrel_hr_1_metal_barrel_hr_1.png"
-dest_files=["res://.godot/imported/metal_barrel_hr_1_metal_barrel_hr_1.png-e36f3d44fa171c329df24610aca3cf79.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/metal_barrel_hr_1_metal_barrel_hr_1.png"
+dest_files=["res://.godot/imported/metal_barrel_hr_1_metal_barrel_hr_1.png-158c049c2c4d3940a5016871b266234a.s3tc.ctex"]
 
 [params]
 

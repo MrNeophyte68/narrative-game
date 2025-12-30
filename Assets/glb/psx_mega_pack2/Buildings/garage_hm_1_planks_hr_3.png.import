@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6sm4bna7oex6"
-path.s3tc="res://.godot/imported/garage_hm_1_planks_hr_3.png-a306a880fea943df549df4acdaeb8718.s3tc.ctex"
+path.s3tc="res://.godot/imported/garage_hm_1_planks_hr_3.png-00ca7b807170f19b161197dcfbe72c6a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Buildings/garage_hm_1_planks_hr_3.png"
-dest_files=["res://.godot/imported/garage_hm_1_planks_hr_3.png-a306a880fea943df549df4acdaeb8718.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Buildings/garage_hm_1_planks_hr_3.png"
+dest_files=["res://.godot/imported/garage_hm_1_planks_hr_3.png-00ca7b807170f19b161197dcfbe72c6a.s3tc.ctex"]
 
 [params]
 

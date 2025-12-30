@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dg7ogu3568nq6"
-path.s3tc="res://.godot/imported/doorway_2_1_half_door_frame_wood_1.png-4a3bd4df5c8ebfd10b273c7d9bc9daed.s3tc.ctex"
+path.s3tc="res://.godot/imported/doorway_2_1_half_door_frame_wood_1.png-d178a950b3a90f20681f4c57754a0333.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/doorway_2_1_half_door_frame_wood_1.png"
-dest_files=["res://.godot/imported/doorway_2_1_half_door_frame_wood_1.png-4a3bd4df5c8ebfd10b273c7d9bc9daed.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/doorway_2_1_half_door_frame_wood_1.png"
+dest_files=["res://.godot/imported/doorway_2_1_half_door_frame_wood_1.png-d178a950b3a90f20681f4c57754a0333.s3tc.ctex"]
 
 [params]
 

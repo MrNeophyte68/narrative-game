@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://beyy6365arxql"
-path="res://.godot/imported/cell_phone_hammer_mx_1.glb-184ff65f980543909bd7513565b9cb11.scn"
+path="res://.godot/imported/cell_phone_hammer_mx_1.glb-57102fab3ef5f1c9f1be0ac836b64358.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/cell_phone_hammer_mx_1.glb"
-dest_files=["res://.godot/imported/cell_phone_hammer_mx_1.glb-184ff65f980543909bd7513565b9cb11.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/cell_phone_hammer_mx_1.glb"
+dest_files=["res://.godot/imported/cell_phone_hammer_mx_1.glb-57102fab3ef5f1c9f1be0ac836b64358.scn"]
 
 [params]
 

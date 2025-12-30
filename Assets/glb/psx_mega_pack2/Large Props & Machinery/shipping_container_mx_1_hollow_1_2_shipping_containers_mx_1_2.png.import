@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://f8bwv8om0anx"
-path.s3tc="res://.godot/imported/shipping_container_mx_1_hollow_1_2_shipping_containers_mx_1_2.png-4d1af71be664deee70e70da4a3655d74.s3tc.ctex"
+path.s3tc="res://.godot/imported/shipping_container_mx_1_hollow_1_2_shipping_containers_mx_1_2.png-951e1e90c4194c5f02d79de0272880dc.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/shipping_container_mx_1_hollow_1_2_shipping_containers_mx_1_2.png"
-dest_files=["res://.godot/imported/shipping_container_mx_1_hollow_1_2_shipping_containers_mx_1_2.png-4d1af71be664deee70e70da4a3655d74.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/shipping_container_mx_1_hollow_1_2_shipping_containers_mx_1_2.png"
+dest_files=["res://.godot/imported/shipping_container_mx_1_hollow_1_2_shipping_containers_mx_1_2.png-951e1e90c4194c5f02d79de0272880dc.s3tc.ctex"]
 
 [params]
 

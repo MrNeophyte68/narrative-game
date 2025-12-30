@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://w7krmemdaa1d"
-path.s3tc="res://.godot/imported/canned_food_mp_2_canned_foods_mp_1.png-d2ce6a0e999830c3e9462bf57e5aa2bb.s3tc.ctex"
+path.s3tc="res://.godot/imported/canned_food_mp_2_canned_foods_mp_1.png-f9ac1562225d4022fabf42df3637fe51.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/canned_food_mp_2_canned_foods_mp_1.png"
-dest_files=["res://.godot/imported/canned_food_mp_2_canned_foods_mp_1.png-d2ce6a0e999830c3e9462bf57e5aa2bb.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/canned_food_mp_2_canned_foods_mp_1.png"
+dest_files=["res://.godot/imported/canned_food_mp_2_canned_foods_mp_1.png-f9ac1562225d4022fabf42df3637fe51.s3tc.ctex"]
 
 [params]
 

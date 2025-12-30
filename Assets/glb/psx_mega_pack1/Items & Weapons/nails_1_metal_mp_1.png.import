@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6pxccgcjv0m"
-path.s3tc="res://.godot/imported/nails_1_metal_mp_1.png-333142d53d166ea12edd9bd2191d539b.s3tc.ctex"
+path.s3tc="res://.godot/imported/nails_1_metal_mp_1.png-43f004864474f8ffd545cf470c669087.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/nails_1_metal_mp_1.png"
-dest_files=["res://.godot/imported/nails_1_metal_mp_1.png-333142d53d166ea12edd9bd2191d539b.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/nails_1_metal_mp_1.png"
+dest_files=["res://.godot/imported/nails_1_metal_mp_1.png-43f004864474f8ffd545cf470c669087.s3tc.ctex"]
 
 [params]
 

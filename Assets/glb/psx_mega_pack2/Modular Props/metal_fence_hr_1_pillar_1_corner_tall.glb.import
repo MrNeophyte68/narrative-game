@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cpqefkufn5ct1"
-path="res://.godot/imported/metal_fence_hr_1_pillar_1_corner_tall.glb-b1525579354dde7942c8aea34000c48e.scn"
+path="res://.godot/imported/metal_fence_hr_1_pillar_1_corner_tall.glb-28a38d4d747c1887bd521465dc26e2a2.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Modular Props/metal_fence_hr_1_pillar_1_corner_tall.glb"
-dest_files=["res://.godot/imported/metal_fence_hr_1_pillar_1_corner_tall.glb-b1525579354dde7942c8aea34000c48e.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Modular Props/metal_fence_hr_1_pillar_1_corner_tall.glb"
+dest_files=["res://.godot/imported/metal_fence_hr_1_pillar_1_corner_tall.glb-28a38d4d747c1887bd521465dc26e2a2.scn"]
 
 [params]
 

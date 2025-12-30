@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bw5qetiot3o0q"
-path="res://.godot/imported/metal_barrel_hr_1.glb-5bca13157428adf976880e49269a7ec8.scn"
+path="res://.godot/imported/metal_barrel_hr_1.glb-17635948500b1052d0f2c4d3c789b0d7.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/metal_barrel_hr_1.glb"
-dest_files=["res://.godot/imported/metal_barrel_hr_1.glb-5bca13157428adf976880e49269a7ec8.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/metal_barrel_hr_1.glb"
+dest_files=["res://.godot/imported/metal_barrel_hr_1.glb-17635948500b1052d0f2c4d3c789b0d7.scn"]
 
 [params]
 

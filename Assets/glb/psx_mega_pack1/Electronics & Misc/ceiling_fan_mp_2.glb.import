@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://biaepjsis7kdr"
-path="res://.godot/imported/ceiling_fan_mp_2.glb-1c93fc7c180c9863c7f65026ff17af6a.scn"
+path="res://.godot/imported/ceiling_fan_mp_2.glb-eb319eacf7ee4fd426de9b162eb696a5.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/ceiling_fan_mp_2.glb"
-dest_files=["res://.godot/imported/ceiling_fan_mp_2.glb-1c93fc7c180c9863c7f65026ff17af6a.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/ceiling_fan_mp_2.glb"
+dest_files=["res://.godot/imported/ceiling_fan_mp_2.glb-eb319eacf7ee4fd426de9b162eb696a5.scn"]
 
 [params]
 

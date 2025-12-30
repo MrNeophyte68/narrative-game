@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bsf47qpyevw50"
-path="res://.godot/imported/gear_mx_3.glb-23a02af97b807958efdfce3d9e7b8d2a.scn"
+path="res://.godot/imported/gear_mx_3.glb-62772f501381d0858f1891d0f4a4586b.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Props/gear_mx_3.glb"
-dest_files=["res://.godot/imported/gear_mx_3.glb-23a02af97b807958efdfce3d9e7b8d2a.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Props/gear_mx_3.glb"
+dest_files=["res://.godot/imported/gear_mx_3.glb-62772f501381d0858f1891d0f4a4586b.scn"]
 
 [params]
 

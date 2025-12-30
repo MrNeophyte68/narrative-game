@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://6uar8tq73bdv"
-path="res://.godot/imported/screen_etx_1_stand.glb-229edd48b4226803babe772cafcba713.scn"
+path="res://.godot/imported/screen_etx_1_stand.glb-edd715e2dcd99dcd0ffbf606cbe82ade.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_tech/screen_etx_1_stand.glb"
-dest_files=["res://.godot/imported/screen_etx_1_stand.glb-229edd48b4226803babe772cafcba713.scn"]
+source_file="res://Assets/glb/psx_tech/screen_etx_1_stand.glb"
+dest_files=["res://.godot/imported/screen_etx_1_stand.glb-edd715e2dcd99dcd0ffbf606cbe82ade.scn"]
 
 [params]
 

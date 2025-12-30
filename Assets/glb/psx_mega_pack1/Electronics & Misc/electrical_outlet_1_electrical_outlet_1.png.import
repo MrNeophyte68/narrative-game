@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c887wwwdh84an"
-path.s3tc="res://.godot/imported/electrical_outlet_1_electrical_outlet_1.png-299984fdfeb509024b2bcead97fa239d.s3tc.ctex"
+path.s3tc="res://.godot/imported/electrical_outlet_1_electrical_outlet_1.png-cec1d9d8ade9279d9aef485e5675dbf1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/electrical_outlet_1_electrical_outlet_1.png"
-dest_files=["res://.godot/imported/electrical_outlet_1_electrical_outlet_1.png-299984fdfeb509024b2bcead97fa239d.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/electrical_outlet_1_electrical_outlet_1.png"
+dest_files=["res://.godot/imported/electrical_outlet_1_electrical_outlet_1.png-cec1d9d8ade9279d9aef485e5675dbf1.s3tc.ctex"]
 
 [params]
 

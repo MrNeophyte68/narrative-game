@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://castmshy7vp0s"
-path="res://.godot/imported/spoon_mp_1.glb-dc8937ec495332ea943ff418cd517863.scn"
+path="res://.godot/imported/spoon_mp_1.glb-899243e76569a7bf00f7197f5687244a.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Small Props/spoon_mp_1.glb"
-dest_files=["res://.godot/imported/spoon_mp_1.glb-dc8937ec495332ea943ff418cd517863.scn"]
+source_file="res://Assets/glb/psx_mega_pack1/Small Props/spoon_mp_1.glb"
+dest_files=["res://.godot/imported/spoon_mp_1.glb-899243e76569a7bf00f7197f5687244a.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3w63oagpyqo6"
-path.s3tc="res://.godot/imported/garage_hl_2_roof_hr_3.png-b67e6dc7426b9364591cb8e0a0ea0660.s3tc.ctex"
+path.s3tc="res://.godot/imported/garage_hl_2_roof_hr_3.png-b9b1c9e60626e4b4209a424dc7d293ff.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Buildings/garage_hl_2_roof_hr_3.png"
-dest_files=["res://.godot/imported/garage_hl_2_roof_hr_3.png-b67e6dc7426b9364591cb8e0a0ea0660.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Buildings/garage_hl_2_roof_hr_3.png"
+dest_files=["res://.godot/imported/garage_hl_2_roof_hr_3.png-b9b1c9e60626e4b4209a424dc7d293ff.s3tc.ctex"]
 
 [params]
 

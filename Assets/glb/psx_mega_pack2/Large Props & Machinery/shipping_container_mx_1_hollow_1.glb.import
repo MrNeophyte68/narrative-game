@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bl0wuv40ae1j4"
-path="res://.godot/imported/shipping_container_mx_1_hollow_1.glb-ba76ddce2a2ae278298a2534c632d7c8.scn"
+path="res://.godot/imported/shipping_container_mx_1_hollow_1.glb-fe5fd0ba5d035bea86eadd65357607a1.scn"
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/shipping_container_mx_1_hollow_1.glb"
-dest_files=["res://.godot/imported/shipping_container_mx_1_hollow_1.glb-ba76ddce2a2ae278298a2534c632d7c8.scn"]
+source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/shipping_container_mx_1_hollow_1.glb"
+dest_files=["res://.godot/imported/shipping_container_mx_1_hollow_1.glb-fe5fd0ba5d035bea86eadd65357607a1.scn"]
 
 [params]
 

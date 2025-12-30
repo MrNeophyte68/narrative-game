@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cbut66638p62"
-path.s3tc="res://.godot/imported/gravel_pile_hr_1_gravel_hr_1.png-a0e2d8638884082aff01801e3767f043.s3tc.ctex"
+path.s3tc="res://.godot/imported/gravel_pile_hr_1_gravel_hr_1.png-0ed99d7794f27d6ac52faa10379e6a06.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Debris & Misc/gravel_pile_hr_1_gravel_hr_1.png"
-dest_files=["res://.godot/imported/gravel_pile_hr_1_gravel_hr_1.png-a0e2d8638884082aff01801e3767f043.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Debris & Misc/gravel_pile_hr_1_gravel_hr_1.png"
+dest_files=["res://.godot/imported/gravel_pile_hr_1_gravel_hr_1.png-0ed99d7794f27d6ac52faa10379e6a06.s3tc.ctex"]
 
 [params]
 

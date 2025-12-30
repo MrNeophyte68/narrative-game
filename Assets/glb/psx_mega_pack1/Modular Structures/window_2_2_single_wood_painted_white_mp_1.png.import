@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcby6ojp5y273"
-path.s3tc="res://.godot/imported/window_2_2_single_wood_painted_white_mp_1.png-ec0a2e56dc61a55da5159921e4090fed.s3tc.ctex"
+path.s3tc="res://.godot/imported/window_2_2_single_wood_painted_white_mp_1.png-b7ab99f6bbc34de64e3b28565ee291ac.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Modular Structures/window_2_2_single_wood_painted_white_mp_1.png"
-dest_files=["res://.godot/imported/window_2_2_single_wood_painted_white_mp_1.png-ec0a2e56dc61a55da5159921e4090fed.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/window_2_2_single_wood_painted_white_mp_1.png"
+dest_files=["res://.godot/imported/window_2_2_single_wood_painted_white_mp_1.png-b7ab99f6bbc34de64e3b28565ee291ac.s3tc.ctex"]
 
 [params]
 

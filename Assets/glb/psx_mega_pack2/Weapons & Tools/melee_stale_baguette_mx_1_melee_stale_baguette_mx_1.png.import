@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8ajwgidelchf"
-path.s3tc="res://.godot/imported/melee_stale_baguette_mx_1_melee_stale_baguette_mx_1.png-385c30c2a3d3db918c0bf5d1687dc078.s3tc.ctex"
+path.s3tc="res://.godot/imported/melee_stale_baguette_mx_1_melee_stale_baguette_mx_1.png-2b9293b59bd54772e1d14cbc9ad2a8b6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/melee_stale_baguette_mx_1_melee_stale_baguette_mx_1.png"
-dest_files=["res://.godot/imported/melee_stale_baguette_mx_1_melee_stale_baguette_mx_1.png-385c30c2a3d3db918c0bf5d1687dc078.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/melee_stale_baguette_mx_1_melee_stale_baguette_mx_1.png"
+dest_files=["res://.godot/imported/melee_stale_baguette_mx_1_melee_stale_baguette_mx_1.png-2b9293b59bd54772e1d14cbc9ad2a8b6.s3tc.ctex"]
 
 [params]
 

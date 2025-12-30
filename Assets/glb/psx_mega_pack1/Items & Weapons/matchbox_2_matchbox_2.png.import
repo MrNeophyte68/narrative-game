@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqh8kigm0upbd"
-path.s3tc="res://.godot/imported/matchbox_2_matchbox_2.png-e0da4a2166b5bc9617768f7278f957ef.s3tc.ctex"
+path.s3tc="res://.godot/imported/matchbox_2_matchbox_2.png-318cf6ff38c580abe8e4f3c4d7575dbe.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/matchbox_2_matchbox_2.png"
-dest_files=["res://.godot/imported/matchbox_2_matchbox_2.png-e0da4a2166b5bc9617768f7278f957ef.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/matchbox_2_matchbox_2.png"
+dest_files=["res://.godot/imported/matchbox_2_matchbox_2.png-318cf6ff38c580abe8e4f3c4d7575dbe.s3tc.ctex"]
 
 [params]
 

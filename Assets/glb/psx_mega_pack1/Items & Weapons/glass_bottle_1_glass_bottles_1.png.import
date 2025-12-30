@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnf12kdv4nnuw"
-path.s3tc="res://.godot/imported/glass_bottle_1_glass_bottles_1.png-13228dfbb9f1f38c83c77c9d8067274f.s3tc.ctex"
+path.s3tc="res://.godot/imported/glass_bottle_1_glass_bottles_1.png-df67548ce81cf41ebda69efb53e864d1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/glass_bottle_1_glass_bottles_1.png"
-dest_files=["res://.godot/imported/glass_bottle_1_glass_bottles_1.png-13228dfbb9f1f38c83c77c9d8067274f.s3tc.ctex"]
+source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/glass_bottle_1_glass_bottles_1.png"
+dest_files=["res://.godot/imported/glass_bottle_1_glass_bottles_1.png-df67548ce81cf41ebda69efb53e864d1.s3tc.ctex"]
 
 [params]
 
