@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=4 uid="uid://bv1xabkuv50jq"]
+[gd_scene load_steps=9 format=4 uid="uid://bv1xabkuv50jq"]
 
 [ext_resource type="Texture2D" uid="uid://co1bmk7thy787" path="res://Assets/glb/psx_mega_pack1/Furniture/table_large_3_3_wood_5.png" id="1_263fs"]
 [ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_8praq"]
@@ -42,7 +42,13 @@ blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_wv0f7")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_8rrif"]
-size = Vector3(1.59552, 0.8975525, 0.6689453)
+size = Vector3(1.59552, 0.058799744, 0.6689453)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_263fs"]
+size = Vector3(0.028717041, 0.8566284, 0.6398926)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8praq"]
+size = Vector3(1.4621277, 0.35357666, 0.02368164)
 
 [node name="Large_Table" type="RigidBody3D"]
 mass = 19.0
@@ -57,5 +63,17 @@ object_ref = NodePath("..")
 interaction_type = 5
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.004486084, 0.4618683, 0.0063476563)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.004486084, 0.88124466, 0.0063476563)
 shape = SubResource("BoxShape3D_8rrif")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.74802566, 0.42569405, -0.014690638)
+shape = SubResource("BoxShape3D_263fs")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.75350857, 0.42569405, -0.014690638)
+shape = SubResource("BoxShape3D_263fs")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.007858276, 0.6807556, -0.28063965)
+shape = SubResource("BoxShape3D_8praq")
