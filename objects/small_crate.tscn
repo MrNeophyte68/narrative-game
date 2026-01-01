@@ -47,7 +47,7 @@ shadow_mesh = SubResource("ArrayMesh_kb8l3")
 [sub_resource type="BoxShape3D" id="BoxShape3D_3rea4"]
 size = Vector3(0.7541504, 0.76342773, 0.7597351)
 
-[node name="Node3D" type="RigidBody3D"]
+[node name="small_crate" type="RigidBody3D"]
 mass = 8.0
 physics_material_override = SubResource("PhysicsMaterial_3rea4")
 

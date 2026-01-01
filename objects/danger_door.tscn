@@ -1,17 +1,16 @@
-[gd_scene load_steps=9 format=4 uid="uid://bitd1fhsd7o34"]
+[gd_scene load_steps=7 format=4 uid="uid://cvhqqq80dxeg3"]
 
-[ext_resource type="Texture2D" uid="uid://is8mkbhe0b86" path="res://Assets/glb/psx_mega_pack2/Doors & Gates/door_hr_14_door_hr_14.png" id="1_ctci5"]
-[ext_resource type="Texture2D" uid="uid://r23vr4p703w3" path="res://Assets/glb/psx_mega_pack2/Modular Structures/doorway_rg_1_regular_door_hr_4.png" id="2_8ju3v"]
-[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_n153x"]
+[ext_resource type="Texture2D" uid="uid://is8mkbhe0b86" path="res://Assets/glb/psx_mega_pack2/Doors & Gates/door_hr_14_door_hr_14.png" id="1_3s5m5"]
+[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_2kffd"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m2o6l"]
 resource_name = "door_hr_14"
 cull_mode = 2
-albedo_texture = ExtResource("1_ctci5")
+albedo_texture = ExtResource("1_3s5m5")
 texture_filter = 2
 texture_repeat = false
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_61ou7"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_mdy60"]
 _surfaces = [{
 "aabb": AABB(-1, -9.313226e-09, 0, 1, 2.1000001, 0.049999997),
 "format": 34896613377,
@@ -25,7 +24,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_22155"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_qh3r8"]
 resource_name = "door_hr_14_door_hr_14"
 _surfaces = [{
 "aabb": AABB(-1, -9.313226e-09, 0, 1, 2.1000001, 0.049999997),
@@ -41,15 +40,12 @@ _surfaces = [{
 "vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAD///////8AAP//AAD//wAA/////wAAAAD/////AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAACqKv//AAD//6oq//8AAAAAqioAAAAA//+qKv////8AAFTVAAD/////VNUAAP//AABU1f///////1TV/z//f/8//3//P/9//z//f/9/////f////3////9/////fwAA/38AAP9/AAD/fwAA/3////9/////f////3///6oqVNWqKlTVqipU1aoqVNWqqqqqqqqqqqqqqqqqqqqq")
 }]
 blend_shape_mode = 0
-shadow_mesh = SubResource("ArrayMesh_61ou7")
+shadow_mesh = SubResource("ArrayMesh_mdy60")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nvp33"]
-albedo_texture = ExtResource("2_8ju3v")
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_ctci5"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_8y3n8"]
 size = Vector3(0.99853516, 2.2368927, 0.053497314)
 
-[node name="Maintenance_Door" type="Node3D"]
+[node name="Danger_Door" type="Node3D"]
 
 [node name="Pivot_Point" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0079696, 0, 0)
@@ -59,15 +55,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0079696, 0, 0)
 
 [node name="door_model" type="MeshInstance3D" parent="Pivot_Point/StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1.065, 0, 0, 0, 1, 0, 0, 0)
-mesh = SubResource("ArrayMesh_22155")
+mesh = SubResource("ArrayMesh_qh3r8")
 skeleton = NodePath("")
-surface_material_override/0 = SubResource("StandardMaterial3D_nvp33")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Pivot_Point/StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.49975586, 1.118187, 0.025131226)
-shape = SubResource("BoxShape3D_ctci5")
+shape = SubResource("BoxShape3D_8y3n8")
 
-[node name="InteractionComponent" parent="Pivot_Point/StaticBody3D" node_paths=PackedStringArray("object_ref", "pivot_point") instance=ExtResource("2_n153x")]
+[node name="InteractionComponent" parent="Pivot_Point/StaticBody3D" node_paths=PackedStringArray("object_ref", "pivot_point") instance=ExtResource("2_2kffd")]
 object_ref = NodePath("..")
 interaction_type = 1
 pivot_point = NodePath("../..")

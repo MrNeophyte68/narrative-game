@@ -118,7 +118,7 @@ mesh = SubResource("ArrayMesh_anxsj")
 skeleton = NodePath("")
 
 [node name="InteractionComponent" parent="." node_paths=PackedStringArray("object_ref") instance=ExtResource("4_727kr")]
-object_ref = NodePath("")
+object_ref = NodePath("..")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.019989014, 0)
