@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cheqp4khuewex"
-path="res://.godot/imported/machinery_1.glb-6dfd6eeebe2fb95645f2dfefb57ab202.scn"
+path="res://.godot/imported/machinery_1.glb-24a45dc341bd9f60ab91ca9ddde685d2.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/machinery_1.glb"
-dest_files=["res://.godot/imported/machinery_1.glb-6dfd6eeebe2fb95645f2dfefb57ab202.scn"]
+source_file="res://assets/glb/psx_bunker/machinery_1.glb"
+dest_files=["res://.godot/imported/machinery_1.glb-24a45dc341bd9f60ab91ca9ddde685d2.scn"]
 
 [params]
 

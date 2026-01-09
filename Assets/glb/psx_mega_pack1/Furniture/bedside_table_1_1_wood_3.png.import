@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5vpqu74im4tq"
-path.s3tc="res://.godot/imported/bedside_table_1_1_wood_3.png-79a57080557c25f588915762a02bcc08.s3tc.ctex"
+path.s3tc="res://.godot/imported/bedside_table_1_1_wood_3.png-35127a509ddfe697c7e8a0d243e6cf3f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/bedside_table_1_1_wood_3.png"
-dest_files=["res://.godot/imported/bedside_table_1_1_wood_3.png-79a57080557c25f588915762a02bcc08.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/bedside_table_1_1_wood_3.png"
+dest_files=["res://.godot/imported/bedside_table_1_1_wood_3.png-35127a509ddfe697c7e8a0d243e6cf3f.s3tc.ctex"]
 
 [params]
 

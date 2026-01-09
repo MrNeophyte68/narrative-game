@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b75eq01o45nsm"
-path.s3tc="res://.godot/imported/mask_mx_1_mask_mx_1.png-8ff19e52f7a8e7f84ac3573889a79458.s3tc.ctex"
+path.s3tc="res://.godot/imported/mask_mx_1_mask_mx_1.png-ac0df830711580f7f7694c4bf6015d29.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Masks/mask_mx_1_mask_mx_1.png"
-dest_files=["res://.godot/imported/mask_mx_1_mask_mx_1.png-8ff19e52f7a8e7f84ac3573889a79458.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Masks/mask_mx_1_mask_mx_1.png"
+dest_files=["res://.godot/imported/mask_mx_1_mask_mx_1.png-ac0df830711580f7f7694c4bf6015d29.s3tc.ctex"]
 
 [params]
 

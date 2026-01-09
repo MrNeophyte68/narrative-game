@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6mfu0fstlt05"
-path.s3tc="res://.godot/imported/supply_crate_1_1_empty_wooden_crate_7_1.png-251da0e7c8c5289e6d78c0f00af92248.s3tc.ctex"
+path.s3tc="res://.godot/imported/supply_crate_1_1_empty_wooden_crate_7_1.png-08dd7e122d87e1bd5c54a568d48330f9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Large Props/supply_crate_1_1_empty_wooden_crate_7_1.png"
-dest_files=["res://.godot/imported/supply_crate_1_1_empty_wooden_crate_7_1.png-251da0e7c8c5289e6d78c0f00af92248.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Large Props/supply_crate_1_1_empty_wooden_crate_7_1.png"
+dest_files=["res://.godot/imported/supply_crate_1_1_empty_wooden_crate_7_1.png-08dd7e122d87e1bd5c54a568d48330f9.s3tc.ctex"]
 
 [params]
 

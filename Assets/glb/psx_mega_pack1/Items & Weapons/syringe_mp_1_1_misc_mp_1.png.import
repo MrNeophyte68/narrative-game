@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://m6e4mwdil5qa"
-path.s3tc="res://.godot/imported/syringe_mp_1_1_misc_mp_1.png-570725d531399c7a9f1547c6040ee1ef.s3tc.ctex"
+path.s3tc="res://.godot/imported/syringe_mp_1_1_misc_mp_1.png-048ab871e619f1f8f4afaaa3d102ce59.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/syringe_mp_1_1_misc_mp_1.png"
-dest_files=["res://.godot/imported/syringe_mp_1_1_misc_mp_1.png-570725d531399c7a9f1547c6040ee1ef.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/syringe_mp_1_1_misc_mp_1.png"
+dest_files=["res://.godot/imported/syringe_mp_1_1_misc_mp_1.png-048ab871e619f1f8f4afaaa3d102ce59.s3tc.ctex"]
 
 [params]
 

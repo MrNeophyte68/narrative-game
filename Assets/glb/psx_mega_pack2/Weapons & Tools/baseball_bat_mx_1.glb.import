@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://503i4yxsrwf6"
-path="res://.godot/imported/baseball_bat_mx_1.glb-620302e93c894dd310e31122b2d7d3d1.scn"
+path="res://.godot/imported/baseball_bat_mx_1.glb-7f128147b60cce88e0f82ed9674b9d17.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/baseball_bat_mx_1.glb"
-dest_files=["res://.godot/imported/baseball_bat_mx_1.glb-620302e93c894dd310e31122b2d7d3d1.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/baseball_bat_mx_1.glb"
+dest_files=["res://.godot/imported/baseball_bat_mx_1.glb-7f128147b60cce88e0f82ed9674b9d17.scn"]
 
 [params]
 

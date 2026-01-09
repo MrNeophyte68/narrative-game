@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b0r5ihqcwuq1l"
-path="res://.godot/imported/concrete_block_1.glb-80874945221060c4f8b0af24773655d3.scn"
+path="res://.godot/imported/concrete_block_1.glb-00e134c38dc451d2e48137472f57a26c.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/concrete_block_1.glb"
-dest_files=["res://.godot/imported/concrete_block_1.glb-80874945221060c4f8b0af24773655d3.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/concrete_block_1.glb"
+dest_files=["res://.godot/imported/concrete_block_1.glb-00e134c38dc451d2e48137472f57a26c.scn"]
 
 [params]
 

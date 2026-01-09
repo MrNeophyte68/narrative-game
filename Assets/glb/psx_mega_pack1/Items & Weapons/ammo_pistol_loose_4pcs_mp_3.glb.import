@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://6s5ywjg6yvg7"
-path="res://.godot/imported/ammo_pistol_loose_4pcs_mp_3.glb-e9f692ba9137ef0a25f60d643c99b3e5.scn"
+path="res://.godot/imported/ammo_pistol_loose_4pcs_mp_3.glb-3a52f92b76e2178c1782633138cbdfc0.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/ammo_pistol_loose_4pcs_mp_3.glb"
-dest_files=["res://.godot/imported/ammo_pistol_loose_4pcs_mp_3.glb-e9f692ba9137ef0a25f60d643c99b3e5.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/ammo_pistol_loose_4pcs_mp_3.glb"
+dest_files=["res://.godot/imported/ammo_pistol_loose_4pcs_mp_3.glb-3a52f92b76e2178c1782633138cbdfc0.scn"]
 
 [params]
 

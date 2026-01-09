@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkhjgghca2741"
-path.s3tc="res://.godot/imported/ancient_artifact_mx_1_ancient_artifact_mx_1.png-b5c3da48d8a967574fc76c3ff439df19.s3tc.ctex"
+path.s3tc="res://.godot/imported/ancient_artifact_mx_1_ancient_artifact_mx_1.png-a12cfbc103c479141c775fb851db1e5e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/ancient_artifact_mx_1_ancient_artifact_mx_1.png"
-dest_files=["res://.godot/imported/ancient_artifact_mx_1_ancient_artifact_mx_1.png-b5c3da48d8a967574fc76c3ff439df19.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/ancient_artifact_mx_1_ancient_artifact_mx_1.png"
+dest_files=["res://.godot/imported/ancient_artifact_mx_1_ancient_artifact_mx_1.png-a12cfbc103c479141c775fb851db1e5e.s3tc.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://y4ybre2ihtat"
-path="res://.godot/imported/CreatoDisplay-ExtraBoldItalic.otf-a221d499ff9fbd99934217b12a3136fd.fontdata"
+path="res://.godot/imported/CreatoDisplay-ExtraBoldItalic.otf-db019c7019240e89f53f228470fa3995.fontdata"
 
 [deps]
 
-source_file="res://Assets/font/creato_display/CreatoDisplay-ExtraBoldItalic.otf"
-dest_files=["res://.godot/imported/CreatoDisplay-ExtraBoldItalic.otf-a221d499ff9fbd99934217b12a3136fd.fontdata"]
+source_file="res://assets/font/creato_display/CreatoDisplay-ExtraBoldItalic.otf"
+dest_files=["res://.godot/imported/CreatoDisplay-ExtraBoldItalic.otf-db019c7019240e89f53f228470fa3995.fontdata"]
 
 [params]
 

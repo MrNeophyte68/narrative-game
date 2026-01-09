@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgr3n6d3c0op1"
-path.s3tc="res://.godot/imported/doorway_4_plain_concrete_wall_bnk_1.png-2138c1c4176491674f39dd4eae8950ec.s3tc.ctex"
+path.s3tc="res://.godot/imported/doorway_4_plain_concrete_wall_bnk_1.png-5e21d3326753a30c19f3d287debfab4a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/doorway_4_plain_concrete_wall_bnk_1.png"
-dest_files=["res://.godot/imported/doorway_4_plain_concrete_wall_bnk_1.png-2138c1c4176491674f39dd4eae8950ec.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/doorway_4_plain_concrete_wall_bnk_1.png"
+dest_files=["res://.godot/imported/doorway_4_plain_concrete_wall_bnk_1.png-5e21d3326753a30c19f3d287debfab4a.s3tc.ctex"]
 
 [params]
 

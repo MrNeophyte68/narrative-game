@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://nglbfwkpxm1t"
-path="res://.godot/imported/speaker_mx_1.glb-7e3981e66730dd3a8c64772f979abe0d.scn"
+path="res://.godot/imported/speaker_mx_1.glb-01cc4d8af046de57d9af92086158c2b2.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/speaker_mx_1.glb"
-dest_files=["res://.godot/imported/speaker_mx_1.glb-7e3981e66730dd3a8c64772f979abe0d.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/speaker_mx_1.glb"
+dest_files=["res://.godot/imported/speaker_mx_1.glb-01cc4d8af046de57d9af92086158c2b2.scn"]
 
 [params]
 

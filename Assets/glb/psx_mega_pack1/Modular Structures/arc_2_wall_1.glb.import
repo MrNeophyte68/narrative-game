@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dn52mvuqh5khm"
-path="res://.godot/imported/arc_2_wall_1.glb-f60fb994a2aa2ead3e910610425b2fc2.scn"
+path="res://.godot/imported/arc_2_wall_1.glb-2cef5c5a3255bbdabf61663a052c71f8.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_1.glb"
-dest_files=["res://.godot/imported/arc_2_wall_1.glb-f60fb994a2aa2ead3e910610425b2fc2.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_1.glb"
+dest_files=["res://.godot/imported/arc_2_wall_1.glb-2cef5c5a3255bbdabf61663a052c71f8.scn"]
 
 [params]
 

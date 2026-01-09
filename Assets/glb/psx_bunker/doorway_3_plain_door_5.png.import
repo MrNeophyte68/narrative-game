@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dene6gtp2fcjm"
-path.s3tc="res://.godot/imported/doorway_3_plain_door_5.png-43ec424bbcc417a1d4b800da0c500c7d.s3tc.ctex"
+path.s3tc="res://.godot/imported/doorway_3_plain_door_5.png-bab0f11475fd5e66b4ce9533532e793d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/doorway_3_plain_door_5.png"
-dest_files=["res://.godot/imported/doorway_3_plain_door_5.png-43ec424bbcc417a1d4b800da0c500c7d.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/doorway_3_plain_door_5.png"
+dest_files=["res://.godot/imported/doorway_3_plain_door_5.png-bab0f11475fd5e66b4ce9533532e793d.s3tc.ctex"]
 
 [params]
 

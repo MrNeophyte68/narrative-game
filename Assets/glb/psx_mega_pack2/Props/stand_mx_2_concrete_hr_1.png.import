@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfcsvp1flmy4e"
-path.s3tc="res://.godot/imported/stand_mx_2_concrete_hr_1.png-4e9029c202a873356806a476f7659d17.s3tc.ctex"
+path.s3tc="res://.godot/imported/stand_mx_2_concrete_hr_1.png-005988cbb8bf7a958df93a1d9df3e342.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/stand_mx_2_concrete_hr_1.png"
-dest_files=["res://.godot/imported/stand_mx_2_concrete_hr_1.png-4e9029c202a873356806a476f7659d17.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/stand_mx_2_concrete_hr_1.png"
+dest_files=["res://.godot/imported/stand_mx_2_concrete_hr_1.png-005988cbb8bf7a958df93a1d9df3e342.s3tc.ctex"]
 
 [params]
 

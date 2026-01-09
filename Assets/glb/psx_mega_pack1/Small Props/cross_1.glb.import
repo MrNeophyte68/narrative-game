@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://p7vmdqvoq34v"
-path="res://.godot/imported/cross_1.glb-27566aec1954418cde2c2c488b9e2ff1.scn"
+path="res://.godot/imported/cross_1.glb-dc20cc5e7d45473229b429ce5e1db5a6.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/cross_1.glb"
-dest_files=["res://.godot/imported/cross_1.glb-27566aec1954418cde2c2c488b9e2ff1.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/cross_1.glb"
+dest_files=["res://.godot/imported/cross_1.glb-dc20cc5e7d45473229b429ce5e1db5a6.scn"]
 
 [params]
 

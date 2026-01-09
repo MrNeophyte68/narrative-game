@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlcld2ruhvw0l"
-path.s3tc="res://.godot/imported/shelf_mx_5_2_plastic_mx_3.png-db28ea450c6d4fdbc465b1d7a701c0c1.s3tc.ctex"
+path.s3tc="res://.godot/imported/shelf_mx_5_2_plastic_mx_3.png-cce5ca6703860a48353e71e85e7114a1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/shelf_mx_5_2_plastic_mx_3.png"
-dest_files=["res://.godot/imported/shelf_mx_5_2_plastic_mx_3.png-db28ea450c6d4fdbc465b1d7a701c0c1.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Props/shelf_mx_5_2_plastic_mx_3.png"
+dest_files=["res://.godot/imported/shelf_mx_5_2_plastic_mx_3.png-cce5ca6703860a48353e71e85e7114a1.s3tc.ctex"]
 
 [params]
 

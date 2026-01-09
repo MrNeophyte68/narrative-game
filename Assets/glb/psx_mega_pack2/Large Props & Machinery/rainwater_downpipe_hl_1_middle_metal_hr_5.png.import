@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bn56p682xn3ft"
-path.s3tc="res://.godot/imported/rainwater_downpipe_hl_1_middle_metal_hr_5.png-d45ce20bb4cd2b764a3675ff2254b4d2.s3tc.ctex"
+path.s3tc="res://.godot/imported/rainwater_downpipe_hl_1_middle_metal_hr_5.png-bfa050854c9f5a8c4c1ee0c74ac55ec7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/rainwater_downpipe_hl_1_middle_metal_hr_5.png"
-dest_files=["res://.godot/imported/rainwater_downpipe_hl_1_middle_metal_hr_5.png-d45ce20bb4cd2b764a3675ff2254b4d2.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/rainwater_downpipe_hl_1_middle_metal_hr_5.png"
+dest_files=["res://.godot/imported/rainwater_downpipe_hl_1_middle_metal_hr_5.png-bfa050854c9f5a8c4c1ee0c74ac55ec7.s3tc.ctex"]
 
 [params]
 

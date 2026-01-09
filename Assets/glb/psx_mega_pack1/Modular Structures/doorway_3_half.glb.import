@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://fefr2dinghsk"
-path="res://.godot/imported/doorway_3_half.glb-3938d12c8aa81486a5953f849f255684.scn"
+path="res://.godot/imported/doorway_3_half.glb-71ff2b3d3d9bc49e2107c19697ed3eae.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/doorway_3_half.glb"
-dest_files=["res://.godot/imported/doorway_3_half.glb-3938d12c8aa81486a5953f849f255684.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/doorway_3_half.glb"
+dest_files=["res://.godot/imported/doorway_3_half.glb-71ff2b3d3d9bc49e2107c19697ed3eae.scn"]
 
 [params]
 

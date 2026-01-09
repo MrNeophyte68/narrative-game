@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://u6v82un6da76"
-path.s3tc="res://.godot/imported/catwalk_1_metal_mp_6.png-29d77f651dd18921d3572b3e155958a7.s3tc.ctex"
+path.s3tc="res://.godot/imported/catwalk_1_metal_mp_6.png-21649e79858b89a62ee814a0fdbb829e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/catwalk_1_metal_mp_6.png"
-dest_files=["res://.godot/imported/catwalk_1_metal_mp_6.png-29d77f651dd18921d3572b3e155958a7.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/catwalk_1_metal_mp_6.png"
+dest_files=["res://.godot/imported/catwalk_1_metal_mp_6.png-21649e79858b89a62ee814a0fdbb829e.s3tc.ctex"]
 
 [params]
 

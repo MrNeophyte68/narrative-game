@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://28ojsde1joye"
-path.s3tc="res://.godot/imported/display_cabinet_mp_2_wood_1.png-98c393196a38effad8506d39ba7437dc.s3tc.ctex"
+path.s3tc="res://.godot/imported/display_cabinet_mp_2_wood_1.png-459c95e41d61cc9e067a532238188bfb.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/display_cabinet_mp_2_wood_1.png"
-dest_files=["res://.godot/imported/display_cabinet_mp_2_wood_1.png-98c393196a38effad8506d39ba7437dc.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/display_cabinet_mp_2_wood_1.png"
+dest_files=["res://.godot/imported/display_cabinet_mp_2_wood_1.png-459c95e41d61cc9e067a532238188bfb.s3tc.ctex"]
 
 [params]
 

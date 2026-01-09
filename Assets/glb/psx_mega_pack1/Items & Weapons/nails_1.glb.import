@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dq5lk8gxv2vwv"
-path="res://.godot/imported/nails_1.glb-84e24d06bcc019a70cbff11f41ad8826.scn"
+path="res://.godot/imported/nails_1.glb-4888dd16e05f052bca17bc21a88359a2.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/nails_1.glb"
-dest_files=["res://.godot/imported/nails_1.glb-84e24d06bcc019a70cbff11f41ad8826.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/nails_1.glb"
+dest_files=["res://.godot/imported/nails_1.glb-4888dd16e05f052bca17bc21a88359a2.scn"]
 
 [params]
 

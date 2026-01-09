@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqknbfnh3n6dy"
-path.s3tc="res://.godot/imported/pipe_1_ancle_pipe_1.jpg-70031aeb1345f8a8b96f3ab9cc1a5f5e.s3tc.ctex"
+path.s3tc="res://.godot/imported/pipe_1_ancle_pipe_1.jpg-a9792202a0a4d33953f6bf17d7d3ac07.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/pipe_1_ancle_pipe_1.jpg"
-dest_files=["res://.godot/imported/pipe_1_ancle_pipe_1.jpg-70031aeb1345f8a8b96f3ab9cc1a5f5e.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/pipe_1_ancle_pipe_1.jpg"
+dest_files=["res://.godot/imported/pipe_1_ancle_pipe_1.jpg-a9792202a0a4d33953f6bf17d7d3ac07.s3tc.ctex"]
 
 [params]
 

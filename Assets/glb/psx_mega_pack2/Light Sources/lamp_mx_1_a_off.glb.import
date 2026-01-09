@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c61uacin5gpl0"
-path="res://.godot/imported/lamp_mx_1_a_off.glb-42fd076773197dc4f40566720c9ed34d.scn"
+path="res://.godot/imported/lamp_mx_1_a_off.glb-8f0e68bfe1c97d063dcb40cfc1a5cf6b.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Light Sources/lamp_mx_1_a_off.glb"
-dest_files=["res://.godot/imported/lamp_mx_1_a_off.glb-42fd076773197dc4f40566720c9ed34d.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Light Sources/lamp_mx_1_a_off.glb"
+dest_files=["res://.godot/imported/lamp_mx_1_a_off.glb-8f0e68bfe1c97d063dcb40cfc1a5cf6b.scn"]
 
 [params]
 

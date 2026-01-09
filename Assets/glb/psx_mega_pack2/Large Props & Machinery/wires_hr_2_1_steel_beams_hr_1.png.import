@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tjmbbuk8q76y"
-path.s3tc="res://.godot/imported/wires_hr_2_1_steel_beams_hr_1.png-bc40afc9898bf5eb226c2179060eb7a4.s3tc.ctex"
+path.s3tc="res://.godot/imported/wires_hr_2_1_steel_beams_hr_1.png-8523a155a236dbf692cab109170fbee6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/wires_hr_2_1_steel_beams_hr_1.png"
-dest_files=["res://.godot/imported/wires_hr_2_1_steel_beams_hr_1.png-bc40afc9898bf5eb226c2179060eb7a4.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/wires_hr_2_1_steel_beams_hr_1.png"
+dest_files=["res://.godot/imported/wires_hr_2_1_steel_beams_hr_1.png-8523a155a236dbf692cab109170fbee6.s3tc.ctex"]
 
 [params]
 

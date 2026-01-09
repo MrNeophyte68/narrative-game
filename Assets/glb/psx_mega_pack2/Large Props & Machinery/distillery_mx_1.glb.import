@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://2kovtfoummv7"
-path="res://.godot/imported/distillery_mx_1.glb-29240ef94df2bfb989a76bd95300acbf.scn"
+path="res://.godot/imported/distillery_mx_1.glb-f50db5541b614e50fe2bac63d1d29279.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/distillery_mx_1.glb"
-dest_files=["res://.godot/imported/distillery_mx_1.glb-29240ef94df2bfb989a76bd95300acbf.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/distillery_mx_1.glb"
+dest_files=["res://.godot/imported/distillery_mx_1.glb-f50db5541b614e50fe2bac63d1d29279.scn"]
 
 [params]
 

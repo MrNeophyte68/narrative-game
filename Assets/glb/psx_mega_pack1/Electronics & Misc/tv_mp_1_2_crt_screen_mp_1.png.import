@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b60k6t2iwxvcr"
-path.s3tc="res://.godot/imported/tv_mp_1_2_crt_screen_mp_1.png-22f8f58f3ebe38a14e7e01ee0da4413e.s3tc.ctex"
+path.s3tc="res://.godot/imported/tv_mp_1_2_crt_screen_mp_1.png-af48c26ba278e0cb68714bd20851e402.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/tv_mp_1_2_crt_screen_mp_1.png"
-dest_files=["res://.godot/imported/tv_mp_1_2_crt_screen_mp_1.png-22f8f58f3ebe38a14e7e01ee0da4413e.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/tv_mp_1_2_crt_screen_mp_1.png"
+dest_files=["res://.godot/imported/tv_mp_1_2_crt_screen_mp_1.png-af48c26ba278e0cb68714bd20851e402.s3tc.ctex"]
 
 [params]
 

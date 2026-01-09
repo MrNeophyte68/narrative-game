@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rpp8k0bdqi7n"
-path.s3tc="res://.godot/imported/tunnel_ancle_metal_floor_2.png-84edae873c0474122b341ffc79bcd216.s3tc.ctex"
+path.s3tc="res://.godot/imported/tunnel_ancle_metal_floor_2.png-139c7b4cf268dd3ea6b5659a9bad05de.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/tunnel_ancle_metal_floor_2.png"
-dest_files=["res://.godot/imported/tunnel_ancle_metal_floor_2.png-84edae873c0474122b341ffc79bcd216.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/tunnel_ancle_metal_floor_2.png"
+dest_files=["res://.godot/imported/tunnel_ancle_metal_floor_2.png-139c7b4cf268dd3ea6b5659a9bad05de.s3tc.ctex"]
 
 [params]
 

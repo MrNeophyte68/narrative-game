@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ctihga2witsl8"
-path="res://.godot/imported/toy_brick_1_2.glb-8b2cd22a6500fe1b350b43524acab4ab.scn"
+path="res://.godot/imported/toy_brick_1_2.glb-2a0caf7214c71e9b37dc242d10d5da1c.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/toy_brick_1_2.glb"
-dest_files=["res://.godot/imported/toy_brick_1_2.glb-8b2cd22a6500fe1b350b43524acab4ab.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/toy_brick_1_2.glb"
+dest_files=["res://.godot/imported/toy_brick_1_2.glb-2a0caf7214c71e9b37dc242d10d5da1c.scn"]
 
 [params]
 

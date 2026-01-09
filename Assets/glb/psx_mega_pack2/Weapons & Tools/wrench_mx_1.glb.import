@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bg55e8xhakvh6"
-path="res://.godot/imported/wrench_mx_1.glb-8ea9c678aad3cfff3c6e2e1bbef28b22.scn"
+path="res://.godot/imported/wrench_mx_1.glb-bd06e9d5dfbfa95627634da30dcd74e4.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/wrench_mx_1.glb"
-dest_files=["res://.godot/imported/wrench_mx_1.glb-8ea9c678aad3cfff3c6e2e1bbef28b22.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/wrench_mx_1.glb"
+dest_files=["res://.godot/imported/wrench_mx_1.glb-bd06e9d5dfbfa95627634da30dcd74e4.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://btmi0eedjanc1"
-path="res://.godot/imported/rainwater_downpipe_hl_1_middle.glb-c506a6f8b3a7dc04e138623537aad21c.scn"
+path="res://.godot/imported/rainwater_downpipe_hl_1_middle.glb-7947b684e621d4a8980a82d151198a28.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/rainwater_downpipe_hl_1_middle.glb"
-dest_files=["res://.godot/imported/rainwater_downpipe_hl_1_middle.glb-c506a6f8b3a7dc04e138623537aad21c.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/rainwater_downpipe_hl_1_middle.glb"
+dest_files=["res://.godot/imported/rainwater_downpipe_hl_1_middle.glb-7947b684e621d4a8980a82d151198a28.scn"]
 
 [params]
 

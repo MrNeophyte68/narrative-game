@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qkic8ixud2to"
-path.s3tc="res://.godot/imported/manhole_shaft_middle_1_metal_4.png-ba9e9f08d59761ef545425d5ee70ea77.s3tc.ctex"
+path.s3tc="res://.godot/imported/manhole_shaft_middle_1_metal_4.png-d6191ab4cbcd75f180600861a5fa9a5e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/manhole_shaft_middle_1_metal_4.png"
-dest_files=["res://.godot/imported/manhole_shaft_middle_1_metal_4.png-ba9e9f08d59761ef545425d5ee70ea77.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/manhole_shaft_middle_1_metal_4.png"
+dest_files=["res://.godot/imported/manhole_shaft_middle_1_metal_4.png-d6191ab4cbcd75f180600861a5fa9a5e.s3tc.ctex"]
 
 [params]
 

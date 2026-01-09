@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cj3f3wewb8lkl"
-path.s3tc="res://.godot/imported/walkie_talkie_2_walkie_talkie_2.png-67807566d753208e0051532b9141f01c.s3tc.ctex"
+path.s3tc="res://.godot/imported/walkie_talkie_2_walkie_talkie_2.png-5b548dc75205955d5232e2acac871208.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Electronics & Misc/walkie_talkie_2_walkie_talkie_2.png"
-dest_files=["res://.godot/imported/walkie_talkie_2_walkie_talkie_2.png-67807566d753208e0051532b9141f01c.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Electronics & Misc/walkie_talkie_2_walkie_talkie_2.png"
+dest_files=["res://.godot/imported/walkie_talkie_2_walkie_talkie_2.png-5b548dc75205955d5232e2acac871208.s3tc.ctex"]
 
 [params]
 

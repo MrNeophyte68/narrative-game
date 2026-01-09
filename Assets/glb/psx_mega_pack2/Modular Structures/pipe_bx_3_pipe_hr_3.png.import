@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxhvuvxmkqdt3"
-path.s3tc="res://.godot/imported/pipe_bx_3_pipe_hr_3.png-141eff37e9b94cdb36c4dcfd8f6e42d9.s3tc.ctex"
+path.s3tc="res://.godot/imported/pipe_bx_3_pipe_hr_3.png-0023ace71e344528efb59cf08898c252.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/pipe_bx_3_pipe_hr_3.png"
-dest_files=["res://.godot/imported/pipe_bx_3_pipe_hr_3.png-141eff37e9b94cdb36c4dcfd8f6e42d9.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/pipe_bx_3_pipe_hr_3.png"
+dest_files=["res://.godot/imported/pipe_bx_3_pipe_hr_3.png-0023ace71e344528efb59cf08898c252.s3tc.ctex"]
 
 [params]
 

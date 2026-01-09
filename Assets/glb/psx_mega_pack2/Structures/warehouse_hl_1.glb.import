@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cdiri13tm82tt"
-path="res://.godot/imported/warehouse_hl_1.glb-1c8025685f356a6336caa94a3f584544.scn"
+path="res://.godot/imported/warehouse_hl_1.glb-bbd8e55975d1563c3b488245c3f4d21e.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Structures/warehouse_hl_1.glb"
-dest_files=["res://.godot/imported/warehouse_hl_1.glb-1c8025685f356a6336caa94a3f584544.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Structures/warehouse_hl_1.glb"
+dest_files=["res://.godot/imported/warehouse_hl_1.glb-bbd8e55975d1563c3b488245c3f4d21e.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c58xihp1ptdx"
-path="res://.godot/imported/male_shorts_rigged.glb-a7c0587a34f02eb69278ee703d773c27.scn"
+path="res://.godot/imported/male_shorts_rigged.glb-5ad90b20f4c9cc1888fe4816c52421ac.scn"
 
 [deps]
 
-source_file="res://Assets/glb/characters/male_shorts_rigged.glb"
-dest_files=["res://.godot/imported/male_shorts_rigged.glb-a7c0587a34f02eb69278ee703d773c27.scn"]
+source_file="res://assets/glb/characters/male_shorts_rigged.glb"
+dest_files=["res://.godot/imported/male_shorts_rigged.glb-5ad90b20f4c9cc1888fe4816c52421ac.scn"]
 
 [params]
 

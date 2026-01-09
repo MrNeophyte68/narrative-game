@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2jkjg06ilkft"
-path.s3tc="res://.godot/imported/meat_1_meat_1.png-d29a309311f12064128253fba540b503.s3tc.ctex"
+path.s3tc="res://.godot/imported/meat_1_meat_1.png-f9e5527835f0a7a1b5c1aaea034c1acd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Items & Weapons/meat_1_meat_1.png"
-dest_files=["res://.godot/imported/meat_1_meat_1.png-d29a309311f12064128253fba540b503.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Items & Weapons/meat_1_meat_1.png"
+dest_files=["res://.godot/imported/meat_1_meat_1.png-f9e5527835f0a7a1b5c1aaea034c1acd.s3tc.ctex"]
 
 [params]
 

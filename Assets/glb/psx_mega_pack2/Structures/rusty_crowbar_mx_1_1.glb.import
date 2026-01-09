@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://jii6fnjsi1ba"
-path="res://.godot/imported/rusty_crowbar_mx_1_1.glb-b4e234af049e4f893d43a55488f735da.scn"
+path="res://.godot/imported/rusty_crowbar_mx_1_1.glb-513aae03d8f39c6f1781991cff356a21.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Structures/rusty_crowbar_mx_1_1.glb"
-dest_files=["res://.godot/imported/rusty_crowbar_mx_1_1.glb-b4e234af049e4f893d43a55488f735da.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Structures/rusty_crowbar_mx_1_1.glb"
+dest_files=["res://.godot/imported/rusty_crowbar_mx_1_1.glb-513aae03d8f39c6f1781991cff356a21.scn"]
 
 [params]
 

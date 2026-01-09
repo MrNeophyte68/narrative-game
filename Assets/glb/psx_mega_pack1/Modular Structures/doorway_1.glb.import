@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bgafss5y4w5it"
-path="res://.godot/imported/doorway_1.glb-1bb0b06d73dca1a387625e4abf808f31.scn"
+path="res://.godot/imported/doorway_1.glb-b08fa4611ac93af09eea034884689651.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Modular Structures/doorway_1.glb"
-dest_files=["res://.godot/imported/doorway_1.glb-1bb0b06d73dca1a387625e4abf808f31.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Modular Structures/doorway_1.glb"
+dest_files=["res://.godot/imported/doorway_1.glb-b08fa4611ac93af09eea034884689651.scn"]
 
 [params]
 

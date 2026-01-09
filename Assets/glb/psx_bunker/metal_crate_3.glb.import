@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bgf2ultmwhn7d"
-path="res://.godot/imported/metal_crate_3.glb-0172a4c77450d4884d90440db86a1965.scn"
+path="res://.godot/imported/metal_crate_3.glb-854b3d1f8fa978695228126584fbb798.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/metal_crate_3.glb"
-dest_files=["res://.godot/imported/metal_crate_3.glb-0172a4c77450d4884d90440db86a1965.scn"]
+source_file="res://assets/glb/psx_bunker/metal_crate_3.glb"
+dest_files=["res://.godot/imported/metal_crate_3.glb-854b3d1f8fa978695228126584fbb798.scn"]
 
 [params]
 

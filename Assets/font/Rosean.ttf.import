@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://dtdbew3arfohi"
-path="res://.godot/imported/Rosean.ttf-68cd8a18002cb5b4a34018be9e24604c.fontdata"
+path="res://.godot/imported/Rosean.ttf-eb0532638b0f7a808c845a7e53fa1803.fontdata"
 
 [deps]
 
-source_file="res://Assets/font/Rosean.ttf"
-dest_files=["res://.godot/imported/Rosean.ttf-68cd8a18002cb5b4a34018be9e24604c.fontdata"]
+source_file="res://assets/font/Rosean.ttf"
+dest_files=["res://.godot/imported/Rosean.ttf-eb0532638b0f7a808c845a7e53fa1803.fontdata"]
 
 [params]
 

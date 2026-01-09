@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://balk8fn14xydt"
-path="res://.godot/imported/poster_cx_12.glb-40bd41e9e1b043bc6fdaa789b75cd431.scn"
+path="res://.godot/imported/poster_cx_12.glb-265e7a45020fe619b00facc4cd23a53a.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Decals/poster_cx_12.glb"
-dest_files=["res://.godot/imported/poster_cx_12.glb-40bd41e9e1b043bc6fdaa789b75cd431.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Decals/poster_cx_12.glb"
+dest_files=["res://.godot/imported/poster_cx_12.glb-265e7a45020fe619b00facc4cd23a53a.scn"]
 
 [params]
 

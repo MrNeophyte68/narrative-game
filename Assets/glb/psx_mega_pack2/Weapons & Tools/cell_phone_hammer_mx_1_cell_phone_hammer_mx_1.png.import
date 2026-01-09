@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7o03rwc4f0ct"
-path.s3tc="res://.godot/imported/cell_phone_hammer_mx_1_cell_phone_hammer_mx_1.png-257caacef2ba94255cf0c367d467ba4e.s3tc.ctex"
+path.s3tc="res://.godot/imported/cell_phone_hammer_mx_1_cell_phone_hammer_mx_1.png-0ade546b710b69105d683ef7fc9433d0.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/cell_phone_hammer_mx_1_cell_phone_hammer_mx_1.png"
-dest_files=["res://.godot/imported/cell_phone_hammer_mx_1_cell_phone_hammer_mx_1.png-257caacef2ba94255cf0c367d467ba4e.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/cell_phone_hammer_mx_1_cell_phone_hammer_mx_1.png"
+dest_files=["res://.godot/imported/cell_phone_hammer_mx_1_cell_phone_hammer_mx_1.png-0ade546b710b69105d683ef7fc9433d0.s3tc.ctex"]
 
 [params]
 

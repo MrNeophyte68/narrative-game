@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cc0lb3flsupcl"
-path.s3tc="res://.godot/imported/paint_brush_mr_1_paint_brush_mr_1.png-dcd5c12d35b7e59bb05c83765856cc88.s3tc.ctex"
+path.s3tc="res://.godot/imported/paint_brush_mr_1_paint_brush_mr_1.png-fb182522b52bf78e786d427e1dec7b8f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/paint_brush_mr_1_paint_brush_mr_1.png"
-dest_files=["res://.godot/imported/paint_brush_mr_1_paint_brush_mr_1.png-dcd5c12d35b7e59bb05c83765856cc88.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/paint_brush_mr_1_paint_brush_mr_1.png"
+dest_files=["res://.godot/imported/paint_brush_mr_1_paint_brush_mr_1.png-fb182522b52bf78e786d427e1dec7b8f.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqe4j7eidf2m"
-path.s3tc="res://.godot/imported/wrench_mx_1_wrench_mx_1.png-917d16cf63bfddf57c74b485fd2a3362.s3tc.ctex"
+path.s3tc="res://.godot/imported/wrench_mx_1_wrench_mx_1.png-c50432e9ac280ee011a7d69fd584595f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/wrench_mx_1_wrench_mx_1.png"
-dest_files=["res://.godot/imported/wrench_mx_1_wrench_mx_1.png-917d16cf63bfddf57c74b485fd2a3362.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/wrench_mx_1_wrench_mx_1.png"
+dest_files=["res://.godot/imported/wrench_mx_1_wrench_mx_1.png-c50432e9ac280ee011a7d69fd584595f.s3tc.ctex"]
 
 [params]
 

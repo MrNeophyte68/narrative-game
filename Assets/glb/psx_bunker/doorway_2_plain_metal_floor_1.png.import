@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvvog6ialsjyj"
-path.s3tc="res://.godot/imported/doorway_2_plain_metal_floor_1.png-52b8408ff91c079ecce513e1a0e1367d.s3tc.ctex"
+path.s3tc="res://.godot/imported/doorway_2_plain_metal_floor_1.png-85ad4290cfd75ec7b83a0d19aa8f47f7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_bunker/doorway_2_plain_metal_floor_1.png"
-dest_files=["res://.godot/imported/doorway_2_plain_metal_floor_1.png-52b8408ff91c079ecce513e1a0e1367d.s3tc.ctex"]
+source_file="res://assets/glb/psx_bunker/doorway_2_plain_metal_floor_1.png"
+dest_files=["res://.godot/imported/doorway_2_plain_metal_floor_1.png-85ad4290cfd75ec7b83a0d19aa8f47f7.s3tc.ctex"]
 
 [params]
 

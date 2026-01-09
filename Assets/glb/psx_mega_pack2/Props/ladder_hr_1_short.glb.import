@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://nqpvidkrfjdg"
-path="res://.godot/imported/ladder_hr_1_short.glb-11fb6ca4dfb79f9101c4823f93dfaea6.scn"
+path="res://.godot/imported/ladder_hr_1_short.glb-d9dd832976ea0761493258d1195e394c.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/ladder_hr_1_short.glb"
-dest_files=["res://.godot/imported/ladder_hr_1_short.glb-11fb6ca4dfb79f9101c4823f93dfaea6.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/ladder_hr_1_short.glb"
+dest_files=["res://.godot/imported/ladder_hr_1_short.glb-d9dd832976ea0761493258d1195e394c.scn"]
 
 [params]
 

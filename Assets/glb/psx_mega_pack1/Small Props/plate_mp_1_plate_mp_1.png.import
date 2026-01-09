@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b53ijw67tdwy1"
-path.s3tc="res://.godot/imported/plate_mp_1_plate_mp_1.png-f9d820f3a57c99baf91b4ebbb0b2c42f.s3tc.ctex"
+path.s3tc="res://.godot/imported/plate_mp_1_plate_mp_1.png-fdec44d66f1b29f583cbf42fd4dd916d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/plate_mp_1_plate_mp_1.png"
-dest_files=["res://.godot/imported/plate_mp_1_plate_mp_1.png-f9d820f3a57c99baf91b4ebbb0b2c42f.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/plate_mp_1_plate_mp_1.png"
+dest_files=["res://.godot/imported/plate_mp_1_plate_mp_1.png-fdec44d66f1b29f583cbf42fd4dd916d.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fkbplnxyjur5"
-path.s3tc="res://.godot/imported/misc_tool_mx_5_misc_tool_mx_5.png-fa0da6a87eca72bab69920adcee374a6.s3tc.ctex"
+path.s3tc="res://.godot/imported/misc_tool_mx_5_misc_tool_mx_5.png-e63817cc11ec325485481df224988d36.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Weapons & Tools/misc_tool_mx_5_misc_tool_mx_5.png"
-dest_files=["res://.godot/imported/misc_tool_mx_5_misc_tool_mx_5.png-fa0da6a87eca72bab69920adcee374a6.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Weapons & Tools/misc_tool_mx_5_misc_tool_mx_5.png"
+dest_files=["res://.godot/imported/misc_tool_mx_5_misc_tool_mx_5.png-e63817cc11ec325485481df224988d36.s3tc.ctex"]
 
 [params]
 

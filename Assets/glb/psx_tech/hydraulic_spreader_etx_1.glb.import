@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://by3ohqwm3btmt"
-path="res://.godot/imported/hydraulic_spreader_etx_1.glb-82de6dc412d15d619b146254938b519e.scn"
+path="res://.godot/imported/hydraulic_spreader_etx_1.glb-f80e0b0f2953a7f763cdb600513b23f1.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_tech/hydraulic_spreader_etx_1.glb"
-dest_files=["res://.godot/imported/hydraulic_spreader_etx_1.glb-82de6dc412d15d619b146254938b519e.scn"]
+source_file="res://assets/glb/psx_tech/hydraulic_spreader_etx_1.glb"
+dest_files=["res://.godot/imported/hydraulic_spreader_etx_1.glb-f80e0b0f2953a7f763cdb600513b23f1.scn"]
 
 [params]
 

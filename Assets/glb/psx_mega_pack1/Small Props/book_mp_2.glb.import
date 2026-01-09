@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://djy6113tht67o"
-path="res://.godot/imported/book_mp_2.glb-f3e352e3874b2a5dfedf627d2eb8127a.scn"
+path="res://.godot/imported/book_mp_2.glb-60ca163347d879d6c8a0d1b26b0d8e7e.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Small Props/book_mp_2.glb"
-dest_files=["res://.godot/imported/book_mp_2.glb-f3e352e3874b2a5dfedf627d2eb8127a.scn"]
+source_file="res://assets/glb/psx_mega_pack1/Small Props/book_mp_2.glb"
+dest_files=["res://.godot/imported/book_mp_2.glb-60ca163347d879d6c8a0d1b26b0d8e7e.scn"]
 
 [params]
 

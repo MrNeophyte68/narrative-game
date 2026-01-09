@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cymrgvmigbbsg"
-path.s3tc="res://.godot/imported/roof_bx_1_side_glass_general_mx_1.png-2d4bbd0906b28ba80934a55b2025877e.s3tc.ctex"
+path.s3tc="res://.godot/imported/roof_bx_1_side_glass_general_mx_1.png-c56baf2448453cebf6aaed73157bad00.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Modular Structures/roof_bx_1_side_glass_general_mx_1.png"
-dest_files=["res://.godot/imported/roof_bx_1_side_glass_general_mx_1.png-2d4bbd0906b28ba80934a55b2025877e.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack2/Modular Structures/roof_bx_1_side_glass_general_mx_1.png"
+dest_files=["res://.godot/imported/roof_bx_1_side_glass_general_mx_1.png-c56baf2448453cebf6aaed73157bad00.s3tc.ctex"]
 
 [params]
 

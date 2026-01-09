@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cl314uq8fa6ro"
-path.s3tc="res://.godot/imported/pillow_mp_1_pillow_mp_1.png-9d27df7c42754d6a42b7214672186d9e.s3tc.ctex"
+path.s3tc="res://.godot/imported/pillow_mp_1_pillow_mp_1.png-2f974b223fb94b140ff3497aebc27ebf.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack1/Furniture/pillow_mp_1_pillow_mp_1.png"
-dest_files=["res://.godot/imported/pillow_mp_1_pillow_mp_1.png-9d27df7c42754d6a42b7214672186d9e.s3tc.ctex"]
+source_file="res://assets/glb/psx_mega_pack1/Furniture/pillow_mp_1_pillow_mp_1.png"
+dest_files=["res://.godot/imported/pillow_mp_1_pillow_mp_1.png-2f974b223fb94b140ff3497aebc27ebf.s3tc.ctex"]
 
 [params]
 

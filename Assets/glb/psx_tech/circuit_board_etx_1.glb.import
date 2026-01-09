@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://k03fkhna8ixv"
-path="res://.godot/imported/circuit_board_etx_1.glb-4dc18589142edef9737f25f8d017146b.scn"
+path="res://.godot/imported/circuit_board_etx_1.glb-5f5acaf3de5084b005484c667106fde3.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_tech/circuit_board_etx_1.glb"
-dest_files=["res://.godot/imported/circuit_board_etx_1.glb-4dc18589142edef9737f25f8d017146b.scn"]
+source_file="res://assets/glb/psx_tech/circuit_board_etx_1.glb"
+dest_files=["res://.godot/imported/circuit_board_etx_1.glb-5f5acaf3de5084b005484c667106fde3.scn"]
 
 [params]
 

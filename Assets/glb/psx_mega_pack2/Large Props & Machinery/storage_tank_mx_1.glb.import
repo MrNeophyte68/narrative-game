@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bxrhg1pbavoic"
-path="res://.godot/imported/storage_tank_mx_1.glb-60bf296e3a867728a156901bb7e043ab.scn"
+path="res://.godot/imported/storage_tank_mx_1.glb-615d889ad97b521b0434a1c868cff310.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/storage_tank_mx_1.glb"
-dest_files=["res://.godot/imported/storage_tank_mx_1.glb-60bf296e3a867728a156901bb7e043ab.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/storage_tank_mx_1.glb"
+dest_files=["res://.godot/imported/storage_tank_mx_1.glb-615d889ad97b521b0434a1c868cff310.scn"]
 
 [params]
 

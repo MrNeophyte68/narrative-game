@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ddfm6jjvm88f5"
-path="res://.godot/imported/chimney_a_4_1.glb-27cf5ccf7bb920f9eaa04e5c67e5f13a.scn"
+path="res://.godot/imported/chimney_a_4_1.glb-e3d5cc17689e6071d712b3a1ee9a5ac5.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Large Props & Machinery/chimney_a_4_1.glb"
-dest_files=["res://.godot/imported/chimney_a_4_1.glb-27cf5ccf7bb920f9eaa04e5c67e5f13a.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Large Props & Machinery/chimney_a_4_1.glb"
+dest_files=["res://.godot/imported/chimney_a_4_1.glb-e3d5cc17689e6071d712b3a1ee9a5ac5.scn"]
 
 [params]
 

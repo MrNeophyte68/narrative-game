@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://qh4740jow6yu"
-path="res://.godot/imported/hanging_shelf_mx_2_1.glb-50643d3be8381fd99090e3db49779ed3.scn"
+path="res://.godot/imported/hanging_shelf_mx_2_1.glb-c6768ce898cc48275cd63703c1b8fdf6.scn"
 
 [deps]
 
-source_file="res://Assets/glb/psx_mega_pack2/Props/hanging_shelf_mx_2_1.glb"
-dest_files=["res://.godot/imported/hanging_shelf_mx_2_1.glb-50643d3be8381fd99090e3db49779ed3.scn"]
+source_file="res://assets/glb/psx_mega_pack2/Props/hanging_shelf_mx_2_1.glb"
+dest_files=["res://.godot/imported/hanging_shelf_mx_2_1.glb-c6768ce898cc48275cd63703c1b8fdf6.scn"]
 
 [params]
 
