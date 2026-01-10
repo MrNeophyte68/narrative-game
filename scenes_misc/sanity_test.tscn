@@ -1,0 +1,56 @@
+[gd_scene load_steps=6 format=3 uid="uid://bcaytqh5uhl64"]
+
+[ext_resource type="Texture2D" uid="uid://c4itmbpuywun8" path="res://assets/images/hl_office_complex_style_tile_floor_1.png" id="1_5ugef"]
+[ext_resource type="PackedScene" uid="uid://ihcfomvy087y" path="res://player/player.tscn" id="2_kn42v"]
+[ext_resource type="PackedScene" uid="uid://bijxkq4ea6w32" path="res://enemy/enemy.tscn" id="3_of46u"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kn42v"]
+albedo_texture = ExtResource("1_5ugef")
+uv1_triplanar = true
+
+[sub_resource type="Environment" id="Environment_kn42v"]
+background_mode = 2
+
+[node name="Node3D" type="Node3D"]
+
+[node name="floor" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48118, 0)
+material_override = SubResource("StandardMaterial3D_kn42v")
+use_collision = true
+size = Vector3(30, 1, 30)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_kn42v")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+light_energy = 0.0
+shadow_enabled = true
+sky_mode = 2
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 4.6317987, 0)
+light_energy = 4.672
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -9.328026, 4.6317987, 9.346515)
+light_energy = 4.672
+
+[node name="SpotLight3D3" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -8.924665, 4.6317987, -9.696758)
+light_energy = 4.672
+
+[node name="SpotLight3D4" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 9.497717, 4.6317987, -9.696758)
+light_energy = 4.672
+
+[node name="SpotLight3D5" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 9.497717, 4.6317987, 10.019625)
+light_color = Color(1, 0, 0, 1)
+light_energy = 4.672
+
+[node name="player" parent="." instance=ExtResource("2_kn42v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0839727, 0)
+
+[node name="Enemy" parent="." instance=ExtResource("3_of46u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.888539, 1.9989778, -9.471916)

@@ -17,10 +17,15 @@ var interaction_component: Node
 func _ready() -> void:
 	interactable_check.body_entered.connect(_on_body_entered)
 	interactable_check.body_exited.connect(_on_body_exited)
-	default_reticle.position.x = get_viewport().size.x / 2 - default_reticle.texture.get_size().x / 2
-	default_reticle.position.y = get_viewport().size.y / 2 - default_reticle.texture.get_size().y / 2
-	grab.position.x = get_viewport().size.x / 2 - grab.texture.get_size().x / 2
-	grab.position.y = get_viewport().size.y / 2 - grab.texture.get_size().y / 2
+	#default_reticle.position.x = get_viewport().size.x / 2 - default_reticle.texture.get_size().x / 2
+	#default_reticle.position.y = get_viewport().size.y / 2 - default_reticle.texture.get_size().y / 2
+	#grab.position.x = get_viewport().size.x / 2 - grab.texture.get_size().x / 2
+	#grab.position.y = get_viewport().size.y / 2 - grab.texture.get_size().y / 2
+	default_reticle.position.x = 960 - grab.texture.get_size().x / 2
+	default_reticle.position.y = 540 - grab.texture.get_size().y / 2
+	grab.position.x = 960 - grab.texture.get_size().x / 2
+	grab.position.y = 540 - grab.texture.get_size().y / 2
+	
 
 func _process(delta: float) -> void:
 	if interaction_component and interaction_component.is_interacting:

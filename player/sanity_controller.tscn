@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://dl657pi41k18h"]
+
+[ext_resource type="Script" uid="uid://bxk0ujy6sbkob" path="res://player/sanity_controller.gd" id="1_gcf08"]
+[ext_resource type="Shader" uid="uid://c6kkdujqb0u07" path="res://shaders/distortion2.gdshader" id="2_6rj0b"]
+[ext_resource type="Texture2D" uid="uid://uocni063775s" path="res://icon.svg" id="2_d2e8r"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mmjw3"]
+shader = ExtResource("2_6rj0b")
+shader_parameter/blur_center = Vector2(0.5, 0.5)
+shader_parameter/blur_power = 0.04
+shader_parameter/sampling_count = 50
+shader_parameter/radial_intensity = 1.0000000475
+shader_parameter/chaos = 32.0
+shader_parameter/chaos_radius = 1.0
+shader_parameter/chaos_attenuation = 5.0
+shader_parameter/chaos_shake_intensity = 0.0
+
+[node name="SanityController" type="Node"]
+script = ExtResource("1_gcf08")
+
+[node name="Distortion" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_mmjw3")
+position = Vector2(997, 586)
+scale = Vector2(16.578125, 10.15625)
+texture = ExtResource("2_d2e8r")
