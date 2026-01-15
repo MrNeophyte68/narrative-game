@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bgo7125hev4so"
+path="res://.godot/imported/zombie_roar_1.ogg-1345c0de5dc18d027c5a4352d0c2f6b3.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Creatures/Zombie/zombie_roar_1.ogg"
+dest_files=["res://.godot/imported/zombie_roar_1.ogg-1345c0de5dc18d027c5a4352d0c2f6b3.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

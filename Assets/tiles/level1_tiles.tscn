@@ -1,211 +1,218 @@
-[gd_scene load_steps=739 format=4 uid="uid://dt4m7qt460tae"]
+[gd_scene load_steps=770 format=4 uid="uid://dt4m7qt460tae"]
 
-[ext_resource type="Texture2D" uid="uid://dgigmt0ofa5g" path="res://Assets/glb/psx_bunker/bars_metal_3_metal_6.png" id="1_vxmok"]
-[ext_resource type="Texture2D" uid="uid://4bkhre5qvqfj" path="res://Assets/glb/psx_bunker/wall_1_plain_concrete_wall_bnk_1.png" id="2_baipi"]
-[ext_resource type="Texture2D" uid="uid://bog2g7mba51up" path="res://Assets/glb/psx_bunker/wall_1_round_concrete_wall_bnk_1.png" id="3_rkdkp"]
-[ext_resource type="Texture2D" uid="uid://c5swld8uyegob" path="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_1_wall_3.png" id="4_clmt6"]
-[ext_resource type="Texture2D" uid="uid://qe2af30c82g2" path="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_1_door_frame_wood_1.png" id="5_1k5f3"]
-[ext_resource type="Texture2D" uid="uid://jydg6l2txs1m" path="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_1_plain_wall_mp_1.png" id="6_edm2m"]
-[ext_resource type="Texture2D" uid="uid://c1jat07whj8c2" path="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_2_1_wall_6.png" id="7_8ojnr"]
-[ext_resource type="Texture2D" uid="uid://dafi4orakfd3k" path="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_2_1_door_frame_wood_1.png" id="8_420d4"]
-[ext_resource type="Texture2D" uid="uid://ctagqfe3rmo55" path="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_2_2_wall_6.png" id="9_jb7mm"]
-[ext_resource type="Texture2D" uid="uid://o0cnub4lcrau" path="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_2_2_wood_painted_white_mp_1.png" id="10_nk5ux"]
-[ext_resource type="Texture2D" uid="uid://duur7xk0k4e1n" path="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_1_wall_3.png" id="11_xp4t1"]
-[ext_resource type="Texture2D" uid="uid://cnoismp7ctuvn" path="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_1_door_frame_wood_1.png" id="12_wrvou"]
-[ext_resource type="Texture2D" uid="uid://c0bonoif8ji3t" path="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_1_plain_wall_mp_1.png" id="13_je0n3"]
-[ext_resource type="Texture2D" uid="uid://bfghofkb6xb3y" path="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_2_1_wall_6.png" id="14_nsjt7"]
-[ext_resource type="Texture2D" uid="uid://baekp1wlcxn7h" path="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_2_1_door_frame_wood_1.png" id="15_ffivy"]
-[ext_resource type="Texture2D" uid="uid://comerfdydpkc7" path="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_2_2_wall_6.png" id="16_0c3ns"]
-[ext_resource type="Texture2D" uid="uid://dol668oldedrv" path="res://Assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_2_2_wood_painted_white_mp_1.png" id="17_v8ala"]
-[ext_resource type="Texture2D" uid="uid://bbrt5vtrp3u1i" path="res://Assets/glb/psx_mega_pack1/Modular Structures/bars_metal_1_metal_mp_6.png" id="18_21v42"]
-[ext_resource type="Texture2D" uid="uid://dyfceoby0k6ob" path="res://Assets/glb/psx_mega_pack1/Modular Structures/bars_metal_2_metal_mp_6.png" id="19_2jq1n"]
-[ext_resource type="Texture2D" uid="uid://bs4c0phih4ipp" path="res://Assets/glb/psx_mega_pack1/Modular Structures/beam_1_concrete_1.jpg" id="20_vr540"]
-[ext_resource type="Texture2D" uid="uid://b8ebfhgepn17r" path="res://Assets/glb/psx_mega_pack1/Modular Structures/beam_4_metal_mp_6.png" id="21_tfo6r"]
-[ext_resource type="Texture2D" uid="uid://cwhbbn1sqef7k" path="res://Assets/glb/psx_mega_pack1/Modular Structures/beam_2_concrete_1.jpg" id="22_06qpa"]
-[ext_resource type="Texture2D" uid="uid://caqumb2fxpjgh" path="res://Assets/glb/psx_mega_pack1/Modular Structures/half_arc_pillar_1_wall_1_plain_wall_mp_1.png" id="23_1e164"]
-[ext_resource type="Texture2D" uid="uid://b4nu3jiqanoys" path="res://Assets/glb/psx_mega_pack1/Modular Structures/half_arc_pillar_2_tall_wall_1_plain_wall_mp_1.png" id="24_iumqb"]
-[ext_resource type="Texture2D" uid="uid://ci38byd3ndjme" path="res://Assets/glb/psx_mega_pack1/Modular Structures/half_arc_pillar_2_wall_1_plain_wall_mp_1.png" id="25_r1ok8"]
-[ext_resource type="Texture2D" uid="uid://dkuodqcemi5nk" path="res://Assets/glb/psx_mega_pack1/Modular Structures/pillar_1_wall_3.png" id="26_bu4jd"]
-[ext_resource type="Texture2D" uid="uid://mqxgu0cuhc26" path="res://Assets/glb/psx_mega_pack1/Modular Structures/pillar_1_door_frame_wood_1.png" id="27_0ajiw"]
-[ext_resource type="Texture2D" uid="uid://mrjqn0f7pgq5" path="res://Assets/glb/psx_mega_pack1/Modular Structures/pillar_1_plain_1_wall_mp_1.png" id="28_bpoay"]
-[ext_resource type="Texture2D" uid="uid://bx378w10mybk6" path="res://Assets/glb/psx_mega_pack1/Modular Structures/pillar_1_plain_2_wall_mp_1.png" id="29_tccii"]
-[ext_resource type="Texture2D" uid="uid://b0vtdjogvwaqp" path="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_wall_3.png" id="30_4gja0"]
-[ext_resource type="Texture2D" uid="uid://ddyexsuvrnw32" path="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_door_frame_wood_1.png" id="31_qucfk"]
-[ext_resource type="Texture2D" uid="uid://bg21dgp0flx41" path="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_1_half_wall_6.png" id="32_pn8kh"]
-[ext_resource type="Texture2D" uid="uid://dxnu5a8f2021d" path="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_1_half_door_frame_wood_1.png" id="33_uh1h5"]
-[ext_resource type="Texture2D" uid="uid://bx4h0ttdmvux2" path="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_1_rounded_corner_1_wall_6.png" id="34_uv12k"]
-[ext_resource type="Texture2D" uid="uid://gxjwhk8neme" path="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_1_rounded_corner_1_door_frame_wood_1.png" id="35_vlrdl"]
-[ext_resource type="Texture2D" uid="uid://c4qptfaw5lmmk" path="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_2_rounded_corner_1_wall_6.png" id="36_vyvp6"]
-[ext_resource type="Texture2D" uid="uid://cyfmksgj6alk1" path="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_2_rounded_corner_1_wood_painted_white_mp_1.png" id="37_kvxm4"]
-[ext_resource type="Texture2D" uid="uid://dpp3ihgjk06o6" path="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_wall_mp_1.png" id="38_sdqr4"]
-[ext_resource type="Texture2D" uid="uid://bhp0axhobj2pd" path="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_metal_mp_6.png" id="39_micev"]
-[ext_resource type="Texture2D" uid="uid://bdg1dn8sig032" path="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_1_wall_mp_1.png" id="40_dunks"]
-[ext_resource type="Texture2D" uid="uid://bfcqoxbyfcsp7" path="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_1_metal_mp_6.png" id="41_48ful"]
-[ext_resource type="Texture2D" uid="uid://d3cwty2x5mwdf" path="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_2_wall_mp_1.png" id="42_sodtk"]
-[ext_resource type="Texture2D" uid="uid://bkax1xlgnwmro" path="res://Assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_2_metal_mp_6.png" id="43_p1w4m"]
-[ext_resource type="Texture2D" uid="uid://dnrf7e2voqjq1" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_wall_hr_2.png" id="44_kjtam"]
-[ext_resource type="Texture2D" uid="uid://ctgml14iym4ko" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_concrete_hr_3.png" id="45_qi0uv"]
-[ext_resource type="Texture2D" uid="uid://bkp7y1kg4li2y" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_double_wall_hr_1.png" id="46_j5a4d"]
-[ext_resource type="Texture2D" uid="uid://cf0046osap6ic" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_double_concrete_hr_3.png" id="47_gbjde"]
-[ext_resource type="Texture2D" uid="uid://8sbsfmi4yevt" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_hole_1_wall_hr_1.png" id="48_8f8bu"]
-[ext_resource type="Texture2D" uid="uid://bikf35ek1x3m2" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_hole_1_concrete_hr_1.png" id="49_h40qs"]
-[ext_resource type="Texture2D" uid="uid://crhw40o5xq48m" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_hole_1_metal_hr_2.png" id="50_1i78a"]
-[ext_resource type="Texture2D" uid="uid://bqwowjfwlk78t" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_hole_1_concrete_hr_3.png" id="51_dyjcj"]
-[ext_resource type="Texture2D" uid="uid://tlayckq6joa" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_hole_2_wall_hr_1.png" id="52_dqopd"]
-[ext_resource type="Texture2D" uid="uid://ufi0jswfrah5" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_hole_2_concrete_hr_1.png" id="53_sxhqv"]
-[ext_resource type="Texture2D" uid="uid://uowkbrvd3dgv" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_hole_2_concrete_hr_3.png" id="54_6rk7n"]
-[ext_resource type="Texture2D" uid="uid://cq0yi7kirep4i" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m1a_1_wall_hr_2.png" id="55_04fi2"]
-[ext_resource type="Texture2D" uid="uid://dhollja7lim8p" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m1a_1_concrete_hr_3.png" id="56_sqal8"]
-[ext_resource type="Texture2D" uid="uid://bbars030a42bf" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m1a_2_wall_hr_1.png" id="57_2mfnb"]
-[ext_resource type="Texture2D" uid="uid://4qy5300fp8gg" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m1a_2_concrete_hr_3.png" id="58_efne3"]
-[ext_resource type="Texture2D" uid="uid://csjt3qei7jv5r" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m2a_1_wall_hr_2.png" id="59_ubb8c"]
-[ext_resource type="Texture2D" uid="uid://dtn5ghg3thusp" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m2a_1_concrete_hr_3.png" id="60_jx4oh"]
-[ext_resource type="Texture2D" uid="uid://bkiw68sxwuv1s" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m2a_2_wall_hr_1.png" id="61_ofnad"]
-[ext_resource type="Texture2D" uid="uid://dv82brdyvfd8s" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m2a_2_concrete_hr_3.png" id="62_1jnee"]
-[ext_resource type="Texture2D" uid="uid://dm4ecy4ct4ts2" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m_2_wall_hr_1.png" id="63_d81v5"]
-[ext_resource type="Texture2D" uid="uid://dvymyn28abd2j" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m_2_window_mx_1.png" id="64_bq6t0"]
-[ext_resource type="Texture2D" uid="uid://cbiggrffy8c6v" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m_2_concrete_hr_3.png" id="65_2watk"]
-[ext_resource type="Texture2D" uid="uid://cw0fcr15tf8kp" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m_2_metal_hr_2.png" id="66_norbc"]
-[ext_resource type="Texture2D" uid="uid://ch35bdjkqjtd7" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m_2_planks_hr_4.png" id="67_gsqgk"]
-[ext_resource type="Texture2D" uid="uid://dl8ysxqnd4vio" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_t_1_wall_hr_2.png" id="68_uaup5"]
-[ext_resource type="Texture2D" uid="uid://dksvwys57gghy" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_t_2_wall_hr_1.png" id="69_ufl8n"]
-[ext_resource type="Texture2D" uid="uid://dlsle1m8syjgn" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_t_2_concrete_hr_3.png" id="70_3nxty"]
-[ext_resource type="Texture2D" uid="uid://bt33djrwrkcsi" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_2_wall_hr_1.png" id="71_ogbdw"]
-[ext_resource type="Texture2D" uid="uid://oqpslq2xmnr1" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_2_concrete_hr_3.png" id="72_qlk2a"]
-[ext_resource type="Texture2D" uid="uid://bipn1f1cajj5c" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_15_wall_hr_1.png" id="73_1kdtv"]
-[ext_resource type="Texture2D" uid="uid://baf78g835snp2" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_15_wall_rx_1.png" id="74_v5w35"]
-[ext_resource type="Texture2D" uid="uid://hfpl2t2a1ud8" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_15_double_wall_hr_1.png" id="75_i4rjm"]
-[ext_resource type="Texture2D" uid="uid://dw12t6m8ggfp7" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hr_15_double_wall_rx_1.png" id="76_lrbvf"]
-[ext_resource type="Texture2D" uid="uid://o0jgjjoeacax" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_wall_hs_1.png" id="77_nyvli"]
-[ext_resource type="Texture2D" uid="uid://bruxu3cdsvfe0" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_concrete_hr_3.png" id="78_5fdul"]
-[ext_resource type="Texture2D" uid="uid://c6btylfdcor3o" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_double_wall_hs_1.png" id="79_hgl5w"]
-[ext_resource type="Texture2D" uid="uid://nghojtcmpe65" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_double_concrete_hr_3.png" id="80_p30ln"]
-[ext_resource type="Texture2D" uid="uid://lrcndiebjg7h" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_hole_1_wall_hs_1.png" id="81_gua7f"]
-[ext_resource type="Texture2D" uid="uid://8xovysn7rqmw" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_hole_1_concrete_hr_4.png" id="82_oqtp5"]
-[ext_resource type="Texture2D" uid="uid://bc7g4ou31854g" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_hole_1_metal_hr_2.png" id="83_nxw03"]
-[ext_resource type="Texture2D" uid="uid://cfpaen0uos68k" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_hole_1_concrete_hr_3.png" id="84_xyjwr"]
-[ext_resource type="Texture2D" uid="uid://3mqs3g8536dt" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_hole_2_wall_hs_1.png" id="85_2k5xw"]
-[ext_resource type="Texture2D" uid="uid://5unv1yrbqbqm" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_hole_2_concrete_hr_4.png" id="86_fsjn6"]
-[ext_resource type="Texture2D" uid="uid://baeawr8qrql1o" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_hole_2_concrete_hr_3.png" id="87_6et0n"]
-[ext_resource type="Texture2D" uid="uid://ly686wudrmdl" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m1a_1_wall_hs_1.png" id="88_yvorp"]
-[ext_resource type="Texture2D" uid="uid://d2sjk6ye3u2y3" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m1a_1_concrete_hr_3.png" id="89_ygkc6"]
-[ext_resource type="Texture2D" uid="uid://duiub2tdvk584" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m2a_1_wall_hs_1.png" id="90_3md1v"]
-[ext_resource type="Texture2D" uid="uid://6wmhlnpks06s" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m2a_1_concrete_hr_3.png" id="91_qbvxf"]
-[ext_resource type="Texture2D" uid="uid://d1m1hhn232rf4" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m_2_wall_hs_1.png" id="92_tnahf"]
-[ext_resource type="Texture2D" uid="uid://c5sfk2n10q8ay" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m_2_window_mx_1.png" id="93_oo6di"]
-[ext_resource type="Texture2D" uid="uid://5hj7hyyig4fs" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m_2_concrete_hr_3.png" id="94_q34m0"]
-[ext_resource type="Texture2D" uid="uid://bfwe7mf7nxdh3" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m_2_metal_hr_2.png" id="95_dxwqa"]
-[ext_resource type="Texture2D" uid="uid://dxopjac6o5brl" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m_2_planks_hr_4.png" id="96_7lesc"]
-[ext_resource type="Texture2D" uid="uid://bi1kk61is6jbx" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_t_1_wall_hs_1.png" id="97_ig34n"]
-[ext_resource type="Texture2D" uid="uid://c7jnynskvv74d" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_t_2_wall_hs_1.png" id="98_obwck"]
-[ext_resource type="Texture2D" uid="uid://dqoq2s224nitd" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_t_2_concrete_hr_3.png" id="99_btrig"]
-[ext_resource type="Texture2D" uid="uid://c5nui2lfr75is" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_15_wall_hs_1.png" id="100_wfn5s"]
-[ext_resource type="Texture2D" uid="uid://uc530pe7byd" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_15_wall_rx_1.png" id="101_27wv5"]
-[ext_resource type="Texture2D" uid="uid://chx7soth6y1n3" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_15_concrete_hr_3.png" id="102_r775t"]
-[ext_resource type="Texture2D" uid="uid://d4dgnex52gwxm" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_15_double_wall_hs_1.png" id="103_sp04b"]
-[ext_resource type="Texture2D" uid="uid://iim7g65ixqkk" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_15_double_wall_rx_1.png" id="104_8wk24"]
-[ext_resource type="Texture2D" uid="uid://cey5yu2h83j3n" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_hs_15_double_concrete_hr_3.png" id="105_cve8b"]
-[ext_resource type="Texture2D" uid="uid://dkgunt0m0qyqu" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_wall_rg_1.png" id="106_wayn5"]
-[ext_resource type="Texture2D" uid="uid://18wlg067g6nb" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_concrete_hr_3.png" id="107_4uvvh"]
-[ext_resource type="Texture2D" uid="uid://uctfm4ujhdrn" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_angle_wall_rg_1.png" id="108_lf6nc"]
-[ext_resource type="Texture2D" uid="uid://4kersjaf8niw" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_angle_concrete_hr_3.png" id="109_j47lb"]
-[ext_resource type="Texture2D" uid="uid://cd0vcb2whk108" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_double_wall_rg_1.png" id="110_7rkqw"]
-[ext_resource type="Texture2D" uid="uid://bl2t4v2vlnoc1" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_double_concrete_hr_3.png" id="111_fom5h"]
-[ext_resource type="Texture2D" uid="uid://tgb3rk33u4ro" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_hole_1_wall_rg_1.png" id="112_ur347"]
-[ext_resource type="Texture2D" uid="uid://csdch2hotj3eh" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_hole_1_concrete_hr_1.png" id="113_4v13b"]
-[ext_resource type="Texture2D" uid="uid://da5qw76sqq0n7" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_hole_1_metal_hr_2.png" id="114_guo1q"]
-[ext_resource type="Texture2D" uid="uid://mstrm7lwexsa" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_hole_1_concrete_hr_3.png" id="115_nu2ln"]
-[ext_resource type="Texture2D" uid="uid://dkipijbn63yqf" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_hole_2_wall_rg_1.png" id="116_yjfs6"]
-[ext_resource type="Texture2D" uid="uid://bf26imaxqfm3n" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_hole_2_concrete_hr_1.png" id="117_wkpo5"]
-[ext_resource type="Texture2D" uid="uid://dltqtruc52g5s" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_hole_2_concrete_hr_3.png" id="118_dr5ir"]
-[ext_resource type="Texture2D" uid="uid://dhi6l7bg4tsyn" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m1a_1_wall_rg_1.png" id="119_6pvfp"]
-[ext_resource type="Texture2D" uid="uid://bl0bay31nqsuk" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m1a_1_concrete_hr_3.png" id="120_io37c"]
-[ext_resource type="Texture2D" uid="uid://c2h4l5a640l7l" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m2a_1_wall_rg_1.png" id="121_wxtot"]
-[ext_resource type="Texture2D" uid="uid://cwmtxbeait2nt" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m2a_1_concrete_hr_3.png" id="122_30fkk"]
-[ext_resource type="Texture2D" uid="uid://w1xryr3to0w4" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m_2_wall_rg_1.png" id="123_jxd7r"]
-[ext_resource type="Texture2D" uid="uid://berw1riynj1et" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m_2_window_mx_1.png" id="124_upk3y"]
-[ext_resource type="Texture2D" uid="uid://boe4q0pa6fqh3" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m_2_concrete_hr_3.png" id="125_ku1n3"]
-[ext_resource type="Texture2D" uid="uid://cngcvqermnabk" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m_2_metal_hr_5.png" id="126_sc6hd"]
-[ext_resource type="Texture2D" uid="uid://ct47lcsg65qeg" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m_2_planks_hr_4.png" id="127_uc3gn"]
-[ext_resource type="Texture2D" uid="uid://bfmd15oyln4oq" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_t_1_wall_rg_1.png" id="128_1kpy7"]
-[ext_resource type="Texture2D" uid="uid://cpvhvu4frw2gq" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_t_2_wall_rg_1.png" id="129_370n1"]
-[ext_resource type="Texture2D" uid="uid://bjexmkbl5ur75" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_t_2_concrete_hr_3.png" id="130_s71j8"]
-[ext_resource type="Texture2D" uid="uid://b1rt2yr8ebx24" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_15_wall_rg_1.png" id="131_x0ylx"]
-[ext_resource type="Texture2D" uid="uid://dq1qjml6pqexq" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_15_wall_rx_1.png" id="132_bohsx"]
-[ext_resource type="Texture2D" uid="uid://bjrirknsl1bbb" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_15_double_wall_rg_1.png" id="133_mj1yc"]
-[ext_resource type="Texture2D" uid="uid://jrpnwjthikto" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rg_15_double_wall_rx_1.png" id="134_3sj46"]
-[ext_resource type="Texture2D" uid="uid://v6jlwekp46l5" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rtx_1_wall_rg_2.png" id="135_erg2c"]
-[ext_resource type="Texture2D" uid="uid://dlsi7rtyr8601" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rtx_1_concrete_hr_3.png" id="136_337ox"]
-[ext_resource type="Texture2D" uid="uid://ca7x5ug1t4y3r" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rtx_2_wall_rg_2.png" id="137_dxqn5"]
-[ext_resource type="Texture2D" uid="uid://d02hog45ubr23" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rtx_2_concrete_hr_3.png" id="138_gabrc"]
-[ext_resource type="Texture2D" uid="uid://blup4pcd02l0" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rtx_2_grate_hm_1.png" id="139_io6jn"]
-[ext_resource type="Texture2D" uid="uid://br5vt3lixbc3s" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rtx_2_metal_hr_2.png" id="140_c2g1v"]
-[ext_resource type="Texture2D" uid="uid://ci8kwx852ecmd" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_wall_rx_1.png" id="141_xyvrm"]
-[ext_resource type="Texture2D" uid="uid://c856o0mkpahvn" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_concrete_hr_3.png" id="142_qsskn"]
-[ext_resource type="Texture2D" uid="uid://72q7ev0uxxey" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_3_height_wall_rx_1.png" id="143_o3ja6"]
-[ext_resource type="Texture2D" uid="uid://bpccetw66nyw4" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_3_height_concrete_hr_3.png" id="144_cuw1w"]
-[ext_resource type="Texture2D" uid="uid://dt845jm1huob2" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_3_height_1_2_width_wall_rx_1.png" id="145_kfq0y"]
-[ext_resource type="Texture2D" uid="uid://61tf1pm1dah0" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_3_height_1_2_width_concrete_hr_3.png" id="146_1swic"]
-[ext_resource type="Texture2D" uid="uid://v74ydymb3oit" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_4_width_wall_rx_1.png" id="147_0y8dq"]
-[ext_resource type="Texture2D" uid="uid://26qk7se0l30s" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_4_width_concrete_hr_3.png" id="148_dvrva"]
-[ext_resource type="Texture2D" uid="uid://bikxu1ykueyy" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_4_width_1_3_height_wall_rx_1.png" id="149_fps0r"]
-[ext_resource type="Texture2D" uid="uid://cryi2p8jn2fcs" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_4_width_1_3_height_concrete_hr_3.png" id="150_3bqaf"]
-[ext_resource type="Texture2D" uid="uid://ds0n5kh748piy" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_2_3_height_wall_rx_1.png" id="151_veobn"]
-[ext_resource type="Texture2D" uid="uid://cff6omhhv6whq" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_2_3_height_concrete_hr_3.png" id="152_8w4y8"]
-[ext_resource type="Texture2D" uid="uid://dkkbd1ovibs23" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_2_3_height_1_2_width_wall_rx_1.png" id="153_hq0cq"]
-[ext_resource type="Texture2D" uid="uid://k08xppb4r1js" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_2_3_height_1_2_width_concrete_hr_3.png" id="154_os5jp"]
-[ext_resource type="Texture2D" uid="uid://dvj34k5fjcxoo" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m1a_1_wall_rx_1.png" id="155_fr083"]
-[ext_resource type="Texture2D" uid="uid://b4xofq076wwya" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m1a_1_concrete_hr_3.png" id="156_1ldlg"]
-[ext_resource type="Texture2D" uid="uid://ben75qborimtl" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m1a_1_1_3_height_wall_rx_1.png" id="157_ocosc"]
-[ext_resource type="Texture2D" uid="uid://dw0jjpqej6v0q" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m1a_1_1_3_height_concrete_hr_3.png" id="158_dubfk"]
-[ext_resource type="Texture2D" uid="uid://cu67pmxjibr3n" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m1a_1_2_3_height_wall_rx_1.png" id="159_7lkd3"]
-[ext_resource type="Texture2D" uid="uid://c10h6oxyh2fr2" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m1a_1_2_3_height_concrete_hr_3.png" id="160_vhcdn"]
-[ext_resource type="Texture2D" uid="uid://cxjwrqie8645f" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m2a_1_wall_rx_1.png" id="161_bov7d"]
-[ext_resource type="Texture2D" uid="uid://dcx01h31il74b" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m2a_1_concrete_hr_3.png" id="162_ep5o8"]
-[ext_resource type="Texture2D" uid="uid://dup50xwqkvx1l" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m2a_1_1_3_height_wall_rx_1.png" id="163_gph6m"]
-[ext_resource type="Texture2D" uid="uid://biwbllc3aqnkf" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m2a_1_1_3_height_concrete_hr_3.png" id="164_v2v58"]
-[ext_resource type="Texture2D" uid="uid://cjj0eg612h7r0" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m2a_1_2_3_height_wall_rx_1.png" id="165_e827o"]
-[ext_resource type="Texture2D" uid="uid://cqpdm6156ab5q" path="res://Assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m2a_1_2_3_height_concrete_hr_3.png" id="166_1gdk5"]
-[ext_resource type="Texture2D" uid="uid://cxotsgqpwk360" path="res://Assets/glb/psx_bunker/floor_1_concrete_1.png" id="167_butlx"]
-[ext_resource type="Texture2D" uid="uid://dy84atdh8awr6" path="res://Assets/glb/psx_mega_pack1/Modular Structures/floor_ceiling_2_tiles_floor_1.png" id="168_hhx2f"]
-[ext_resource type="Texture2D" uid="uid://0xwe2lf4jqc6" path="res://Assets/glb/psx_mega_pack1/Modular Structures/floor_ceiling_2_concrete_1.jpg" id="169_t1r42"]
-[ext_resource type="Texture2D" uid="uid://ll110iek3qui" path="res://Assets/glb/psx_mega_pack1/Modular Structures/floor_ceiling_3_floor_2.png" id="170_xrf88"]
-[ext_resource type="Texture2D" uid="uid://widn6o6cej2k" path="res://Assets/glb/psx_mega_pack1/Modular Structures/floor_ceiling_3_concrete_1.jpg" id="171_8d5wh"]
-[ext_resource type="Texture2D" uid="uid://bl674li1ofw2" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_1_concrete_hr_3.png" id="172_erabq"]
-[ext_resource type="Texture2D" uid="uid://bdbwtocqhmlnr" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_2_hole_concrete_hr_3.png" id="173_siccp"]
-[ext_resource type="Texture2D" uid="uid://ddocjq40576l0" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_2_hole_rebar_hr_1.png" id="174_2pxq5"]
-[ext_resource type="Texture2D" uid="uid://bkec2x3xvoygk" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_3_concrete_hr_1.png" id="175_yiwir"]
-[ext_resource type="Texture2D" uid="uid://bp6mggiha15os" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_3_wall_hr_2.png" id="176_oqa06"]
-[ext_resource type="Texture2D" uid="uid://bxw8db4dk4ctw" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_4_concrete_hr_1.png" id="177_rrenm"]
-[ext_resource type="Texture2D" uid="uid://664bh35qvnu1" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_4_wall_hr_2.png" id="178_01xkd"]
-[ext_resource type="Texture2D" uid="uid://x3sq4fsadp7y" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_4_tiles_floor_hr_2.png" id="179_mvh7a"]
-[ext_resource type="Texture2D" uid="uid://b0hp63w5u3avy" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_5_concrete_hr_1.png" id="180_f0urw"]
-[ext_resource type="Texture2D" uid="uid://g7jd3ifaeh2b" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_5_m1a_1_concrete_hr_1.png" id="181_2lk1w"]
-[ext_resource type="Texture2D" uid="uid://c2pkkclyfelek" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_5_m2a_1_concrete_hr_1.png" id="182_cvcyg"]
-[ext_resource type="Texture2D" uid="uid://dsvtf7v5ae0vh" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_6_wall_rg_1.png" id="183_7i7rb"]
-[ext_resource type="Texture2D" uid="uid://d1ta16id1xqkp" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_6_concrete_hr_1.png" id="184_t6b63"]
-[ext_resource type="Texture2D" uid="uid://cfbiaey3mwxcx" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hs_1_slope_concrete_hr_3.png" id="185_jxjga"]
-[ext_resource type="Texture2D" uid="uid://chy6ctljt7ee2" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hs_2_slope_concrete_hr_1.png" id="186_bcxrs"]
-[ext_resource type="Texture2D" uid="uid://bpxectj4be4v4" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hs_3_slope_tiles_floor_hr_2.png" id="187_svpyj"]
-[ext_resource type="Texture2D" uid="uid://vnkrkodhyhry" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hs_4_slope_asphalt_hr_1.png" id="188_vbnyf"]
-[ext_resource type="Texture2D" uid="uid://cm54pxclt0u8t" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hy_1_panel_hs_1.png" id="189_tatn2"]
-[ext_resource type="Texture2D" uid="uid://duy3dvuibcuxy" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hy_1_concrete_hr_1.png" id="190_tgibc"]
-[ext_resource type="Texture2D" uid="uid://33etpmjb1y85" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hy_1_wall_hr_2.png" id="191_5j0mh"]
-[ext_resource type="Texture2D" uid="uid://b1dmla58m0tdo" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_1_concrete_floor_hr_1.png" id="192_4nqfj"]
-[ext_resource type="Texture2D" uid="uid://cbeiirjhj3xpm" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_1_concrete_hr_3.png" id="193_b6leq"]
-[ext_resource type="Texture2D" uid="uid://b33b65cylifup" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_1_metal_hr_2.png" id="194_vgngl"]
-[ext_resource type="Texture2D" uid="uid://k6dox1jxfwui" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_1_corner_concrete_floor_hr_1.png" id="195_vq7ht"]
-[ext_resource type="Texture2D" uid="uid://0hi86tafuxfs" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_1_corner_concrete_hr_3.png" id="196_ee38a"]
-[ext_resource type="Texture2D" uid="uid://dvr2pdwj6bjbw" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_1_corner_metal_hr_2.png" id="197_pn44f"]
-[ext_resource type="Texture2D" uid="uid://doofaoip8grq" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_2_concrete_floor_hr_1.png" id="198_04vpw"]
-[ext_resource type="Texture2D" uid="uid://ck3oc5vrqvip1" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_2_concrete_hr_3.png" id="199_ww2b5"]
-[ext_resource type="Texture2D" uid="uid://b30jkvtjknhc7" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_2_metal_hr_2.png" id="200_qa3i4"]
-[ext_resource type="Texture2D" uid="uid://df0505q84kndr" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_2_grate_hm_1.png" id="201_1vxoe"]
-[ext_resource type="Texture2D" uid="uid://cs6ftq0ctol5e" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_3_concrete_floor_hr_1.png" id="202_6osiu"]
-[ext_resource type="Texture2D" uid="uid://w3wa44mjmxwq" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_3_concrete_hr_3.png" id="203_ri8vi"]
-[ext_resource type="Texture2D" uid="uid://bqme7ds1oioo1" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_3_metal_hr_2.png" id="204_doh1r"]
-[ext_resource type="Texture2D" uid="uid://bunqi8cguwh07" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rx_1_tile_floor_mx_3.png" id="205_467bl"]
-[ext_resource type="Texture2D" uid="uid://dsfwmynvoqj8r" path="res://Assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rx_1_concrete_hr_1.png" id="206_8epy0"]
+[ext_resource type="Texture2D" uid="uid://dgigmt0ofa5g" path="res://assets/glb/psx_bunker/bars_metal_3_metal_6.png" id="1_vxmok"]
+[ext_resource type="Texture2D" uid="uid://4bkhre5qvqfj" path="res://assets/glb/psx_bunker/wall_1_plain_concrete_wall_bnk_1.png" id="2_baipi"]
+[ext_resource type="Texture2D" uid="uid://bog2g7mba51up" path="res://assets/glb/psx_bunker/wall_1_round_concrete_wall_bnk_1.png" id="3_rkdkp"]
+[ext_resource type="Texture2D" uid="uid://c5swld8uyegob" path="res://assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_1_wall_3.png" id="4_clmt6"]
+[ext_resource type="Texture2D" uid="uid://qe2af30c82g2" path="res://assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_1_door_frame_wood_1.png" id="5_1k5f3"]
+[ext_resource type="Texture2D" uid="uid://d15h2shy2mxmq" path="res://assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_1_plain_wall_mp_1.png" id="6_edm2m"]
+[ext_resource type="Texture2D" uid="uid://c1jat07whj8c2" path="res://assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_2_1_wall_6.png" id="7_8ojnr"]
+[ext_resource type="Texture2D" uid="uid://c16kqayp0ftjo" path="res://assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_2_1_door_frame_wood_1.png" id="8_420d4"]
+[ext_resource type="Texture2D" uid="uid://ctagqfe3rmo55" path="res://assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_2_2_wall_6.png" id="9_jb7mm"]
+[ext_resource type="Texture2D" uid="uid://o0cnub4lcrau" path="res://assets/glb/psx_mega_pack1/Modular Structures/arc_1_wall_2_2_wood_painted_white_mp_1.png" id="10_nk5ux"]
+[ext_resource type="Texture2D" uid="uid://duur7xk0k4e1n" path="res://assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_1_wall_3.png" id="11_xp4t1"]
+[ext_resource type="Texture2D" uid="uid://cnoismp7ctuvn" path="res://assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_1_door_frame_wood_1.png" id="12_wrvou"]
+[ext_resource type="Texture2D" uid="uid://c0bonoif8ji3t" path="res://assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_1_plain_wall_mp_1.png" id="13_je0n3"]
+[ext_resource type="Texture2D" uid="uid://cti7qgij5xyxx" path="res://assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_2_1_wall_6.png" id="14_nsjt7"]
+[ext_resource type="Texture2D" uid="uid://baekp1wlcxn7h" path="res://assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_2_1_door_frame_wood_1.png" id="15_ffivy"]
+[ext_resource type="Texture2D" uid="uid://comerfdydpkc7" path="res://assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_2_2_wall_6.png" id="16_0c3ns"]
+[ext_resource type="Texture2D" uid="uid://dol668oldedrv" path="res://assets/glb/psx_mega_pack1/Modular Structures/arc_2_wall_2_2_wood_painted_white_mp_1.png" id="17_v8ala"]
+[ext_resource type="Texture2D" uid="uid://bbrt5vtrp3u1i" path="res://assets/glb/psx_mega_pack1/Modular Structures/bars_metal_1_metal_mp_6.png" id="18_21v42"]
+[ext_resource type="Texture2D" uid="uid://dyfceoby0k6ob" path="res://assets/glb/psx_mega_pack1/Modular Structures/bars_metal_2_metal_mp_6.png" id="19_2jq1n"]
+[ext_resource type="Texture2D" uid="uid://b0ij23c5sjytd" path="res://assets/glb/psx_mega_pack1/Modular Structures/beam_1_concrete_1.jpg" id="20_vr540"]
+[ext_resource type="Texture2D" uid="uid://b8ebfhgepn17r" path="res://assets/glb/psx_mega_pack1/Modular Structures/beam_4_metal_mp_6.png" id="21_tfo6r"]
+[ext_resource type="Texture2D" uid="uid://cwhbbn1sqef7k" path="res://assets/glb/psx_mega_pack1/Modular Structures/beam_2_concrete_1.jpg" id="22_06qpa"]
+[ext_resource type="Texture2D" uid="uid://caqumb2fxpjgh" path="res://assets/glb/psx_mega_pack1/Modular Structures/half_arc_pillar_1_wall_1_plain_wall_mp_1.png" id="23_1e164"]
+[ext_resource type="Texture2D" uid="uid://b4nu3jiqanoys" path="res://assets/glb/psx_mega_pack1/Modular Structures/half_arc_pillar_2_tall_wall_1_plain_wall_mp_1.png" id="24_iumqb"]
+[ext_resource type="Texture2D" uid="uid://ci38byd3ndjme" path="res://assets/glb/psx_mega_pack1/Modular Structures/half_arc_pillar_2_wall_1_plain_wall_mp_1.png" id="25_r1ok8"]
+[ext_resource type="Texture2D" uid="uid://dkuodqcemi5nk" path="res://assets/glb/psx_mega_pack1/Modular Structures/pillar_1_wall_3.png" id="26_bu4jd"]
+[ext_resource type="Texture2D" uid="uid://mqxgu0cuhc26" path="res://assets/glb/psx_mega_pack1/Modular Structures/pillar_1_door_frame_wood_1.png" id="27_0ajiw"]
+[ext_resource type="Texture2D" uid="uid://mrjqn0f7pgq5" path="res://assets/glb/psx_mega_pack1/Modular Structures/pillar_1_plain_1_wall_mp_1.png" id="28_bpoay"]
+[ext_resource type="Texture2D" uid="uid://bx378w10mybk6" path="res://assets/glb/psx_mega_pack1/Modular Structures/pillar_1_plain_2_wall_mp_1.png" id="29_tccii"]
+[ext_resource type="Texture2D" uid="uid://b0vtdjogvwaqp" path="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_wall_3.png" id="30_4gja0"]
+[ext_resource type="Texture2D" uid="uid://ddyexsuvrnw32" path="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_door_frame_wood_1.png" id="31_qucfk"]
+[ext_resource type="Texture2D" uid="uid://bg21dgp0flx41" path="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_1_half_wall_6.png" id="32_pn8kh"]
+[ext_resource type="Texture2D" uid="uid://dxnu5a8f2021d" path="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_1_half_door_frame_wood_1.png" id="33_uh1h5"]
+[ext_resource type="Texture2D" uid="uid://bx4h0ttdmvux2" path="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_1_rounded_corner_1_wall_6.png" id="34_uv12k"]
+[ext_resource type="Texture2D" uid="uid://gxjwhk8neme" path="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_1_rounded_corner_1_door_frame_wood_1.png" id="35_vlrdl"]
+[ext_resource type="Texture2D" uid="uid://c4qptfaw5lmmk" path="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_2_rounded_corner_1_wall_6.png" id="36_vyvp6"]
+[ext_resource type="Texture2D" uid="uid://cyfmksgj6alk1" path="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_2_rounded_corner_1_wood_painted_white_mp_1.png" id="37_kvxm4"]
+[ext_resource type="Texture2D" uid="uid://dpp3ihgjk06o6" path="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_wall_mp_1.png" id="38_sdqr4"]
+[ext_resource type="Texture2D" uid="uid://bhp0axhobj2pd" path="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_metal_mp_6.png" id="39_micev"]
+[ext_resource type="Texture2D" uid="uid://bdg1dn8sig032" path="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_1_wall_mp_1.png" id="40_dunks"]
+[ext_resource type="Texture2D" uid="uid://c4gkykb5ys7mn" path="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_1_metal_mp_6.png" id="41_48ful"]
+[ext_resource type="Texture2D" uid="uid://d3cwty2x5mwdf" path="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_2_wall_mp_1.png" id="42_sodtk"]
+[ext_resource type="Texture2D" uid="uid://bkax1xlgnwmro" path="res://assets/glb/psx_mega_pack1/Modular Structures/wall_1_tunnel_hole_2_metal_mp_6.png" id="43_p1w4m"]
+[ext_resource type="Texture2D" uid="uid://dnrf7e2voqjq1" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_wall_hr_2.png" id="44_kjtam"]
+[ext_resource type="Texture2D" uid="uid://ctgml14iym4ko" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_concrete_hr_3.png" id="45_qi0uv"]
+[ext_resource type="Texture2D" uid="uid://bkp7y1kg4li2y" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_double_wall_hr_1.png" id="46_j5a4d"]
+[ext_resource type="Texture2D" uid="uid://cf0046osap6ic" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_double_concrete_hr_3.png" id="47_gbjde"]
+[ext_resource type="Texture2D" uid="uid://8sbsfmi4yevt" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_hole_1_wall_hr_1.png" id="48_8f8bu"]
+[ext_resource type="Texture2D" uid="uid://bikf35ek1x3m2" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_hole_1_concrete_hr_1.png" id="49_h40qs"]
+[ext_resource type="Texture2D" uid="uid://crhw40o5xq48m" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_hole_1_metal_hr_2.png" id="50_1i78a"]
+[ext_resource type="Texture2D" uid="uid://bqwowjfwlk78t" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_hole_1_concrete_hr_3.png" id="51_dyjcj"]
+[ext_resource type="Texture2D" uid="uid://tlayckq6joa" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_hole_2_wall_hr_1.png" id="52_dqopd"]
+[ext_resource type="Texture2D" uid="uid://6ep2xp1453lu" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_hole_2_concrete_hr_1.png" id="53_sxhqv"]
+[ext_resource type="Texture2D" uid="uid://uowkbrvd3dgv" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_hole_2_concrete_hr_3.png" id="54_6rk7n"]
+[ext_resource type="Texture2D" uid="uid://cq0yi7kirep4i" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m1a_1_wall_hr_2.png" id="55_04fi2"]
+[ext_resource type="Texture2D" uid="uid://dhollja7lim8p" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m1a_1_concrete_hr_3.png" id="56_sqal8"]
+[ext_resource type="Texture2D" uid="uid://bbars030a42bf" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m1a_2_wall_hr_1.png" id="57_2mfnb"]
+[ext_resource type="Texture2D" uid="uid://68qanmu87gop" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m1a_2_concrete_hr_3.png" id="58_efne3"]
+[ext_resource type="Texture2D" uid="uid://csjt3qei7jv5r" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m2a_1_wall_hr_2.png" id="59_ubb8c"]
+[ext_resource type="Texture2D" uid="uid://dtn5ghg3thusp" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m2a_1_concrete_hr_3.png" id="60_jx4oh"]
+[ext_resource type="Texture2D" uid="uid://bkiw68sxwuv1s" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m2a_2_wall_hr_1.png" id="61_ofnad"]
+[ext_resource type="Texture2D" uid="uid://dv82brdyvfd8s" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m2a_2_concrete_hr_3.png" id="62_1jnee"]
+[ext_resource type="Texture2D" uid="uid://dm4ecy4ct4ts2" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m_2_wall_hr_1.png" id="63_d81v5"]
+[ext_resource type="Texture2D" uid="uid://dvymyn28abd2j" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m_2_window_mx_1.png" id="64_bq6t0"]
+[ext_resource type="Texture2D" uid="uid://cbiggrffy8c6v" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m_2_concrete_hr_3.png" id="65_2watk"]
+[ext_resource type="Texture2D" uid="uid://cw0fcr15tf8kp" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m_2_metal_hr_2.png" id="66_norbc"]
+[ext_resource type="Texture2D" uid="uid://ch35bdjkqjtd7" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_m_2_planks_hr_4.png" id="67_gsqgk"]
+[ext_resource type="Texture2D" uid="uid://dh01vbjsiikr" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_t_1_wall_hr_2.png" id="68_uaup5"]
+[ext_resource type="Texture2D" uid="uid://dksvwys57gghy" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_t_2_wall_hr_1.png" id="69_ufl8n"]
+[ext_resource type="Texture2D" uid="uid://dlsle1m8syjgn" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_1_t_2_concrete_hr_3.png" id="70_3nxty"]
+[ext_resource type="Texture2D" uid="uid://bt33djrwrkcsi" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_2_wall_hr_1.png" id="71_ogbdw"]
+[ext_resource type="Texture2D" uid="uid://oqpslq2xmnr1" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_2_concrete_hr_3.png" id="72_qlk2a"]
+[ext_resource type="Texture2D" uid="uid://bipn1f1cajj5c" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_15_wall_hr_1.png" id="73_1kdtv"]
+[ext_resource type="Texture2D" uid="uid://baf78g835snp2" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_15_wall_rx_1.png" id="74_v5w35"]
+[ext_resource type="Texture2D" uid="uid://hfpl2t2a1ud8" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_15_double_wall_hr_1.png" id="75_i4rjm"]
+[ext_resource type="Texture2D" uid="uid://cax2tr48cpisk" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hr_15_double_wall_rx_1.png" id="76_lrbvf"]
+[ext_resource type="Texture2D" uid="uid://o0jgjjoeacax" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_wall_hs_1.png" id="77_nyvli"]
+[ext_resource type="Texture2D" uid="uid://bruxu3cdsvfe0" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_concrete_hr_3.png" id="78_5fdul"]
+[ext_resource type="Texture2D" uid="uid://c6btylfdcor3o" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_double_wall_hs_1.png" id="79_hgl5w"]
+[ext_resource type="Texture2D" uid="uid://nghojtcmpe65" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_double_concrete_hr_3.png" id="80_p30ln"]
+[ext_resource type="Texture2D" uid="uid://lrcndiebjg7h" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_hole_1_wall_hs_1.png" id="81_gua7f"]
+[ext_resource type="Texture2D" uid="uid://8xovysn7rqmw" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_hole_1_concrete_hr_4.png" id="82_oqtp5"]
+[ext_resource type="Texture2D" uid="uid://bc7g4ou31854g" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_hole_1_metal_hr_2.png" id="83_nxw03"]
+[ext_resource type="Texture2D" uid="uid://cfpaen0uos68k" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_hole_1_concrete_hr_3.png" id="84_xyjwr"]
+[ext_resource type="Texture2D" uid="uid://3mqs3g8536dt" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_hole_2_wall_hs_1.png" id="85_2k5xw"]
+[ext_resource type="Texture2D" uid="uid://d2lglektulir8" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_hole_2_concrete_hr_4.png" id="86_fsjn6"]
+[ext_resource type="Texture2D" uid="uid://baeawr8qrql1o" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_hole_2_concrete_hr_3.png" id="87_6et0n"]
+[ext_resource type="Texture2D" uid="uid://ly686wudrmdl" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m1a_1_wall_hs_1.png" id="88_yvorp"]
+[ext_resource type="Texture2D" uid="uid://d2sjk6ye3u2y3" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m1a_1_concrete_hr_3.png" id="89_ygkc6"]
+[ext_resource type="Texture2D" uid="uid://dvulguxeuca3w" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m2a_1_wall_hs_1.png" id="90_3md1v"]
+[ext_resource type="Texture2D" uid="uid://6wmhlnpks06s" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m2a_1_concrete_hr_3.png" id="91_qbvxf"]
+[ext_resource type="Texture2D" uid="uid://d1m1hhn232rf4" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m_2_wall_hs_1.png" id="92_tnahf"]
+[ext_resource type="Texture2D" uid="uid://c5sfk2n10q8ay" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m_2_window_mx_1.png" id="93_oo6di"]
+[ext_resource type="Texture2D" uid="uid://5hj7hyyig4fs" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m_2_concrete_hr_3.png" id="94_q34m0"]
+[ext_resource type="Texture2D" uid="uid://bfwe7mf7nxdh3" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m_2_metal_hr_2.png" id="95_dxwqa"]
+[ext_resource type="Texture2D" uid="uid://dxopjac6o5brl" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_m_2_planks_hr_4.png" id="96_7lesc"]
+[ext_resource type="Texture2D" uid="uid://bi1kk61is6jbx" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_t_1_wall_hs_1.png" id="97_ig34n"]
+[ext_resource type="Texture2D" uid="uid://dkcd7h5i6cjtx" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_t_2_wall_hs_1.png" id="98_obwck"]
+[ext_resource type="Texture2D" uid="uid://dqoq2s224nitd" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_1_t_2_concrete_hr_3.png" id="99_btrig"]
+[ext_resource type="Texture2D" uid="uid://c5nui2lfr75is" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_15_wall_hs_1.png" id="100_wfn5s"]
+[ext_resource type="Texture2D" uid="uid://uc530pe7byd" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_15_wall_rx_1.png" id="101_27wv5"]
+[ext_resource type="Texture2D" uid="uid://chx7soth6y1n3" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_15_concrete_hr_3.png" id="102_r775t"]
+[ext_resource type="Texture2D" uid="uid://d4dgnex52gwxm" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_15_double_wall_hs_1.png" id="103_sp04b"]
+[ext_resource type="Texture2D" uid="uid://iim7g65ixqkk" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_15_double_wall_rx_1.png" id="104_8wk24"]
+[ext_resource type="Texture2D" uid="uid://cey5yu2h83j3n" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_hs_15_double_concrete_hr_3.png" id="105_cve8b"]
+[ext_resource type="Texture2D" uid="uid://dkgunt0m0qyqu" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_wall_rg_1.png" id="106_wayn5"]
+[ext_resource type="Texture2D" uid="uid://18wlg067g6nb" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_concrete_hr_3.png" id="107_4uvvh"]
+[ext_resource type="Texture2D" uid="uid://uctfm4ujhdrn" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_angle_wall_rg_1.png" id="108_lf6nc"]
+[ext_resource type="Texture2D" uid="uid://4kersjaf8niw" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_angle_concrete_hr_3.png" id="109_j47lb"]
+[ext_resource type="Texture2D" uid="uid://bl2t4v2vlnoc1" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_double_concrete_hr_3.png" id="111_fom5h"]
+[ext_resource type="Texture2D" uid="uid://tgb3rk33u4ro" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_hole_1_wall_rg_1.png" id="112_ur347"]
+[ext_resource type="Texture2D" uid="uid://csdch2hotj3eh" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_hole_1_concrete_hr_1.png" id="113_4v13b"]
+[ext_resource type="Texture2D" uid="uid://da5qw76sqq0n7" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_hole_1_metal_hr_2.png" id="114_guo1q"]
+[ext_resource type="Texture2D" uid="uid://mstrm7lwexsa" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_hole_1_concrete_hr_3.png" id="115_nu2ln"]
+[ext_resource type="Texture2D" uid="uid://dkipijbn63yqf" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_hole_2_wall_rg_1.png" id="116_yjfs6"]
+[ext_resource type="Texture2D" uid="uid://bf26imaxqfm3n" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_hole_2_concrete_hr_1.png" id="117_wkpo5"]
+[ext_resource type="Texture2D" uid="uid://dltqtruc52g5s" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_hole_2_concrete_hr_3.png" id="118_dr5ir"]
+[ext_resource type="Texture2D" uid="uid://dhi6l7bg4tsyn" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m1a_1_wall_rg_1.png" id="119_6pvfp"]
+[ext_resource type="Texture2D" uid="uid://bl0bay31nqsuk" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m1a_1_concrete_hr_3.png" id="120_io37c"]
+[ext_resource type="Texture2D" uid="uid://c2h4l5a640l7l" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m2a_1_wall_rg_1.png" id="121_wxtot"]
+[ext_resource type="Texture2D" uid="uid://cwmtxbeait2nt" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m2a_1_concrete_hr_3.png" id="122_30fkk"]
+[ext_resource type="Texture2D" uid="uid://w1xryr3to0w4" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m_2_wall_rg_1.png" id="123_jxd7r"]
+[ext_resource type="Texture2D" uid="uid://berw1riynj1et" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m_2_window_mx_1.png" id="124_upk3y"]
+[ext_resource type="Texture2D" uid="uid://bfdn215lmr4tl" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m_2_concrete_hr_3.png" id="125_ku1n3"]
+[ext_resource type="Texture2D" uid="uid://cngcvqermnabk" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m_2_metal_hr_5.png" id="126_sc6hd"]
+[ext_resource type="Texture2D" uid="uid://ct47lcsg65qeg" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_m_2_planks_hr_4.png" id="127_uc3gn"]
+[ext_resource type="Texture2D" uid="uid://bfmd15oyln4oq" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_t_1_wall_rg_1.png" id="128_1kpy7"]
+[ext_resource type="Texture2D" uid="uid://cpvhvu4frw2gq" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_t_2_wall_rg_1.png" id="129_370n1"]
+[ext_resource type="Texture2D" uid="uid://bjexmkbl5ur75" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_t_2_concrete_hr_3.png" id="130_s71j8"]
+[ext_resource type="Texture2D" uid="uid://b1rt2yr8ebx24" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_15_wall_rg_1.png" id="131_x0ylx"]
+[ext_resource type="Texture2D" uid="uid://dq1qjml6pqexq" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_15_wall_rx_1.png" id="132_bohsx"]
+[ext_resource type="Texture2D" uid="uid://bjrirknsl1bbb" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_15_double_wall_rg_1.png" id="133_mj1yc"]
+[ext_resource type="Texture2D" uid="uid://cbxrnpflno6qs" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_15_double_wall_rx_1.png" id="134_3sj46"]
+[ext_resource type="Texture2D" uid="uid://v6jlwekp46l5" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rtx_1_wall_rg_2.png" id="135_erg2c"]
+[ext_resource type="Texture2D" uid="uid://dlsi7rtyr8601" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rtx_1_concrete_hr_3.png" id="136_337ox"]
+[ext_resource type="Texture2D" uid="uid://ca7x5ug1t4y3r" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rtx_2_wall_rg_2.png" id="137_dxqn5"]
+[ext_resource type="Texture2D" uid="uid://b356k0fsra0gd" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rtx_2_concrete_hr_3.png" id="138_gabrc"]
+[ext_resource type="Texture2D" uid="uid://blup4pcd02l0" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rtx_2_grate_hm_1.png" id="139_io6jn"]
+[ext_resource type="Texture2D" uid="uid://b8hw08sbwnuhj" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rtx_2_metal_hr_2.png" id="140_c2g1v"]
+[ext_resource type="Texture2D" uid="uid://ci8kwx852ecmd" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_wall_rx_1.png" id="141_xyvrm"]
+[ext_resource type="Texture2D" uid="uid://c856o0mkpahvn" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_concrete_hr_3.png" id="142_qsskn"]
+[ext_resource type="Texture2D" uid="uid://72q7ev0uxxey" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_3_height_wall_rx_1.png" id="143_o3ja6"]
+[ext_resource type="Texture2D" uid="uid://bpccetw66nyw4" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_3_height_concrete_hr_3.png" id="144_cuw1w"]
+[ext_resource type="Texture2D" uid="uid://dt845jm1huob2" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_3_height_1_2_width_wall_rx_1.png" id="145_kfq0y"]
+[ext_resource type="Texture2D" uid="uid://61tf1pm1dah0" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_3_height_1_2_width_concrete_hr_3.png" id="146_1swic"]
+[ext_resource type="Texture2D" uid="uid://v74ydymb3oit" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_4_width_wall_rx_1.png" id="147_0y8dq"]
+[ext_resource type="Texture2D" uid="uid://26qk7se0l30s" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_4_width_concrete_hr_3.png" id="148_dvrva"]
+[ext_resource type="Texture2D" uid="uid://brhkrat2nno7h" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_4_width_1_3_height_wall_rx_1.png" id="149_fps0r"]
+[ext_resource type="Texture2D" uid="uid://cryi2p8jn2fcs" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_1_4_width_1_3_height_concrete_hr_3.png" id="150_3bqaf"]
+[ext_resource type="Texture2D" uid="uid://ds0n5kh748piy" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_2_3_height_wall_rx_1.png" id="151_veobn"]
+[ext_resource type="Texture2D" uid="uid://cff6omhhv6whq" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_2_3_height_concrete_hr_3.png" id="152_8w4y8"]
+[ext_resource type="Texture2D" uid="uid://dkkbd1ovibs23" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_2_3_height_1_2_width_wall_rx_1.png" id="153_hq0cq"]
+[ext_resource type="Texture2D" uid="uid://k08xppb4r1js" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_2_3_height_1_2_width_concrete_hr_3.png" id="154_os5jp"]
+[ext_resource type="Texture2D" uid="uid://dvj34k5fjcxoo" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m1a_1_wall_rx_1.png" id="155_fr083"]
+[ext_resource type="Texture2D" uid="uid://b4xofq076wwya" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m1a_1_concrete_hr_3.png" id="156_1ldlg"]
+[ext_resource type="Texture2D" uid="uid://ben75qborimtl" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m1a_1_1_3_height_wall_rx_1.png" id="157_ocosc"]
+[ext_resource type="Texture2D" uid="uid://d2sut564drrwb" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m1a_1_1_3_height_concrete_hr_3.png" id="158_dubfk"]
+[ext_resource type="Texture2D" uid="uid://cu67pmxjibr3n" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m1a_1_2_3_height_wall_rx_1.png" id="159_7lkd3"]
+[ext_resource type="Texture2D" uid="uid://c10h6oxyh2fr2" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m1a_1_2_3_height_concrete_hr_3.png" id="160_vhcdn"]
+[ext_resource type="Texture2D" uid="uid://cxjwrqie8645f" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m2a_1_wall_rx_1.png" id="161_bov7d"]
+[ext_resource type="Texture2D" uid="uid://dcx01h31il74b" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m2a_1_concrete_hr_3.png" id="162_ep5o8"]
+[ext_resource type="Texture2D" uid="uid://dup50xwqkvx1l" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m2a_1_1_3_height_wall_rx_1.png" id="163_gph6m"]
+[ext_resource type="Texture2D" uid="uid://biwbllc3aqnkf" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m2a_1_1_3_height_concrete_hr_3.png" id="164_v2v58"]
+[ext_resource type="Texture2D" uid="uid://cjj0eg612h7r0" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m2a_1_2_3_height_wall_rx_1.png" id="165_e827o"]
+[ext_resource type="Texture2D" uid="uid://cqpdm6156ab5q" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rx_1_m2a_1_2_3_height_concrete_hr_3.png" id="166_1gdk5"]
+[ext_resource type="Texture2D" uid="uid://cxotsgqpwk360" path="res://assets/glb/psx_bunker/floor_1_concrete_1.png" id="167_butlx"]
+[ext_resource type="Texture2D" uid="uid://dy84atdh8awr6" path="res://assets/glb/psx_mega_pack1/Modular Structures/floor_ceiling_2_tiles_floor_1.png" id="168_hhx2f"]
+[ext_resource type="Texture2D" uid="uid://0xwe2lf4jqc6" path="res://assets/glb/psx_mega_pack1/Modular Structures/floor_ceiling_2_concrete_1.jpg" id="169_t1r42"]
+[ext_resource type="Texture2D" uid="uid://ll110iek3qui" path="res://assets/glb/psx_mega_pack1/Modular Structures/floor_ceiling_3_floor_2.png" id="170_xrf88"]
+[ext_resource type="Texture2D" uid="uid://cvq1x2ob0iort" path="res://assets/glb/psx_mega_pack1/Modular Structures/floor_ceiling_3_concrete_1.jpg" id="171_8d5wh"]
+[ext_resource type="Texture2D" uid="uid://bl674li1ofw2" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_1_concrete_hr_3.png" id="172_erabq"]
+[ext_resource type="Texture2D" uid="uid://dewjcc5sdcm2h" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_2_hole_concrete_hr_3.png" id="173_siccp"]
+[ext_resource type="Texture2D" uid="uid://ddocjq40576l0" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_2_hole_rebar_hr_1.png" id="174_2pxq5"]
+[ext_resource type="Texture2D" uid="uid://bkec2x3xvoygk" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_3_concrete_hr_1.png" id="175_yiwir"]
+[ext_resource type="Texture2D" uid="uid://bp6mggiha15os" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_3_wall_hr_2.png" id="176_oqa06"]
+[ext_resource type="Texture2D" uid="uid://blr6rlreu6lwn" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_4_concrete_hr_1.png" id="177_rrenm"]
+[ext_resource type="Texture2D" uid="uid://664bh35qvnu1" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_4_wall_hr_2.png" id="178_01xkd"]
+[ext_resource type="Texture2D" uid="uid://bmk1x3xeia685" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_4_tiles_floor_hr_2.png" id="179_mvh7a"]
+[ext_resource type="Texture2D" uid="uid://b0hp63w5u3avy" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_5_concrete_hr_1.png" id="180_f0urw"]
+[ext_resource type="Texture2D" uid="uid://g7jd3ifaeh2b" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_5_m1a_1_concrete_hr_1.png" id="181_2lk1w"]
+[ext_resource type="Texture2D" uid="uid://c2pkkclyfelek" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_5_m2a_1_concrete_hr_1.png" id="182_cvcyg"]
+[ext_resource type="Texture2D" uid="uid://dsvtf7v5ae0vh" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_6_wall_rg_1.png" id="183_7i7rb"]
+[ext_resource type="Texture2D" uid="uid://d1ta16id1xqkp" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hr_6_concrete_hr_1.png" id="184_t6b63"]
+[ext_resource type="Texture2D" uid="uid://ddri66f0fgv80" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hs_1_slope_concrete_hr_3.png" id="185_jxjga"]
+[ext_resource type="Texture2D" uid="uid://chy6ctljt7ee2" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hs_2_slope_concrete_hr_1.png" id="186_bcxrs"]
+[ext_resource type="Texture2D" uid="uid://bpxectj4be4v4" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hs_3_slope_tiles_floor_hr_2.png" id="187_svpyj"]
+[ext_resource type="Texture2D" uid="uid://vnkrkodhyhry" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hs_4_slope_asphalt_hr_1.png" id="188_vbnyf"]
+[ext_resource type="Texture2D" uid="uid://cm54pxclt0u8t" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hy_1_panel_hs_1.png" id="189_tatn2"]
+[ext_resource type="Texture2D" uid="uid://duy3dvuibcuxy" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hy_1_concrete_hr_1.png" id="190_tgibc"]
+[ext_resource type="Texture2D" uid="uid://33etpmjb1y85" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_hy_1_wall_hr_2.png" id="191_5j0mh"]
+[ext_resource type="Texture2D" uid="uid://b1dmla58m0tdo" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_1_concrete_floor_hr_1.png" id="192_4nqfj"]
+[ext_resource type="Texture2D" uid="uid://cbeiirjhj3xpm" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_1_concrete_hr_3.png" id="193_b6leq"]
+[ext_resource type="Texture2D" uid="uid://b33b65cylifup" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_1_metal_hr_2.png" id="194_vgngl"]
+[ext_resource type="Texture2D" uid="uid://k6dox1jxfwui" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_1_corner_concrete_floor_hr_1.png" id="195_vq7ht"]
+[ext_resource type="Texture2D" uid="uid://0hi86tafuxfs" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_1_corner_concrete_hr_3.png" id="196_ee38a"]
+[ext_resource type="Texture2D" uid="uid://wfae6oxg7tle" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_1_corner_metal_hr_2.png" id="197_pn44f"]
+[ext_resource type="Texture2D" uid="uid://doofaoip8grq" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_2_concrete_floor_hr_1.png" id="198_04vpw"]
+[ext_resource type="Texture2D" uid="uid://ck3oc5vrqvip1" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_2_concrete_hr_3.png" id="199_ww2b5"]
+[ext_resource type="Texture2D" uid="uid://b30jkvtjknhc7" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_2_metal_hr_2.png" id="200_qa3i4"]
+[ext_resource type="Texture2D" uid="uid://df0505q84kndr" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_2_grate_hm_1.png" id="201_1vxoe"]
+[ext_resource type="Texture2D" uid="uid://cs6ftq0ctol5e" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_3_concrete_floor_hr_1.png" id="202_6osiu"]
+[ext_resource type="Texture2D" uid="uid://w3wa44mjmxwq" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_3_concrete_hr_3.png" id="203_ri8vi"]
+[ext_resource type="Texture2D" uid="uid://drtqmq1sf3pct" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rtx_3_metal_hr_2.png" id="204_doh1r"]
+[ext_resource type="Texture2D" uid="uid://bunqi8cguwh07" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rx_1_tile_floor_mx_3.png" id="205_467bl"]
+[ext_resource type="Texture2D" uid="uid://dsfwmynvoqj8r" path="res://assets/glb/psx_mega_pack2/Modular Structures/floor_ceiling_rx_1_concrete_hr_1.png" id="206_8epy0"]
+[ext_resource type="Texture2D" uid="uid://dd345pxt2oamg" path="res://assets/glb/psx_mega_pack2/Modular Structures/wall_rg_1_double_wall_rg_1.png" id="207_cufqb"]
+[ext_resource type="Texture2D" uid="uid://dpl0mwd7tj4nv" path="res://assets/glb/psx_mega_pack2/Modular Structures/window_rtx_1_concrete_hr_3.png" id="208_5two5"]
+[ext_resource type="Texture2D" uid="uid://bujfh7buxh0r" path="res://assets/glb/psx_mega_pack2/Modular Structures/window_rtx_1_wall_rg_2.png" id="209_afhd2"]
+[ext_resource type="Texture2D" uid="uid://bj66imgc0j241" path="res://assets/glb/psx_mega_pack2/Modular Structures/window_rtx_1_window_mx_2.png" id="210_040mu"]
+[ext_resource type="Texture2D" uid="uid://cjv5bfsgyigy8" path="res://assets/glb/psx_mega_pack2/Modular Structures/window_rtx_1_metal_hr_5.png" id="211_3eg5e"]
+[ext_resource type="Texture2D" uid="uid://fmxt4obn4sxe" path="res://assets/glb/psx_mega_pack2/Modular Structures/doorway_rtx_1_wide_wall_rg_2.png" id="212_5two5"]
+[ext_resource type="Texture2D" uid="uid://swi3kh1pm1pp" path="res://assets/glb/psx_mega_pack2/Modular Structures/window_rtx_1_planks_hr_4.png" id="212_vj17r"]
+[ext_resource type="Texture2D" uid="uid://dpxgimaepfymc" path="res://assets/glb/psx_mega_pack2/Modular Structures/doorway_rtx_1_wide_concrete_hr_3.png" id="213_afhd2"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_01ytw"]
 resource_name = "metal_6"
@@ -4303,7 +4310,7 @@ data = PackedVector3Array(-2, 0, 0.19999999, 2, 4, 0.19999999, 2, 1, 0.19999999,
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_57qbv"]
 resource_name = "wall_rg_1"
 cull_mode = 2
-albedo_texture = ExtResource("110_7rkqw")
+albedo_texture = ExtResource("207_cufqb")
 texture_filter = 2
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_38mvi"]
@@ -8283,6 +8290,399 @@ shadow_mesh = SubResource("ArrayMesh_clmt6")
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_1e164"]
 data = PackedVector3Array(0.27269998, 0.39999998, -0.77129996, 2, 0.39999998, -2, 0.5807, 0.39999998, -0.6583, 0.5807, 0.39999998, -0.6583, 2, 0.39999998, -2, 0.6629, 0.39999998, -0.24749999, 0.6629, 0.39999998, -0.24749999, 2, 0.39999998, -2, 1.0735999, 0.39999998, 0.3532, 1.0735999, 0.39999998, 0.3532, 2, 0.39999998, -2, 2, 0.39999998, 2, 2, 0.39999998, 2, 0.90419996, 0.39999998, 0.82549995, 1.0735999, 0.39999998, 0.3532, 2, 0.39999998, 2, 0.2162, 0.39999998, 1.0361, 0.90419996, 0.39999998, 0.82549995, 2, 0.39999998, -2, 0.27269998, 0.39999998, -0.77129996, -2, 0.39999998, -2, 2, 0.39999998, 2, -2, 0.39999998, 2, 0.2162, 0.39999998, 1.0361, 0.2162, 0.39999998, 1.0361, -2, 0.39999998, 2, -0.46159998, 0.39999998, 0.82549995, 0.2162, 0.39999998, 1.0361, -0.46159998, 0.39999998, 0.82549995, -0.0354, 0.39999998, 0.7536, -0.46159998, 0.39999998, 0.82549995, -2, 0.39999998, 2, -0.90309995, 0.39999998, 0.43019998, -2, 0.39999998, -2, -0.90309995, 0.39999998, 0.43019998, -2, 0.39999998, 2, -2, 0.39999998, -2, -0.7696, 0.39999998, -0.093499996, -0.90309995, 0.39999998, 0.43019998, 0.27269998, 0.39999998, -0.77129996, -0.009699999, 0.39999998, -0.64809996, -2, 0.39999998, -2, -0.7696, 0.39999998, -0.093499996, -2, 0.39999998, -2, -0.5785, 0.39999998, -0.55009997, -2, 0.39999998, -2, -0.009699999, 0.39999998, -0.64809996, -0.5785, 0.39999998, -0.55009997, -0.5785, 0.39999998, -0.55009997, -0.009699999, 0.39999998, -0.64809996, -0.3229, 0.39999998, -0.5351, -0.7696, 0, -0.093499996, -0.5785, 0, -0.55009997, -2, 0, -2, -0.90309995, 0, 0.43019998, -0.7696, 0, -0.093499996, -2, 0, -2, -0.5785, 0, -0.55009997, -0.009699999, 0, -0.64809996, -2, 0, -2, -0.009699999, 0, -0.64809996, -0.5785, 0, -0.55009997, -0.3229, 0, -0.5351, 0.27269998, 0, -0.77129996, -2, 0, -2, -0.009699999, 0, -0.64809996, -0.90309995, 0, 0.43019998, -2, 0, -2, -2, 0, 1.9999, -2, 0, -2, 0.27269998, 0, -0.77129996, 2, 0, -2, -2, 0, 1.9999, -0.46159998, 0, 0.82549995, -0.90309995, 0, 0.43019998, 2, 0, -2, 0.27269998, 0, -0.77129996, 0.5807, 0, -0.6583, 0.6629, 0, -0.24749999, 2, 0, -2, 0.5807, 0, -0.6583, 1.0735999, 0, 0.3532, 2, 0, -2, 0.6629, 0, -0.24749999, 2, 0, -2, 1.0735999, 0, 0.3532, 2, 0, 1.9999, 0.90419996, 0, 0.82549995, 2, 0, 1.9999, 1.0735999, 0, 0.3532, 0.2162, 0, 1.0361, 2, 0, 1.9999, 0.90419996, 0, 0.82549995, 2, 0, 1.9999, 0.2162, 0, 1.0361, -2, 0, 1.9999, -2, 0, 1.9999, 0.2162, 0, 1.0361, -0.46159998, 0, 0.82549995, -0.46159998, 0, 0.82549995, 0.2162, 0, 1.0361, -0.0354, 0, 0.7536, 0.90419996, 0.39999998, 0.82549995, 1.0735999, 0, 0.3532, 1.0735999, 0.39999998, 0.3532, 0.90419996, 0.39999998, 0.82549995, 0.90419996, 0, 0.82549995, 1.0735999, 0, 0.3532, 0.5807, 0.39999998, -0.6583, 0.27269998, 0, -0.77129996, 0.27269998, 0.39999998, -0.77129996, 0.5807, 0.39999998, -0.6583, 0.5807, 0, -0.6583, 0.27269998, 0, -0.77129996, -0.3229, 0.39999998, -0.5351, -0.5785, 0, -0.55009997, -0.5785, 0.39999998, -0.55009997, -0.3229, 0.39999998, -0.5351, -0.3229, 0, -0.5351, -0.5785, 0, -0.55009997, -0.009699999, 0.39999998, -0.64809996, -0.3229, 0, -0.5351, -0.3229, 0.39999998, -0.5351, -0.009699999, 0.39999998, -0.64809996, -0.009699999, 0, -0.64809996, -0.3229, 0, -0.5351, -2, 0.39999998, 2, -2, 0, -2, -2, 0.39999998, -2, -2, 0.39999998, 2, -2, 0, 1.9999, -2, 0, -2, 0.27269998, 0.39999998, -0.77129996, -0.009699999, 0, -0.64809996, -0.009699999, 0.39999998, -0.64809996, 0.27269998, 0.39999998, -0.77129996, 0.27269998, 0, -0.77129996, -0.009699999, 0, -0.64809996, -2, 0.39999998, -2, 2, 0, -2, 2, 0.39999998, -2, -2, 0.39999998, -2, -2, 0, -2, 2, 0, -2, 0.6629, 0.39999998, -0.24749999, 0.5807, 0, -0.6583, 0.5807, 0.39999998, -0.6583, 0.6629, 0.39999998, -0.24749999, 0.6629, 0, -0.24749999, 0.5807, 0, -0.6583, -0.0354, 0.39999998, 0.7536, 0.2162, 0, 1.0361, 0.2162, 0.39999998, 1.0361, -0.0354, 0.39999998, 0.7536, -0.0354, 0, 0.7536, 0.2162, 0, 1.0361, 1.0735999, 0.39999998, 0.3532, 0.6629, 0, -0.24749999, 0.6629, 0.39999998, -0.24749999, 1.0735999, 0.39999998, 0.3532, 1.0735999, 0, 0.3532, 0.6629, 0, -0.24749999, 2, 0.39999998, -2, 2, 0, 1.9999, 2, 0.39999998, 2, 2, 0.39999998, -2, 2, 0, -2, 2, 0, 1.9999, 2, 0.39999998, 2, -2, 0, 1.9999, -2, 0.39999998, 2, 2, 0.39999998, 2, 2, 0, 1.9999, -2, 0, 1.9999, -0.5785, 0.39999998, -0.55009997, -0.7696, 0, -0.093499996, -0.7696, 0.39999998, -0.093499996, -0.5785, 0.39999998, -0.55009997, -0.5785, 0, -0.55009997, -0.7696, 0, -0.093499996, -0.46159998, 0, 0.82549995, -0.0354, 0.39999998, 0.7536, -0.46159998, 0.39999998, 0.82549995, -0.46159998, 0, 0.82549995, -0.0354, 0, 0.7536, -0.0354, 0.39999998, 0.7536, 0.2162, 0.39999998, 1.0361, 0.90419996, 0, 0.82549995, 0.90419996, 0.39999998, 0.82549995, 0.2162, 0.39999998, 1.0361, 0.2162, 0, 1.0361, 0.90419996, 0, 0.82549995, -0.7696, 0, -0.093499996, -0.90309995, 0.39999998, 0.43019998, -0.7696, 0.39999998, -0.093499996, -0.7696, 0, -0.093499996, -0.90309995, 0, 0.43019998, -0.90309995, 0.39999998, 0.43019998, -0.90309995, 0.39999998, 0.43019998, -0.46159998, 0, 0.82549995, -0.46159998, 0.39999998, 0.82549995, -0.90309995, 0.39999998, 0.43019998, -0.90309995, 0, 0.43019998, -0.46159998, 0, 0.82549995, 0.724, 0.15699999, 0.4682, 0.7396, 0.122099996, 0.43559998, 0.73109996, 0.14999999, 0.4434, 0.724, 0.15699999, 0.4682, 0.7238, 0.1371, 0.4921, 0.7396, 0.122099996, 0.43559998, 0.87829995, 0.1319, 0.5097, 0.76669997, 0.1047, 0.459, 0.76229995, 0.1104, 0.4881, 0.87829995, 0.1319, 0.5097, 0.88119996, 0.1261, 0.4804, 0.76669997, 0.1047, 0.459, 0.8821, 0.1775, 0.47129998, 0.7396, 0.122099996, 0.43559998, 0.88299996, 0.1487, 0.4623, 0.8821, 0.1775, 0.47129998, 0.73109996, 0.14999999, 0.4434, 0.7396, 0.122099996, 0.43559998, 0.87829995, 0.1319, 0.5097, 0.7238, 0.1371, 0.4921, 0.8772, 0.16489999, 0.5204, 0.87829995, 0.1319, 0.5097, 0.76229995, 0.1104, 0.4881, 0.7238, 0.1371, 0.4921, 0.8772, 0.16489999, 0.5204, 1.0288, 0.18509999, 0.51159996, 1.0265, 0.16489999, 0.5352, 0.8772, 0.16489999, 0.5204, 0.8796, 0.18509999, 0.49679998, 1.0288, 0.18509999, 0.51159996, 0.88299996, 0.1487, 0.4623, 0.76669997, 0.1047, 0.459, 0.88119996, 0.1261, 0.4804, 0.88299996, 0.1487, 0.4623, 0.7396, 0.122099996, 0.43559998, 0.76669997, 0.1047, 0.459, 0.8796, 0.18509999, 0.49679998, 0.73109996, 0.14999999, 0.4434, 0.8821, 0.1775, 0.47129998, 0.8796, 0.18509999, 0.49679998, 0.724, 0.15699999, 0.4682, 0.73109996, 0.14999999, 0.4434, 1.0288, 0.18509999, 0.51159996, 0.8821, 0.1775, 0.47129998, 1.0314, 0.1775, 0.48619998, 1.0288, 0.18509999, 0.51159996, 0.8796, 0.18509999, 0.49679998, 0.8821, 0.1775, 0.47129998, 1.0323, 0.1486, 0.4772, 0.88119996, 0.1261, 0.4804, 1.0303999, 0.1261, 0.49519998, 1.0323, 0.1486, 0.4772, 0.88299996, 0.1487, 0.4623, 0.88119996, 0.1261, 0.4804, 0.7238, 0.1371, 0.4921, 0.8796, 0.18509999, 0.49679998, 0.8772, 0.16489999, 0.5204, 0.7238, 0.1371, 0.4921, 0.724, 0.15699999, 0.4682, 0.8796, 0.18509999, 0.49679998, 1.0275999, 0.1318, 0.5245, 0.8772, 0.16489999, 0.5204, 1.0265, 0.16489999, 0.5352, 1.0275999, 0.1318, 0.5245, 0.87829995, 0.1319, 0.5097, 0.8772, 0.16489999, 0.5204, 1.0314, 0.1775, 0.48619998, 0.88299996, 0.1487, 0.4623, 1.0323, 0.1486, 0.4772, 1.0314, 0.1775, 0.48619998, 0.8821, 0.1775, 0.47129998, 0.88299996, 0.1487, 0.4623, 1.0275999, 0.1318, 0.5245, 0.88119996, 0.1261, 0.4804, 0.87829995, 0.1319, 0.5097, 1.0275999, 0.1318, 0.5245, 1.0303999, 0.1261, 0.49519998, 0.88119996, 0.1261, 0.4804, 0.7238, 0.1371, 0.4921, 0.76669997, 0.1047, 0.459, 0.7396, 0.122099996, 0.43559998, 0.7238, 0.1371, 0.4921, 0.76229995, 0.1104, 0.4881, 0.76669997, 0.1047, 0.459, -0.2155, 0.1295, 0.75, -0.24139999, 0.1223, 0.65459996, -0.2364, 0.151, 0.75, -0.2155, 0.1295, 0.75, -0.2189, 0.110599995, 0.689, -0.24139999, 0.1223, 0.65459996, -0.2364, 0.151, 0.79999995, -0.2155, 0.1295, 0.75, -0.2364, 0.151, 0.75, -0.2364, 0.151, 0.79999995, -0.2155, 0.1295, 0.79999995, -0.2155, 0.1295, 0.75, -0.1786, 0.1664, 0.79999995, -0.18769999, 0.1375, 0.75, -0.18769999, 0.1375, 0.79999995, -0.1786, 0.1664, 0.79999995, -0.1786, 0.1664, 0.75, -0.18769999, 0.1375, 0.75, -0.2364, 0.151, 0.79999995, -0.2262, 0.18429999, 0.75, -0.2262, 0.18429999, 0.79999995, -0.2364, 0.151, 0.79999995, -0.2364, 0.151, 0.75, -0.2262, 0.18429999, 0.75, -0.2262, 0.18429999, 0.75, -0.1952, 0.1873, 0.79999995, -0.2262, 0.18429999, 0.79999995, -0.2262, 0.18429999, 0.75, -0.1952, 0.1873, 0.75, -0.1952, 0.1873, 0.79999995, -0.18769999, 0.1375, 0.79999995, -0.2155, 0.1295, 0.75, -0.2155, 0.1295, 0.79999995, -0.18769999, 0.1375, 0.79999995, -0.18769999, 0.1375, 0.75, -0.2155, 0.1295, 0.75, -0.1952, 0.1873, 0.79999995, -0.1786, 0.1664, 0.75, -0.1786, 0.1664, 0.79999995, -0.1952, 0.1873, 0.79999995, -0.1952, 0.1873, 0.75, -0.1786, 0.1664, 0.75, -0.1823, 0.1454, 0.6778, -0.2189, 0.110599995, 0.689, -0.1902, 0.1235, 0.7037, -0.1952, 0.1873, 0.75, -0.1823, 0.1454, 0.6778, -0.1786, 0.1664, 0.75, -0.1952, 0.1873, 0.75, -0.2007, 0.156, 0.63989997, -0.1823, 0.1454, 0.6778, -0.2262, 0.18429999, 0.75, -0.2007, 0.156, 0.63989997, -0.1952, 0.1873, 0.75, -0.2262, 0.18429999, 0.75, -0.2316, 0.15349999, 0.64269996, -0.2007, 0.156, 0.63989997, -0.2364, 0.151, 0.75, -0.2316, 0.15349999, 0.64269996, -0.2262, 0.18429999, 0.75, -0.2364, 0.151, 0.75, -0.24139999, 0.1223, 0.65459996, -0.2316, 0.15349999, 0.64269996, -0.18769999, 0.1375, 0.75, -0.2189, 0.110599995, 0.689, -0.2155, 0.1295, 0.75, -0.18769999, 0.1375, 0.75, -0.1902, 0.1235, 0.7037, -0.2189, 0.110599995, 0.689, -0.1902, 0.1235, 0.7037, -0.1786, 0.1664, 0.75, -0.1823, 0.1454, 0.6778, -0.1902, 0.1235, 0.7037, -0.18769999, 0.1375, 0.75, -0.1786, 0.1664, 0.75, -0.2316, 0.15349999, 0.64269996, -0.24139999, 0.1223, 0.65459996, -0.2007, 0.156, 0.63989997, -0.2007, 0.156, 0.63989997, -0.2189, 0.110599995, 0.689, -0.1823, 0.1454, 0.6778, -0.2007, 0.156, 0.63989997, -0.24139999, 0.1223, 0.65459996, -0.2189, 0.110599995, 0.689, 0.5387, 0.17, -0.3091, 0.56409997, 0.12719999, -0.28129998, 0.5618, 0.14, -0.30719998, 0.5387, 0.17, -0.3091, 0.5435, 0.1449, -0.25509998, 0.56409997, 0.12719999, -0.28129998, 0.6631, 0.1449, -0.2659, 0.56409997, 0.12719999, -0.28129998, 0.5435, 0.1449, -0.25509998, 0.6631, 0.1449, -0.2659, 0.6609, 0.12719999, -0.29, 0.56409997, 0.12719999, -0.28129998, 0.65819997, 0.17, -0.3199, 0.5618, 0.14, -0.30719998, 0.65849996, 0.14, -0.3159, 0.65819997, 0.17, -0.3199, 0.5387, 0.17, -0.3091, 0.5618, 0.14, -0.30719998, 0.6631, 0.1449, -0.2659, 0.5432, 0.1794, -0.2593, 0.6627, 0.1794, -0.2701, 0.6631, 0.1449, -0.2659, 0.5435, 0.1449, -0.25509998, 0.5432, 0.1794, -0.2593, 0.5432, 0.1794, -0.2593, 0.65999997, 0.18769999, -0.29999998, 0.6627, 0.1794, -0.2701, 0.5432, 0.1794, -0.2593, 0.5405, 0.18769999, -0.28919998, 0.65999997, 0.18769999, -0.29999998, 0.65849996, 0.14, -0.3159, 0.56409997, 0.12719999, -0.28129998, 0.6609, 0.12719999, -0.29, 0.65849996, 0.14, -0.3159, 0.5618, 0.14, -0.30719998, 0.56409997, 0.12719999, -0.28129998, 0.65999997, 0.18769999, -0.29999998, 0.5387, 0.17, -0.3091, 0.65819997, 0.17, -0.3199, 0.65999997, 0.18769999, -0.29999998, 0.5405, 0.18769999, -0.28919998, 0.5387, 0.17, -0.3091, 0.5405, 0.18769999, -0.28919998, 0.5435, 0.1449, -0.25509998, 0.5387, 0.17, -0.3091, 0.5405, 0.18769999, -0.28919998, 0.5432, 0.1794, -0.2593, 0.5435, 0.1449, -0.25509998, -0.6547, 0.1748, 0.069, -0.6239, 0.1354, 0.0867, -0.65599996, 0.14479999, 0.0727, -0.6547, 0.1748, 0.069, -0.60649997, 0.15879999, 0.0888, -0.6239, 0.1354, 0.0867, -0.79029995, 0.1365, -0.0275, -0.6487, 0.1258, 0.0521, -0.6394, 0.1365, 0.025799999, -0.79029995, 0.1365, -0.0275, -0.7996, 0.1258, -0.0011, -0.6487, 0.1258, 0.0521, -0.8056, 0.1748, 0.0158, -0.65599996, 0.14479999, 0.0727, -0.80689996, 0.14479999, 0.019399999, -0.8056, 0.1748, 0.0158, -0.6547, 0.1748, 0.069, -0.65599996, 0.14479999, 0.0727, -0.79029995, 0.1365, -0.0275, -0.6378, 0.1709, 0.0212, -0.7887, 0.1709, -0.0321, -0.79029995, 0.1365, -0.0275, -0.6394, 0.1365, 0.025799999, -0.6378, 0.1709, 0.0212, -0.6378, 0.1709, 0.0212, -0.7976, 0.1867, -0.0067999996, -0.7887, 0.1709, -0.0321, -0.6378, 0.1709, 0.0212, -0.6468, 0.1867, 0.046499997, -0.7976, 0.1867, -0.0067999996, -0.80689996, 0.14479999, 0.019399999, -0.6487, 0.1258, 0.0521, -0.7996, 0.1258, -0.0011, -0.80689996, 0.14479999, 0.019399999, -0.65599996, 0.14479999, 0.0727, -0.6487, 0.1258, 0.0521, -0.7976, 0.1867, -0.0067999996, -0.6547, 0.1748, 0.069, -0.8056, 0.1748, 0.0158, -0.7976, 0.1867, -0.0067999996, -0.6468, 0.1867, 0.046499997, -0.6547, 0.1748, 0.069, -0.60649997, 0.12709999, 0.0401, -0.61869997, 0.1166, 0.065299995, -0.6239, 0.1354, 0.0867, -0.6468, 0.1867, 0.046499997, -0.60649997, 0.15879999, 0.0888, -0.6547, 0.1748, 0.069, -0.6468, 0.1867, 0.046499997, -0.59569997, 0.1705, 0.0674, -0.60649997, 0.15879999, 0.0888, -0.6378, 0.1709, 0.0212, -0.59569997, 0.1705, 0.0674, -0.6468, 0.1867, 0.046499997, -0.6378, 0.1709, 0.0212, -0.58809996, 0.1548, 0.0416, -0.59569997, 0.1705, 0.0674, -0.6394, 0.1365, 0.025799999, -0.58809996, 0.1548, 0.0416, -0.6378, 0.1709, 0.0212, -0.6394, 0.1365, 0.025799999, -0.60649997, 0.12709999, 0.0401, -0.58809996, 0.1548, 0.0416, -0.65599996, 0.14479999, 0.0727, -0.61869997, 0.1166, 0.065299995, -0.6487, 0.1258, 0.0521, -0.65599996, 0.14479999, 0.0727, -0.6239, 0.1354, 0.0867, -0.61869997, 0.1166, 0.065299995, -0.6487, 0.1258, 0.0521, -0.60649997, 0.12709999, 0.0401, -0.6394, 0.1365, 0.025799999, -0.6487, 0.1258, 0.0521, -0.61869997, 0.1166, 0.065299995, -0.60649997, 0.12709999, 0.0401, -0.60649997, 0.15879999, 0.0888, -0.60649997, 0.12709999, 0.0401, -0.6239, 0.1354, 0.0867, -0.60649997, 0.15879999, 0.0888, -0.58809996, 0.1548, 0.0416, -0.60649997, 0.12709999, 0.0401, -0.59569997, 0.1705, 0.0674, -0.58809996, 0.1548, 0.0416, -0.60649997, 0.15879999, 0.0888)
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lnbu3"]
+resource_name = "wall_rg_1"
+cull_mode = 2
+albedo_texture = ExtResource("207_cufqb")
+texture_filter = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r3env"]
+resource_name = "concrete_hr_3"
+cull_mode = 2
+albedo_texture = ExtResource("111_fom5h")
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_yg80u"]
+_surfaces = [{
+"aabb": AABB(-2, -1.4305215e-08, -0.19999993, 4, 6, 0.40000096),
+"format": 34896613377,
+"index_count": 12,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUA"),
+"name": "wall_rg_1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP7/AAD//////v8AAP//AAD+/wAAAAD/////AAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAA==")
+}, {
+"aabb": AABB(-2, 6, -0.19999942, 4, 1e-05, 0.40000045),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray("AAABAAIAAAADAAEA"),
+"name": "concrete_hr_3",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("//8AAP7/AAAAAAAAAAAAAP//AAAAAAAAAAAAAP//AAA=")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ghfrs"]
+resource_name = "wall_rg_1_double_wall_rg_1_double"
+_surfaces = [{
+"aabb": AABB(-2, -1.4305215e-08, -0.19999993, 4, 6, 0.40000096),
+"attribute_data": PackedByteArray("/3//////AAD//////38AAP//////fwAA//8AAP9///8="),
+"format": 34896613399,
+"index_count": 12,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUA"),
+"material": SubResource("StandardMaterial3D_lnbu3"),
+"name": "wall_rg_1",
+"primitive": 3,
+"uv_scale": Vector4(2, 2, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP7/AID//////v8AgP//AAD+/wCAAAD/////AIAAAAAAAAD///////8AAP//AAD//wAA/////wAAAAD///9/////f////3////9/////f////3////9/////f///")
+}, {
+"aabb": AABB(-2, 6, -0.19999942, 4, 1e-05, 0.40000045),
+"attribute_data": PackedByteArray("///+/6qquej//7noqqr//w=="),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray("AAABAAIAAAADAAEA"),
+"material": SubResource("StandardMaterial3D_r3env"),
+"name": "concrete_hr_3",
+"primitive": 3,
+"uv_scale": Vector4(3, 1.1000005, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("//8AAP7//78AAAAAAAD/v///AAAAAP+/AAAAAP///7/+//9/////f/7//3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_yg80u")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_5pqux"]
+data = PackedVector3Array(-2, 0, 0.19999999, 2, 6, 0.19999999, 2, 0, 0.19999999, -2, 0, 0.19999999, -2, 6, 0.19999999, 2, 6, 0.19999999, -2, 0, -0.19999999, 2, 6, -0.19999999, -2, 6, -0.19999999, -2, 0, -0.19999999, 2, 0, -0.19999999, 2, 6, -0.19999999, 2, 6, 0.19999999, -2, 6, -0.19999999, 2, 6, -0.19999999, 2, 6, 0.19999999, -2, 6, 0.19999999, -2, 6, -0.19999999)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pvv3t"]
+resource_name = "concrete_hr_3"
+cull_mode = 2
+albedo_texture = ExtResource("208_5two5")
+texture_filter = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i1siq"]
+resource_name = "wall_rg_2"
+cull_mode = 2
+albedo_texture = ExtResource("209_afhd2")
+texture_filter = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u6rrc"]
+resource_name = "window_mx_2"
+cull_mode = 2
+albedo_texture = ExtResource("210_040mu")
+texture_filter = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ecjpk"]
+resource_name = "window_mx_2_transparent"
+transparency = 4
+cull_mode = 2
+albedo_color = Color(1, 1, 1, 0.6)
+albedo_texture = ExtResource("210_040mu")
+texture_filter = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cfl80"]
+resource_name = "metal_hr_5"
+cull_mode = 2
+albedo_texture = ExtResource("211_3eg5e")
+texture_filter = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w2yew"]
+resource_name = "planks_hr_4"
+cull_mode = 2
+albedo_texture = ExtResource("212_vj17r")
+roughness = 0.0
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_s0mpi"]
+_surfaces = [{
+"aabb": AABB(-0.19999045, 2.9999924, -1.9999896, 0.40000266, 1.5735626e-05, 4),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray("AAABAAIAAAADAAEA"),
+"name": "concrete_hr_3",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("AABFF///AAD+/7noAAAAAP//AAD//wAAAAD//wAAAAA=")
+}, {
+"aabb": AABB(-0.20000505, 0.00023063822, -1.999944, 0.4000051, 2.9997418, 4.000007),
+"format": 34896613377,
+"index_count": 120,
+"index_data": PackedByteArray("AAABAAIAAwACAAEAAwABAAcABgADAAcAAAAGAAUABgAHAAUAAAAEAAEAAAAFAAQAEAAHAAEABAAQAAEABQAHABEAEAARAAcABQASAAQABAASABAABQARABMABQATABIAFAARABAAFAAQABIAEwARABUAFAAVABEAEwAVABYAEgATABYAFAASABcAEgAWABcAFwAKABQACgAVABQAFgAJABcAFwAJAAoAFgAVAAgACgAIABUACwAIAAoACwAKAAkACwAJAAwACwANAAgADgAMAAkAFgAPAAkADgAJAA8AFgAIAA8ADQAOAA8ADQAPAAgA"),
+"lods": [0.18332705, PackedByteArray("AAABAAIAAwACAAEAAAAEAAEAAAAFAAQAAAAGAAUABgADAAcAAwABAAcABgAHAAUAAQAIAAcABQAHAAgABAAJAAEABQAJAAQACQAKAAEACgAIAAEACwAIAAoACwAKAAkACwAJAAwACwANAAgADgAMAAkACQAFAA8ADgAJAA8ABQAIAA8ADQAOAA8ADQAPAAgA")],
+"name": "wall_rg_2",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAAAAAAAAACGFy8wAAAAAAAD+/wAAAAD///7/AAAAACGFMzMAAAAAhc4yMwAAAAD+/wAAAAAAAIXOy8wAAP7/hc7LzAAA/v9GhDMzAAD+/0aEy8wAAP//AAD+/wAA/v8AAAAAAAD///7///8AAP7//v8AAAAA/v+FzjIzAAAyc9CGy8wAADJzhc7LzAAAMnPQhjMzAAAyc4XOMjMAAP+P0IbLzAAA/4+FzsvMAAD+j4XOMjMAAP6P0IYzMwAA")
+}, {
+"aabb": AABB(-0.020006182, 1.5799687, -1.1999246, 0.045011044, 0.8402684, 2.4000015),
+"format": 34896613377,
+"index_count": 864,
+"index_data": PackedByteArray("AAABAAIAAAADAAEAAwAEAAEABQADAAAAAwAGAAQABwAEAAYABwAGAAgACQAGAAMABQAJAAMACAAGAAoACQAKAAYACAAKAAsADAAJAAUADAANAAkADQAKAAkABQAOAAwADQAPAAoACwAKAA8ACwAPABAABQARAA4AEQASAA4AEwARAAUAEAASABQAEAAUAAsAEQAUABIAEwAVABEAFQAUABEAFgAVABMAFgAXABUAFQAYABQACwAUABgAFwAYABUACwAYABkAFwAaABgAGQAYABoAGQAaABsAHAAdAB4AHAAfAB0AHwAgAB0AHgAhABwAIgAfABwAHgAjACEAIgAkAB8AJQAkACIAJQAmACQAHwAnACAAJAAnAB8AKAAgACcAJgApACQAJAApACcAJgAqACkAKwApACoAKwAqACwALQApACsALQAnACkAKAAnAC0ALQAuACgALQAvAC4AIwAuAC8AMAAvAC0AIwAvACEAMAAxAC8AIQAvADEAMgAxADAAMgAzADEAIQAxADQANAAxADMAHAAhADQANAAzADUAHAA0ADYANgA0ADUANgA1ADcAOAA5ADoAOAA7ADkAOwA8ADkAOwA9ADwAPgA8AD0APgA9AD8AOgBAADgAOgBBAEAAQgBBADoAQQBDAEAAQgBEAEEAQQBFAEMARABFAEEAPwBDAEUAPwBFAD4APgBFAEYARABGAEUAPgBGAEcASABEAEIASQBGAEQASABJAEQASQBKAEYARwBGAEoAQABKAEkAQABDAEoAOABAAEkAOABJAEgASwBKAEMARwBKAEsASwBDAD8ASwBMAEcARwBMAE0ARwBNAE4ATwBNAEwATwBMAFAAUQBNAE8AUABMAFIASwBSAEwAUwBPAFAAUwBQAEIAQgBQAFQAUABSAFQAQgBUAEgASABUAFEAVQBPAFMAVQBRAE8ASABRAFUAVABWAFEAUQBWAE0AVABSAFYATgBNAFYAVwBWAFIATgBWAFcAVwBSAEsAVwBYAE4ATgBYAFkATgBZAFoAWwBZAFgAWwBYAFwAXQBZAFsAXABYAF4AVwBeAFgAXwBbAFwAXwBcAFMAUwBcAGAAXABeAGAAUwBgAFUAVQBgAF0AYQBbAF8AYQBdAFsAVQBdAGEAYABiAF0AXQBiAFkAYABeAGIAWgBZAGIAYwBiAF4AWgBiAGMAYwBeAFcAYwBkAFoAWgBkAGUAWgBlAGYAZwBlAGQAZgBlAGgAaQBlAGcAaQBoAGUAZgBoAGoAagBrAGYAagBsAGsAbQBrAGwAbQBsAG4AbwBtAG4AbwBuAHAAcABpAGcAcABnAG8AbwBnAHEAZwBkAHEAbwBxAF8AcQBkAHIAXwBxAHMAcQByAHMAcwBoAGkAcwByAGgAagBoAHIAXwBzAGEAYQBzAGkAYwByAGQAagByAGMAYQBpAHAAYwB0AGoAagB0AHUAagB1AHYAdgB3AGoAdgB4AHcAeQB3AHgAeQB4AHoAcAB5AHoAcAB6AHsAdgB1AHwAewB9AHAAdgB8AH4AewB/AH0AfwB1AHQAfwB0AH0AgAB/AHsAgQB1AH8AgQB8AHUAgACBAH8AfQB0AIIAfgB8AIIAYwCCAHQAfgCCAGMAgwCCAHwAfQCCAIMAgwB8AIEAcAB9AIMAcACDAGEAYQCDAIEAYQCBAIAAYwCEAH4AgACFAGEAYwCGAIQAfgCEAIcAVwCGAGMAfgCHAIgAiQCEAIYAgACJAIUAiQCGAIUAigCJAIAAiwCEAIkAiwCHAIQAigCLAIkAhQCGAIwAVwCMAIYAiACHAIwAiACMAFcAjQCMAIcAhQCMAI0AjQCHAIsAYQCFAI0AYQCNAFUAVQCNAIsAVQCLAIoAVwCOAIgAigCPAFUAVwCQAI4AiACOAJEASwCQAFcAiACRAJIAkwCOAJAAigCTAI8AkwCQAI8AlACTAIoAlQCOAJMAlQCRAI4AlACVAJMAjwCQAJYASwCWAJAAkgCRAJYAkgCWAEsAlwCWAJEAjwCWAJcAlwCRAJUAVQCPAJcAVQCXAEgASACXAJUASACVAJQASwCYAJIAlACZAEgASwCaAJgAkgCYAJsAkgCbAJwAPwCaAEsAPwCdAJwAPwCeAJ0AnwCdAJ4AnwCeAKAAoQCfAKAAoQCgADgAnACiAD8APwCiAJoAnACbAKIAmQCaAKIAowCiAJsAmQCiAKMASACjADgASACZAKMAOACjAKQAowCbAKQAOACkAKEApACbAJgApQCaAJkAoQCkAKUApQCYAJoApACYAKUAoQClAJQAlAClAJkA"),
+"name": "window_mx_2",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 166,
+"vertex_data": PackedByteArray("AAAAAAAAAADAcaEGXygAAAAAAACqKgAAwHGhBksCAAAwjqEGXygAAAAADYEAAAAAMI6hBksCAAD9/wAAqioAAPz/AAAAAAAAwHGBeksCAAAwjoF6SwIAAPz/DYEAAAAAAAANgaoqAADAcYF6XygAAMBxmodfKAAAMI6Bel8oAAD9/w2BqioAAMBxmodLAgAAMI6ah18oAAAAAP7/AAAAADCOmodLAgAAwHFy+UsCAAAAAP//qioAAMBxcvlfKAAAMI5y+UsCAAD8////AAAAADCOcvlfKAAA/f///6oqAAAAAA2B//8AAMBxgXqf1wAAAAANgVTVAADAcYF6s/0AADCOgXqf1wAAwHGah7P9AAAAAAAA/v8AAMBxmoef1wAAwHGhBrP9AAAAAAAAVNUAAMBxoQaf1wAAMI6BerP9AAD+/w2BVNUAADCOoQaz/QAAMI6hBp/XAAD//wAA/v8AAP7/AABU1QAA//8Ngf7/AAAwjpqHn9cAADCOmoez/QAA///+//7/AAAwjnL5s/0AAP3///9U1QAAMI5y+Z/XAADAcXL5s/0AAMBxcvmf1wAAAAD///7/AAAAAP//VNUAAAAADYFU1QAAwHGhBp/XAAAAAAAAVNUAAMBxgXqf1wAAMI6hBp/XAAAwjoF6n9cAAP3/AABU1QAA/v8NgVTVAADAcYF6CdMAAMBxoQYJ0wAAAAAAAKmqAAAwjoF6CdMAAMBxoQb1rAAAMI6hBgnTAAAwjqEG9awAAP7/AACpqgAAAAANgaqqAADAcYF69awAADCOgXr1rAAA/v8NgamqAAAwjqEGXqgAADCOoQZKggAA/f8AAP9/AADAcaEGSoIAAMBxoQZeqAAAwHGBekqCAAAwjoF6XqgAAAAAAAD/fwAAwHGBel6oAAAAAA2B/38AADCOgXpKggAA/v8Ngf9/AAAwjqEGtH0AADCOoQagVwAA/v8AAFRVAADAcaEGoFcAAMBxoQa0fQAAwHGBeqBXAAAwjoF6tH0AAAAAAABVVQAAwHGBerR9AAAAAA2BVVUAADCOgXqgVwAA/v8NgVRVAAAwjqEGCVMAADCOoQb1LAAA/f8AAKoqAADAcaEG9SwAADCOgXr1LAAAwHGBevUsAAD+/w2BqioAADCOoQZfKAAAMI6Bel8oAADAcaEGXygAAMBxgXpfKAAAAAAAAKoqAAAAAA2BqioAAMBxoQYJUwAAMI6BeglTAADAcYF6CVMAADCOmof1LAAAMI5y+fUsAAD9////qioAADCOmodfKAAAMI5y+V8oAADAcZqHXygAAMBxcvlfKAAAAAD//6oqAAAwjnL5CVMAAMBxmof1LAAA/f///1RVAADAcXL59SwAAAAA//9VVQAAwHFy+QlTAAAwjpqHCVMAAMBxmocJUwAAMI5y+aBXAADAcZqHoFcAADCOmoegVwAAMI5y+bR9AAD9/////38AAMBxcvmgVwAAAAD///9/AADAcXL5tH0AADCOmoe0fQAAwHGah7R9AAAwjnL5SoIAAMBxmodKggAAMI6ah0qCAAA9jnL5XqgAAP3///+pqgAAwHFy+UqCAAAAAP//qqoAAMBxcvleqAAAMI6ah16oAADAcZqHXqgAADCOcvn1rAAAwHGah/WsAAAwjpqH9awAADCOcvkJ0wAA/f///1TVAAA9jnL5n9cAADCOmoef1wAAwHFy+Z/XAADAcZqHn9cAAAAA//9U1QAAMI6ahwnTAADAcZqHCdMAAMBxcvkJ0wAAwHFy+fWsAAA=")
+}, {
+"aabb": AABB(-5.722052e-06, 1.5799696, -1.1999241, 0.0050096507, 0.8402674, 2.4000008),
+"format": 34896613377,
+"index_count": 12,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUA"),
+"name": "window_mx_2_transparent",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("BgD///7/AAAAAAAAAAAAAAAA/v8AAAAABgAAAP//AAD4/////v8AAP//AAAAAAAA+P8AAP//AAD///7/AAAAAA==")
+}, {
+"aabb": AABB(0.023999874, 1.5289719, -1.2500732, 0.22100015, 0.052000046, 2.5),
+"format": 34896613377,
+"index_count": 54,
+"index_data": PackedByteArray("AAABAAIAAgABAAMABAADAAEAAAAEAAEAAgADAAUAAAACAAUABgAFAAMABAAGAAMAAAAFAAcABgAHAAUACAAEAAAACAAAAAcACAAJAAQACAAHAAoACwAEAAkACwAGAAQACwAHAAYACwAKAAcA"),
+"name": "metal_hr_5",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("nu52Yv//AAD+/wAA//8AADT6AAD//wAA//8AAAAAAAAY8id2//8AADT6AAAAAAAAGPIndgAAAACe7nZiAAAAAAAATez//wAAAAD/////AAAAAE3sAAAAAAAA//8AAAAA")
+}, {
+"aabb": AABB(-0.30000013, 1.5399723, -1.2500727, 0.28000015, 0.0400002, 2.5),
+"format": 34896613377,
+"index_count": 54,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAgAEAAMAAQAEAAIABQAAAAMABQADAAQAAAAGAAEABQAEAAcABAAIAAcAAQAIAAQACQABAAYACAABAAkAAAAKAAYAAAAFAAoACQAGAAoACgAIAAkACgAFAAsACgALAAgA"),
+"name": "planks_hr_4",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("AAAAAOz8AAAAAP7/EgMAAAAA/v/s/AAAbRsAAP//AABtG/////8AAP7/AAD//wAAAAAAABIDAAD+//7///8AAP///v8AAAAAbRv//wAAAABtGwAAAAAAAP//AAAAAAAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_lmd25"]
+resource_name = "window_rtx_1_window_rtx_1"
+_surfaces = [{
+"aabb": AABB(-0.19999045, 2.9999924, -1.9999896, 0.40000266, 1.5735626e-05, 4),
+"attribute_data": PackedByteArray("///+/6qquej//7noqqr//w=="),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray("AAABAAIAAAADAAEA"),
+"material": SubResource("StandardMaterial3D_pvv3t"),
+"name": "concrete_hr_3",
+"primitive": 3,
+"uv_scale": Vector4(3, 1.1000005, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("AABFF///VNX+/7noAABU1f//AAD//1TVAAD//wAAVNWqqqmqqqqpqqqqqaqqqqmq")
+}, {
+"aabb": AABB(-0.20000505, 0.00023063822, -1.999944, 0.4000051, 2.9997418, 4.000007),
+"attribute_data": PackedByteArray("/v///zMz3XoAAP7/AAAAAMvM3XozM3kxy8x5Mf7/AAAAAP7/MzN5MTMzuHvLzLh7AAAAAP7////LzHkx/v8AAMvMKNkzMyjZMzPttsvM7bbKfO5uHEUQkRxF7m4mfBCRJdwQkRul7m4bpRCRydzubsvM7bYzMxDZy8wQ2TMz7bb+////y8zdejMzeTEAAAAAAAD+/8vMuHv+////MzO4e/7/AADLzHkx/v8AAMvMeTEAAAAAMzPdejMzeTEAAP7/3tq0gRultIHLzCHKMzMhyhxF3X3eet19y8whyjMzIcrLzErGMzNKxt56tIEcRd193nrdfRxFtIEzMyHKy8xKxsvMIcozM0rG3trdfRultIHe2rSBG6XdfTMzSsbLzErG3nq0gRxFtIEzM0rGy8xKxhul3X3e2t19"),
+"format": 34896613399,
+"index_count": 120,
+"index_data": PackedByteArray("AAABAAIAAAAEAAEAIAAGACEAIAAHAAYACAAiAAoACAAjACIAJAAlACYAJAAnACUAKAALACkAKAANAAsAKgAFACsAKgADAAUADAAOAAkADAAPAA4ALAAtAC4ALAAvAC0AMAAaABgAMAAxABoAMgARADMAMgAQABEANAAUADUANAAWABQANgAdAB4ANgA3AB0AOAA3ADYAOAA5ADcAOgA7ADwAOgA9ADsAPgA/AEAAPgBBAD8AQgBDAEQAQgBFAEMAEwBGABIAEwBHAEYAFQBIABcAFQBJAEgAHABKAEsAHAAfAEoAGwBMAE0AGwAZAEwA"),
+"lods": [0.18332705, PackedByteArray("AAABAAIAAwACAAEAAAAEAAEAAwABAAUAAAAGAAQABwADAAUAAAAHAAYABwAFAAYACAAJAAoACAAKAAsACAAMAAkACAALAA0ADAAOAAkADwANAAsADAAPAA4ADwALAA4AEAARABIAEwAQABIAFAAVABYAFQAUABcAGAAZABoAGwAZABgAHAAdAB4AHAAfAB0A")],
+"material": SubResource("StandardMaterial3D_i1siq"),
+"name": "wall_rg_2",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 78,
+"vertex_data": PackedByteArray("AAAAAAAAAAAAACGFy8wAAAAAAAD+/wAAAAD///7/AAAAACGFMzMAAAAAhc7LzAAAAACFzjIzAAAAAP7/AAAAAP//AAD+//+//v+FzsvM/7/+/0aEy8z/v/7/RoQzM/+////+/////7/+/wAAAAD/v/7/hc4yM/+//v/+/wAA/7/+/0aEMzN90f7/RoTLzH3RAAAhhcvM8dcAACGFMzPx1/7/RoQzM/+/AACFzjIz/7/+/4XOMjP/vwAAIYUzM/+/AAAhhcvMAAD+/4XOy8wAAAAAhc7LzAAA/v9GhMvMAAAAAIXOMjOqKv7/hc7LzKoq/v+FzjIzqioAAIXOy8yqKgAAAAAAAAAAAAAhhTMzAAD+/4XOy8z/v////v////+///8AAP7//7/+/0aEMzP/v/7/AAAAAP+//v9GhMvM/7/+//7/AAD/v/7/hc4yM/+/AAD+/wAAAAAAAIXOMjMAAAAA///+/wAAAAAhhcvMAAAAAIXOy8wAAAAAAAD+/wAAMnPQhsvMAAAyc4XOy8wAAP6P0IYzM33R/4/QhsvMfdH+j4XOMjP/v/6P0IYzM/+//o+FzjIzqir/j4XOy8yqKjJzhc4yM6oqMnOFzsvMqioyc9CGMzP/v/6Phc4yM/+//o/QhjMz/78yc4XOMjP/v/+P0IbLzFTVMnPQhjMzVNX+j9CGMzNU1TJz0IbLzFTV/4/QhsvMAAAyc4XOy8wAADJz0IbLzAAA/4+FzsvMAAAyc9CGy8zx1zJz0IYzM/HXMnPQhjMz/78yc4XOMjP/vzJzhc7LzKoqMnOFzjIzqir/j4XOy8wAAP+P0IbLzAAA/z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAGTQMihk0DIoYtgxLGLYMSz/f/9//3//f/9//3//f/9//7//P/+//z//v/8//7//P1VVVVVVVVVVVVVVVVVVVVX/P/9//z//f/9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/z//f/8//3//P/9//z//f/8//3//P/9//7//P/+//z9k0DIoZNAyKP9//3//f/9/VVVVVVVVVVVVVVVVVVVVVf9//3//f/9//3//f/9//39U1aoqVNWqKlTVqipU1aoq/7//P/+//z//v/8//7//P2LYMSxi2DEs/3//f/9//39VVVVVVVVVVf+//z//v/8/")
+}, {
+"aabb": AABB(-0.020006182, 1.5799687, -1.1999246, 0.045011044, 0.8402684, 2.4000015),
+"attribute_data": PackedByteArray("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"),
+"format": 34896613399,
+"index_count": 864,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUAGAAZABoAGAAbABkAHAAdAB4AHAAfAB0AIAAhACIAIAAjACEAJAAlACYAJAAnACUAKAApACoAKAArACkALAAtAC4ALAAvAC0AMAAxADIAMAAzADEANAA1ADYANAA3ADUAOAA5ADoAOAA7ADkAPAA9AD4APAA/AD0AQABBAEIAQABDAEEARABFAEYARABHAEUASABJAEoASABLAEkATABNAE4ATABPAE0AUABRAFIAUABTAFEAVABVAFYAVABXAFUAWABZAFoAWABbAFkAXABdAF4AXABfAF0AYABhAGIAYABjAGEAZABlAGYAZABnAGUAaABpAGoAaABrAGkAbABtAG4AbABvAG0AcABxAHIAcABzAHEAdAB1AHYAdAB3AHUAeAB5AHoAeAB7AHkAfAB9AH4AfAB/AH0AgACBAIIAgACDAIEAhACFAIYAhACHAIUAiACJAIoAiACLAIkAjACNAI4AjACPAI0AkACRAJIAkACTAJEAlACVAJYAlACXAJUAmACZAJoAmACbAJkAnACdAJ4AnACfAJ0AoAChAKIAoACjAKEApAClAKYApACnAKUAqACpAKoAqACrAKkArACtAK4ArACvAK0AsACxALIAsACzALEAtAC1ALYAtAC3ALUAuAC5ALoAuAC7ALkAvAC9AL4AvAC/AL0AwADBAMIAwADDAMEAxADFAMYAxADHAMUAyADJAMoAyADLAMkAzADNAM4AzADPAM0A0ADRANIA0ADTANEA1ADVANYA1ADXANUA2ADZANoA2ADbANkA3ADdAN4A3ADfAN0A4ADhAOIA4ADjAOEA5ADlAOYA5ADnAOUA6ADpAOoA6ADrAOkA7ADtAO4A7ADvAO0A8ADxAPIA8ADzAPEA9AD1APYA9AD3APUA+AD5APoA+AD7APkA/AD9AP4A/AD/AP0AAAEBAQIBAAEDAQEBBAEFAQYBBAEHAQUBCAEJAQoBCAELAQkBDAENAQ4BDAEPAQ0BEAERARIBEAETAREBFAEVARYBFAEXARUBGAEZARoBGAEbARkBHAEdAR4BHAEfAR0BIAEhASIBIAEjASEBJAElASYBJAEnASUBKAEpASoBKAErASkBLAEtAS4BLAEvAS0BMAExATIBMAEzATEBNAE1ATYBNAE3ATUBOAE5AToBOAE7ATkBPAE9AT4BPAE/AT0BQAFBAUIBQAFDAUEBRAFFAUYBRAFHAUUBSAFJAUoBSAFLAUkBTAFNAU4BTAFPAU0BUAFRAVIBUAFTAVEBVAFVAVYBVAFXAVUBWAFZAVoBWAFbAVkBXAFdAV4BXAFfAV0BYAFhAWIBYAFjAWEBZAFlAWYBZAFnAWUBaAFpAWoBaAFrAWkBbAFtAW4BbAFvAW0BcAFxAXIBcAFzAXEBdAF1AXYBdAF3AXUBeAF5AXoBeAF7AXkBfAF9AX4BfAF/AX0BgAGBAYIBgAGDAYEBhAGFAYYBhAGHAYUBiAGJAYoBiAGLAYkBjAGNAY4BjAGPAY0BkAGRAZIBkAGTAZEBlAGVAZYBlAGXAZUBmAGZAZoBmAGbAZkBnAGdAZ4BnAGfAZ0BoAGhAaIBoAGjAaEBpAGlAaYBpAGnAaUBqAGpAaoBqAGrAakBrAGtAa4BrAGvAa0BsAGxAbIBsAGzAbEBtAG1AbYBtAG3AbUBuAG5AboBuAG7AbkBvAG9Ab4BvAG/Ab0BwAHBAcIBwAHDAcEBxAHFAcYBxAHHAcUByAHJAcoByAHLAckBzAHNAc4BzAHPAc0B0AHRAdIB0AHTAdEB1AHVAdYB1AHXAdUB2AHZAdoB2AHbAdkB3AHdAd4B3AHfAd0B4AHhAeIB4AHjAeEB5AHlAeYB5AHnAeUB6AHpAeoB6AHrAekB7AHtAe4B7AHvAe0B8AHxAfIB8AHzAfEB9AH1AfYB9AH3AfUB+AH5AfoB+AH7AfkB/AH9Af4B/AH/Af0BAAIBAgICAAIDAgECBAIFAgYCBAIHAgUCCAIJAgoCCAILAgkCDAINAg4CDAIPAg0CEAIRAhICEAITAhECFAIVAhYCFAIXAhUCGAIZAhoCGAIbAhkCHAIdAh4CHAIfAh0CIAIhAiICIAIjAiECJAIlAiYCJAInAiUCKAIpAioCKAIrAikCLAItAi4CLAIvAi0CMAIxAjICMAIzAjECNAI1AjYCNAI3AjUCOAI5AjoCOAI7AjkCPAI9Aj4CPAI/Aj0C"),
+"material": SubResource("StandardMaterial3D_u6rrc"),
+"name": "window_mx_2",
+"primitive": 3,
+"uv_scale": Vector4(3.0023897, 3.001529, 0, 0),
+"vertex_count": 576,
+"vertex_data": PackedByteArray("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")
+}, {
+"aabb": AABB(-5.722052e-06, 1.5799696, -1.1999241, 0.0050096507, 0.8402674, 2.4000008),
+"attribute_data": PackedByteArray("//8AAGVmA1ZmZgAA//8DVv//AABlZgNW//8DVmZmAAA="),
+"format": 34896613399,
+"index_count": 12,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUA"),
+"material": SubResource("StandardMaterial3D_ecjpk"),
+"name": "window_mx_2_transparent",
+"primitive": 3,
+"uv_scale": Vector4(2.4999995, 1, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("BgD///7//78AAAAAAAD/vwAA/v8AAP+/BgAAAP///7/4/////v8AAP//AAAAAAAA+P8AAP//AAD///7/AAAAAP9/////f////3////9/////v/9//7//f/+//3//v/9/")
+}, {
+"aabb": AABB(0.023999874, 1.5289719, -1.2500732, 0.22100015, 0.052000046, 2.5),
+"attribute_data": PackedByteArray("Vf9n7tD/h+3Z/7/tMf9Q7gj4uY5c/v7/CPj+/1z+uY7R9///ovi5jqL4///R97mOMf/+/wr/uY4x/7mOCv///1z+uY4K////XP7+/wr/uY7g/z3jVf+n7DH/vez+/0jjMf+97Nn/Tu3Q/4ftVf+n7P//xfcx/1DuVf9n7uD/0Pdl8bmO0ff//2Xx///R97mO"),
+"format": 34896613399,
+"index_count": 54,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUAGAAZABoAGAAbABkAHAAdAB4AHAAfAB0AIAAhACIAIAAjACEA"),
+"material": SubResource("StandardMaterial3D_cfl80"),
+"name": "metal_hr_5",
+"primitive": 3,
+"uv_scale": Vector4(2.0022655, 1.3452382, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("nu52Yv//yMn+/wAA///IyTT6AAD//8fJGPIndv//yMkAAE3s//8uwJ7udmIAAC7AAABN7AAALsCe7nZi//8uwBjyJ3b//2jL//8AAAAAaMv+/wAA//9oyxjyJ3YAAGjLNPoAAP///////wAAAAD//zT6AAAAAP///v8AAP////+e7nZi//9oyzT6AAAAAGjLnu52YgAAaMs0+gAA//9oywAA//8AAP//nu52YgAA//8Y8id2AAD//wAATewAAP//GPIndgAA//80+gAAAAD/////AAAAAP//nu52YgAA//8AAE3s///IyRjyJ3b//8jJnu52Yv//yMkAAP/////IyQAA//8AAC3AGPIndv//LcAAAP////8twBjyJ3YAAC3A/3//f/9//3//f/9//3//f0EPoIdBD6CHQQ+gh0EPoIc9uZ5cPbmfXD25nlw9uZ9c/7////9//z//f/8//7///8FGYKPBRmCjwUZgo8FGYKO4R7jHuEe4x7hHuMe4R7jHuEe4x7hHt8e4R7fHuEe4x/9//3//f/9//3//f/9//3/u8Hd47vB3eO7wd3ju8Hd4")
+}, {
+"aabb": AABB(-0.30000013, 1.5399723, -1.2500727, 0.28000015, 0.0400002, 2.5),
+"attribute_data": PackedByteArray("hPTafjP4Af4z+Np+hPQB/tEmtZA+K5+O0Safjj4rtZAKjrWQRXefjgqOn45Fd7WQRXe1kAqOn45Fd5+OCo61kF/nEX3+/7l+V/0jfU/9+f8+5/7/9f9m/j7n///1/2b+T/35/1f9I31f5xF9//+5frWDtZBIf5+OtYOfjkh/tZA="),
+"format": 34896613399,
+"index_count": 54,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEQAQABMAEwAQABQAEQATABUAFgAXABgAFwAWABkAGQAWABoAFwAZABsAHAAdAB4AHAAfAB0A"),
+"material": SubResource("StandardMaterial3D_w2yew"),
+"name": "planks_hr_4",
+"primitive": 3,
+"uv_scale": Vector4(1.9840851, 3.5088382, 0, 0),
+"vertex_count": 32,
+"vertex_data": PackedByteArray("AAAAAOz8qioAAP7/EgOqKgAA/v/s/KoqAAAAABIDqiptG///AAD/HwAAAAASA/8fbRsAAAAA/x8AAP7/EgP/H20bAAAAAP/////+/wAA//9tG///AAD/////AAAAAP///v8AAP//AABtG/////8AAP7//v///wAAbRsAAP//AAD+/wAA//8oAAAAAADs/CoAbRsAAP//KABtGwAAAAAKAP//AAAAAAsAAAAAABIDEQD///7/AAD2/wAA/v8SA/P/bRv//wAA8/9tG//////O//7//v///9b/AAD+/+z8uP8AAP7/7Pz//20bAAD/////AAAAAOz8//9tG////////1TVVNVU1VTVVNVU1VTVVNX/f/7//3/+//9//v//f/7//3/+//9//v//f/7//3/+//9//3//f/9//3//f/9//3/pP9L/6D/P/+k/0f/zfwVA838FQOx/CUAEwAkABcAMAAXADAA0gOS/LIDov02A2L///4Hahv+k2oJa/3///4Ha")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_s0mpi")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_e5idk"]
+data = PackedVector3Array(-0.19999999, 3, 2, 0.19999999, 3, -2, 0.19999999, 3, 2, -0.19999999, 3, 2, -0.19999999, 3, -2, 0.19999999, 3, -2, -0.19999999, 0.0002, -1.9999, -0.19999999, 1.5602, 1.1999999, -0.19999999, 0.0002, 2, -0.19999999, 0.0002, -1.9999, -0.19999999, 1.5602, -1.1998999, -0.19999999, 1.5602, 1.1999999, -0.19999999, 0.0002, -1.9999, -0.19999999, 2.4201999, -1.1999999, -0.19999999, 1.5602, -1.1998999, -0.19999999, 0.0002, -1.9999, -0.19999999, 2.9998999, -1.9999, -0.19999999, 2.4201999, -1.1999999, 0.19999999, 0.0002, 2, 0.19999999, 2.4201999, 1.1999999, 0.19999999, 1.5502, 1.1999999, 0.19999999, 0.0002, 2, 0.19999999, 2.9998999, 2.0001, 0.19999999, 2.4201999, 1.1999999, 0.19999999, 0.0002, 2, 0.19999999, 1.5502, -1.1998999, 0.19999999, 0.0002, -1.9999, 0.19999999, 0.0002, 2, 0.19999999, 1.5502, 1.1999999, 0.19999999, 1.5502, -1.1998999, 0.19999999, 2.9998999, -1.9999, 0.19999999, 1.5502, -1.1998999, 0.19999999, 2.4201999, -1.1999999, 0.19999999, 2.9998999, -1.9999, 0.19999999, 0.0002, -1.9999, 0.19999999, 1.5502, -1.1998999, -0.19999999, 2.9998999, -1.9999, -0.19999999, 2.4201999, 1.1999999, -0.19999999, 2.4201999, -1.1999999, -0.19999999, 2.9998999, -1.9999, -0.19999999, 3, 2, -0.19999999, 2.4201999, 1.1999999, 0.19999999, 2.9998999, 2.0001, 0.19999999, 2.4201999, -1.1999999, 0.19999999, 2.4201999, 1.1999999, 0.19999999, 2.9998999, 2.0001, 0.19999999, 2.9998999, -1.9999, 0.19999999, 2.4201999, -1.1999999, -0.19999999, 3, 2, -0.19999999, 1.5602, 1.1999999, -0.19999999, 2.4201999, 1.1999999, -0.19999999, 3, 2, -0.19999999, 0.0002, 2, -0.19999999, 1.5602, 1.1999999, -0.02, 1.5799999, 1.1999999, -0.19999999, 2.4201999, 1.1999999, -0.19999999, 1.5602, 1.1999999, -0.02, 1.5799999, 1.1999999, -0.02, 2.4201999, 1.1999999, -0.19999999, 2.4201999, 1.1999999, 0.024999999, 1.5799999, -1.1998999, 0.19999999, 1.5502, 1.1999999, 0.024999999, 1.5799999, 1.1999999, 0.024999999, 1.5799999, -1.1998999, 0.19999999, 1.5502, -1.1998999, 0.19999999, 1.5502, 1.1999999, 0.024999999, 2.4201999, -1.1999999, 0.19999999, 1.5502, -1.1998999, 0.024999999, 1.5799999, -1.1998999, 0.024999999, 2.4201999, -1.1999999, 0.19999999, 2.4201999, -1.1999999, 0.19999999, 1.5502, -1.1998999, 0.024999999, 2.4201999, -1.1999999, 0.19999999, 2.4201999, 1.1999999, 0.19999999, 2.4201999, -1.1999999, 0.024999999, 2.4201999, -1.1999999, 0.024999999, 2.4201999, 1.1999999, 0.19999999, 2.4201999, 1.1999999, -0.02, 2.4201999, -1.1999999, 0.024999999, 2.4201999, 1.1999999, 0.024999999, 2.4201999, -1.1999999, -0.02, 2.4201999, -1.1999999, -0.02, 2.4201999, 1.1999999, 0.024999999, 2.4201999, 1.1999999, -0.02, 1.5799999, -1.1998999, 0.024999999, 2.4201999, -1.1999999, 0.024999999, 1.5799999, -1.1998999, -0.02, 1.5799999, -1.1998999, -0.02, 2.4201999, -1.1999999, 0.024999999, 2.4201999, -1.1999999, 0.024999999, 1.5799999, 1.1999999, -0.02, 1.5799999, -1.1998999, 0.024999999, 1.5799999, -1.1998999, 0.024999999, 1.5799999, 1.1999999, -0.02, 1.5799999, 1.1999999, -0.02, 1.5799999, -1.1998999, 0.024999999, 1.5799999, 1.1999999, -0.02, 2.4201999, 1.1999999, -0.02, 1.5799999, 1.1999999, 0.024999999, 1.5799999, 1.1999999, 0.024999999, 2.4201999, 1.1999999, -0.02, 2.4201999, 1.1999999, -0.19999999, 1.5602, -1.1998999, -0.02, 1.5799999, 1.1999999, -0.19999999, 1.5602, 1.1999999, -0.19999999, 1.5602, -1.1998999, -0.02, 1.5799999, -1.1998999, -0.02, 1.5799999, 1.1999999, -0.19999999, 2.4201999, -1.1999999, -0.02, 1.5799999, -1.1998999, -0.19999999, 1.5602, -1.1998999, -0.19999999, 2.4201999, -1.1999999, -0.02, 2.4201999, -1.1999999, -0.02, 1.5799999, -1.1998999, -0.19999999, 2.4201999, -1.1999999, -0.02, 2.4201999, 1.1999999, -0.02, 2.4201999, -1.1999999, -0.19999999, 2.4201999, -1.1999999, -0.19999999, 2.4201999, 1.1999999, -0.02, 2.4201999, 1.1999999, 0.19999999, 1.5502, 1.1999999, 0.024999999, 2.4201999, 1.1999999, 0.024999999, 1.5799999, 1.1999999, 0.19999999, 1.5502, 1.1999999, 0.19999999, 2.4201999, 1.1999999, 0.024999999, 2.4201999, 1.1999999, -0.02, 1.5799999, -1.1998999, 0, 1.6017, -0.8214, -0.02, 1.5799999, -0.7999, -0.02, 1.5799999, -1.1998999, 0, 1.6017, -1.1783999, 0, 1.6017, -0.8214, -0.02, 2.4201999, -0.7999, 0, 2.3987, -1.1783999, -0.02, 2.4201999, -1.1998999, -0.02, 2.4201999, -0.7999, 0, 2.3987, -0.8214, 0, 2.3987, -1.1783999, -0.02, 2.4201999, -1.1998999, 0, 2.0251, -1.1783999, -0.02, 2.0036, -1.1998999, -0.02, 2.4201999, -1.1998999, 0, 2.3987, -1.1783999, 0, 2.0251, -1.1783999, -0.02, 2.0036, -1.1998999, 0, 2.0251, -0.8214, -0.02, 2.0036, -0.7999, -0.02, 2.0036, -1.1998999, 0, 2.0251, -1.1783999, 0, 2.0251, -0.8214, -0.02, 2.0036, -0.7999, 0, 1.9820999, -1.1783999, -0.02, 2.0036, -1.1998999, -0.02, 2.0036, -0.7999, 0, 1.9820999, -0.8214, 0, 1.9820999, -1.1783999, -0.02, 2.0036, -1.1998999, 0, 1.6017, -1.1783999, -0.02, 1.5799999, -1.1998999, -0.02, 2.0036, -1.1998999, 0, 1.9820999, -1.1783999, 0, 1.6017, -1.1783999, -0.02, 2.0036, 1.2001, 0, 1.9820999, 0.82159996, -0.02, 2.0036, 0.80009997, -0.02, 2.0036, 1.2001, 0, 1.9820999, 1.1784999, 0, 1.9820999, 0.82159996, -0.02, 1.5799999, 1.1999999, 0, 1.9820999, 1.1784999, -0.02, 2.0036, 1.2001, -0.02, 1.5799999, 1.1999999, 0, 1.6017, 1.1784999, 0, 1.9820999, 1.1784999, -0.02, 2.0036, 0.80009997, 0, 1.6017, 0.82159996, -0.02, 1.5799999, 0.80009997, -0.02, 2.0036, 0.80009997, 0, 1.9820999, 0.82159996, 0, 1.6017, 0.82159996, -0.02, 2.0036, 0.80009997, 0, 1.9820999, 0.42159998, -0.02, 2.0036, 0.4001, -0.02, 2.0036, 0.80009997, 0, 1.9820999, 0.7786, 0, 1.9820999, 0.42159998, -0.02, 2.0036, 0.4001, 0, 1.6017, 0.42159998, -0.02, 1.5799999, 0.39999998, -0.02, 2.0036, 0.4001, 0, 1.9820999, 0.42159998, 0, 1.6017, 0.42159998, -0.02, 1.5799999, 0.80009997, 0, 1.9820999, 0.7786, -0.02, 2.0036, 0.80009997, -0.02, 1.5799999, 0.80009997, 0, 1.6017, 0.7786, 0, 1.9820999, 0.7786, -0.02, 2.0036, 0.4001, 0, 1.9820999, 0.021599999, -0.02, 2.0036, 0.0001, -0.02, 2.0036, 0.4001, 0, 1.9820999, 0.37849998, 0, 1.9820999, 0.021599999, -0.02, 2.0036, 0.0001, 0, 1.6017, 0.021599999, -0.02, 1.5799999, 0.0001, -0.02, 2.0036, 0.0001, 0, 1.9820999, 0.021599999, 0, 1.6017, 0.021599999, -0.02, 1.5799999, 0.39999998, 0, 1.9820999, 0.37849998, -0.02, 2.0036, 0.4001, -0.02, 1.5799999, 0.39999998, 0, 1.6017, 0.37849998, 0, 1.9820999, 0.37849998, -0.02, 2.0036, 0.0001, 0, 1.9820999, -0.3784, -0.02, 2.0036, -0.3999, -0.02, 2.0036, 0.0001, 0, 1.9820999, -0.021399999, 0, 1.9820999, -0.3784, -0.02, 2.0036, -0.3999, 0, 1.6017, -0.3784, -0.02, 1.5799999, -0.3999, -0.02, 2.0036, -0.3999, 0, 1.9820999, -0.3784, 0, 1.6017, -0.3784, -0.02, 1.5799999, 0.0001, 0, 1.9820999, -0.021399999, -0.02, 2.0036, 0.0001, -0.02, 1.5799999, 0.0001, 0, 1.6017, -0.021399999, 0, 1.9820999, -0.021399999, -0.02, 2.0036, -0.3999, 0, 1.9820999, -0.7784, -0.02, 2.0036, -0.7999, -0.02, 2.0036, -0.3999, 0, 1.9820999, -0.4215, 0, 1.9820999, -0.7784, -0.02, 2.0036, -0.7999, 0, 1.6017, -0.7784, -0.02, 1.5799999, -0.7999, -0.02, 2.0036, -0.7999, 0, 1.9820999, -0.7784, 0, 1.6017, -0.7784, -0.02, 1.5799999, -0.3999, 0, 1.9820999, -0.4215, -0.02, 2.0036, -0.3999, -0.02, 1.5799999, -0.3999, 0, 1.6017, -0.4215, 0, 1.9820999, -0.4215, -0.02, 1.5799999, -0.7999, 0, 1.9820999, -0.8214, -0.02, 2.0036, -0.7999, -0.02, 1.5799999, -0.7999, 0, 1.6017, -0.8214, 0, 1.9820999, -0.8214, -0.02, 2.4201999, 1.1999999, 0, 2.3987, 0.82159996, -0.02, 2.4201999, 0.80009997, -0.02, 2.4201999, 1.1999999, 0, 2.3987, 1.1784999, 0, 2.3987, 0.82159996, -0.02, 2.0036, 0.80009997, 0, 2.0251, 1.1784999, -0.02, 2.0036, 1.2001, -0.02, 2.0036, 0.80009997, 0, 2.0251, 0.82159996, 0, 2.0251, 1.1784999, -0.02, 2.0036, 1.2001, 0, 2.3987, 1.1784999, -0.02, 2.4201999, 1.1999999, -0.02, 2.0036, 1.2001, 0, 2.0251, 1.1784999, 0, 2.3987, 1.1784999, -0.02, 2.4201999, 0.80009997, 0, 2.0251, 0.82159996, -0.02, 2.0036, 0.80009997, -0.02, 2.4201999, 0.80009997, 0, 2.3987, 0.82159996, 0, 2.0251, 0.82159996, -0.02, 2.4201999, 0.80009997, 0, 2.3987, 0.42159998, -0.02, 2.4201999, 0.4001, -0.02, 2.4201999, 0.80009997, 0, 2.3987, 0.7786, 0, 2.3987, 0.42159998, -0.02, 2.4201999, 0.4001, 0, 2.0251, 0.42159998, -0.02, 2.0036, 0.4001, -0.02, 2.4201999, 0.4001, 0, 2.3987, 0.42159998, 0, 2.0251, 0.42159998, -0.02, 2.0036, 0.4001, 0, 2.0251, 0.7786, -0.02, 2.0036, 0.80009997, -0.02, 2.0036, 0.4001, 0, 2.0251, 0.42159998, 0, 2.0251, 0.7786, -0.02, 2.0036, 0.80009997, 0, 2.3987, 0.7786, -0.02, 2.4201999, 0.80009997, -0.02, 2.0036, 0.80009997, 0, 2.0251, 0.7786, 0, 2.3987, 0.7786, -0.02, 2.4201999, 0.4001, 0, 2.3987, 0.021599999, -0.02, 2.4201999, 0.0001, -0.02, 2.4201999, 0.4001, 0, 2.3987, 0.37849998, 0, 2.3987, 0.021599999, -0.02, 2.4201999, 0.0001, 0, 2.0251, 0.021599999, -0.02, 2.0036, 0.0001, -0.02, 2.4201999, 0.0001, 0, 2.3987, 0.021599999, 0, 2.0251, 0.021599999, -0.02, 2.0036, 0.0001, 0, 2.0251, 0.37849998, -0.02, 2.0036, 0.4001, -0.02, 2.0036, 0.0001, 0, 2.0251, 0.021599999, 0, 2.0251, 0.37849998, -0.02, 2.0036, 0.4001, 0, 2.3987, 0.37849998, -0.02, 2.4201999, 0.4001, -0.02, 2.0036, 0.4001, 0, 2.0251, 0.37849998, 0, 2.3987, 0.37849998, -0.02, 2.4201999, 0.0001, 0, 2.3987, -0.3784, -0.02, 2.4201999, -0.3999, -0.02, 2.4201999, 0.0001, 0, 2.3987, -0.021399999, 0, 2.3987, -0.3784, -0.02, 2.4201999, -0.3999, 0, 2.0251, -0.3784, -0.02, 2.0036, -0.3999, -0.02, 2.4201999, -0.3999, 0, 2.3987, -0.3784, 0, 2.0251, -0.3784, -0.02, 2.0036, -0.3999, 0, 2.0251, -0.021399999, -0.02, 2.0036, 0.0001, -0.02, 2.0036, -0.3999, 0, 2.0251, -0.3784, 0, 2.0251, -0.021399999, -0.02, 2.0036, 0.0001, 0, 2.3987, -0.021399999, -0.02, 2.4201999, 0.0001, -0.02, 2.0036, 0.0001, 0, 2.0251, -0.021399999, 0, 2.3987, -0.021399999, -0.02, 2.4201999, -0.3999, 0, 2.3987, -0.7784, -0.02, 2.4201999, -0.7999, -0.02, 2.4201999, -0.3999, 0, 2.3987, -0.4215, 0, 2.3987, -0.7784, -0.02, 2.4201999, -0.7999, 0, 2.0251, -0.7784, -0.02, 2.0036, -0.7999, -0.02, 2.4201999, -0.7999, 0, 2.3987, -0.7784, 0, 2.0251, -0.7784, -0.02, 2.0036, -0.7999, 0, 2.0251, -0.4215, -0.02, 2.0036, -0.3999, -0.02, 2.0036, -0.7999, 0, 2.0251, -0.7784, 0, 2.0251, -0.4215, -0.02, 2.0036, -0.3999, 0, 2.3987, -0.4215, -0.02, 2.4201999, -0.3999, -0.02, 2.0036, -0.3999, 0, 2.0251, -0.4215, 0, 2.3987, -0.4215, -0.02, 2.0036, -0.7999, 0, 2.3987, -0.8214, -0.02, 2.4201999, -0.7999, -0.02, 2.0036, -0.7999, 0, 2.0251, -0.8214, 0, 2.3987, -0.8214, -0.02, 1.5799999, 0.80009997, 0, 1.6017, 1.1784999, -0.02, 1.5799999, 1.1999999, -0.02, 1.5799999, 0.80009997, 0, 1.6017, 0.82159996, 0, 1.6017, 1.1784999, -0.02, 1.5799999, 0.39999998, 0, 1.6017, 0.7786, -0.02, 1.5799999, 0.80009997, -0.02, 1.5799999, 0.39999998, 0, 1.6017, 0.42159998, 0, 1.6017, 0.7786, -0.02, 1.5799999, 0.0001, 0, 1.6017, 0.37849998, -0.02, 1.5799999, 0.39999998, -0.02, 1.5799999, 0.0001, 0, 1.6017, 0.021599999, 0, 1.6017, 0.37849998, -0.02, 1.5799999, -0.3999, 0, 1.6017, -0.021399999, -0.02, 1.5799999, 0.0001, -0.02, 1.5799999, -0.3999, 0, 1.6017, -0.3784, 0, 1.6017, -0.021399999, -0.02, 1.5799999, -0.7999, 0, 1.6017, -0.4215, -0.02, 1.5799999, -0.3999, -0.02, 1.5799999, -0.7999, 0, 1.6017, -0.7784, 0, 1.6017, -0.4215, 0, 1.9820999, 0.82159996, 0.005, 1.6017, 0.82159996, 0, 1.6017, 0.82159996, 0, 1.9820999, 0.82159996, 0.005, 1.9820999, 0.82159996, 0.005, 1.6017, 0.82159996, 0, 1.9820999, 0.7786, 0.005, 1.9820999, 0.42159998, 0, 1.9820999, 0.42159998, 0, 1.9820999, 0.7786, 0.005, 1.9820999, 0.7786, 0.005, 1.9820999, 0.42159998, 0, 1.6017, 0.7786, 0.005, 1.9820999, 0.7786, 0, 1.9820999, 0.7786, 0, 1.6017, 0.7786, 0.005, 1.6017, 0.7786, 0.005, 1.9820999, 0.7786, 0, 1.9820999, 0.42159998, 0.005, 1.6017, 0.42159998, 0, 1.6017, 0.42159998, 0, 1.9820999, 0.42159998, 0.005, 1.9820999, 0.42159998, 0.005, 1.6017, 0.42159998, 0, 1.6017, -1.1783999, 0.005, 1.6017, -0.8214, 0, 1.6017, -0.8214, 0, 1.6017, -1.1783999, 0.005, 1.6017, -1.1783999, 0.005, 1.6017, -0.8214, 0, 2.3987, -0.8214, 0.005, 2.3987, -1.1783999, 0, 2.3987, -1.1783999, 0, 2.3987, -0.8214, 0.005, 2.3987, -0.8214, 0.005, 2.3987, -1.1783999, 0, 2.3987, -1.1783999, 0.005, 2.0251, -1.1783999, 0, 2.0251, -1.1783999, 0, 2.3987, -1.1783999, 0.005, 2.3987, -1.1783999, 0.005, 2.0251, -1.1783999, 0, 1.9820999, 0.37849998, 0.005, 1.9820999, 0.021599999, 0, 1.9820999, 0.021599999, 0, 1.9820999, 0.37849998, 0.005, 1.9820999, 0.37849998, 0.005, 1.9820999, 0.021599999, 0, 1.6017, 0.37849998, 0.005, 1.9820999, 0.37849998, 0, 1.9820999, 0.37849998, 0, 1.6017, 0.37849998, 0.005, 1.6017, 0.37849998, 0.005, 1.9820999, 0.37849998, 0, 1.9820999, 0.021599999, 0.005, 1.6017, 0.021599999, 0, 1.6017, 0.021599999, 0, 1.9820999, 0.021599999, 0.005, 1.9820999, 0.021599999, 0.005, 1.6017, 0.021599999, 0, 1.9820999, -0.021399999, 0.005, 1.9820999, -0.3784, 0, 1.9820999, -0.3784, 0, 1.9820999, -0.021399999, 0.005, 1.9820999, -0.021399999, 0.005, 1.9820999, -0.3784, 0, 1.6017, -0.021399999, 0.005, 1.9820999, -0.021399999, 0, 1.9820999, -0.021399999, 0, 1.6017, -0.021399999, 0.005, 1.6017, -0.021399999, 0.005, 1.9820999, -0.021399999, 0, 1.9820999, -0.3784, 0.005, 1.6017, -0.3784, 0, 1.6017, -0.3784, 0, 1.9820999, -0.3784, 0.005, 1.9820999, -0.3784, 0.005, 1.6017, -0.3784, 0, 2.0251, -1.1783999, 0.005, 2.0251, -0.8214, 0, 2.0251, -0.8214, 0, 2.0251, -1.1783999, 0.005, 2.0251, -1.1783999, 0.005, 2.0251, -0.8214, 0, 1.9820999, -1.1783999, 0.005, 1.6017, -1.1783999, 0, 1.6017, -1.1783999, 0, 1.9820999, -1.1783999, 0.005, 1.9820999, -1.1783999, 0.005, 1.6017, -1.1783999, 0, 2.0251, 1.1784999, 0.005, 2.3987, 1.1784999, 0, 2.3987, 1.1784999, 0, 2.0251, 1.1784999, 0.005, 2.0251, 1.1784999, 0.005, 2.3987, 1.1784999, 0, 1.6017, 1.1784999, 0.005, 1.9820999, 1.1784999, 0, 1.9820999, 1.1784999, 0, 1.6017, 1.1784999, 0.005, 1.6017, 1.1784999, 0.005, 1.9820999, 1.1784999, 0, 1.9820999, -0.4215, 0.005, 1.9820999, -0.7784, 0, 1.9820999, -0.7784, 0, 1.9820999, -0.4215, 0.005, 1.9820999, -0.4215, 0.005, 1.9820999, -0.7784, 0, 1.6017, -0.4215, 0.005, 1.9820999, -0.4215, 0, 1.9820999, -0.4215, 0, 1.6017, -0.4215, 0.005, 1.6017, -0.4215, 0.005, 1.9820999, -0.4215, 0, 1.9820999, -0.8214, 0.005, 1.9820999, -1.1783999, 0, 1.9820999, -1.1783999, 0, 1.9820999, -0.8214, 0.005, 1.9820999, -0.8214, 0.005, 1.9820999, -1.1783999, 0, 1.9820999, -0.7784, 0.005, 1.6017, -0.7784, 0, 1.6017, -0.7784, 0, 1.9820999, -0.7784, 0.005, 1.9820999, -0.7784, 0.005, 1.6017, -0.7784, 0, 1.6017, -0.8214, 0.005, 1.9820999, -0.8214, 0, 1.9820999, -0.8214, 0, 1.6017, -0.8214, 0.005, 1.6017, -0.8214, 0.005, 1.9820999, -0.8214, 0, 2.0251, 0.82159996, 0.005, 2.0251, 1.1784999, 0, 2.0251, 1.1784999, 0, 2.0251, 0.82159996, 0.005, 2.0251, 0.82159996, 0.005, 2.0251, 1.1784999, 0, 1.6017, 0.82159996, 0.005, 1.6017, 1.1784999, 0, 1.6017, 1.1784999, 0, 1.6017, 0.82159996, 0.005, 1.6017, 0.82159996, 0.005, 1.6017, 1.1784999, 0, 1.6017, 0.42159998, 0.005, 1.6017, 0.7786, 0, 1.6017, 0.7786, 0, 1.6017, 0.42159998, 0.005, 1.6017, 0.42159998, 0.005, 1.6017, 0.7786, 0, 1.6017, 0.021599999, 0.005, 1.6017, 0.37849998, 0, 1.6017, 0.37849998, 0, 1.6017, 0.021599999, 0.005, 1.6017, 0.021599999, 0.005, 1.6017, 0.37849998, 0, 1.6017, -0.3784, 0.005, 1.6017, -0.021399999, 0, 1.6017, -0.021399999, 0, 1.6017, -0.3784, 0.005, 1.6017, -0.3784, 0.005, 1.6017, -0.021399999, 0, 1.6017, -0.7784, 0.005, 1.6017, -0.4215, 0, 1.6017, -0.4215, 0, 1.6017, -0.7784, 0.005, 1.6017, -0.7784, 0.005, 1.6017, -0.4215, 0, 2.3987, 0.82159996, 0.005, 2.0251, 0.82159996, 0, 2.0251, 0.82159996, 0, 2.3987, 0.82159996, 0.005, 2.3987, 0.82159996, 0.005, 2.0251, 0.82159996, 0, 2.3987, 1.1784999, 0.005, 2.3987, 0.82159996, 0, 2.3987, 0.82159996, 0, 2.3987, 1.1784999, 0.005, 2.3987, 1.1784999, 0.005, 2.3987, 0.82159996, 0, 2.3987, 0.7786, 0.005, 2.3987, 0.42159998, 0, 2.3987, 0.42159998, 0, 2.3987, 0.7786, 0.005, 2.3987, 0.7786, 0.005, 2.3987, 0.42159998, 0, 2.3987, 0.37849998, 0.005, 2.3987, 0.021599999, 0, 2.3987, 0.021599999, 0, 2.3987, 0.37849998, 0.005, 2.3987, 0.37849998, 0.005, 2.3987, 0.021599999, 0, 2.3987, -0.021399999, 0.005, 2.3987, -0.3784, 0, 2.3987, -0.3784, 0, 2.3987, -0.021399999, 0.005, 2.3987, -0.021399999, 0.005, 2.3987, -0.3784, 0, 2.3987, -0.4215, 0.005, 2.3987, -0.7784, 0, 2.3987, -0.7784, 0, 2.3987, -0.4215, 0.005, 2.3987, -0.4215, 0.005, 2.3987, -0.7784, 0, 2.0251, 0.7786, 0.005, 2.3987, 0.7786, 0, 2.3987, 0.7786, 0, 2.0251, 0.7786, 0.005, 2.0251, 0.7786, 0.005, 2.3987, 0.7786, 0, 2.3987, 0.42159998, 0.005, 2.0251, 0.42159998, 0, 2.0251, 0.42159998, 0, 2.3987, 0.42159998, 0.005, 2.3987, 0.42159998, 0.005, 2.0251, 0.42159998, 0, 2.0251, 0.42159998, 0.005, 2.0251, 0.7786, 0, 2.0251, 0.7786, 0, 2.0251, 0.42159998, 0.005, 2.0251, 0.42159998, 0.005, 2.0251, 0.7786, 0, 2.0251, 0.37849998, 0.005, 2.3987, 0.37849998, 0, 2.3987, 0.37849998, 0, 2.0251, 0.37849998, 0.005, 2.0251, 0.37849998, 0.005, 2.3987, 0.37849998, 0, 2.3987, 0.021599999, 0.005, 2.0251, 0.021599999, 0, 2.0251, 0.021599999, 0, 2.3987, 0.021599999, 0.005, 2.3987, 0.021599999, 0.005, 2.0251, 0.021599999, 0, 2.0251, 0.021599999, 0.005, 2.0251, 0.37849998, 0, 2.0251, 0.37849998, 0, 2.0251, 0.021599999, 0.005, 2.0251, 0.021599999, 0.005, 2.0251, 0.37849998, 0, 2.0251, -0.021399999, 0.005, 2.3987, -0.021399999, 0, 2.3987, -0.021399999, 0, 2.0251, -0.021399999, 0.005, 2.0251, -0.021399999, 0.005, 2.3987, -0.021399999, 0, 2.3987, -0.3784, 0.005, 2.0251, -0.3784, 0, 2.0251, -0.3784, 0, 2.3987, -0.3784, 0.005, 2.3987, -0.3784, 0.005, 2.0251, -0.3784, 0, 2.0251, -0.3784, 0.005, 2.0251, -0.021399999, 0, 2.0251, -0.021399999, 0, 2.0251, -0.3784, 0.005, 2.0251, -0.3784, 0.005, 2.0251, -0.021399999, 0, 2.0251, -0.4215, 0.005, 2.3987, -0.4215, 0, 2.3987, -0.4215, 0, 2.0251, -0.4215, 0.005, 2.0251, -0.4215, 0.005, 2.3987, -0.4215, 0, 2.3987, -0.7784, 0.005, 2.0251, -0.7784, 0, 2.0251, -0.7784, 0, 2.3987, -0.7784, 0.005, 2.3987, -0.7784, 0.005, 2.0251, -0.7784, 0, 2.0251, -0.7784, 0.005, 2.0251, -0.4215, 0, 2.0251, -0.4215, 0, 2.0251, -0.7784, 0.005, 2.0251, -0.7784, 0.005, 2.0251, -0.4215, 0, 2.0251, -0.8214, 0.005, 2.3987, -0.8214, 0, 2.3987, -0.8214, 0, 2.0251, -0.8214, 0.005, 2.0251, -0.8214, 0.005, 2.3987, -0.8214, 0, 1.9820999, 1.1784999, 0.005, 1.9820999, 0.82159996, 0, 1.9820999, 0.82159996, 0, 1.9820999, 1.1784999, 0.005, 1.9820999, 1.1784999, 0.005, 1.9820999, 0.82159996, 0.024999999, 1.5799999, 1.1999999, 0.005, 1.6017, 0.82159996, 0.024999999, 1.5799999, 0.80009997, 0.024999999, 1.5799999, 1.1999999, 0.005, 1.6017, 1.1784999, 0.005, 1.6017, 0.82159996, 0.024999999, 2.4201999, 0.80009997, 0.005, 2.3987, 1.1784999, 0.024999999, 2.4201999, 1.1999999, 0.024999999, 2.4201999, 0.80009997, 0.005, 2.3987, 0.82159996, 0.005, 2.3987, 1.1784999, 0.024999999, 2.4201999, 1.1999999, 0.005, 2.0251, 1.1784999, 0.024999999, 2.0036, 1.1999999, 0.024999999, 2.4201999, 1.1999999, 0.005, 2.3987, 1.1784999, 0.005, 2.0251, 1.1784999, 0.024999999, 2.0036, 1.1999999, 0.005, 2.0251, 0.82159996, 0.024999999, 2.0036, 0.80009997, 0.024999999, 2.0036, 1.1999999, 0.005, 2.0251, 1.1784999, 0.005, 2.0251, 0.82159996, 0.024999999, 2.0036, 0.80009997, 0.005, 1.9820999, 1.1784999, 0.024999999, 2.0036, 1.1999999, 0.024999999, 2.0036, 0.80009997, 0.005, 1.9820999, 0.82159996, 0.005, 1.9820999, 1.1784999, 0.024999999, 2.0036, 1.1999999, 0.005, 1.6017, 1.1784999, 0.024999999, 1.5799999, 1.1999999, 0.024999999, 2.0036, 1.1999999, 0.005, 1.9820999, 1.1784999, 0.005, 1.6017, 1.1784999, 0.024999999, 2.0036, -1.1998999, 0.005, 1.9820999, -0.8214, 0.024999999, 2.0036, -0.7999, 0.024999999, 2.0036, -1.1998999, 0.005, 1.9820999, -1.1783999, 0.005, 1.9820999, -0.8214, 0.024999999, 1.5799999, -1.1998999, 0.005, 1.9820999, -1.1783999, 0.024999999, 2.0036, -1.1998999, 0.024999999, 1.5799999, -1.1998999, 0.005, 1.6017, -1.1783999, 0.005, 1.9820999, -1.1783999, 0.024999999, 2.0036, -0.7999, 0.005, 1.6017, -0.8214, 0.024999999, 1.5799999, -0.7999, 0.024999999, 2.0036, -0.7999, 0.005, 1.9820999, -0.8214, 0.005, 1.6017, -0.8214, 0.024999999, 2.0036, -0.7999, 0.005, 1.9820999, -0.4215, 0.024999999, 2.0036, -0.39999998, 0.024999999, 2.0036, -0.7999, 0.005, 1.9820999, -0.7784, 0.005, 1.9820999, -0.4215, 0.024999999, 2.0036, -0.39999998, 0.005, 1.6017, -0.4215, 0.024999999, 1.5799999, -0.39999998, 0.024999999, 2.0036, -0.39999998, 0.005, 1.9820999, -0.4215, 0.005, 1.6017, -0.4215, 0.024999999, 1.5799999, -0.7999, 0.005, 1.9820999, -0.7784, 0.024999999, 2.0036, -0.7999, 0.024999999, 1.5799999, -0.7999, 0.005, 1.6017, -0.7784, 0.005, 1.9820999, -0.7784, 0.024999999, 2.0036, -0.39999998, 0.005, 1.9820999, -0.021399999, 0.024999999, 2.0036, 0.0001, 0.024999999, 2.0036, -0.39999998, 0.005, 1.9820999, -0.3784, 0.005, 1.9820999, -0.021399999, 0.024999999, 2.0036, 0.0001, 0.005, 1.6017, -0.021399999, 0.024999999, 1.5799999, 0.0001, 0.024999999, 2.0036, 0.0001, 0.005, 1.9820999, -0.021399999, 0.005, 1.6017, -0.021399999, 0.024999999, 1.5799999, -0.39999998, 0.005, 1.9820999, -0.3784, 0.024999999, 2.0036, -0.39999998, 0.024999999, 1.5799999, -0.39999998, 0.005, 1.6017, -0.3784, 0.005, 1.9820999, -0.3784, 0.024999999, 2.0036, 0.0001, 0.005, 1.9820999, 0.37849998, 0.024999999, 2.0036, 0.39999998, 0.024999999, 2.0036, 0.0001, 0.005, 1.9820999, 0.021599999, 0.005, 1.9820999, 0.37849998, 0.024999999, 2.0036, 0.39999998, 0.005, 1.6017, 0.37849998, 0.024999999, 1.5799999, 0.39999998, 0.024999999, 2.0036, 0.39999998, 0.005, 1.9820999, 0.37849998, 0.005, 1.6017, 0.37849998, 0.024999999, 1.5799999, 0.0001, 0.005, 1.9820999, 0.021599999, 0.024999999, 2.0036, 0.0001, 0.024999999, 1.5799999, 0.0001, 0.005, 1.6017, 0.021599999, 0.005, 1.9820999, 0.021599999, 0.024999999, 2.0036, 0.39999998, 0.005, 1.9820999, 0.7786, 0.024999999, 2.0036, 0.80009997, 0.024999999, 2.0036, 0.39999998, 0.005, 1.9820999, 0.42159998, 0.005, 1.9820999, 0.7786, 0.024999999, 2.0036, 0.80009997, 0.005, 1.6017, 0.7786, 0.024999999, 1.5799999, 0.80009997, 0.024999999, 2.0036, 0.80009997, 0.005, 1.9820999, 0.7786, 0.005, 1.6017, 0.7786, 0.024999999, 1.5799999, 0.39999998, 0.005, 1.9820999, 0.42159998, 0.024999999, 2.0036, 0.39999998, 0.024999999, 1.5799999, 0.39999998, 0.005, 1.6017, 0.42159998, 0.005, 1.9820999, 0.42159998, 0.024999999, 1.5799999, 0.80009997, 0.005, 1.9820999, 0.82159996, 0.024999999, 2.0036, 0.80009997, 0.024999999, 1.5799999, 0.80009997, 0.005, 1.6017, 0.82159996, 0.005, 1.9820999, 0.82159996, 0.024999999, 2.4201999, -1.1998999, 0.005, 2.3987, -0.8214, 0.024999999, 2.4201999, -0.7999, 0.024999999, 2.4201999, -1.1998999, 0.005, 2.3987, -1.1783999, 0.005, 2.3987, -0.8214, 0.024999999, 2.0036, -0.7999, 0.005, 2.0251, -1.1783999, 0.024999999, 2.0036, -1.1998999, 0.024999999, 2.0036, -0.7999, 0.005, 2.0251, -0.8214, 0.005, 2.0251, -1.1783999, 0.024999999, 2.0036, -1.1998999, 0.005, 2.3987, -1.1783999, 0.024999999, 2.4201999, -1.1998999, 0.024999999, 2.0036, -1.1998999, 0.005, 2.0251, -1.1783999, 0.005, 2.3987, -1.1783999, 0.024999999, 2.4201999, -0.7999, 0.005, 2.0251, -0.8214, 0.024999999, 2.0036, -0.7999, 0.024999999, 2.4201999, -0.7999, 0.005, 2.3987, -0.8214, 0.005, 2.0251, -0.8214, 0.024999999, 2.4201999, -0.7999, 0.005, 2.3987, -0.4215, 0.024999999, 2.4201999, -0.39999998, 0.024999999, 2.4201999, -0.7999, 0.005, 2.3987, -0.7784, 0.005, 2.3987, -0.4215, 0.024999999, 2.4201999, -0.39999998, 0.005, 2.0251, -0.4215, 0.024999999, 2.0036, -0.39999998, 0.024999999, 2.4201999, -0.39999998, 0.005, 2.3987, -0.4215, 0.005, 2.0251, -0.4215, 0.024999999, 2.0036, -0.39999998, 0.005, 2.0251, -0.7784, 0.024999999, 2.0036, -0.7999, 0.024999999, 2.0036, -0.39999998, 0.005, 2.0251, -0.4215, 0.005, 2.0251, -0.7784, 0.024999999, 2.0036, -0.7999, 0.005, 2.3987, -0.7784, 0.024999999, 2.4201999, -0.7999, 0.024999999, 2.0036, -0.7999, 0.005, 2.0251, -0.7784, 0.005, 2.3987, -0.7784, 0.024999999, 2.4201999, -0.39999998, 0.005, 2.3987, -0.021399999, 0.024999999, 2.4201999, 0.0001, 0.024999999, 2.4201999, -0.39999998, 0.005, 2.3987, -0.3784, 0.005, 2.3987, -0.021399999, 0.024999999, 2.4201999, 0.0001, 0.005, 2.0251, -0.021399999, 0.024999999, 2.0036, 0.0001, 0.024999999, 2.4201999, 0.0001, 0.005, 2.3987, -0.021399999, 0.005, 2.0251, -0.021399999, 0.024999999, 2.0036, 0.0001, 0.005, 2.0251, -0.3784, 0.024999999, 2.0036, -0.39999998, 0.024999999, 2.0036, 0.0001, 0.005, 2.0251, -0.021399999, 0.005, 2.0251, -0.3784, 0.024999999, 2.0036, -0.39999998, 0.005, 2.3987, -0.3784, 0.024999999, 2.4201999, -0.39999998, 0.024999999, 2.0036, -0.39999998, 0.005, 2.0251, -0.3784, 0.005, 2.3987, -0.3784, 0.024999999, 2.4201999, 0.0001, 0.005, 2.3987, 0.37849998, 0.024999999, 2.4201999, 0.39999998, 0.024999999, 2.4201999, 0.0001, 0.005, 2.3987, 0.021599999, 0.005, 2.3987, 0.37849998, 0.024999999, 2.4201999, 0.39999998, 0.005, 2.0251, 0.37849998, 0.024999999, 2.0036, 0.39999998, 0.024999999, 2.4201999, 0.39999998, 0.005, 2.3987, 0.37849998, 0.005, 2.0251, 0.37849998, 0.024999999, 2.0036, 0.39999998, 0.005, 2.0251, 0.021599999, 0.024999999, 2.0036, 0.0001, 0.024999999, 2.0036, 0.39999998, 0.005, 2.0251, 0.37849998, 0.005, 2.0251, 0.021599999, 0.024999999, 2.0036, 0.0001, 0.005, 2.3987, 0.021599999, 0.024999999, 2.4201999, 0.0001, 0.024999999, 2.0036, 0.0001, 0.005, 2.0251, 0.021599999, 0.005, 2.3987, 0.021599999, 0.024999999, 2.4201999, 0.39999998, 0.005, 2.3987, 0.7786, 0.024999999, 2.4201999, 0.80009997, 0.024999999, 2.4201999, 0.39999998, 0.005, 2.3987, 0.42159998, 0.005, 2.3987, 0.7786, 0.024999999, 2.4201999, 0.80009997, 0.005, 2.0251, 0.7786, 0.024999999, 2.0036, 0.80009997, 0.024999999, 2.4201999, 0.80009997, 0.005, 2.3987, 0.7786, 0.005, 2.0251, 0.7786, 0.024999999, 2.0036, 0.80009997, 0.005, 2.0251, 0.42159998, 0.024999999, 2.0036, 0.39999998, 0.024999999, 2.0036, 0.80009997, 0.005, 2.0251, 0.7786, 0.005, 2.0251, 0.42159998, 0.024999999, 2.0036, 0.39999998, 0.005, 2.3987, 0.42159998, 0.024999999, 2.4201999, 0.39999998, 0.024999999, 2.0036, 0.39999998, 0.005, 2.0251, 0.42159998, 0.005, 2.3987, 0.42159998, 0.024999999, 2.0036, 0.80009997, 0.005, 2.3987, 0.82159996, 0.024999999, 2.4201999, 0.80009997, 0.024999999, 2.0036, 0.80009997, 0.005, 2.0251, 0.82159996, 0.005, 2.3987, 0.82159996, 0.024999999, 1.5799999, -0.7999, 0.005, 1.6017, -1.1783999, 0.024999999, 1.5799999, -1.1998999, 0.024999999, 1.5799999, -0.7999, 0.005, 1.6017, -0.8214, 0.005, 1.6017, -1.1783999, 0.024999999, 1.5799999, -0.39999998, 0.005, 1.6017, -0.7784, 0.024999999, 1.5799999, -0.7999, 0.024999999, 1.5799999, -0.39999998, 0.005, 1.6017, -0.4215, 0.005, 1.6017, -0.7784, 0.024999999, 1.5799999, 0.0001, 0.005, 1.6017, -0.3784, 0.024999999, 1.5799999, -0.39999998, 0.024999999, 1.5799999, 0.0001, 0.005, 1.6017, -0.021399999, 0.005, 1.6017, -0.3784, 0.024999999, 1.5799999, 0.39999998, 0.005, 1.6017, 0.021599999, 0.024999999, 1.5799999, 0.0001, 0.024999999, 1.5799999, 0.39999998, 0.005, 1.6017, 0.37849998, 0.005, 1.6017, 0.021599999, 0.024999999, 1.5799999, 0.80009997, 0.005, 1.6017, 0.42159998, 0.024999999, 1.5799999, 0.39999998, 0.024999999, 1.5799999, 0.80009997, 0.005, 1.6017, 0.7786, 0.005, 1.6017, 0.42159998, 0, 2.4201999, 1.1999999, 0, 1.5799999, -1.1998999, 0, 2.4201999, -1.1998999, 0, 2.4201999, 1.1999999, 0, 1.5799999, 1.2001, 0, 1.5799999, -1.1998999, 0.005, 2.4201999, 1.1999999, 0.005, 1.5799999, -1.1998999, 0.005, 1.5799999, 1.2001, 0.005, 2.4201999, 1.1999999, 0.005, 2.4201999, -1.1998999, 0.005, 1.5799999, -1.1998999, 0.22999999, 1.5489999, 1.2499, 0.24499999, 1.5289999, 1.2499, 0.24, 1.5289999, 1.2499, 0.22999999, 1.5489999, 1.2499, 0.233, 1.553, 1.2499, 0.24499999, 1.5289999, 1.2499, 0.024, 1.5769999, 1.2499, 0.22999999, 1.5489999, -1.2501, 0.024, 1.5769999, -1.2501, 0.024, 1.5769999, 1.2499, 0.22999999, 1.5489999, 1.2499, 0.22999999, 1.5489999, -1.2501, 0.233, 1.553, 1.2499, 0.24499999, 1.5289999, -1.2501, 0.24499999, 1.5289999, 1.2499, 0.233, 1.553, 1.2499, 0.233, 1.553, -1.2501, 0.24499999, 1.5289999, -1.2501, 0.24, 1.5289999, 1.2499, 0.24499999, 1.5289999, -1.2501, 0.24, 1.5289999, -1.2501, 0.24, 1.5289999, 1.2499, 0.24499999, 1.5289999, 1.2499, 0.24499999, 1.5289999, -1.2501, 0.22999999, 1.5489999, 1.2499, 0.24, 1.5289999, -1.2501, 0.22999999, 1.5489999, -1.2501, 0.22999999, 1.5489999, 1.2499, 0.24, 1.5289999, 1.2499, 0.24, 1.5289999, -1.2501, 0.024, 1.581, -1.2501, 0.22999999, 1.5489999, -1.2501, 0.233, 1.553, -1.2501, 0.024, 1.581, -1.2501, 0.024, 1.5769999, -1.2501, 0.22999999, 1.5489999, -1.2501, 0.233, 1.553, -1.2501, 0.24, 1.5289999, -1.2501, 0.24499999, 1.5289999, -1.2501, 0.233, 1.553, -1.2501, 0.22999999, 1.5489999, -1.2501, 0.24, 1.5289999, -1.2501, 0.024, 1.5769999, 1.2499, 0.233, 1.553, 1.2499, 0.22999999, 1.5489999, 1.2499, 0.024, 1.5769999, 1.2499, 0.024, 1.581, 1.2499, 0.233, 1.553, 1.2499, 0.024, 1.581, -1.2501, 0.233, 1.553, 1.2499, 0.024, 1.581, 1.2499, 0.024, 1.581, -1.2501, 0.233, 1.553, -1.2501, 0.233, 1.553, 1.2499, -0.29999998, 1.54, 1.2199, -0.29999998, 1.5799999, -1.2200999, -0.29999998, 1.5799999, 1.2199, -0.29999998, 1.54, 1.2199, -0.29999998, 1.54, -1.2200999, -0.29999998, 1.5799999, -1.2200999, -0.26999998, 1.5799999, -1.2501, -0.29999998, 1.54, -1.2200999, -0.26999998, 1.54, -1.2501, -0.26999998, 1.5799999, -1.2501, -0.29999998, 1.5799999, -1.2200999, -0.29999998, 1.54, -1.2200999, -0.26999998, 1.54, -1.2501, -0.02, 1.5799999, -1.2501, -0.26999998, 1.5799999, -1.2501, -0.26999998, 1.54, -1.2501, -0.02, 1.54, -1.2501, -0.02, 1.5799999, -1.2501, -0.02, 1.54, 1.2499, -0.26999998, 1.5799999, 1.2499, -0.02, 1.5799999, 1.2499, -0.02, 1.54, 1.2499, -0.26999998, 1.54, 1.2499, -0.26999998, 1.5799999, 1.2499, -0.02, 1.54, 1.2499, -0.29999998, 1.54, 1.2199, -0.26999998, 1.54, 1.2499, -0.29999998, 1.54, 1.2199, -0.02, 1.54, 1.2499, -0.26999998, 1.54, -1.2501, -0.26999998, 1.54, -1.2501, -0.02, 1.54, 1.2499, -0.02, 1.54, -1.2501, -0.29999998, 1.54, 1.2199, -0.26999998, 1.54, -1.2501, -0.29999998, 1.54, -1.2200999, -0.02, 1.5799999, -1.2501, -0.29999998, 1.5799999, -1.2200999, -0.26999998, 1.5799999, -1.2501, -0.29999998, 1.5799999, -1.2200999, -0.02, 1.5799999, -1.2501, -0.26999998, 1.5799999, 1.2499, -0.26999998, 1.5799999, 1.2499, -0.02, 1.5799999, -1.2501, -0.02, 1.5799999, 1.2499, -0.29999998, 1.5799999, -1.2200999, -0.26999998, 1.5799999, 1.2499, -0.29999998, 1.5799999, 1.2199, -0.29999998, 1.5799999, 1.2199, -0.26999998, 1.54, 1.2499, -0.29999998, 1.54, 1.2199, -0.29999998, 1.5799999, 1.2199, -0.26999998, 1.5799999, 1.2499, -0.26999998, 1.54, 1.2499)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bj86v"]
+resource_name = "wall_rg_2"
+cull_mode = 2
+albedo_texture = ExtResource("135_erg2c")
+texture_filter = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jqrsy"]
+resource_name = "concrete_hr_3"
+cull_mode = 2
+albedo_texture = ExtResource("136_337ox")
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_58db6"]
+_surfaces = [{
+"aabb": AABB(-2, -1.4305215e-08, -0.20000133, 4, 3, 0.40000236),
+"format": 34896613377,
+"index_count": 12,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUA"),
+"name": "wall_rg_2",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP7/AAD//////v8AAP//AAD+/wAAAAD/////AAD//wAAAAAAAAAA//8AAAAAAAAAAAAAAAD/////AAAAAA==")
+}, {
+"aabb": AABB(-2, 3, -0.20000133, 4, 1e-05, 0.40000236),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray("AAABAAIAAAADAAEA"),
+"name": "concrete_hr_3",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("//8AAP7/AAAAAAAAAAAAAP//AAAAAAAAAAAAAP//AAA=")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_8hepq"]
+resource_name = "wall_rtx_1_wall_rtx_1"
+_surfaces = [{
+"aabb": AABB(-2, -1.4305215e-08, -0.20000133, 4, 3, 0.40000236),
+"attribute_data": PackedByteArray("AAD/////AAD/////AAAAAAAA/////wAA/////wAAAAA="),
+"format": 34896613399,
+"index_count": 12,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUA"),
+"material": SubResource("StandardMaterial3D_bj86v"),
+"name": "wall_rg_2",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP7/AID//////v8AgP//AAD+/wCAAAD/////AID//wAAAAD//wAA//8AAP//AAAAAAAA////////AAD///9/////f////3////9/////f////3////9/////f///")
+}, {
+"aabb": AABB(-2, 3, -0.20000133, 4, 1e-05, 0.40000236),
+"attribute_data": PackedByteArray("///+/6qquej//7noqqr//w=="),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray("AAABAAIAAAADAAEA"),
+"material": SubResource("StandardMaterial3D_jqrsy"),
+"name": "concrete_hr_3",
+"primitive": 3,
+"uv_scale": Vector4(3, 1.1000005, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("//8AAP7//78AAAAAAAD/v///AAAAAP+/AAAAAP///7////9/////f////3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_58db6")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_rqdav"]
+data = PackedVector3Array(-2, 0, 0.19999999, 2, 3, 0.19999999, 2, 0, 0.19999999, -2, 0, 0.19999999, -2, 3, 0.19999999, 2, 3, 0.19999999, 2, 0, -0.19999999, -2, 3, -0.19999999, -2, 0, -0.19999999, 2, 0, -0.19999999, 2, 3, -0.19999999, -2, 3, -0.19999999, 2, 3, 0.19999999, -2, 3, -0.19999999, 2, 3, -0.19999999, 2, 3, 0.19999999, -2, 3, 0.19999999, -2, 3, -0.19999999)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_li3ch"]
+resource_name = "wall_rg_2"
+cull_mode = 2
+albedo_texture = ExtResource("212_5two5")
+texture_filter = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fk7jh"]
+resource_name = "concrete_hr_3"
+cull_mode = 2
+albedo_texture = ExtResource("213_afhd2")
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_x4i64"]
+_surfaces = [{
+"aabb": AABB(-2, -1.4305215e-08, -0.20000133, 4, 3, 0.40000236),
+"format": 34896613377,
+"index_count": 54,
+"index_data": PackedByteArray("AAABAAIAAAACAAMAAAADAAQAAQAFAAYAAQAHAAUAAAAHAAEABwAIAAUACQAAAAQACQAHAAAACQAEAAoABwALAAgACQALAAcACwAMAAgACwANAAwADgANAAsADgALAAkADgAJAAoADgAKAA8A"),
+"name": "wall_rg_2",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("zExU1f7/AADMTAAAAAAAAMxMAAD+/wAAAAAAAP7/AAAAAP////8AAAAA//8AAAAAAAAAAAAAAADMTFTVAAAAAP////8AAAAAMrNU1f7/AAD//////v8AADKzVNUAAAAA//8AAAAAAAAyswAAAAAAADKzAAD+/wAA//8AAP7/AAA=")
+}, {
+"aabb": AABB(-2, 3, -0.20000133, 4, 1e-05, 0.40000236),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray("AAABAAIAAAADAAEA"),
+"name": "concrete_hr_3",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("//8AAP7/AAAAAAAAAAAAAP//AAAAAAAAAAAAAP//AAA=")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_yvps4"]
+resource_name = "doorway_rtx_1_wide_doorway_rtx_1_wide"
+_surfaces = [{
+"aabb": AABB(-2, -1.4305215e-08, -0.20000133, 4, 3, 0.40000236),
+"attribute_data": PackedByteArray("r06qKmdt//+vTv//Z22qKqhOqirkAf//5AEAAKhO//9WsaoqGv4AAFax//8a/v//WLH//6CSqipYsaoqoJL//6hOqirkAf//5AEAAKhO//9WsaoqGv4AAFax//8a/v//VrGqKghPzEyoTqoq9rDMTA=="),
+"format": 34896613399,
+"index_count": 54,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAEAAYACAAGAAkACgAIAAkACgAJAAsADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAQABIAFAASABUAFgAUABUAFgAVABcAGAAZABoAGAAbABkA"),
+"material": SubResource("StandardMaterial3D_li3ch"),
+"name": "wall_rg_2",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 28,
+"vertex_data": PackedByteArray("zExU1f7//7/MTAAAAAD/v8xMAAD+//+/zExU1QAA/7/MTFTV/v8AgAAAAAD+/wCAAAD/////AIDMTAAA/v8AgDKzVNX+/wCA//////7/AIAyswAA/v8AgP//AAD+/wCAMrMAAP7//78ys1TVAAD/vzKzVNX+//+/MrMAAAAA/78ys1TVAAD/////AAAAAP///////wAA//8yswAAAAD//8xMVNUAAP//AAD//wAA///MTAAAAAD//wAAAAAAAP//MrNU1f7//7/MTFTVAAD/v8xMVNX+//+/MrNU1QAA/7//fwAA/38AAP9/AAD/fwAA/3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9///8AAP9/AAD/fwAA/38AAP9/")
+}, {
+"aabb": AABB(-2, 3, -0.20000133, 4, 1e-05, 0.40000236),
+"attribute_data": PackedByteArray("///+/6qquej//7noqqr//w=="),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray("AAABAAIAAAADAAEA"),
+"material": SubResource("StandardMaterial3D_fk7jh"),
+"name": "concrete_hr_3",
+"primitive": 3,
+"uv_scale": Vector4(3, 1.1000005, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("//8AAP7//78AAAAAAAD/v///AAAAAP+/AAAAAP///7////9/////f////3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_x4i64")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_040mu"]
+data = PackedVector3Array(-0.79999995, 2.5, 0.19999999, -0.79999995, 0, -0.19999999, -0.79999995, 0, 0.19999999, -0.79999995, 2.5, 0.19999999, -0.79999995, 2.5, -0.19999999, -0.79999995, 0, -0.19999999, -0.79999995, 2.5, 0.19999999, -2, 0, 0.19999999, -2, 3, 0.19999999, -0.79999995, 2.5, 0.19999999, -0.79999995, 0, 0.19999999, -2, 0, 0.19999999, 0.79999995, 2.5, 0.19999999, -0.79999995, 2.5, 0.19999999, -2, 3, 0.19999999, 0.79999995, 2.5, 0.19999999, -2, 3, 0.19999999, 2, 3, 0.19999999, 0.79999995, 0, 0.19999999, 0.79999995, 2.5, 0.19999999, 2, 3, 0.19999999, 0.79999995, 0, 0.19999999, 2, 3, 0.19999999, 2, 0, 0.19999999, 0.79999995, 0, 0.19999999, 0.79999995, 2.5, -0.19999999, 0.79999995, 2.5, 0.19999999, 0.79999995, 0, 0.19999999, 0.79999995, 0, -0.19999999, 0.79999995, 2.5, -0.19999999, 0.79999995, 2.5, -0.19999999, 2, 0, -0.19999999, 2, 3, -0.19999999, 0.79999995, 2.5, -0.19999999, 0.79999995, 0, -0.19999999, 2, 0, -0.19999999, -0.79999995, 2.5, -0.19999999, 0.79999995, 2.5, -0.19999999, 2, 3, -0.19999999, -0.79999995, 2.5, -0.19999999, 2, 3, -0.19999999, -2, 3, -0.19999999, -0.79999995, 0, -0.19999999, -0.79999995, 2.5, -0.19999999, -2, 3, -0.19999999, -0.79999995, 0, -0.19999999, -2, 3, -0.19999999, -2, 0, -0.19999999, 0.79999995, 2.5, 0.19999999, -0.79999995, 2.5, -0.19999999, -0.79999995, 2.5, 0.19999999, 0.79999995, 2.5, 0.19999999, 0.79999995, 2.5, -0.19999999, -0.79999995, 2.5, -0.19999999, 2, 3, 0.19999999, -2, 3, -0.19999999, 2, 3, -0.19999999, 2, 3, 0.19999999, -2, 3, 0.19999999, -2, 3, -0.19999999)
+
 [node name="Level1_Tiles" type="Node3D"]
 
 [node name="bars_metal_32" type="Node3D" parent="."]
@@ -9356,6 +9756,7 @@ skeleton = NodePath("")
 shape = SubResource("ConcavePolygonShape3D_1k5f3")
 
 [node name="floor_ceiling_hr_2_hole2" type="Node3D" parent="."]
+visible = false
 
 [node name="floor_ceiling_hr_2_hole" type="MeshInstance3D" parent="floor_ceiling_hr_2_hole2"]
 material_override = SubResource("StandardMaterial3D_vxmok")
@@ -9582,3 +9983,50 @@ skeleton = NodePath("")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="floor_ceiling_hr_2_hole3/floor_ceiling_hr_2_hole/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_1e164")
+
+[node name="wall_rg_1_double3" type="Node3D" parent="."]
+visible = false
+
+[node name="wall_rg_1_double" type="MeshInstance3D" parent="wall_rg_1_double3"]
+mesh = SubResource("ArrayMesh_ghfrs")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="wall_rg_1_double3/wall_rg_1_double"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="wall_rg_1_double3/wall_rg_1_double/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_5pqux")
+
+[node name="window_rtx_12" type="Node3D" parent="."]
+visible = false
+
+[node name="window_rtx_1" type="MeshInstance3D" parent="window_rtx_12"]
+mesh = SubResource("ArrayMesh_lmd25")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="window_rtx_12/window_rtx_1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="window_rtx_12/window_rtx_1/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_e5idk")
+
+[node name="wall_rtx_13" type="Node3D" parent="."]
+visible = false
+
+[node name="wall_rtx_1" type="MeshInstance3D" parent="wall_rtx_13"]
+mesh = SubResource("ArrayMesh_8hepq")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="wall_rtx_13/wall_rtx_1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="wall_rtx_13/wall_rtx_1/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_rqdav")
+
+[node name="doorway_rtx_1_wide2" type="Node3D" parent="."]
+
+[node name="doorway_rtx_1_wide" type="MeshInstance3D" parent="doorway_rtx_1_wide2"]
+mesh = SubResource("ArrayMesh_yvps4")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="doorway_rtx_1_wide2/doorway_rtx_1_wide"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="doorway_rtx_1_wide2/doorway_rtx_1_wide/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_040mu")

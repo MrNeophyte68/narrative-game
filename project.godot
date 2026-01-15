@@ -11,8 +11,12 @@ config_version=5
 [application]
 
 config/name="narrative_game"
-run/main_scene="uid://bt6ywtcmn7b5x"
+run/main_scene="uid://btbw2qtnm4if6"
 config/features=PackedStringArray("4.5", "Forward Plus")
+
+[autoload]
+
+GameManager="*res://map/level_scripts/game_manager.gd"
 
 [display]
 
@@ -20,6 +24,10 @@ window/size/viewport_width=1920
 window/size/viewport_height=1080
 window/size/mode=3
 window/stretch/mode="viewport"
+
+[editor]
+
+version_control/autoload_on_startup=true
 
 [input]
 

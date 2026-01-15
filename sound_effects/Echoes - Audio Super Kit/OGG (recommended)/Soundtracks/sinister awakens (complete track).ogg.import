@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bui5frtcp5ti1"
+path="res://.godot/imported/sinister awakens (complete track).ogg-329c701c105525bc377115862231878d.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/Soundtracks/sinister awakens (complete track).ogg"
+dest_files=["res://.godot/imported/sinister awakens (complete track).ogg-329c701c105525bc377115862231878d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

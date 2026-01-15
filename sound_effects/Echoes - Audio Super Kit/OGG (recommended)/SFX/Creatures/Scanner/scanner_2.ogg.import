@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dro1bo4p2cpo0"
+path="res://.godot/imported/scanner_2.ogg-87bc63fcfb05cfd93a953917623c715d.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Creatures/Scanner/scanner_2.ogg"
+dest_files=["res://.godot/imported/scanner_2.ogg-87bc63fcfb05cfd93a953917623c715d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

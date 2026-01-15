@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b18h6va0v7uag"
+path="res://.godot/imported/ambient_rythm_ph_2_loop.ogg-f9b762ba816f2e442b83017890f354ab.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/Bonus/Pure Horror/Loops/ambient_rythm_ph_2_loop.ogg"
+dest_files=["res://.godot/imported/ambient_rythm_ph_2_loop.ogg-f9b762ba816f2e442b83017890f354ab.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

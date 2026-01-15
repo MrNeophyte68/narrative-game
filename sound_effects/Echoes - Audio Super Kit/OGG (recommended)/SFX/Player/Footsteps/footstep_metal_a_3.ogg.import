@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bijstlwjtwtkt"
+path="res://.godot/imported/footstep_metal_a_3.ogg-2327141c9d4ea6a3006767dea36c3ac8.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Player/Footsteps/footstep_metal_a_3.ogg"
+dest_files=["res://.godot/imported/footstep_metal_a_3.ogg-2327141c9d4ea6a3006767dea36c3ac8.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

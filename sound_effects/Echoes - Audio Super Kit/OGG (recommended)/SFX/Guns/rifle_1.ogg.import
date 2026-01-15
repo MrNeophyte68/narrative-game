@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dola6y8gbpb7v"
+path="res://.godot/imported/rifle_1.ogg-b2903b9aa6e51729933a77dd491a0abf.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Guns/rifle_1.ogg"
+dest_files=["res://.godot/imported/rifle_1.ogg-b2903b9aa6e51729933a77dd491a0abf.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

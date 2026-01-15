@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dahlnol125rig"
+path="res://.godot/imported/something in the forest (complete track).ogg-5551867fe19b2a4bc4e794c5351fc668.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/Soundtracks/something in the forest (complete track).ogg"
+dest_files=["res://.godot/imported/something in the forest (complete track).ogg-5551867fe19b2a4bc4e794c5351fc668.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

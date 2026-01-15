@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cxuo532bks8pa"
+path="res://.godot/imported/machinegun_heavy_2.ogg-438c1a555ecfa723c0099f761cb7b611.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Guns/machinegun_heavy_2.ogg"
+dest_files=["res://.godot/imported/machinegun_heavy_2.ogg-438c1a555ecfa723c0099f761cb7b611.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

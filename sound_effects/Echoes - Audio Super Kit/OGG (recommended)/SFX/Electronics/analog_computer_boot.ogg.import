@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://m6wyecl1m51n"
+path="res://.godot/imported/analog_computer_boot.ogg-b4fb81199577fadbf1eb2b3a6a37c9f7.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Electronics/analog_computer_boot.ogg"
+dest_files=["res://.godot/imported/analog_computer_boot.ogg-b4fb81199577fadbf1eb2b3a6a37c9f7.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

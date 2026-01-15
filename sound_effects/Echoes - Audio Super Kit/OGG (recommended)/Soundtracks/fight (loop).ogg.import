@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://chbs7tf6ka7l0"
+path="res://.godot/imported/fight (loop).ogg-97dd58bea125a00ab3a77505cc1c39ac.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/Soundtracks/fight (loop).ogg"
+dest_files=["res://.godot/imported/fight (loop).ogg-97dd58bea125a00ab3a77505cc1c39ac.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

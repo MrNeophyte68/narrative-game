@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bj2a8iv4eckqg"
+path="res://.godot/imported/sci-fi_frequencies_2.ogg-f200e469c8012b61b3d449924ec19b7a.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/Bonus/Pure Sci-Fi/sci-fi_frequencies_2.ogg"
+dest_files=["res://.godot/imported/sci-fi_frequencies_2.ogg-f200e469c8012b61b3d449924ec19b7a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

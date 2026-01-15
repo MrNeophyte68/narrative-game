@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=4 uid="uid://dstmtb7me0lh8"]
+[gd_scene load_steps=34 format=4 uid="uid://dstmtb7me0lh8"]
 
 [ext_resource type="Texture2D" uid="uid://c4itmbpuywun8" path="res://assets/images/hl_office_complex_style_tile_floor_1.png" id="1_0lf1x"]
 [ext_resource type="PackedScene" uid="uid://bgg5wj2yybs01" path="res://objects/cube_5_kg.tscn" id="1_6rruu"]
@@ -12,8 +12,9 @@
 [ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="10_w4nqt"]
 [ext_resource type="Script" uid="uid://q6srrxbjnau5" path="res://scripts_misc/light.gd" id="11_guthx"]
 [ext_resource type="Script" uid="uid://c8qyctcfo8lph" path="res://scripts_misc/bridge.gd" id="12_f115k"]
-[ext_resource type="Texture2D" uid="uid://oxsww25uois6" path="res://assets/glb/psx_mega_pack2/Props/gear_mx_1_metal_hr_6_1.png" id="12_guthx"]
+[ext_resource type="Texture2D" uid="uid://b0i6glxl7dtk7" path="res://assets/glb/psx_mega_pack2/Props/gear_mx_1_metal_hr_6_1.png" id="12_guthx"]
 [ext_resource type="PackedScene" uid="uid://cnhlycm4bxj8q" path="res://objects/pill_bottle.tscn" id="14_cpxhe"]
+[ext_resource type="PackedScene" uid="uid://cf0mmc3573pgf" path="res://objects/basic_note.tscn" id="15_hq34e"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_s2tkr"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -172,6 +173,7 @@ environment = SubResource("Environment_koc8j")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+layers = 3
 shadow_enabled = true
 
 [node name="floor" type="CSGBox3D" parent="."]
@@ -231,6 +233,7 @@ nodes_to_affect = [NodePath("../../../../SpotLight3D")]
 
 [node name="SpotLight3D" type="SpotLight3D" parent="lever_etx_22"]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0.69238234, 0)
+layers = 3
 script = ExtResource("11_guthx")
 
 [node name="floor2" type="Node3D" parent="."]
@@ -283,3 +286,9 @@ nodes_to_affect = [NodePath("../../../../floor2/pivotpoint")]
 
 [node name="Pill_Bottle" parent="." instance=ExtResource("14_cpxhe")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.594359, 1.9260492, 9.780988)
+
+[node name="BasicNote" parent="." instance=ExtResource("15_hq34e")]
+transform = Transform3D(0.97304624, -1.0080292e-08, -0.2306102, -0.2306102, -4.2533202e-08, -0.97304624, 0, 1, -4.371139e-08, 0, 3.2233427, -8.958749)
+
+[node name="BasicNote2" parent="." instance=ExtResource("15_hq34e")]
+transform = Transform3D(0.97304624, -1.0080292e-08, -0.2306102, -0.2306102, -4.2533202e-08, -0.97304624, 0, 1, -4.371139e-08, 0.94345653, 3.2233427, -8.958749)

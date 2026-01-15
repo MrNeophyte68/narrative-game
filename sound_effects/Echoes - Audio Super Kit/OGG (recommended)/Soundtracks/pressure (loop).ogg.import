@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://2qmklico7f5t"
+path="res://.godot/imported/pressure (loop).ogg-2326ba19346262afff82f61678a1d069.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/Soundtracks/pressure (loop).ogg"
+dest_files=["res://.godot/imported/pressure (loop).ogg-2326ba19346262afff82f61678a1d069.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

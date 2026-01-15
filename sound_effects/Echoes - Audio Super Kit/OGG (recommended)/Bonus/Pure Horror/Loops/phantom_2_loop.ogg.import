@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ckqctjkwxktgl"
+path="res://.godot/imported/phantom_2_loop.ogg-d0dba3ffe280ab38bf3981d59ff981bf.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/Bonus/Pure Horror/Loops/phantom_2_loop.ogg"
+dest_files=["res://.godot/imported/phantom_2_loop.ogg-d0dba3ffe280ab38bf3981d59ff981bf.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

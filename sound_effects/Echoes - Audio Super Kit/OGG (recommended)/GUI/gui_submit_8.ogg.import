@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b4r3v2ccnf2ek"
+path="res://.godot/imported/gui_submit_8.ogg-a56d96410bbe0067c713b1c4e29d9aa7.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/GUI/gui_submit_8.ogg"
+dest_files=["res://.godot/imported/gui_submit_8.ogg-a56d96410bbe0067c713b1c4e29d9aa7.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

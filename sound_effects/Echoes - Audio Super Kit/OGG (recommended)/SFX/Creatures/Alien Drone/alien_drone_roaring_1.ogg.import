@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cffldq5db1mon"
+path="res://.godot/imported/alien_drone_roaring_1.ogg-1f4b3824afb511df6fa9faa89dd5a7dd.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Creatures/Alien Drone/alien_drone_roaring_1.ogg"
+dest_files=["res://.godot/imported/alien_drone_roaring_1.ogg-1f4b3824afb511df6fa9faa89dd5a7dd.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

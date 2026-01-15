@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bs84q8114as4n"
+path="res://.godot/imported/monster_talking_3.ogg-d2ec3feee3ace0b62113154fc39e2510.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Creatures/Monster/monster_talking_3.ogg"
+dest_files=["res://.godot/imported/monster_talking_3.ogg-d2ec3feee3ace0b62113154fc39e2510.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

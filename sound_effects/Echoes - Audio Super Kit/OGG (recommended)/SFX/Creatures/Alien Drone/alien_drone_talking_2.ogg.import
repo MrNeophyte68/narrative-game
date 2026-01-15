@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://deqrk0q30iuge"
+path="res://.godot/imported/alien_drone_talking_2.ogg-047cee6c8a15c9c18fdb6ddd5d7fd6b1.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Creatures/Alien Drone/alien_drone_talking_2.ogg"
+dest_files=["res://.godot/imported/alien_drone_talking_2.ogg-047cee6c8a15c9c18fdb6ddd5d7fd6b1.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

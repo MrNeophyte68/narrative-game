@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bd65fhdd7ayna"
+path="res://.godot/imported/heat (start).ogg-c048b224c5ef5dfed4b031e1c75358f3.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/Soundtracks/heat (start).ogg"
+dest_files=["res://.godot/imported/heat (start).ogg-c048b224c5ef5dfed4b031e1c75358f3.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

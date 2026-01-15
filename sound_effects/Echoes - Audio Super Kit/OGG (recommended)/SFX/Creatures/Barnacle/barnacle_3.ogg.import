@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d0upaowbomjw0"
+path="res://.godot/imported/barnacle_3.ogg-631bab4fd53dfe69ff6780e9ce7b56bd.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Creatures/Barnacle/barnacle_3.ogg"
+dest_files=["res://.godot/imported/barnacle_3.ogg-631bab4fd53dfe69ff6780e9ce7b56bd.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

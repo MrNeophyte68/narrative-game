@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://chvn0iyv6yffd"
+path="res://.godot/imported/beginning (start).ogg-ba21e2eccafc8843e753b53d97839717.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/Soundtracks/beginning (start).ogg"
+dest_files=["res://.godot/imported/beginning (start).ogg-ba21e2eccafc8843e753b53d97839717.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

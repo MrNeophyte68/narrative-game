@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b12nwnw3im37q"
+path="res://.godot/imported/fall_distant_1.ogg-1a69d3d85291377a0942214429d584cb.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Misc/fall_distant_1.ogg"
+dest_files=["res://.godot/imported/fall_distant_1.ogg-1a69d3d85291377a0942214429d584cb.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,10 +1,15 @@
-[gd_scene load_steps=11 format=3 uid="uid://ihcfomvy087y"]
+[gd_scene load_steps=21 format=3 uid="uid://ihcfomvy087y"]
 
 [ext_resource type="Script" uid="uid://bggl12dwxkqag" path="res://player/player_scripts/player.gd" id="1_8p05u"]
 [ext_resource type="PackedScene" uid="uid://dqmsi6t2g3v7w" path="res://interaction/interaction_controller.tscn" id="2_eo61r"]
 [ext_resource type="Texture2D" uid="uid://bm3h4o0e0e11r" path="res://assets/ui_interface_images/crosshair001.png" id="3_g1dw6"]
 [ext_resource type="Texture2D" uid="uid://bwhi87bbp6qmh" path="res://assets/ui_interface_images/Cur_Grab.svg" id="3_yw30f"]
+[ext_resource type="Shader" uid="uid://ddkh3ntaxfg40" path="res://shaders/note_fade.gdshader" id="4_g6k8r"]
+[ext_resource type="FontFile" uid="uid://ff7gl3x1bli7" path="res://assets/font/Sunlight Dreams.otf" id="5_boad6"]
 [ext_resource type="PackedScene" uid="uid://dl657pi41k18h" path="res://player/sanity_controller.tscn" id="5_qjkh3"]
+[ext_resource type="AudioStream" uid="uid://ge0sqf746gkd" path="res://sound_effects/footsteps/concrete_footsteps_reverb.wav" id="8_8t03j"]
+[ext_resource type="AudioStream" uid="uid://d2w0c0pjcqt82" path="res://sound_effects/footsteps/jump_concrete_reverb.wav" id="9_hg6s5"]
+[ext_resource type="AudioStream" uid="uid://djrcfj0fi8lam" path="res://sound_effects/footsteps/land_concrete_reverb.wav" id="10_8t03j"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yw30f"]
 
@@ -24,6 +29,100 @@ height = 1.0
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_yw30f"]
 radius = 3.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_boad6"]
+shader = ExtResource("4_g6k8r")
+shader_parameter/rect_width_px = 960.0
+shader_parameter/fade_width_px = 240.0
+shader_parameter/fade_strength = 0.70000003325
+
+[sub_resource type="Animation" id="Animation_8t03j"]
+resource_name = "fade_in"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("%FadeToBlack:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("%FadeToBlack:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_2ieo8"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("%FadeToBlack:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("%FadeToBlack:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_ebec5"]
+resource_name = "fade_out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("%FadeToBlack:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("%FadeToBlack:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ebec5"]
+_data = {
+&"RESET": SubResource("Animation_2ieo8"),
+&"fade_in": SubResource("Animation_8t03j"),
+&"fade_out": SubResource("Animation_ebec5")
+}
 
 [node name="player" type="CharacterBody3D"]
 script = ExtResource("1_8p05u")
@@ -63,7 +162,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0)
 
 [node name="Camera3D" type="Camera3D" parent="head/eyes"]
 unique_name_in_owner = true
-cull_mask = 524287
+cull_mask = 524285
 fov = 90.0
 
 [node name="InteractionRaycast" type="RayCast3D" parent="head/eyes/Camera3D"]
@@ -73,6 +172,32 @@ target_position = Vector3(0, 0, -2)
 [node name="Hand" type="Marker3D" parent="head/eyes/Camera3D"]
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+
+[node name="RemoteTransform3D" type="RemoteTransform3D" parent="head/eyes/Camera3D"]
+remote_path = NodePath("../../SubViewportContainer/SubViewport/NoteCamera")
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="head/eyes"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SubViewport" type="SubViewport" parent="head/eyes/SubViewportContainer"]
+transparent_bg = true
+handle_input_locally = false
+size = Vector2i(1920, 1080)
+render_target_update_mode = 4
+
+[node name="NoteCamera" type="Camera3D" parent="head/eyes/SubViewportContainer/SubViewport"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0)
+cull_mask = 2
+fov = 90.0
+
+[node name="NoteHand" type="Marker3D" parent="head/eyes/SubViewportContainer/SubViewport/NoteCamera"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4289236, -0.15453863, -0.41566402)
 
 [node name="standupCheck" type="RayCast3D" parent="."]
 target_position = Vector3(0, 2, 0)
@@ -123,8 +248,96 @@ offset_right = 40.0
 offset_bottom = 23.0
 theme_override_font_sizes/font_size = 32
 
+[node name="CanvasLayer" type="CanvasLayer" parent="GUI"]
+
+[node name="NoteOverlay" type="Control" parent="GUI/CanvasLayer"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BlackOverlay" type="ColorRect" parent="GUI/CanvasLayer/NoteOverlay"]
+material = SubResource("ShaderMaterial_boad6")
+layout_mode = 0
+offset_left = 960.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0, 0, 0, 1)
+
+[node name="Control" type="Control" parent="GUI/CanvasLayer/NoteOverlay"]
+anchors_preset = 0
+offset_left = 1200.0
+offset_top = 20.0
+offset_right = 1900.0
+offset_bottom = 1060.0
+
+[node name="NoteContent" type="RichTextLabel" parent="GUI/CanvasLayer/NoteOverlay/Control"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -11.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("5_boad6")
+theme_override_font_sizes/normal_font_size = 32
+fit_content = true
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="GUI"]
+layer = 2
+
+[node name="FadeToBlack" type="Control" parent="GUI/CanvasLayer2"]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="GUI/CanvasLayer2/FadeToBlack"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="GUI"]
+unique_name_in_owner = true
+libraries = {
+&"": SubResource("AnimationLibrary_ebec5")
+}
+
 [node name="InteractionController" parent="." instance=ExtResource("2_eo61r")]
 unique_name_in_owner = true
 
 [node name="SanityController" parent="." instance=ExtResource("5_qjkh3")]
 unique_name_in_owner = true
+
+[node name="Audio" type="Node3D" parent="."]
+
+[node name="Footsteps" type="AudioStreamPlayer3D" parent="Audio"]
+unique_name_in_owner = true
+stream = ExtResource("8_8t03j")
+volume_db = -20.0
+
+[node name="Jump" type="AudioStreamPlayer3D" parent="Audio"]
+unique_name_in_owner = true
+stream = ExtResource("9_hg6s5")
+
+[node name="Land" type="AudioStreamPlayer3D" parent="Audio"]
+unique_name_in_owner = true
+stream = ExtResource("10_8t03j")

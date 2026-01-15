@@ -19,6 +19,7 @@ const SANITY_REGEN_RATE: float = 1.0 / SANITY_DRAIN_INTERVAL
 const ENEMY_VIEW_RANGE: float = 40.0
 var headache: bool = false
 var headache_level: float = 0.0
+var is_enemy_in_scene: bool = false
 
 func ready() -> void:
 	light_detection_viewport.debug_draw = Viewport.DEBUG_DRAW_LIGHTING
@@ -30,16 +31,19 @@ func _process(delta: float) -> void:
 	update_distortion(sanity)
 	
 	for enemy in get_tree().get_nodes_in_group("enemy"):
+		is_enemy_in_scene = true
 		if is_enemy_on_screen(enemy):
 			if is_enemy_in_view(enemy, ENEMY_VIEW_RANGE):
 				drain_sanity(delta * 8.0)
 				headache = true
 	
-	debug.text = "FPS: %d \nLight Level: %.2f\nSanity: %.2f\nState: %s" % [
+	debug.text = "FPS: %d \nLight Level: %.2f\nSanity: %.2f\nState: %s\nHeadache: %s\nHeadache level: %.2f" % [
 		Engine.get_frames_per_second(),
 		light_level,
 		sanity,
-		get_sanity_state()
+		get_sanity_state(),
+		headache,
+		headache_level
 	]
 
 func get_light_level() -> float:
@@ -64,10 +68,14 @@ func update_sanity(delta: float) -> void:
 			time_since_sanity_change = 0.0
 			
 	else:
-		for enemy in get_tree().get_nodes_in_group("enemy"):
-			if not is_enemy_on_screen(enemy):
-				if not is_enemy_in_view(enemy, ENEMY_VIEW_RANGE):
-					headache = false
+		if is_enemy_in_scene:
+			for enemy in get_tree().get_nodes_in_group("enemy"):
+				if not is_enemy_on_screen(enemy):
+					if not is_enemy_in_view(enemy, ENEMY_VIEW_RANGE):
+						headache = false
+		else:
+			headache = false
+			
 		if sanity < SANITY_REGEN_TARGET:
 			if time_since_sanity_change >= SANITY_DRAIN_INTERVAL:
 				sanity += SANITY_REGEN_RATE * SANITY_DRAIN_INTERVAL
@@ -88,7 +96,6 @@ func get_sanity_state() -> String:
 
 func update_distortion(sanity: float) -> void:
 	var distortion: float = 0.0
-	var blur: float = 0.0
 	if sanity < 50.0:
 		var t: float = (50.0 - sanity) / 50.0
 		t = pow(t, 2.5)
@@ -98,10 +105,8 @@ func update_distortion(sanity: float) -> void:
 	else:
 		headache_level -= 0.002
 	headache_level = clamp(headache_level, 0, 0.2)
-	blur = headache_level
-	print(blur, " ", headache)
 	distortion_material.set_shader_parameter("chaos_shake_intensity", distortion)
-	distortion_material.set_shader_parameter("blur_power", blur)
+	distortion_material.set_shader_parameter("blur_power", headache_level)
 
 func is_enemy_on_screen(enemy: Node3D) -> bool:
 	var viewport: Viewport = player_camera.get_viewport()

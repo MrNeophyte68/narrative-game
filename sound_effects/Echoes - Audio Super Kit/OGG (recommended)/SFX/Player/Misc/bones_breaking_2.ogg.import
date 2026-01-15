@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cpav2wprjc2il"
+path="res://.godot/imported/bones_breaking_2.ogg-553343d353b1b52b7f6f16a2c173ee4a.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Player/Misc/bones_breaking_2.ogg"
+dest_files=["res://.godot/imported/bones_breaking_2.ogg-553343d353b1b52b7f6f16a2c173ee4a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

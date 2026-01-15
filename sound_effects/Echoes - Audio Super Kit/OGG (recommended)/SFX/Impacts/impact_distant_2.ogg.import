@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://blpucsoibm1ea"
+path="res://.godot/imported/impact_distant_2.ogg-0543fa01d8af30586ca1e58c3f8246cf.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Impacts/impact_distant_2.ogg"
+dest_files=["res://.godot/imported/impact_distant_2.ogg-0543fa01d8af30586ca1e58c3f8246cf.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

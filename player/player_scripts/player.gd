@@ -7,6 +7,12 @@ extends CharacterBody3D
 @onready var crouching_collision_shape: CollisionShape3D = $crouchingCollisionShape
 @onready var standup_check: RayCast3D = $standupCheck
 @onready var interaction_controller: Node = %InteractionController
+@onready var note_camera: Camera3D = %NoteCamera
+@onready var note_hand: Marker3D = %NoteHand
+@onready var footsteps_sx: AudioStreamPlayer3D = %Footsteps
+@onready var jump_sx: AudioStreamPlayer3D = %Jump
+@onready var land_sx: AudioStreamPlayer3D = %Land
+@onready var animation_player: AnimationPlayer = %AnimationPlayer
 
 #Movement variables
 const walking_speed: float = 3.0
@@ -18,6 +24,7 @@ var input_dir: Vector2 = Vector2.ZERO
 var direction: Vector3 = Vector3.ZERO
 const crouching_depth: float = -0.9
 const jump_velocity: float = 4.0
+var is_in_air: bool = false
 
 var lerp_speed: float = 10.0
 
@@ -43,16 +50,24 @@ enum PlayerState {
 var player_state: PlayerState = PlayerState.IDLE_STAND
 
 #headbobbing variables
-const head_bobbing_sprinting_speed: float = 22.0
-const head_bobbing_walking_speed: float = 14.0
-const head_bobbing_crouching_speed: float = 10.0
+const head_bobbing_sprinting_speed: float = 14.0
+const head_bobbing_walking_speed: float = 7.0
+const head_bobbing_crouching_speed: float = 4.0
 const head_bobbing_sprinting_intensity: float = 0.2
 const head_bobbing_walking_intensity: float = 0.1
 const head_bobbing_crouching_intensity: float = 0.05
 var head_bobbing_current_intensity: float = 0.0
 var head_bobbing_vector: Vector2 = Vector2.ZERO
 var head_bobbing_index: float = 0.0
+var last_bob_position_x: float = 0.0
+var last_bob_direction: int = 0
 
+#Note Sway Variables
+var note_sway_amount: float = 0.1
+
+#footsteps variables
+var step_meter: float = 0.0
+var last_state: PlayerState
 
 func _ready() -> void:
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -74,13 +89,18 @@ func _physics_process(delta: float) -> void:
 	
 	#falling
 	if not is_on_floor():
+		is_in_air = true
 		if velocity.y >= 0: #jumping upwards
 			velocity += get_gravity() * delta
 		else: #falling down
 			velocity += get_gravity() * delta * 2.0
 	else: #jumping
+		if is_in_air:
+			is_in_air = false
+			land_sx.play()
 		if Input.is_action_just_pressed("jump"):
 			velocity.y = jump_velocity
+			jump_sx.play()
 	
 	input_dir = Input.get_vector("left", "right", "forward", "backward")
 	direction = lerp(direction, (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized(), delta*lerp_speed)
@@ -92,6 +112,7 @@ func _physics_process(delta: float) -> void:
 		velocity.z = move_toward(velocity.z, 0, current_speed)
 	
 	move_and_slide()
+	note_tilt_and_sway(input_dir, delta)
 
 func _process(delta: float) -> void:
 	if sensitivity_fading_in:
@@ -165,13 +186,17 @@ func updateCamera(delta: float) -> void:
 		head_bobbing_index += head_bobbing_sprinting_speed * delta
 	
 	head_bobbing_vector.y = sin(head_bobbing_index)
-	head_bobbing_vector.x = (sin(head_bobbing_index/2.0)+0.5)
+	head_bobbing_vector.x = (sin(head_bobbing_index/2.0))
 	if moving:
 		eyes.position.y = lerp(eyes.position.y, head_bobbing_vector.y*(head_bobbing_current_intensity/2.0), delta*lerp_speed)
 		eyes.position.x = lerp(eyes.position.x, head_bobbing_vector.x*(head_bobbing_current_intensity), delta*lerp_speed)
 	else:
 		eyes.position.y = lerp(eyes.position.y, 0.0, delta*lerp_speed)
 		eyes.position.x = lerp(eyes.position.x, 0.0, delta*lerp_speed)
+	
+	note_camera.fov = camera_3d.fov
+	
+	play_footsteps()
 
 func set_camera_locked(locked: bool) -> void:
 	if locked:
@@ -179,3 +204,35 @@ func set_camera_locked(locked: bool) -> void:
 		sensitivity_fading_in = false
 	else:
 		sensitivity_fading_in = true
+
+func note_tilt_and_sway(input_dir: Vector2, delta: float) -> void:
+	if note_hand:
+		note_hand.rotation.x = lerp(note_hand.rotation.x, -input_dir.y * note_sway_amount, delta*10.0)
+		note_hand.rotation.z = lerp(note_hand.rotation.z, -input_dir.x * note_sway_amount, delta*10.0)
+
+func play_footsteps() -> void:
+	if moving and is_on_floor():
+		var bob_position_x = head_bobbing_vector.x
+		var bob_direction = sign(bob_position_x - last_bob_position_x)
+		
+		if bob_direction != 0 and bob_direction != last_bob_direction and last_bob_direction != 0 and player_state == PlayerState.WALKING:
+			footsteps_sx.pitch_scale = randf_range(0.8, 1.2)
+			footsteps_sx.volume_db = -20.0
+			footsteps_sx.play()
+		
+		if bob_direction != 0 and bob_direction != last_bob_direction and last_bob_direction != 0 and player_state == PlayerState.SPRINTING:
+			footsteps_sx.pitch_scale = randf_range(1.4, 1.8)
+			footsteps_sx.volume_db = -25.0
+			footsteps_sx.play()
+		
+		if bob_direction != 0 and bob_direction != last_bob_direction and last_bob_direction != 0 and player_state == PlayerState.CROUCHING:
+			footsteps_sx.pitch_scale = randf_range(0.6, 1.0)
+			footsteps_sx.volume_db = -40.0
+			footsteps_sx.play()
+		
+		last_bob_direction = bob_direction
+		last_bob_position_x = bob_position_x
+	
+	else:
+		last_bob_direction = 0
+		last_bob_position_x = head_bobbing_vector.x

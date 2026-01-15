@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d3fcw3ngp2m1o"
+path="res://.godot/imported/approaching_2_loop.ogg-ab460f4f4ca02fc26a431a08b9925cb1.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/Bonus/Pure Horror/Loops/approaching_2_loop.ogg"
+dest_files=["res://.godot/imported/approaching_2_loop.ogg-ab460f4f4ca02fc26a431a08b9925cb1.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

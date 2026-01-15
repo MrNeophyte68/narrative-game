@@ -8,7 +8,9 @@ enum InteractionType {
 	ROTATING_SWITCH,
 	WHEEL,
 	ITEM,
-	HEAVY
+	HEAVY,
+	NOTE,
+	LOAD_SCENE
 }
 
 @export var object_ref: Node3D
@@ -16,6 +18,7 @@ enum InteractionType {
 @export var maximum_rotation: float = 90.0
 @export var pivot_point: Node3D
 @export var nodes_to_affect: Array[Node]
+@export var content: String
 
 var can_interact: bool = true
 var is_interacting: bool = false
@@ -44,9 +47,30 @@ var wheel_kick_intensity: float = 0.1
 
 #Signals
 signal item_collected(item: Node)
+signal note_collected(node: Node3D)
+signal load_new_scene(node: Node3D)
+
+#sound effects
+var last_velocity: Vector3 = Vector3.ZERO
+var contact_velocity_threshold: float = 5.0
+var primary_audio_player: AudioStreamPlayer3D
+var secondary_audio_player: AudioStreamPlayer3D
+@export var primary_sx: AudioStreamOggVorbis
+@export var secondary_sx: AudioStreamOggVorbis
 
 func _ready() -> void:
+	
+	primary_audio_player = AudioStreamPlayer3D.new()
+	add_child(primary_audio_player)
+	secondary_audio_player = AudioStreamPlayer3D.new()
+	add_child(secondary_audio_player)
+	
 	match interaction_type:
+		InteractionType.DEFAULT:
+			if object_ref.has_signal("body_entered"):
+				object_ref.connect("body_entered", Callable(self, "_on_body_entered"))
+				object_ref.contact_monitor = true
+				object_ref.max_contacts_reported = 1
 		InteractionType.DOOR:
 			starting_rotation = pivot_point.rotation.x
 			maximum_rotation = deg_to_rad(rad_to_deg(starting_rotation)+maximum_rotation)
@@ -57,6 +81,8 @@ func _ready() -> void:
 			starting_rotation = object_ref.rotation.x
 			maximum_rotation = deg_to_rad(rad_to_deg(starting_rotation)+maximum_rotation)
 			camera = get_tree().get_current_scene().find_child("Camera3D", true, false)
+		InteractionType.NOTE:
+			content = content.replace("\\n", "\n")
 			
 			
 
@@ -107,6 +133,12 @@ func _process(delta: float) -> void:
 				var percentage: float = (object_ref.rotation.x - starting_rotation) / (maximum_rotation - starting_rotation)
 				notify_nodes(percentage)
 
+func _physics_process(delta: float) -> void:
+	match interaction_type:
+		InteractionType.DEFAULT:
+			if object_ref:
+				last_velocity = object_ref.linear_velocity
+
 #Runs every frame, perform some logics on this object
 func interact() -> void:
 	if not can_interact:
@@ -119,6 +151,10 @@ func interact() -> void:
 			_heavy_interact()
 		InteractionType.ITEM:
 			_collect_item()
+		InteractionType.NOTE:
+			_collect_note()
+		InteractionType.LOAD_SCENE:
+			_trigger_load_scene()
 
 func auxInteract() -> void:
 	if not can_interact:
@@ -247,4 +283,33 @@ func calculate_cross_product(_mouse_position: Vector2) -> float:
 	
 func _collect_item() -> void:
 	emit_signal("item_collected", get_parent())
+	await _play_sound_effect(false, false)
 	get_parent().queue_free()
+
+func _collect_note() -> void:
+	var col = get_parent().find_child("CollisionShape3D", true, false)
+	var mesh = get_parent().find_child("MeshInstance3D", true, false)
+	if mesh:
+		mesh.layers = 2
+	if col:
+		get_parent().remove_child(col)
+		col.queue_free()
+	_play_sound_effect(true, false)
+	emit_signal("note_collected", get_parent())
+
+func _trigger_load_scene() -> void:
+	_play_sound_effect(true, false)
+	emit_signal("load_new_scene", get_parent())
+
+func _play_sound_effect(visible: bool, interact: bool) -> void:
+	if primary_sx:
+		primary_audio_player.stream = primary_sx
+		primary_audio_player.play()
+		get_parent().visible = visible
+		self.can_interact = interact
+		await primary_audio_player.finished
+
+func _on_body_entered(node: Node) -> void:
+	var impact_strength = (last_velocity - object_ref.linear_velocity).length()
+	if impact_strength > contact_velocity_threshold:
+		_play_sound_effect(true, true)
