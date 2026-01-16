@@ -31,7 +31,7 @@ var camera: Camera3D
 var previous_mouse_position: Vector2
 
 #door variables
-var door_angle: float = 0.0
+var door_angle: float = 0.0	
 var door_velocity: float = 0.0
 var door_smoothing: float = 80.0 #how heavy the door feels when opening/letting go
 var door_input_active: bool = false

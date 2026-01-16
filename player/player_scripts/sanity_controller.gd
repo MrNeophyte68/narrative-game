@@ -139,7 +139,14 @@ func is_enemy_in_view(enemy: Node3D, tolerance_degrees: float) -> bool:
 	var forward: Vector3 = -player_camera.global_transform.basis.z
 	var angle_deg: float = rad_to_deg(acos(forward.dot(to_enemy)))
 	
-	return angle_deg <= tolerance_degrees
+	var space_state := player_camera.get_world_3d().direct_space_state
+	var query := PhysicsRayQueryParameters3D.create(camera_position, enemy_position)
+	query.exclude = [self]
+	var result := space_state.intersect_ray(query)
+	
+	return angle_deg <= tolerance_degrees and result.collider == enemy
+		
+		
 
 func drain_sanity(amount: float) -> void:
 	sanity -= amount

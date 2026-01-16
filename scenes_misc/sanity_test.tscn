@@ -32,6 +32,10 @@ sky_mode = 2
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 4.6317987, 0)
 light_energy = 4.672
 
+[node name="SpotLight3D6" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 4.6317987, -9.757214)
+light_energy = 4.672
+
 [node name="SpotLight3D2" type="SpotLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -9.328026, 4.6317987, 9.346515)
 light_energy = 4.672
@@ -54,3 +58,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0839727, 0)
 
 [node name="Enemy" parent="." instance=ExtResource("3_of46u")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.888539, 1.9989778, -9.471916)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(-0.712712, 0, 0.70145684, 0, 1, 0, -0.70145684, 0, -0.712712, 6.7099457, 2.8127408, -6.414278)
+use_collision = true
+size = Vector3(5, 5, 1)

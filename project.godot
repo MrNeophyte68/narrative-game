@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="narrative_game"
-run/main_scene="uid://btbw2qtnm4if6"
+run/main_scene="uid://bcaytqh5uhl64"
 config/features=PackedStringArray("4.5", "Forward Plus")
 
 [autoload]
