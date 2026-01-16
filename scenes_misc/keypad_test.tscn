@@ -1,7 +1,7 @@
 [gd_scene load_steps=40 format=4 uid="uid://csjt2mv22j15t"]
 
 [ext_resource type="FontFile" uid="uid://c5qlmctvykth7" path="res://assets/font/creato_display/CreatoDisplay-Light.otf" id="1_qpm5n"]
-[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/deprecated_interactions/interaction_component.tscn" id="2_jrqux"]
+[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_jrqux"]
 [ext_resource type="AudioStream" uid="uid://br6vf0ab3cy6w" path="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Buttons & Levers/button_3.ogg" id="3_uwgrs"]
 [ext_resource type="AudioStream" uid="uid://b3adn58o8d2wq" path="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Electronics/computer_beep_1.ogg" id="4_xehqp"]
 [ext_resource type="AudioStream" uid="uid://c4w1an2fjgem3" path="res://sound_effects/Echoes - Audio Super Kit/OGG (recommended)/SFX/Electronics/analog_computer_beep_5.ogg" id="5_tpsru"]

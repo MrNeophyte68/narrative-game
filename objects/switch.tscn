@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://dwhw6q4jvnkty" path="res://assets/glb/psx_tech/lever_etx_2_electronics_etx_part_1.png" id="1_e8wiv"]
 [ext_resource type="Texture2D" uid="uid://cid34kv03ww2i" path="res://assets/glb/psx_tech/lever_etx_2_electronics_etx_part_1_emission.png" id="2_0kjxy"]
-[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/deprecated_interactions/interaction_component.tscn" id="3_nfe1o"]
+[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="3_nfe1o"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mkm6f"]
 resource_name = "electronics_etx_part_1"

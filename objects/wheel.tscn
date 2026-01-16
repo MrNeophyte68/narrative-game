@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=4 uid="uid://ddhue4fol35sx"]
 
 [ext_resource type="Texture2D" uid="uid://b0i6glxl7dtk7" path="res://assets/glb/psx_mega_pack2/Props/gear_mx_1_metal_hr_6_1.png" id="1_c5phc"]
-[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/deprecated_interactions/interaction_component.tscn" id="2_t0jdk"]
+[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_t0jdk"]
 [ext_resource type="AudioStream" uid="uid://dcwsjlevwtx4q" path="res://sound_effects/wheel/wheel_rotating.ogg" id="3_7wgt2"]
 [ext_resource type="AudioStream" uid="uid://bg854ma831bto" path="res://sound_effects/lever/lever_pulling.ogg" id="4_a7oxc"]
 

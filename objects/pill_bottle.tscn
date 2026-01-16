@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=4 uid="uid://cnhlycm4bxj8q"]
 
 [ext_resource type="Texture2D" uid="uid://c2ukgna76lld4" path="res://assets/glb/psx_mega_pack1/Items & Weapons/pills_bottle_1_2_pills_bottle_1.png" id="1_vwl5q"]
-[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/deprecated_interactions/interaction_component.tscn" id="2_ahq5s"]
+[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_ahq5s"]
 [ext_resource type="Material" uid="uid://b3luvact7lk58" path="res://materials/item_highlight.tres" id="2_oswjr"]
 [ext_resource type="AudioStream" uid="uid://6h66s4mldip0" path="res://sound_effects/sx_misc/item_collected_test.ogg" id="4_2bgeo"]
 

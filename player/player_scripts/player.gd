@@ -14,6 +14,13 @@ extends CharacterBody3D
 @onready var land_sx: AudioStreamPlayer3D = %Land
 @onready var animation_player: AnimationPlayer = %AnimationPlayer
 
+#lean variables
+var lean_angle: float = 12.0
+var lean_offset: float = 0.25
+var lean_speed: float = 8.0
+var target_lean: float = 0.0
+var current_lean: float = 0.0
+
 #Movement variables
 const walking_speed: float = 3.0
 const sprinting_speed: float = 5.0
@@ -75,6 +82,13 @@ func _ready() -> void:
 func _input(event: InputEvent) -> void:
 	if Input.is_action_just_pressed("quit"):
 		get_tree().quit()
+	
+	if Input.is_action_pressed("lean_left"):
+		target_lean = -1.0
+	elif Input.is_action_pressed("lean_right"):
+		target_lean = 1.0
+	else:
+		target_lean = 0.0
 	
 	if event is InputEventMouseMotion:
 		if current_sensitivity > 0.01 and not interaction_controller.isCameraLocked():
@@ -194,8 +208,14 @@ func updateCamera(delta: float) -> void:
 		eyes.position.y = lerp(eyes.position.y, 0.0, delta*lerp_speed)
 		eyes.position.x = lerp(eyes.position.x, 0.0, delta*lerp_speed)
 	
-	note_camera.fov = camera_3d.fov
+	#---LEAN LOGIC---
+	current_lean = lerp(current_lean, target_lean, delta*lean_speed)
+	var target_tilt: float = deg_to_rad(-lean_angle) * current_lean
+	var target_offset: float = lean_offset * current_lean
+	camera_3d.rotation.z = lerp(camera_3d.rotation.z, target_tilt, delta*lean_speed)
+	camera_3d.position.x = lerp(camera_3d.position.x, target_offset, delta*lean_speed)
 	
+	note_camera.fov = camera_3d.fov
 	play_footsteps()
 
 func set_camera_locked(locked: bool) -> void:

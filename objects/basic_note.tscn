@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=4 uid="uid://cf0mmc3573pgf"]
 
 [ext_resource type="Texture2D" uid="uid://bgm0qpy2sf3h7" path="res://assets/glb/psx_bunker/note_1_note_1.png" id="1_7b0au"]
-[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/deprecated_interactions/interaction_component.tscn" id="2_ksy3f"]
+[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_ksy3f"]
 [ext_resource type="AudioStream" uid="uid://dvjcq6ycdq8p6" path="res://sound_effects/note/note_pickup_default.ogg" id="3_imdj0"]
 [ext_resource type="AudioStream" uid="uid://dssly5gmf3p5o" path="res://sound_effects/note/note_exit_default.ogg" id="4_34u2f"]
 

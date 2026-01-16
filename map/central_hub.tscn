@@ -31,7 +31,7 @@
 [ext_resource type="Texture2D" uid="uid://drfsnm14lcbrk" path="res://assets/glb/psx_mega_pack2/Modular Structures/pipe_cx_3_metal_hr_5.png" id="28_mfkhq"]
 [ext_resource type="Texture2D" uid="uid://dxoe0f8uanu7e" path="res://assets/glb/psx_mega_pack2/Modular Structures/pipe_cx_3_concrete_hr_4.png" id="29_c7g6i"]
 [ext_resource type="Texture2D" uid="uid://bvtkeqx4nmxix" path="res://assets/glb/psx_mega_pack2/Doors & Gates/door_hr_12_door_hr_12.png" id="30_6172u"]
-[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/deprecated_interactions/interaction_component.tscn" id="32_2g1fc"]
+[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="32_2g1fc"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_b0gus"]
 sky_top_color = Color(0, 0, 0, 1)

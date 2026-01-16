@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://ddj2cmcfpofu4"]
 
 [ext_resource type="Texture2D" uid="uid://dhahsqrbh6i8a" path="res://assets/images/concrete_wall_21.png" id="1_566yj"]
-[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/deprecated_interactions/interaction_component.tscn" id="2_j7xx1"]
+[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_j7xx1"]
 [ext_resource type="AudioStream" uid="uid://dkps30ufl7jk4" path="res://sound_effects/door/door_open_default.ogg" id="3_4hvcy"]
 [ext_resource type="AudioStream" uid="uid://dgoji2koablca" path="res://sound_effects/door/door_close_default.ogg" id="4_87mug"]
 
