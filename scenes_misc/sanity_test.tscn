@@ -36,6 +36,10 @@ light_energy = 4.672
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 4.6317987, -9.757214)
 light_energy = 4.672
 
+[node name="SpotLight3D7" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 7.275114, 4.6317987, -4.2749066)
+light_energy = 4.672
+
 [node name="SpotLight3D2" type="SpotLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -9.328026, 4.6317987, 9.346515)
 light_energy = 4.672

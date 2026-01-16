@@ -70,9 +70,8 @@ func update_sanity(delta: float) -> void:
 	else:
 		if is_enemy_in_scene:
 			for enemy in get_tree().get_nodes_in_group("enemy"):
-				if not is_enemy_on_screen(enemy):
-					if not is_enemy_in_view(enemy, ENEMY_VIEW_RANGE):
-						headache = false
+				if not is_enemy_in_view(enemy, ENEMY_VIEW_RANGE):
+					headache = false
 		else:
 			headache = false
 			
