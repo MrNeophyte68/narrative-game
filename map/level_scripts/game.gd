@@ -37,7 +37,7 @@ func load_level(path: String):
 	if res:
 		current_level = res.instantiate()
 		add_child(current_level)
-	await get_tree().create_timer(0.5).timeout
+	await get_tree().create_timer(0.5, false).timeout
 	
 	loading_screen.visible = false
 
@@ -55,7 +55,6 @@ func spawn_at(node_name: String, y_rotation: float, x_rotation: float):
 		
 
 func _on_new_scene(node: Node3D) -> void:
-	print(current_level.name)
 	match current_level.name:
 		"CentralHub":
 			await load_level("res://map/monster_room.tscn")

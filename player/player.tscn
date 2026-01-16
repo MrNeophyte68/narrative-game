@@ -1,7 +1,7 @@
 [gd_scene load_steps=21 format=3 uid="uid://ihcfomvy087y"]
 
 [ext_resource type="Script" uid="uid://bggl12dwxkqag" path="res://player/player_scripts/player.gd" id="1_8p05u"]
-[ext_resource type="PackedScene" uid="uid://dqmsi6t2g3v7w" path="res://interaction/interaction_controller.tscn" id="2_eo61r"]
+[ext_resource type="PackedScene" uid="uid://dqmsi6t2g3v7w" path="res://player/interaction_controller.tscn" id="2_eo61r"]
 [ext_resource type="Texture2D" uid="uid://bm3h4o0e0e11r" path="res://assets/ui_interface_images/crosshair001.png" id="3_g1dw6"]
 [ext_resource type="Texture2D" uid="uid://bwhi87bbp6qmh" path="res://assets/ui_interface_images/Cur_Grab.svg" id="3_yw30f"]
 [ext_resource type="Shader" uid="uid://ddkh3ntaxfg40" path="res://shaders/note_fade.gdshader" id="4_g6k8r"]
@@ -36,33 +36,6 @@ shader_parameter/rect_width_px = 960.0
 shader_parameter/fade_width_px = 240.0
 shader_parameter/fade_strength = 0.70000003325
 
-[sub_resource type="Animation" id="Animation_8t03j"]
-resource_name = "fade_in"
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("%FadeToBlack:visible")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [true, false]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("%FadeToBlack:modulate")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
-}
-
 [sub_resource type="Animation" id="Animation_2ieo8"]
 length = 0.001
 tracks/0/type = "value"
@@ -88,6 +61,33 @@ tracks/1/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 0,
 "values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_8t03j"]
+resource_name = "fade_in"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("%FadeToBlack:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("%FadeToBlack:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
 }
 
 [sub_resource type="Animation" id="Animation_ebec5"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://dl657pi41k18h"]
 
-[ext_resource type="Script" uid="uid://bxk0ujy6sbkob" path="res://player/sanity_controller.gd" id="1_gcf08"]
+[ext_resource type="Script" uid="uid://bxk0ujy6sbkob" path="res://player/player_scripts/sanity_controller.gd" id="1_gcf08"]
 [ext_resource type="Shader" uid="uid://c6kkdujqb0u07" path="res://shaders/distortion2.gdshader" id="2_6rj0b"]
 [ext_resource type="Texture2D" uid="uid://uocni063775s" path="res://icon.svg" id="2_d2e8r"]
 

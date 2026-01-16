@@ -1,0 +1,29 @@
+[gd_scene load_steps=7 format=3 uid="uid://bgg5wj2yybs01"]
+
+[ext_resource type="Texture2D" uid="uid://dprq21caco3o6" path="res://assets/images/water_1.png" id="1_xwsty"]
+[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/deprecated_interactions/interaction_component.tscn" id="2_3abmj"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_3abmj"]
+friction = 0.29
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3abmj"]
+albedo_texture = ExtResource("1_xwsty")
+
+[sub_resource type="BoxMesh" id="BoxMesh_4wi47"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dnjkn"]
+
+[node name="cube_5kg" type="RigidBody3D"]
+mass = 10.0
+physics_material_override = SubResource("PhysicsMaterial_3abmj")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("StandardMaterial3D_3abmj")
+mesh = SubResource("BoxMesh_4wi47")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_dnjkn")
+
+[node name="InteractionComponent" parent="." node_paths=PackedStringArray("object_ref") instance=ExtResource("2_3abmj")]
+object_ref = NodePath("..")
+interaction_type = 5
