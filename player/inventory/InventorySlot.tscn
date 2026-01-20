@@ -1,0 +1,54 @@
+[gd_scene load_steps=6 format=3 uid="uid://54o2600mnkc7"]
+
+[ext_resource type="Texture2D" uid="uid://b5axsyahr7nhs" path="res://assets/images/inventory_images/square_inv-modified.png" id="1_gtbad"]
+[ext_resource type="Script" uid="uid://gaiy54yq1w24" path="res://player/inventory/inventory_slot.gd" id="2_nra6u"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nra6u"]
+texture = ExtResource("1_gtbad")
+texture_margin_left = 100.0
+texture_margin_top = 100.0
+texture_margin_right = 100.0
+texture_margin_bottom = 100.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vdqy6"]
+texture = ExtResource("1_gtbad")
+texture_margin_left = 100.0
+texture_margin_top = 100.0
+texture_margin_right = 100.0
+texture_margin_bottom = 100.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qj15u"]
+texture = ExtResource("1_gtbad")
+texture_margin_left = 100.0
+texture_margin_top = 100.0
+texture_margin_right = 100.0
+texture_margin_bottom = 100.0
+
+[node name="InventorySlot" type="Button"]
+anchors_preset = -1
+anchor_right = 0.104
+anchor_bottom = 0.185
+offset_right = 0.31999207
+offset_bottom = 0.19999695
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme_override_styles/normal = SubResource("StyleBoxTexture_nra6u")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_vdqy6")
+theme_override_styles/hover = SubResource("StyleBoxTexture_qj15u")
+script = ExtResource("2_nra6u")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -100.0
+offset_right = 100.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1

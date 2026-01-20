@@ -1,4 +1,5 @@
 extends CharacterBody3D
+class_name Player
 
 @onready var head: Node3D = $head
 @onready var eyes: Node3D = $head/eyes
@@ -13,6 +14,8 @@ extends CharacterBody3D
 @onready var jump_sx: AudioStreamPlayer3D = %Jump
 @onready var land_sx: AudioStreamPlayer3D = %Land
 @onready var animation_player: AnimationPlayer = %AnimationPlayer
+@onready var interaction_raycast: RayCast3D = %InteractionRaycast
+@onready var sanity_controller: Node = %SanityController
 
 #lean variables
 var lean_angle: float = 12.0
@@ -76,6 +79,9 @@ var note_sway_amount: float = 0.1
 var step_meter: float = 0.0
 var last_state: PlayerState
 
+#inventory variables
+@onready var inventory_controller: Node = %InventoryController/CanvasLayer/InventoryUI
+
 func _ready() -> void:
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
@@ -90,11 +96,20 @@ func _input(event: InputEvent) -> void:
 	else:
 		target_lean = 0.0
 	
-	if event is InputEventMouseMotion:
-		if current_sensitivity > 0.01 and not interaction_controller.isCameraLocked():
-			rotate_y(deg_to_rad(-event.relative.x * current_sensitivity))
-			head.rotate_x(deg_to_rad(-event.relative.y * current_sensitivity))
-			head.rotation.x = clamp(head.rotation.x, deg_to_rad(-85), deg_to_rad(85))
+	if Input.is_action_pressed("inventory"):
+		inventory_controller.visible = true
+		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+		interaction_raycast.enabled = false
+	else:
+		inventory_controller.visible = false
+		interaction_raycast.enabled = true
+		if not interaction_controller.current_object:
+			Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+		if event is InputEventMouseMotion:
+			if current_sensitivity > 0.01 and not interaction_controller.isCameraLocked():
+				rotate_y(deg_to_rad(-event.relative.x * current_sensitivity))
+				head.rotate_x(deg_to_rad(-event.relative.y * current_sensitivity))
+				head.rotation.x = clamp(head.rotation.x, deg_to_rad(-85), deg_to_rad(85))
 
 func _physics_process(delta: float) -> void:
 	

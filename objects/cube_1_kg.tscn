@@ -12,6 +12,7 @@ albedo_texture = ExtResource("1_jtlcp")
 [sub_resource type="BoxMesh" id="BoxMesh_h6oqd"]
 
 [node name="cube_1kg" type="RigidBody3D"]
+mass = 0.5
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("BoxShape3D_tfl4h")

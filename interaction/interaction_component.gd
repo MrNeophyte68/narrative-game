@@ -75,6 +75,7 @@ var screen_label: Label3D
 signal item_collected(item: Node)
 signal note_collected(node: Node3D)
 signal load_new_scene(node: Node3D)
+signal attract_monster(node: Node3D)
 
 #sound effects
 var last_velocity: Vector3 = Vector3.ZERO
@@ -335,10 +336,6 @@ func _default_interact() -> void:
 		rigid_body_3d.set_linear_velocity((object_distance)*(5/rigid_body_3d.mass))
 
 func _default_throw() -> void:
-	var object_current_position: Vector3 = object_ref.global_transform.origin
-	var player_hand_position: Vector3 = player_hand.global_transform.origin
-	var object_distance: Vector3 = player_hand_position - object_current_position
-	
 	var rigid_body_3d: RigidBody3D = object_ref as RigidBody3D
 	if rigid_body_3d:
 		var throw_direction: Vector3 = -player_hand.global_transform.basis.z.normalized()
@@ -414,6 +411,7 @@ func _fire_default_collision(node: Node) -> void:
 	var impact_strength = (last_velocity - object_ref.linear_velocity).length()
 	if impact_strength > contact_velocity_threshold:
 		_play_sound_effect(true, true)
+		emit_signal("attract_monster", get_parent())
 
 func update_door_sounds(delta: float) -> void:
 	#--CREAK LOGIC---

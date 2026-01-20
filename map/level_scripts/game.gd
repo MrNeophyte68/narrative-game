@@ -2,6 +2,7 @@ extends Node3D
 
 @onready var player_scene = preload("res://player/player.tscn")
 @onready var loading_screen: CanvasLayer = $LoadingScreen
+@onready var animation_player: AnimationPlayer = $AnimationPlayer
 
 var player: Node3D = null
 var current_level: Node3D = null
@@ -14,6 +15,7 @@ func _ready():
 	
 	await load_level("res://map/central_hub.tscn")
 	spawn_at("SpawnPoint", 90.0, 0.0)
+	_exit_loading_screen()
 
 func load_level(path: String):
 	loading_screen.visible = true
@@ -37,9 +39,12 @@ func load_level(path: String):
 	if res:
 		current_level = res.instantiate()
 		add_child(current_level)
-	await get_tree().create_timer(0.5, false).timeout
-	
+
+func _exit_loading_screen() -> void:
+	animation_player.play("fade_out")
+	await animation_player.animation_finished
 	loading_screen.visible = false
+	animation_player.play("RESET")
 
 func _update_loading_progress(progress_percent: float) -> void:
 	var bar = loading_screen.get_node_or_null("ProgressBar") as ProgressBar
@@ -59,8 +64,8 @@ func _on_new_scene(node: Node3D) -> void:
 		"CentralHub":
 			await load_level("res://map/monster_room.tscn")
 			spawn_at("SpawnPoint", 180.0, 0.0)
-			player.animation_player.play("fade_out")
+			_exit_loading_screen()
 		"MonsterRoom":
 			await load_level("res://map/central_hub.tscn")
 			spawn_at("ReturnFromRoom", 90.0, 0.0)
-			player.animation_player.play("fade_out")
+			_exit_loading_screen()
