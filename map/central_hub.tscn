@@ -40,12 +40,12 @@ sky_curve = 0.34460932
 ground_bottom_color = Color(0, 0, 0, 1)
 ground_horizon_color = Color(0, 0, 0, 1)
 
-[sub_resource type="Sky" id="Sky_nqs1q"]
+[sub_resource type="Sky" id="Sky_2g1fc"]
 sky_material = SubResource("ProceduralSkyMaterial_b0gus")
 
 [sub_resource type="Environment" id="Environment_lx6as"]
 background_mode = 2
-sky = SubResource("Sky_nqs1q")
+sky = SubResource("Sky_2g1fc")
 tonemap_mode = 4
 sdfgi_bounce_feedback = 1.32
 sdfgi_min_cell_size = 12.63
@@ -90,7 +90,7 @@ albedo_texture = ExtResource("5_04hep")
 texture_filter = 2
 texture_repeat = false
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_phw6i"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_nqs1q"]
 _surfaces = [{
 "aabb": AABB(-1, -9.313226e-09, -1.6342483e-13, 1, 2.1000001, 0.049999997),
 "format": 34896613377,
@@ -120,7 +120,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAACqKv//AAD//6cq//8AAAAApyoAAAAA//+qKv////8AAFfVAAD/////VNUAAP//AABU1f///////1fV/z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///6oqVNWsKlfVrCpX1aoqVNWmqquqqaqqqqqqqqqmqquq")
 }]
 blend_shape_mode = 0
-shadow_mesh = SubResource("ArrayMesh_phw6i")
+shadow_mesh = SubResource("ArrayMesh_nqs1q")
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_o6ik6"]
 data = PackedVector3Array(-1, 0, 0.049999997, -1, 2.1, 0, -1, 2.1, 0.049999997, -1, 0, 0.049999997, -1, 0, 0, -1, 2.1, 0, -1, 0, 0, 0, 2.1, 0, -1, 2.1, 0, -1, 0, 0, 0, 0, 0, 0, 2.1, 0, 0, 0, 0, 0, 2.1, 0.049999997, 0, 2.1, 0, 0, 0, 0, 0, 0, 0.049999997, 0, 2.1, 0.049999997, 0, 0, 0.049999997, -1, 2.1, 0.049999997, 0, 2.1, 0.049999997, 0, 0, 0.049999997, -1, 0, 0.049999997, -1, 2.1, 0.049999997, -1, 0, 0, 0, 0, 0.049999997, 0, 0, 0, -1, 0, 0, -1, 0, 0.049999997, 0, 0, 0.049999997, 0, 2.1, 0, -1, 2.1, 0.049999997, -1, 2.1, 0, 0, 2.1, 0, 0, 2.1, 0.049999997, -1, 2.1, 0.049999997)
