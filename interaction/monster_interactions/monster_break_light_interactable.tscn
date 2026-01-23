@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cw7vgssg44afc"]
+
+[ext_resource type="Script" uid="uid://5i4w8qu8ss8a" path="res://interaction/monster_interactions/monster_break_light_interactable.gd" id="1_bw5kb"]
+
+[node name="MonsterBreakLightInteractable" type="Node"]
+script = ExtResource("1_bw5kb")

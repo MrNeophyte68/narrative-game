@@ -8,10 +8,15 @@
 
 config_version=5
 
+[animation]
+
+warnings/check_invalid_track_paths=false
+warnings/check_angle_interpolation_type_conflicting=false
+
 [application]
 
 config/name="narrative_game"
-run/main_scene="uid://c6ds4sph11pjk"
+run/main_scene="uid://d2w51nrt0ujth"
 config/features=PackedStringArray("4.5", "Forward Plus")
 
 [autoload]

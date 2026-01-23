@@ -82,6 +82,17 @@ var last_state: PlayerState
 #inventory variables
 @onready var inventory_controller: Node = %InventoryController/CanvasLayer/InventoryUI
 
+#camera shake
+@onready var initial_rotation: Vector3 = camera_3d.rotation_degrees
+var trauma: float = 0.0
+var trauma_reduction_rate: float = 1.0
+@export var noise: FastNoiseLite
+var time: float = 0.0
+var noise_speed: float = 50.0
+var max_x: float = 10.0
+var max_y: float = 10.0
+var max_z: float = 5.0
+
 func _ready() -> void:
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
@@ -151,6 +162,22 @@ func _process(delta: float) -> void:
 			current_sensitivity = normal_sensitivity
 			sensitivity_fading_in = false
 	set_camera_locked(interaction_controller.isCameraLocked())
+	
+	time += delta
+	trauma = max(trauma - delta*trauma_reduction_rate, 0.0)
+
+func add_trauma(trauma_amount: float) -> void:
+	trauma = clamp(trauma + trauma_amount, 0.0, 1.0)
+	camera_3d.rotation_degrees.x = initial_rotation.x + max_x * get_shake_intensity() * get_noise_from_seed(0)
+	camera_3d.rotation_degrees.y = initial_rotation.y + max_y * get_shake_intensity() * get_noise_from_seed(1)
+	camera_3d.rotation_degrees.z = initial_rotation.z + max_z * get_shake_intensity() * get_noise_from_seed(2)
+
+func get_shake_intensity() -> float:
+	return trauma * trauma
+
+func get_noise_from_seed(_seed: int) -> float:
+	noise.seed = _seed
+	return noise.get_noise_1d(time*noise_speed)
 
 func updatePlayerState() -> void:
 	moving = (input_dir != Vector2.ZERO)
