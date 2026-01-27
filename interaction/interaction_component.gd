@@ -11,7 +11,8 @@ enum InteractionType {
 	HEAVY,
 	NOTE,
 	LOAD_SCENE,
-	KEYPAD
+	KEYPAD,
+	BUTTON
 }
 
 @export var object_ref: Node3D
@@ -144,6 +145,8 @@ func preInteract(hand: Marker3D, target: Node = null) -> void:
 			Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 		InteractionType.KEYPAD:
 			_press_button(target)
+		InteractionType.BUTTON:
+			_press_default_button(target)
 
 func _process(delta: float) -> void:
 	match interaction_type:
@@ -509,6 +512,18 @@ func stop_wheel_sounds(delta: float) -> void:
 		
 		if new_volume < 0.001:
 			primary_audio_player.stop()
+
+func _press_default_button(target: Node) -> void:
+	if target:
+		var tween := create_tween()
+		tween.tween_property(target, "position:z", -0.01, 0.1)
+		tween.tween_property(target, "position:z", 0.0, 0.1)
+	
+	primary_audio_player.play()
+	
+	for node in nodes_to_affect:
+		if node and node.has_method("execute"):
+			node.call("execute")
 
 func _press_button(target: Node) -> void:
 	if target == null:

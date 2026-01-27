@@ -16,6 +16,7 @@ class_name Player
 @onready var animation_player: AnimationPlayer = %AnimationPlayer
 @onready var interaction_raycast: RayCast3D = %InteractionRaycast
 @onready var sanity_controller: Node = %SanityController
+@onready var stamina_controller: Node = %StaminaController
 
 #lean variables
 var lean_angle: float = 12.0
@@ -192,7 +193,7 @@ func updatePlayerState() -> void:
 		elif !standup_check.is_colliding():
 			if not moving:
 				player_state = PlayerState.IDLE_STAND
-			elif Input.is_action_pressed("sprint"):
+			elif Input.is_action_pressed("sprint") and stamina_controller.stamina > 0.0:
 				player_state = PlayerState.SPRINTING
 			else:
 				player_state = PlayerState.WALKING

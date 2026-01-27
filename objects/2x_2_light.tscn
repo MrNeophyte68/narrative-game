@@ -328,6 +328,7 @@ light_color = Color(0.9844145, 0.7012273, 0.43036962, 1)
 light_energy = 4.0
 light_volumetric_fog_energy = 3.0
 light_specular = 0.3
+light_bake_mode = 1
 shadow_enabled = true
 distance_fade_enabled = true
 distance_fade_begin = 12.0

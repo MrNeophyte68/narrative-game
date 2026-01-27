@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://ihcfomvy087y"]
+[gd_scene load_steps=24 format=3 uid="uid://ihcfomvy087y"]
 
 [ext_resource type="Script" uid="uid://bggl12dwxkqag" path="res://player/player_scripts/player.gd" id="1_8p05u"]
 [ext_resource type="PackedScene" uid="uid://dqmsi6t2g3v7w" path="res://player/interaction_controller.tscn" id="2_eo61r"]
@@ -11,6 +11,7 @@
 [ext_resource type="AudioStream" uid="uid://d2w0c0pjcqt82" path="res://sound_effects/footsteps/jump_concrete_reverb.wav" id="9_hg6s5"]
 [ext_resource type="AudioStream" uid="uid://djrcfj0fi8lam" path="res://sound_effects/footsteps/land_concrete_reverb.wav" id="10_8t03j"]
 [ext_resource type="PackedScene" uid="uid://3qhe3g04ds2i" path="res://player/inventory_controller.tscn" id="11_2ieo8"]
+[ext_resource type="PackedScene" uid="uid://d1vy8mpj2o80v" path="res://player/stamina_controller.tscn" id="12_ebec5"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_2ieo8"]
 frequency = 0.05
@@ -351,4 +352,7 @@ unique_name_in_owner = true
 stream = ExtResource("10_8t03j")
 
 [node name="InventoryController" parent="." instance=ExtResource("11_2ieo8")]
+unique_name_in_owner = true
+
+[node name="StaminaController" parent="." instance=ExtResource("12_ebec5")]
 unique_name_in_owner = true

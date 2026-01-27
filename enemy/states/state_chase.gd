@@ -23,7 +23,9 @@ func update(delta: float) -> void:
 
 
 func physics_update(_delta: float) -> void:
-	enemy.player.add_trauma(.03)
+	var distance_to_player = enemy.global_position - enemy.player.global_position
+	if distance_to_player.length() < 10.0:
+		enemy.player.add_trauma(.03)
 	if _update_path_timer <= 0.0:
 		_update_path_timer = update_path_delay
 		enemy.travel_to_position(enemy.player.global_position, _chasing_speed, enemy.AnimationType.RUN)
