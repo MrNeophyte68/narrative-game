@@ -1,0 +1,130 @@
+[gd_scene load_steps=12 format=3 uid="uid://bgfs7pm1el5i7"]
+
+[ext_resource type="MeshLibrary" uid="uid://cip6ff4vryiav" path="res://assets/tiles/wall_with_vent.tres" id="1_kkpj5"]
+[ext_resource type="PackedScene" uid="uid://ihcfomvy087y" path="res://player/player.tscn" id="2_nw5o7"]
+[ext_resource type="PackedScene" uid="uid://c365vuje1i6yq" path="res://enemy/model/monster.tscn" id="3_8jqub"]
+[ext_resource type="PackedScene" uid="uid://cc2wooa0i6fpr" path="res://objects/cube_1_kg.tscn" id="4_ctepv"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_1f1xt"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_1cu7a"]
+sky_material = SubResource("ProceduralSkyMaterial_1f1xt")
+
+[sub_resource type="Environment" id="Environment_iu3q1"]
+background_mode = 2
+sky = SubResource("Sky_1cu7a")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_aswmn"]
+vertices = PackedVector3Array(-7.1600003, 1.1500001, -17.572815, -6.36, 1.1500001, -17.572815, -6.36, 1.1500001, -20.372814, -10.360001, 1.1500001, -16.372814, -7.5600004, 1.1500001, -16.372814, -7.46, 1.1500001, -17.372814, -10.360001, 1.1500001, -20.372814, 12.44, 1.1500001, -17.572815, 12.44, 1.1500001, -20.372814, 13.64, 1.1500001, -17.172815, 13.64, 1.1500001, -16.372814, 16.439999, 1.1500001, -16.372814, 13.44, 1.1500001, -17.472815, 16.439999, 1.1500001, -20.372814, -10.360001, 1.1500001, -1.572815, -7.5600004, 1.1500001, -1.572815, 13.64, 1.1500001, -1.6728153, 16.439999, 1.1500001, -1.6728153, 13.64, 1.1500001, -0.8728142, 13.339999, 1.1500001, -0.47281456, 12.339999, 1.1500001, -0.37281418, 12.339999, 1.1500001, 2.427185, 16.439999, 1.1500001, 2.427185, -6.36, 1.1500001, 2.427185, -6.36, 1.1500001, -0.37281418, -7.1600003, 1.1500001, -0.37281418, -7.46, 1.1500001, -0.57281494, -10.360001, 1.1500001, 2.427185)
+polygons = [PackedInt32Array(2, 1, 0), PackedInt32Array(5, 4, 3), PackedInt32Array(0, 5, 2), PackedInt32Array(2, 5, 6), PackedInt32Array(6, 5, 3), PackedInt32Array(2, 8, 1), PackedInt32Array(1, 8, 7), PackedInt32Array(11, 10, 9), PackedInt32Array(12, 7, 8), PackedInt32Array(9, 12, 11), PackedInt32Array(11, 12, 13), PackedInt32Array(13, 12, 8), PackedInt32Array(3, 4, 14), PackedInt32Array(14, 4, 15), PackedInt32Array(10, 11, 16), PackedInt32Array(16, 11, 17), PackedInt32Array(18, 16, 17), PackedInt32Array(21, 20, 19), PackedInt32Array(18, 17, 19), PackedInt32Array(19, 17, 22), PackedInt32Array(19, 22, 21), PackedInt32Array(25, 24, 23), PackedInt32Array(26, 14, 15), PackedInt32Array(25, 23, 26), PackedInt32Array(26, 23, 27), PackedInt32Array(26, 27, 14), PackedInt32Array(24, 20, 23), PackedInt32Array(23, 20, 21)]
+geometry_parsed_geometry_type = 1
+cell_size = 0.1
+cell_height = 0.08
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_23qln"]
+shading_mode = 0
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_lxhf3"]
+vertices = PackedVector3Array(-9.649107, 1.1261224, 2.2389174, -9.649107, 1.1261224, 7.9389176, -8.349107, 1.1261224, 7.9389176, -8.349107, 1.1261224, 2.2389174)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+cell_size = 0.1
+cell_height = 0.08
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_m2evx"]
+vertices = PackedVector3Array(14.334295, 1.1261224, -25.845871, 14.334295, 1.1261224, -20.14587, 15.634295, 1.1261224, -20.14587, 15.634295, 1.1261224, -25.845871)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+cell_size = 0.1
+cell_height = 0.08
+
+[node name="FastTravelTest" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_iu3q1")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+layers = 3
+shadow_enabled = true
+
+[node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
+navigation_mesh = SubResource("NavigationMesh_aswmn")
+
+[node name="GridMap" type="GridMap" parent="NavigationRegion3D"]
+mesh_library = ExtResource("1_kkpj5")
+data = {
+"cells": PackedInt32Array(65535, 0, 917609, 1, 0, 917609, 3, 0, 917609, 5, 0, 917609, 7, 0, 917609, 7, 65534, 917609, 7, 65532, 917609, 7, 65530, 917609, 7, 65528, 917609, 7, 65526, 917609, 5, 65526, 917609, 3, 65526, 917609, 1, 65526, 917609, 65535, 65526, 917609, 65533, 65526, 917609, 65531, 65526, 917609, 65531, 65528, 917609, 65531, 65530, 917609, 65531, 65532, 917609, 65531, 65534, 917609, 65531, 0, 917609, 65533, 0, 917609, 65531, 1, 114, 7, 65525, 114, 65533, 1, 262146, 65535, 1, 262146, 1, 1, 262146, 3, 1, 262146, 5, 1, 262146, 7, 1, 262146, 5, 65535, 262146, 3, 65535, 262146, 1, 65535, 262146, 65535, 65535, 262146, 65533, 65535, 262146, 5, 65525, 262146, 3, 65525, 262146, 1, 65525, 262146, 65535, 65525, 262146, 65533, 65525, 262146, 65531, 65525, 262146, 65533, 65527, 262146, 65535, 65527, 262146, 1, 65527, 262146, 3, 65527, 262146, 5, 65527, 262146, 6, 65528, 1507330, 6, 65530, 1507330, 6, 65532, 1507330, 6, 65534, 1507330, 8, 0, 1507330, 8, 65534, 1507330, 8, 65532, 1507330, 8, 65530, 1507330, 8, 65528, 1507330, 8, 65526, 1507330, 65532, 65534, 1507330, 65532, 65532, 1507330, 65532, 65530, 1507330, 65532, 65528, 1507330, 65530, 65526, 1507330, 65530, 65528, 1507330, 65530, 65530, 1507330, 65530, 65532, 1507330, 65530, 65534, 1507330, 65530, 0, 1507330)
+}
+
+[node name="blackBox" type="Node3D" parent="."]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="blackBox"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.026115, 1.6289488, 4.5806537)
+size = Vector3(1.47, 1.19, 3)
+material = SubResource("StandardMaterial3D_23qln")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="blackBox/CSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.020393372, 0.060198188, -0.1282506)
+operation = 2
+size = Vector3(1.37, 1.19, 2.9)
+material = SubResource("StandardMaterial3D_23qln")
+
+[node name="blackBox2" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 5.9728255, 0, -18.024134)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="blackBox2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.026115, 1.6289488, 4.5806537)
+size = Vector3(1.47, 1.19, 3)
+material = SubResource("StandardMaterial3D_23qln")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="blackBox2/CSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.020393372, 0.060198188, -0.1282506)
+operation = 2
+size = Vector3(1.37, 1.19, 2.9)
+material = SubResource("StandardMaterial3D_23qln")
+
+[node name="NavigationRegion3D2" type="NavigationRegion3D" parent="."]
+navigation_mesh = SubResource("NavigationMesh_lxhf3")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="NavigationRegion3D2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.987974, 0.50612235, 5.0739174)
+visible = false
+use_collision = true
+size = Vector3(2.3222656, 1, 6.67)
+
+[node name="NavigationRegion3D3" type="NavigationRegion3D" parent="."]
+navigation_mesh = SubResource("NavigationMesh_m2evx")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="NavigationRegion3D3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.995428, 0.50612235, -23.01087)
+use_collision = true
+size = Vector3(2.3222656, 1, 6.67)
+
+[node name="player" parent="." instance=ExtResource("2_nw5o7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1.1178279)
+
+[node name="monster" parent="." node_paths=PackedStringArray("vents", "nav_mesh_vents") instance=ExtResource("3_8jqub")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9908457, 1, -18.585798)
+vents = [NodePath("../vents/vent"), NodePath("../vents/vent2")]
+nav_mesh_vents = [NodePath("../NavigationRegion3D2"), NodePath("../NavigationRegion3D3")]
+
+[node name="cube_1kg" parent="." instance=ExtResource("4_ctepv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.933703, 1.5827204, 0.08888519)
+
+[node name="vents" type="Node3D" parent="."]
+
+[node name="vent" type="Node3D" parent="vents"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.878483, 1.0919465, -23.679462)
+
+[node name="vent2" type="Node3D" parent="vents/vent"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.174618)
+
+[node name="vent2" type="Node3D" parent="vents"]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -9.101004, 1.0919465, 5.5000086)
+
+[node name="vent2" type="Node3D" parent="vents/vent2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.174618)

@@ -3,6 +3,8 @@ class_name Enemy
 
 signal reached_player
 @export var max_spotting_distance : float = 50.0
+@export var vents: Array[Node3D]
+@export var nav_mesh_vents: Array[NavigationRegion3D]
 var _current_speed : float = 0.0
 @onready var nav_agent: NavigationAgent3D = %NavigationAgent3D
 @onready var animation_player: AnimationPlayer = %AnimationPlayer
@@ -20,6 +22,7 @@ enum AnimationType {
 	RUN,
 	WALK,
 	BREAK,
+	CRAWL,
 }
 
 func _ready() -> void:
@@ -36,11 +39,12 @@ func _ready() -> void:
 						ic.connect("attract_monster", Callable(self, "_go_to_noise"))
 
 func _process(delta: float) -> void:
-	enemy_debug.text = "Player Found: %s\nCurrent Enemy State: %s\nPatience Time: %.2f\nNear Panel: %s" % [
+	enemy_debug.text = "Player Found: %s\nCurrent Enemy State: %s\nPatience Time: %.2f\nNear Panel: %s\nTime Before FT: %.2f" % [
 		is_player_in_view(),
 		state_machine.state.name,
 		state_machine.state._patience_timer if state_machine.state.name == "StateRoam" else -1.0,
 		is_near_light_panel,
+		state_machine.state.time_before_fast_travel if state_machine.state.name == "StateFind" else -1.0,
 	]
 
 func _physics_process(delta: float) -> void:
@@ -73,6 +77,8 @@ func travel_to_position(wanted_position: Vector3, speed: float, play_run_anim: A
 		animation_player.play("zombie_run", 0.2)
 	elif play_run_anim == AnimationType.WALK:
 		animation_player.play("walk1", 0.2)
+	elif play_run_anim == AnimationType.CRAWL:
+		animation_player.play("crawl", 0.2)
 
 func is_player_in_view() -> bool:
 	var vec_to_player : Vector3 = (player.global_position - global_position)

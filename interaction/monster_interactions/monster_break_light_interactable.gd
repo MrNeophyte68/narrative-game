@@ -28,4 +28,4 @@ func _process(delta: float) -> void:
 			panel_broken = true
 			await get_tree().create_timer(1.0, false).timeout
 			for light in lights_to_affect:
-				light.update_lights(delta, false)
+				light.set_lights(false)

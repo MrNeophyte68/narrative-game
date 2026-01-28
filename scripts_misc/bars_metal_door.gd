@@ -8,7 +8,6 @@ var is_on_cooldown: bool = false
 @onready var gate_close: AudioStreamPlayer3D = %GateClose
 @onready var gate_open: AudioStreamPlayer3D = %GateOpen
 @export var navMeshOpen: NavigationRegion3D
-@export var navMeshClosed: NavigationRegion3D
 var enery_level: float = 0.8
 
 @onready var lamps: Array[MeshInstance3D] = [
@@ -40,7 +39,6 @@ func execute() -> void:
 
 	is_on_cooldown = true
 	navMeshOpen.enabled = false
-	navMeshClosed.enabled = true
 	mba.play("close")
 	gate_close.play()
 	alarm.play()
@@ -52,7 +50,6 @@ func execute() -> void:
 	mba.play("open")
 	gate_open.play()
 	navMeshOpen.enabled = true
-	navMeshClosed.enabled = false
 
 	await get_tree().create_timer(120.0).timeout
 	flash_green_once()

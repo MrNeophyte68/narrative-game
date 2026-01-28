@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=4 uid="uid://d2w51nrt0ujth"]
+[gd_scene load_steps=38 format=4 uid="uid://d2w51nrt0ujth"]
 
 [ext_resource type="MeshLibrary" uid="uid://d3axaiytcy37p" path="res://assets/tiles/tiles3.tres" id="1_w5887"]
 [ext_resource type="PackedScene" uid="uid://ihcfomvy087y" path="res://player/player.tscn" id="2_idop7"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://bt6t8auddfrq3" path="res://assets/glb/psx_tech/panel_etx_1_2_electronics_etx_part_1_emission.png" id="5_elud6"]
 [ext_resource type="Texture2D" uid="uid://dwvhg04lfryer" path="res://assets/glb/psx_tech/panel_etx_1_2_electronics_etx_part_2.png" id="6_3yxgi"]
 [ext_resource type="PackedScene" uid="uid://c365vuje1i6yq" path="res://enemy/model/monster.tscn" id="8_elud6"]
+[ext_resource type="VoxelGIData" uid="uid://t6h78ttw5fkd" path="res://assets/tiles/baked_lighting/breaking_light_test_baked_lighting.res" id="9_3yxgi"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_w5887"]
 sky_top_color = Color(0, 0, 0, 1)
@@ -418,9 +419,9 @@ navigation_mesh = SubResource("NavigationMesh_js608")
 mesh_library = ExtResource("1_w5887")
 cell_size = Vector3(2, 3, 2)
 data = {
-"cells": PackedInt32Array(0, 1, 1245289, 2, 1, 1245289, 4, 1, 1245289, 4, 65535, 1245289, 4, 65533, 1245289, 2, 65533, 1245289, 0, 65533, 1245289, 0, 65535, 1245289, 65534, 1, 1245289, 65534, 65533, 1245289, 65532, 65533, 1245289, 65532, 1, 1245289, 65532, 65535, 1245289, 5, 65533, 1245186, 5, 65535, 1245186, 5, 1, 1245186, 1, 65535, 1245186, 65533, 65535, 1245186, 65535, 65535, 1245186, 3, 65535, 1245186, 65531, 65533, 1245186, 65531, 65535, 1245186, 65531, 1, 1245186, 4, 2, 262146, 2, 2, 262146, 0, 2, 262146, 65534, 2, 262146, 65532, 2, 262146, 65534, 0, 262146, 2, 0, 262146, 2, 65534, 262146, 65534, 65534, 262146, 65532, 65532, 262146, 65534, 65532, 262146, 0, 65532, 262146, 2, 65532, 262146, 4, 65532, 262146, 65540, 1, 262249, 65538, 1, 262249, 65536, 1, 262249, 131070, 1, 262249, 131068, 1, 262249, 131068, 65535, 262249, 131070, 65535, 262249, 65536, 65535, 262249, 65538, 65535, 262249, 65540, 65535, 262249, 65540, 65533, 262249, 65538, 65533, 262249, 65536, 65533, 262249, 131070, 65533, 262249, 131068, 65533, 262249)
+"cells": PackedInt32Array(0, 1, 1245289, 2, 1, 1245289, 4, 1, 1245289, 4, 65535, 1245289, 4, 65533, 1245289, 2, 65533, 1245289, 0, 65533, 1245289, 0, 65535, 1245289, 65534, 1, 1245289, 65534, 65533, 1245289, 65532, 65533, 1245289, 65532, 1, 1245289, 65532, 65535, 1245289, 5, 65533, 1245186, 5, 65535, 1245186, 5, 1, 1245186, 1, 65535, 1245186, 65533, 65535, 1245186, 65535, 65535, 1245186, 3, 65535, 1245186, 65531, 65533, 1245186, 65531, 65535, 1245186, 65531, 1, 1245186, 2, 2, 262146, 0, 2, 262146, 65534, 2, 262146, 65532, 2, 262146, 65534, 0, 262146, 2, 0, 262146, 2, 65534, 262146, 65534, 65534, 262146, 65532, 65532, 262146, 65534, 65532, 262146, 0, 65532, 262146, 2, 65532, 262146, 4, 65532, 262146, 65540, 1, 262249, 65538, 1, 262249, 65536, 1, 262249, 131070, 1, 262249, 131068, 1, 262249, 131068, 65535, 262249, 131070, 65535, 262249, 65536, 65535, 262249, 65538, 65535, 262249, 65540, 65535, 262249, 65540, 65533, 262249, 65538, 65533, 262249, 65536, 65533, 262249, 131070, 65533, 262249, 131068, 65533, 262249, 4, 2, 917506)
 }
-metadata/_editor_floor_ = Vector3(0, 1, 0)
+metadata/_editor_floor_ = Vector3(0, 0, 0)
 
 [node name="player" parent="." instance=ExtResource("2_idop7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.2129517, 1, -6.0522685)
@@ -485,7 +486,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.514329, 4.496149, 3.4164257
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.1177444, 1.565604, -1.0101321)
 
 [node name="monster" parent="." instance=ExtResource("8_elud6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.110598, 1.5566123, 3.4164257)
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 9.110598, 1.5566123, 3.4164257)
 
 [node name="panel_etx_1_23" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.771871, 3.129763, 1.0414373)
@@ -529,3 +530,7 @@ shape = SubResource("BoxShape3D_nh21k")
 
 [node name="target_pos2" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.710969, 1.5447686, 2.024861)
+
+[node name="VoxelGI" type="VoxelGI" parent="."]
+subdiv = 0
+data = ExtResource("9_3yxgi")

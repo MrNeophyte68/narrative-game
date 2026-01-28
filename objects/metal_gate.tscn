@@ -282,7 +282,7 @@ pitch_scale = 0.78
 
 [node name="ceiling_lamp_mp_1_on2" type="MeshInstance3D" parent="."]
 unique_name_in_owner = true
-transform = Transform3D(4.371139e-08, 3.821371e-15, 1, 8.742278e-08, -1, 0, 1, 8.742278e-08, -4.371139e-08, 0.044736553, 2.2114034, 1.5178299)
+transform = Transform3D(4.371139e-08, 3.821371e-15, 1, 8.742278e-08, -1, 0, 1, 8.742278e-08, -4.371139e-08, 0.05683117, 2.2114034, 1.5178299)
 mesh = SubResource("ArrayMesh_ueycg")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("StandardMaterial3D_dmuag")
