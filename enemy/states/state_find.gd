@@ -8,7 +8,7 @@ var _player_last_seen_position: Vector3
 var random_position: Vector3
 
 #fast travel
-const FAST_TRAVEL_DURATION = 20.0 #threshold before it may fast travel
+const FAST_TRAVEL_DURATION = 15.0 #threshold before it may fast travel
 var time_before_fast_travel : float = FAST_TRAVEL_DURATION
 var current_shortest_distance_to_entrance_vent: float = 5000.0
 var current_shortest_distance_to_exit_vent: float = 5000.0

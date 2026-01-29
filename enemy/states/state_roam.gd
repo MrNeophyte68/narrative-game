@@ -9,7 +9,7 @@ var _target_position: Vector3
 var _nav_map: RID
 var _patience_timer := 0.0
 #fast travel
-const FAST_TRAVEL_DURATION = 30.0 #threshold before it may fast travel
+const FAST_TRAVEL_DURATION = 25.0 #threshold before it may fast travel
 var time_before_fast_travel : float = FAST_TRAVEL_DURATION
 var current_shortest_distance_to_entrance_vent: float = 5000.0
 var current_shortest_distance_to_exit_vent: float = 5000.0
