@@ -1688,11 +1688,10 @@ skeleton = NodePath("")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="wall_1_tunnel_hole_12/wall_1_tunnel_hole_1/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_o64c2")
 
-[node name="bars_metal_22" type="Node3D" parent="." node_paths=PackedStringArray("navMeshOpen", "navMeshClosed")]
+[node name="bars_metal_22" type="Node3D" parent="." node_paths=PackedStringArray("navMeshOpen")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -2.3202965, 1.0296075, -0.7353683)
 script = ExtResource("32_o64c2")
 navMeshOpen = NodePath("../NavigationRegion3D")
-navMeshClosed = NodePath("../NavigationRegion3D2")
 
 [node name="ceiling_lamp_mp_1_on" type="MeshInstance3D" parent="bars_metal_22"]
 unique_name_in_owner = true
@@ -1778,3 +1777,6 @@ navigation_mesh = SubResource("NavigationMesh_eftp0")
 
 [node name="NavigationRegion3D2" type="NavigationRegion3D" parent="."]
 navigation_mesh = SubResource("NavigationMesh_lxio5")
+
+[node name="cube_1kg2" parent="." instance=ExtResource("5_1jmyu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.37534428, 1.6174853, 11.834605)

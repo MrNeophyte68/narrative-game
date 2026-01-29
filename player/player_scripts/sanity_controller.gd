@@ -76,7 +76,7 @@ func update_sanity(delta: float) -> void:
 			headache = false
 			
 		if sanity < SANITY_REGEN_TARGET:
-			if time_since_sanity_change >= SANITY_DRAIN_INTERVAL:
+			if time_since_sanity_change >= 8.0:
 				sanity += SANITY_REGEN_RATE * SANITY_DRAIN_INTERVAL
 				sanity = clamp(sanity, 0.0, SANITY_REGEN_TARGET)
 				time_since_sanity_change = 0.0
