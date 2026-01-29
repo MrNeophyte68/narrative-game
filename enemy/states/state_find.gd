@@ -8,7 +8,7 @@ var _player_last_seen_position: Vector3
 var random_position: Vector3
 
 #fast travel
-const FAST_TRAVEL_DURATION = 10.0 #threshold before it may fast travel
+const FAST_TRAVEL_DURATION = 20.0 #threshold before it may fast travel
 var time_before_fast_travel : float = FAST_TRAVEL_DURATION
 var current_shortest_distance_to_entrance_vent: float = 5000.0
 var current_shortest_distance_to_exit_vent: float = 5000.0
@@ -25,8 +25,6 @@ func _ready() -> void:
 
 
 func enter(previous_state_name: String, data := {}) -> void:
-	for nav_mesh in enemy.nav_mesh_vents:
-		nav_mesh.enabled = false
 	current_shortest_distance_to_entrance_vent = 5000.0
 	current_shortest_distance_to_exit_vent = 5000.0
 	time_before_fast_travel = FAST_TRAVEL_DURATION

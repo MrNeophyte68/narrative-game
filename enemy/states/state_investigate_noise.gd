@@ -21,8 +21,6 @@ func _ready() -> void:
 	_nav_map = enemy.get_world_3d().get_navigation_map()
 
 func enter(previous_state_name: String, data := {}) -> void:
-	for nav_mesh in enemy.nav_mesh_vents:
-		nav_mesh.enabled = false
 	current_shortest_distance_to_entrance_vent = 5000.0
 	current_shortest_distance_to_exit_vent = 5000.0
 	enemy.nav_agent.path_postprocessing = NavigationPathQueryParameters3D.PATH_POSTPROCESSING_CORRIDORFUNNEL

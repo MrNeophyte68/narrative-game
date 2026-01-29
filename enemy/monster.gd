@@ -44,7 +44,7 @@ func _process(delta: float) -> void:
 		state_machine.state.name,
 		state_machine.state._patience_timer if state_machine.state.name == "StateRoam" else -1.0,
 		is_near_light_panel,
-		state_machine.state.time_before_fast_travel if state_machine.state.name == "StateFind" else -1.0,
+		state_machine.state.time_before_fast_travel if state_machine.state.name == "StateRoam" else -1.0,
 	]
 
 func _physics_process(delta: float) -> void:

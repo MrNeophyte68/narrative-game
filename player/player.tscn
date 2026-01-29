@@ -132,6 +132,7 @@ _data = {
 }
 
 [node name="player" type="CharacterBody3D" groups=["player"]]
+collision_mask = 3
 script = ExtResource("1_8p05u")
 noise = SubResource("FastNoiseLite_2ieo8")
 
@@ -356,3 +357,12 @@ unique_name_in_owner = true
 
 [node name="StaminaController" parent="." instance=ExtResource("12_ebec5")]
 unique_name_in_owner = true
+
+[node name="HeadacheLight" type="OmniLight3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.61686516, 0)
+layers = 3
+light_color = Color(0.68551975, 0.7211465, 0.9592237, 1)
+light_energy = 0.0
+omni_range = 7.0
+omni_attenuation = 0.0

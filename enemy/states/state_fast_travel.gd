@@ -49,7 +49,10 @@ func _exit_vent() -> void:
 		await get_tree().process_frame
 	
 	entered = false
-
+	
+	for nav_mesh in enemy.nav_mesh_vents:
+		nav_mesh.enabled = false
+		
 	match return_state:
 		0:
 			requested_transition_to_other_state.emit("StateFind")

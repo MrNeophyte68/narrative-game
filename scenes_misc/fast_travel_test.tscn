@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://bgfs7pm1el5i7"]
+[gd_scene load_steps=13 format=3 uid="uid://bgfs7pm1el5i7"]
 
 [ext_resource type="MeshLibrary" uid="uid://cip6ff4vryiav" path="res://assets/tiles/wall_with_vent.tres" id="1_kkpj5"]
 [ext_resource type="PackedScene" uid="uid://ihcfomvy087y" path="res://player/player.tscn" id="2_nw5o7"]
@@ -40,6 +40,10 @@ vertices = PackedVector3Array(14.334295, 1.1261224, -25.845871, 14.334295, 1.126
 polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
 cell_size = 0.1
 cell_height = 0.08
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kkpj5"]
+shading_mode = 0
+albedo_color = Color(0, 0, 0, 1)
 
 [node name="FastTravelTest" type="Node3D"]
 
@@ -89,6 +93,7 @@ material = SubResource("StandardMaterial3D_23qln")
 
 [node name="NavigationRegion3D2" type="NavigationRegion3D" parent="."]
 navigation_mesh = SubResource("NavigationMesh_lxhf3")
+enabled = false
 
 [node name="CSGBox3D" type="CSGBox3D" parent="NavigationRegion3D2"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.987974, 0.50612235, 5.0739174)
@@ -98,6 +103,7 @@ size = Vector3(2.3222656, 1, 6.67)
 
 [node name="NavigationRegion3D3" type="NavigationRegion3D" parent="."]
 navigation_mesh = SubResource("NavigationMesh_m2evx")
+enabled = false
 
 [node name="CSGBox3D2" type="CSGBox3D" parent="NavigationRegion3D3"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.995428, 0.50612235, -23.01087)
@@ -121,10 +127,24 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.933703, 1.5827204, 0.088885
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.878483, 1.0919465, -23.679462)
 
 [node name="vent2" type="Node3D" parent="vents/vent"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.174618)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5.0625916)
 
 [node name="vent2" type="Node3D" parent="vents"]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -9.101004, 1.0919465, 5.5000086)
 
 [node name="vent2" type="Node3D" parent="vents/vent2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.174618)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.536743e-07, 0, 4.909463)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.052383, 1.6008899, 3.579835)
+use_collision = true
+collision_layer = 2
+size = Vector3(3.0922852, 1, 1)
+material = SubResource("StandardMaterial3D_kkpj5")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.957902, 1.5789866, -21.598278)
+use_collision = true
+collision_layer = 2
+size = Vector3(3.0922852, 1, 1)
+material = SubResource("StandardMaterial3D_kkpj5")

@@ -94,6 +94,9 @@ var max_x: float = 10.0
 var max_y: float = 10.0
 var max_z: float = 5.0
 
+#sanity headache light
+@onready var headache_light: OmniLight3D = %HeadacheLight
+
 func _ready() -> void:
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
@@ -156,6 +159,11 @@ func _physics_process(delta: float) -> void:
 	note_tilt_and_sway(input_dir, delta)
 
 func _process(delta: float) -> void:
+	if sanity_controller.light_level < 0.3:
+		headache_light.light_energy = lerp(headache_light.light_energy, 1.6, delta*0.5)
+	else:
+		headache_light.light_energy = lerp(headache_light.light_energy, 0.0, delta*1.0)
+
 	if sensitivity_fading_in:
 		current_sensitivity = lerp(current_sensitivity, normal_sensitivity, delta * sensitivity_restore_speed)
 		
