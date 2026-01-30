@@ -2,12 +2,13 @@ extends EnemyState
 
 @export var _roaming_speed := 3.0
 @export var _hear_radius := 30.0
-@export var _patience_time := 10.0
+@export var _patience_time := 30.0
 
 var _map_synchronized := false
 var _target_position: Vector3
 var _nav_map: RID
 var _patience_timer := 0.0
+
 #fast travel
 const FAST_TRAVEL_DURATION = 25.0 #threshold before it may fast travel
 var time_before_fast_travel : float = FAST_TRAVEL_DURATION
@@ -70,7 +71,8 @@ func physics_update(_delta: float) -> void:
 		_travel_to_random_position(random_position)
 	
 	if enemy.is_player_in_view():
-		requested_transition_to_other_state.emit("StateChase")
+		pass
+		#requested_transition_to_other_state.emit("StateChase")
 	
 	if enemy.player.sanity_controller.sanity <= 51.0:
 		requested_transition_to_other_state.emit("StateFind")

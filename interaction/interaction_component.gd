@@ -581,3 +581,20 @@ func unlock() -> void:
 			door_input_active = false
 			door_angle = starting_rotation
 			pivot_point.rotation.y = starting_rotation
+
+func relax_wheel_to_start(delta: float, speed: float = 2.0) -> void:
+	if interaction_type != InteractionType.WHEEL:
+		return
+
+	var target_wheel_rotation := starting_rotation / 0.1
+
+	wheel_rotation = move_toward(
+		wheel_rotation,
+		target_wheel_rotation,
+		delta * 120.0
+		)
+
+	object_ref.rotation.x = wheel_rotation * 0.1
+
+	var percentage := (object_ref.rotation.x - starting_rotation) / (maximum_rotation - starting_rotation)
+	notify_nodes(clamp(percentage, 0.0, 1.0))

@@ -1574,7 +1574,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.9416504, 3.9460702, -65.158
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.362866, 3.9460702, -54.976112)
 
 [node name="player" parent="." instance=ExtResource("3_ux46k")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5819492, 1.0566342, -7.3790774)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.40660405, 1.0566323, -6.529325)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.72932696, 0.6841653, 0, -0.32667586, 0.3482397, 0.87864214, 0.60113645, -0.6408174, 0.4774809, 0, 0, 0)
@@ -2053,11 +2053,6 @@ primary_sx = ExtResource("34_o3suv")
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
 mesh = SubResource("ArrayMesh_wekwk")
 skeleton = NodePath("")
-
-[node name="monster" parent="." node_paths=PackedStringArray("vents", "nav_mesh_vents") instance=ExtResource("36_kyd6d")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.15288, 1.3507311, -54.206333)
-vents = [NodePath("../Vents/Vent1"), NodePath("../Vents/Vent2"), NodePath("../Vents/Vent3"), NodePath("../Vents/Vent4"), NodePath("../Vents/Vent5"), NodePath("../Vents/Vent6")]
-nav_mesh_vents = [NodePath("../NavMeshVents/NavigationRegion3D"), NodePath("../NavMeshVents/NavigationRegion3D2"), NodePath("../NavMeshVents/NavigationRegion3D3"), NodePath("../NavMeshVents/NavigationRegion3D4"), NodePath("../NavMeshVents/NavigationRegion3D5"), NodePath("../NavMeshVents/NavigationRegion3D6")]
 
 [node name="MetalGate3" type="Node3D" parent="."]
 
@@ -2655,3 +2650,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.8069386, 1.424, -63.704082)
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Panels/Panel6/Area3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8940334, 2.664533, -62.249474)
 shape = SubResource("BoxShape3D_ebx2o")
+
+[node name="monster" parent="." instance=ExtResource("36_kyd6d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.338337, 1.3014526, -53.63423)
