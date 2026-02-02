@@ -21,6 +21,7 @@ enum InteractionType {
 @export var pivot_point: Node3D
 @export var nodes_to_affect: Array[Node]
 @export var content: String
+@export var item_data: ItemData
 
 var can_interact: bool = true
 var is_interacting: bool = false
@@ -591,7 +592,7 @@ func relax_wheel_to_start(delta: float, speed: float = 2.0) -> void:
 	wheel_rotation = move_toward(
 		wheel_rotation,
 		target_wheel_rotation,
-		delta * 120.0
+		delta * speed
 		)
 
 	object_ref.rotation.x = wheel_rotation * 0.1

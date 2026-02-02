@@ -1,10 +1,19 @@
-[gd_scene load_steps=2 format=3 uid="uid://3qhe3g04ds2i"]
+[gd_scene load_steps=4 format=3 uid="uid://3qhe3g04ds2i"]
 
 [ext_resource type="Script" uid="uid://bhqy7e18m30da" path="res://player/inventory/inventory_controller.gd" id="1_hngwd"]
+[ext_resource type="FontFile" uid="uid://ff7gl3x1bli7" path="res://assets/font/Sunlight Dreams.otf" id="2_uigxq"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uigxq"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
 
 [node name="InventoryController" type="Node"]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 3
 
 [node name="InventoryUI" type="Control" parent="CanvasLayer"]
 visible = false
@@ -49,3 +58,9 @@ unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 4
 columns = 5
+
+[node name="ContextMenu" type="PopupMenu" parent="CanvasLayer/InventoryUI"]
+unique_name_in_owner = true
+theme_override_fonts/font = ExtResource("2_uigxq")
+theme_override_font_sizes/font_size = 28
+theme_override_styles/panel = SubResource("StyleBoxFlat_uigxq")

@@ -1342,7 +1342,7 @@ skeleton = NodePath("")
 [node name="InteractionComponent" parent="Valve/Valve" node_paths=PackedStringArray("object_ref", "nodes_to_affect") instance=ExtResource("10_w4nqt")]
 object_ref = NodePath("..")
 interaction_type = 3
-maximum_rotation = 1080.0
+maximum_rotation = 1800.0
 nodes_to_affect = [NodePath("../../../MetalGateValve")]
 primary_sx = ExtResource("28_dbgxr")
 secondary_sx = ExtResource("29_6yndp")

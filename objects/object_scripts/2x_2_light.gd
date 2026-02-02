@@ -7,6 +7,7 @@ extends Node3D
 
 @onready var light: OmniLight3D = %OmniLight3D
 @onready var lamp: MeshInstance3D = %ceiling_lamp_1_on
+@onready var fake_light: MeshInstance3D = %ceiling_lamp_1_fake_light_2
 
 var flicker_tween: Tween
 var is_on: bool = true
@@ -35,6 +36,7 @@ func set_lights(turn_on: bool) -> void:
 
 	var final_energy := light_energy if turn_on else 0.0
 	var final_alpha := 0.0 if turn_on else 1.0
+	fake_light.visible = turn_on
 
 	# --- Flicker phase ---
 	for i in range(8):

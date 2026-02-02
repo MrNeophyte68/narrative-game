@@ -1,9 +1,12 @@
-[gd_scene load_steps=10 format=4 uid="uid://cnhlycm4bxj8q"]
+[gd_scene load_steps=15 format=4 uid="uid://cnhlycm4bxj8q"]
 
 [ext_resource type="Texture2D" uid="uid://c2ukgna76lld4" path="res://assets/glb/psx_mega_pack1/Items & Weapons/pills_bottle_1_2_pills_bottle_1.png" id="1_vwl5q"]
 [ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_ahq5s"]
 [ext_resource type="Material" uid="uid://b3luvact7lk58" path="res://materials/item_highlight.tres" id="2_oswjr"]
-[ext_resource type="AudioStream" uid="uid://6h66s4mldip0" path="res://sound_effects/sx_misc/item_collected_test.ogg" id="4_2bgeo"]
+[ext_resource type="Script" uid="uid://bcdbrr5xtmkfu" path="res://player/inventory/actions/consumable_action.gd" id="4_88gvi"]
+[ext_resource type="Script" uid="uid://bhhmekf1oewt4" path="res://player/inventory/actions/item_data.gd" id="5_5jtjh"]
+[ext_resource type="Texture2D" uid="uid://4esc3dqfkqsa" path="res://assets/images/inventory_images/Screenshot_2026-02-01_at_2.31.35_PM-removebg-preview.png" id="5_cqyo4"]
+[ext_resource type="AudioStream" uid="uid://bbvab6mqympet" path="res://sound_effects/pills/pill_pickup2.ogg" id="7_5jtjh"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3dh16"]
 resource_name = "pills_bottle_1"
@@ -53,6 +56,19 @@ albedo_texture = ExtResource("1_vwl5q")
 height = 0.2
 radius = 0.07
 
+[sub_resource type="Resource" id="Resource_88gvi"]
+script = ExtResource("4_88gvi")
+modifier_name = "pill_bottle"
+modifier_value = 25
+metadata/_custom_type_script = "uid://bcdbrr5xtmkfu"
+
+[sub_resource type="Resource" id="Resource_7wh1o"]
+script = ExtResource("5_5jtjh")
+item_name = "pill_bottle"
+item_icon = ExtResource("5_cqyo4")
+action_data = SubResource("Resource_88gvi")
+metadata/_custom_type_script = "uid://bhhmekf1oewt4"
+
 [node name="Pill_Bottle" type="RigidBody3D"]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
@@ -68,4 +84,5 @@ shape = SubResource("CylinderShape3D_ahq5s")
 [node name="InteractionComponent" parent="." node_paths=PackedStringArray("object_ref") instance=ExtResource("2_ahq5s")]
 object_ref = NodePath("..")
 interaction_type = 4
-primary_sx = ExtResource("4_2bgeo")
+item_data = SubResource("Resource_7wh1o")
+primary_sx = ExtResource("7_5jtjh")

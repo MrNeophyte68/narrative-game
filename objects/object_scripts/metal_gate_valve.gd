@@ -27,18 +27,26 @@ func _ready():
 
 
 func _process(delta: float) -> void:
+	var mouse_speed: float = Input.get_last_mouse_velocity().length()
+	var rotating: bool = Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) and mouse_speed > mouse_move_threshold
 	var ic := object_ref.get_node_or_null("InteractionComponent")
-	if ic and not is_cranking:
-		ic.relax_wheel_to_start(delta, 2.0)
+	if ic and not is_cranking and not ic.is_interacting:
+		ic.relax_wheel_to_start(delta, 200.0)
+	
+	if not rotating:
+		cranking_open.stop()
 
 func execute(percentage: float) -> void:
+	var ic := object_ref.get_node_or_null("InteractionComponent")
+	var mouse_speed: float = Input.get_last_mouse_velocity().length()
+	var rotating: bool = Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) and mouse_speed > mouse_move_threshold
 	# Current gate height
 	var current_height := percentage * final_height
 	bars.position.y = current_height
 
 	# Check movement direction
 	var height_delta := current_height - previous_height
-	if height_delta < 0.0:  # gate is moving down
+	if height_delta < 0.0 and not ic.is_interacting:  # gate is moving down
 		if not gate_closing.playing:
 			gate_closing.play()
 	else:
@@ -48,26 +56,21 @@ func execute(percentage: float) -> void:
 
 	previous_height = current_height  # store for next frame
 
-	# Detect mouse movement
-	var mouse_speed: float = Input.get_last_mouse_velocity().length()
-	var rotating: bool = Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) and mouse_speed > mouse_move_threshold
-
 	# Start cranking sound
 	if rotating and not is_cranking and percentage > 0.0:
 		cranking_open.play()
 		is_cranking = true
-	elif (not rotating or percentage <= 0.0) and is_cranking:
+
+	if (not rotating or percentage <= 0.0) and is_cranking:
 		cranking_open.stop()
 		is_cranking = false
 
-	# Stop cranking if wheel not interacting
-	var ic := object_ref.get_node_or_null("InteractionComponent")
 	if ic and not ic.is_interacting:
 		cranking_open.stop()
 		is_cranking = false
 
 	# Finished opening
-	if percentage >= 1.0 and not finished:
+	if percentage >= 0.99 and not finished:
 		finished = true
 		cranking_open.stop()
 		gate_closing.stop()

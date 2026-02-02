@@ -50,6 +50,7 @@ data = PackedVector3Array(0.5826, 0, 0, 0.6173, 0.02, 0, 0.6173, 0, 0, 0.5826, 0
 
 [node name="MetalGateValve" type="Node3D"]
 script = ExtResource("1_4csl0")
+mouse_move_threshold = 500.0
 
 [node name="bars_metal_2" type="MeshInstance3D" parent="."]
 unique_name_in_owner = true
@@ -65,15 +66,19 @@ shape = SubResource("ConcavePolygonShape3D_ln5w8")
 [node name="cranking_open" type="AudioStreamPlayer3D" parent="."]
 unique_name_in_owner = true
 stream = ExtResource("3_ln5w8")
+volume_db = -10.0
 
 [node name="finished_opening" type="AudioStreamPlayer3D" parent="."]
 unique_name_in_owner = true
 stream = ExtResource("4_ynk5u")
+volume_db = -5.0
 
 [node name="gate_closing" type="AudioStreamPlayer3D" parent="."]
 unique_name_in_owner = true
 stream = ExtResource("5_bsfcv")
+volume_db = -5.0
 
 [node name="finished_closing" type="AudioStreamPlayer3D" parent="."]
 unique_name_in_owner = true
 stream = ExtResource("6_a84i2")
+volume_db = -10.0

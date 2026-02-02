@@ -1,8 +1,11 @@
-[gd_scene load_steps=9 format=4 uid="uid://cf0mmc3573pgf"]
+[gd_scene load_steps=14 format=4 uid="uid://cf0mmc3573pgf"]
 
 [ext_resource type="Texture2D" uid="uid://bgm0qpy2sf3h7" path="res://assets/glb/psx_bunker/note_1_note_1.png" id="1_7b0au"]
 [ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_ksy3f"]
+[ext_resource type="Script" uid="uid://bhhmekf1oewt4" path="res://player/inventory/actions/item_data.gd" id="3_34u2f"]
 [ext_resource type="AudioStream" uid="uid://dvjcq6ycdq8p6" path="res://sound_effects/note/note_pickup_default.ogg" id="3_imdj0"]
+[ext_resource type="Script" uid="uid://h5n8lmi4kte2" path="res://player/inventory/actions/inspectable_action.gd" id="3_kpdrn"]
+[ext_resource type="Texture2D" uid="uid://rxwprte1wwx0" path="res://assets/images/inventory_images/Screenshot_2026-02-01_at_7.52.31_PM-removebg-preview.png" id="4_0wdnj"]
 [ext_resource type="AudioStream" uid="uid://dssly5gmf3p5o" path="res://sound_effects/note/note_exit_default.ogg" id="4_34u2f"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0l4p8"]
@@ -50,6 +53,17 @@ shadow_mesh = SubResource("ArrayMesh_5pdcx")
 [sub_resource type="BoxShape3D" id="BoxShape3D_ksy3f"]
 size = Vector3(0.20244598, 0.023254395, 0.286438)
 
+[sub_resource type="Resource" id="Resource_re0ia"]
+script = ExtResource("3_kpdrn")
+metadata/_custom_type_script = "uid://h5n8lmi4kte2"
+
+[sub_resource type="Resource" id="Resource_dxtnl"]
+script = ExtResource("3_34u2f")
+item_name = "test_note"
+item_icon = ExtResource("4_0wdnj")
+action_data = SubResource("Resource_re0ia")
+metadata/_custom_type_script = "uid://bhhmekf1oewt4"
+
 [node name="BasicNote" type="StaticBody3D"]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
@@ -65,5 +79,6 @@ shape = SubResource("BoxShape3D_ksy3f")
 object_ref = NodePath("..")
 interaction_type = 6
 content = "This note is a test and does not contain anything useful."
+item_data = SubResource("Resource_dxtnl")
 primary_sx = ExtResource("3_imdj0")
 secondary_sx = ExtResource("4_34u2f")

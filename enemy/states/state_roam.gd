@@ -10,7 +10,7 @@ var _nav_map: RID
 var _patience_timer := 0.0
 
 #fast travel
-const FAST_TRAVEL_DURATION = 25.0 #threshold before it may fast travel
+const FAST_TRAVEL_DURATION = 5.0 #threshold before it may fast travel
 var time_before_fast_travel : float = FAST_TRAVEL_DURATION
 var current_shortest_distance_to_entrance_vent: float = 5000.0
 var current_shortest_distance_to_exit_vent: float = 5000.0
@@ -71,8 +71,7 @@ func physics_update(_delta: float) -> void:
 		_travel_to_random_position(random_position)
 	
 	if enemy.is_player_in_view():
-		pass
-		#requested_transition_to_other_state.emit("StateChase")
+		requested_transition_to_other_state.emit("StateChase")
 	
 	if enemy.player.sanity_controller.sanity <= 51.0:
 		requested_transition_to_other_state.emit("StateFind")
