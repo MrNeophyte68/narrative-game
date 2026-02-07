@@ -17,6 +17,7 @@ class_name Player
 @onready var interaction_raycast: RayCast3D = %InteractionRaycast
 @onready var sanity_controller: Node = %SanityController
 @onready var stamina_controller: Node = %StaminaController
+@onready var item_hand: Marker3D = %ItemHand
 
 #lean variables
 var lean_angle: float = 12.0
@@ -127,9 +128,17 @@ func _input(event: InputEvent) -> void:
 				head.rotation.x = clamp(head.rotation.x, deg_to_rad(-85), deg_to_rad(85))
 
 func _physics_process(delta: float) -> void:
+	if interaction_controller.item_equipped and player_state == PlayerState.IDLE_STAND and inventory_controller.visible == false:
+		if Input.is_action_pressed("secondary") and interaction_controller.equipped_item_ic.item_data.action_data.action_type == interaction_controller.equipped_item_ic.item_data.action_data.ActionType.WEAPON:
+			note_tilt_and_sway(input_dir, delta)
+			
+			#return
+		else:
+			updateCamera(delta)
+	else:
+		updateCamera(delta)
 	
 	updatePlayerState()
-	updateCamera(delta)
 	
 	#falling
 	if not is_on_floor():
@@ -280,6 +289,10 @@ func note_tilt_and_sway(input_dir: Vector2, delta: float) -> void:
 	if note_hand:
 		note_hand.rotation.x = lerp(note_hand.rotation.x, -input_dir.y * note_sway_amount, delta*10.0)
 		note_hand.rotation.z = lerp(note_hand.rotation.z, -input_dir.x * note_sway_amount, delta*10.0)
+	
+	if item_hand:
+		item_hand.rotation.x = lerp(item_hand.rotation.x, -input_dir.y * note_sway_amount, delta*10.0)
+		item_hand.rotation.z = lerp(item_hand.rotation.z, -input_dir.x * note_sway_amount, delta*10.0)
 
 func play_footsteps() -> void:
 	if moving and is_on_floor():

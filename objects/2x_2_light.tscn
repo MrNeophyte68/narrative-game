@@ -330,13 +330,15 @@ light_volumetric_fog_energy = 3.0
 light_specular = 0.3
 shadow_enabled = true
 distance_fade_enabled = true
-distance_fade_begin = 12.0
+distance_fade_begin = 10.0
+distance_fade_shadow = 15.0
 omni_range = 10.0
 omni_attenuation = 0.8
 
 [node name="ceiling_lamp_1_fake_light_2" type="MeshInstance3D" parent="ceiling_lamp_1_on"]
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 2.27, 0, 0, -0.13992757)
+layers = 4
 transparency = 0.9
 mesh = SubResource("ArrayMesh_5pobi")
 skeleton = NodePath("")

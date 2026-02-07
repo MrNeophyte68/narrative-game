@@ -56,20 +56,21 @@ albedo_texture = ExtResource("1_vwl5q")
 height = 0.2
 radius = 0.07
 
-[sub_resource type="Resource" id="Resource_88gvi"]
+[sub_resource type="Resource" id="Resource_olj6g"]
 script = ExtResource("4_88gvi")
 modifier_name = "pill_bottle"
 modifier_value = 25
 metadata/_custom_type_script = "uid://bcdbrr5xtmkfu"
 
-[sub_resource type="Resource" id="Resource_7wh1o"]
+[sub_resource type="Resource" id="Resource_pi2gg"]
 script = ExtResource("5_5jtjh")
 item_name = "pill_bottle"
 item_icon = ExtResource("5_cqyo4")
-action_data = SubResource("Resource_88gvi")
+action_data = SubResource("Resource_olj6g")
 metadata/_custom_type_script = "uid://bhhmekf1oewt4"
 
 [node name="Pill_Bottle" type="RigidBody3D"]
+collision_layer = 2
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1.5, 0, 0, 0, -6.556708e-08, -1.5, 0, 1.5, -6.556708e-08, 0, 0, 0)
@@ -84,5 +85,5 @@ shape = SubResource("CylinderShape3D_ahq5s")
 [node name="InteractionComponent" parent="." node_paths=PackedStringArray("object_ref") instance=ExtResource("2_ahq5s")]
 object_ref = NodePath("..")
 interaction_type = 4
-item_data = SubResource("Resource_7wh1o")
+item_data = SubResource("Resource_pi2gg")
 primary_sx = ExtResource("7_5jtjh")

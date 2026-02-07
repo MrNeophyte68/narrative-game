@@ -55,6 +55,7 @@ size = Vector3(0.20244598, 0.023254395, 0.286438)
 
 [sub_resource type="Resource" id="Resource_re0ia"]
 script = ExtResource("3_kpdrn")
+modifier_name = "basic_note"
 metadata/_custom_type_script = "uid://h5n8lmi4kte2"
 
 [sub_resource type="Resource" id="Resource_dxtnl"]

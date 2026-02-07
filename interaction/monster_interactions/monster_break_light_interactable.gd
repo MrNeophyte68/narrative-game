@@ -24,7 +24,7 @@ func far_from_panel(body: Node3D) -> void:
 
 func _process(delta: float) -> void:
 	if monster:
-		if monster.animation_player.current_animation == "break":
+		if monster.animation_player.current_animation == "break" and not panel_broken:
 			panel_broken = true
 			await get_tree().create_timer(1.0, false).timeout
 			for light in lights_to_affect:

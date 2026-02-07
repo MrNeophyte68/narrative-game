@@ -61,6 +61,7 @@ columns = 5
 
 [node name="ContextMenu" type="PopupMenu" parent="CanvasLayer/InventoryUI"]
 unique_name_in_owner = true
+oversampling_override = 1.0
 theme_override_fonts/font = ExtResource("2_uigxq")
 theme_override_font_sizes/font_size = 28
 theme_override_styles/panel = SubResource("StyleBoxFlat_uigxq")

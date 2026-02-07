@@ -12,7 +12,8 @@ enum InteractionType {
 	NOTE,
 	LOAD_SCENE,
 	KEYPAD,
-	BUTTON
+	BUTTON,
+	REMOVABLE_TRIGGER
 }
 
 @export var object_ref: Node3D
@@ -22,6 +23,7 @@ enum InteractionType {
 @export var nodes_to_affect: Array[Node]
 @export var content: String
 @export var item_data: ItemData
+@export var unlock_item_name: String
 
 var can_interact: bool = true
 var is_interacting: bool = false
@@ -46,6 +48,8 @@ var door_fade_speed: float = 1.0
 var previous_door_angle: float = 0.0
 @export var is_locked: bool = false
 var was_just_unlocked: bool = false
+@export var reverse_door_front: bool = false
+@export var flip_door_when_game_start: bool = false
 
 #switch variables
 var switch_target_rotation: float = 0.0
@@ -89,8 +93,15 @@ var tertiary_audio_player: AudioStreamPlayer3D
 @export var secondary_sx: AudioStreamOggVorbis
 @export var tertiary_sx: AudioStreamOggVorbis
 
+#weapon
+@export var weapon_light: SpotLight3D
+var is_flashing: bool = false
+var flash_tween: Tween
+
 func _ready() -> void:
-	
+	if flip_door_when_game_start:
+		door_angle += deg_to_rad(90)
+
 	primary_audio_player = AudioStreamPlayer3D.new()
 	primary_audio_player.stream = primary_sx
 	add_child(primary_audio_player)
@@ -124,8 +135,6 @@ func _ready() -> void:
 			for node in get_parent().get_children():
 				if node is StaticBody3D:
 					buttons.append(node)
-			
-			
 
 #Runs once, when the player first clicks on an object to interact with
 func preInteract(hand: Marker3D, target: Node = null) -> void:
@@ -244,7 +253,7 @@ func _physics_process(delta: float) -> void:
 				last_velocity = object_ref.linear_velocity
 
 #Runs every frame, perform some logics on this object
-func interact() -> void:
+func interact(player: Node3D) -> void:
 	if not can_interact:
 		return
 	
@@ -254,9 +263,9 @@ func interact() -> void:
 		InteractionType.HEAVY:
 			_heavy_interact()
 		InteractionType.ITEM:
-			_collect_item()
+			_collect_item(player)
 		InteractionType.NOTE:
-			_collect_note()
+			_collect_note(player)
 		InteractionType.LOAD_SCENE:
 			_trigger_load_scene()
 
@@ -292,7 +301,7 @@ func _input(event: InputEvent) -> void:
 			InteractionType.DOOR:
 				if event is InputEventMouseMotion:
 					door_input_active = true
-					var delta: float = -event.relative.y * 0.001
+					var delta: float = -event.relative.y * 0.001 if not reverse_door_front else event.relative.y * 0.001
 					
 					if not is_front:
 						delta = -delta
@@ -384,21 +393,27 @@ func calculate_cross_product(_mouse_position: Vector2) -> float:
 	var cross_product = vector_to_current.x * vector_to_previous.y - vector_to_current.y * vector_to_previous.x
 	return cross_product
 	
-func _collect_item() -> void:
-	emit_signal("item_collected", get_parent())
-	await _play_sound_effect(false, false)
-	get_parent().queue_free()
+func _collect_item(player: Node3D) -> void:
+	if not player.inventory_controller.inventory_full:
+		emit_signal("item_collected", get_parent())
+		await _play_sound_effect(false, false)
+		get_parent().queue_free()
+	else:
+		player.interaction_controller.show_item_feedback("inventory is full")
 
-func _collect_note() -> void:
-	var col = get_parent().find_child("CollisionShape3D", true, false)
-	var mesh = get_parent().find_child("MeshInstance3D", true, false)
-	if mesh:
-		mesh.layers = 2
-	if col:
-		get_parent().remove_child(col)
-		col.queue_free()
-	_play_sound_effect(true, false)
-	emit_signal("note_collected", get_parent())
+func _collect_note(player: Node3D) -> void:
+	if not player.inventory_controller.inventory_full:
+		var col = get_parent().find_child("CollisionShape3D", true, false)
+		var mesh = get_parent().find_child("MeshInstance3D", true, false)
+		if mesh:
+			mesh.layers = 2
+		if col:
+			get_parent().remove_child(col)
+			col.queue_free()
+		_play_sound_effect(true, false)
+		emit_signal("note_collected", get_parent())
+	else:
+		player.interaction_controller.show_item_feedback("inventory is full")
 
 func _trigger_load_scene() -> void:
 	_play_sound_effect(true, false)
@@ -599,3 +614,109 @@ func relax_wheel_to_start(delta: float, speed: float = 2.0) -> void:
 
 	var percentage := (object_ref.rotation.x - starting_rotation) / (maximum_rotation - starting_rotation)
 	notify_nodes(clamp(percentage, 0.0, 1.0))
+
+func use_item(item_data: ItemData) -> bool:
+	if item_data.item_name == unlock_item_name:
+		is_locked = false
+		return true
+	else:
+		return false
+
+func delete_removable(item_data: ItemData) -> bool:
+	if item_data.item_name == unlock_item_name:
+		for node in nodes_to_affect:
+			if node is NavigationRegion3D:
+				node.enabled = true
+			elif node is Node3D:
+				if node.has_method("execute"):
+					node.call("execute")
+				else:
+					node.find_child("AnimationPlayer", true, false).play("open")
+		object_ref.get_parent().queue_free()
+		return true
+	else:
+		return false
+
+func flash_camera() -> void:
+	if is_flashing:
+		return
+	
+	var player: Player = get_tree().get_first_node_in_group("player")
+	var player_effects = player.get_node_or_null("effect_misc")
+	var flash_dark_screen: ShaderMaterial = player_effects.get_child(0).get_child(0).material
+	
+	if flash_tween and flash_tween.is_running():
+		flash_tween.kill()
+	
+	is_flashing = true
+	weapon_light.visible = true
+	weapon_light.light_color = Color.WHITE
+
+	flash_tween = create_tween()
+
+	var flash_count: int = 6
+
+	for i in flash_count:
+
+		var energy := randf_range(20.0, 28.0)
+		var dark_peak := randf_range(0.6, 1.0)
+		var decay := randf_range(0.01, 0.05)
+		var brightness := randf_range(0.2, 0.4)
+		var darkness := randf_range(0.4, 0.6)
+		
+		flash_tween.parallel().tween_method(
+			func(v): flash_dark_screen.set_shader_parameter("darkness", v),
+			0.0,
+			darkness,
+			0.01
+		)
+		
+		flash_tween.parallel().tween_method(
+			func(v): flash_dark_screen.set_shader_parameter("saturation", v),
+			0.0,
+			randf_range(0.4, 0.6),
+			0.01
+		)
+		# Instant flash spike
+		flash_tween.tween_property(weapon_light, "light_energy", energy, 0.01)
+		
+		flash_tween.parallel().tween_method(
+			func(v): flash_dark_screen.set_shader_parameter("brightness", v),
+			0.8,
+			brightness,
+			0.01
+		)
+#
+		# Fade out
+		flash_tween.tween_property(weapon_light, "light_energy", 0.0, decay)
+		
+		flash_tween.parallel().tween_method(
+			func(v): flash_dark_screen.set_shader_parameter("brightness", v),
+			brightness,
+			0.0,
+			0.05
+		)
+		
+		flash_tween.parallel().tween_method(
+			func(v): flash_dark_screen.set_shader_parameter("darkness", v),
+			darkness,
+			0.0,
+			0.05
+		)
+		flash_tween.parallel().tween_method(
+			func(v): flash_dark_screen.set_shader_parameter("saturation", v),
+			brightness,
+			randf_range(0.8, 1.0),
+			0.05
+		)
+
+		# small delay between flashes
+		flash_tween.tween_interval(randf_range(0.03, 0.07))
+
+	flash_tween.tween_callback(func():
+		weapon_light.visible = false
+		flash_dark_screen.set_shader_parameter("darkness", 0.0)
+		flash_dark_screen.set_shader_parameter("saturation", 1.0)
+		flash_dark_screen.set_shader_parameter("brightness", 0.0)
+		is_flashing = false
+	)

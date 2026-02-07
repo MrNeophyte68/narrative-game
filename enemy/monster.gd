@@ -69,6 +69,12 @@ func _physics_process(delta: float) -> void:
 	velocity = direction * _current_speed
 	move_and_slide()
 
+func is_player_close(stun_radius: float) -> bool:
+	var distance_to_player = global_position - player.global_position
+	if distance_to_player.length() < stun_radius:
+		return true
+	return false
+
 func travel_to_position(wanted_position: Vector3, speed: float, play_run_anim: AnimationType) -> void:
 	nav_agent.target_position = wanted_position
 	_current_speed = speed

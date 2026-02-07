@@ -20,11 +20,17 @@ func update(delta: float) -> void:
 	_chase_timer -= delta
 	if _chase_timer <= 0.0:
 		requested_transition_to_other_state.emit("StateSearch", {"player_last_seen_position":enemy.player.global_position})
+	
+	if enemy.is_player_close(10.0) and enemy.player.sanity_controller.is_enemy_in_view(enemy, 40.0):
+		if enemy.player.item_hand.get_child(0):
+			if enemy.player.item_hand.get_child(0).get_node_or_null("InteractionComponent"):
+				if enemy.player.item_hand.get_child(0).get_node_or_null("InteractionComponent").is_flashing:
+					requested_transition_to_other_state.emit("StateStun")
 
 
 func physics_update(_delta: float) -> void:
 	var distance_to_player = enemy.global_position - enemy.player.global_position
-	if distance_to_player.length() < 10.0:
+	if distance_to_player.length() < 15.0:
 		enemy.player.add_trauma(.03)
 	if _update_path_timer <= 0.0:
 		_update_path_timer = update_path_delay

@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=3 uid="uid://ihcfomvy087y"]
+[gd_scene load_steps=27 format=3 uid="uid://ihcfomvy087y"]
 
 [ext_resource type="Script" uid="uid://bggl12dwxkqag" path="res://player/player_scripts/player.gd" id="1_8p05u"]
 [ext_resource type="PackedScene" uid="uid://dqmsi6t2g3v7w" path="res://player/interaction_controller.tscn" id="2_eo61r"]
@@ -12,6 +12,8 @@
 [ext_resource type="AudioStream" uid="uid://djrcfj0fi8lam" path="res://sound_effects/footsteps/land_concrete_reverb.wav" id="10_8t03j"]
 [ext_resource type="PackedScene" uid="uid://3qhe3g04ds2i" path="res://player/inventory_controller.tscn" id="11_2ieo8"]
 [ext_resource type="PackedScene" uid="uid://d1vy8mpj2o80v" path="res://player/stamina_controller.tscn" id="12_ebec5"]
+[ext_resource type="Shader" uid="uid://begfqka6j3pbt" path="res://shaders/dark_screen.gdshader" id="13_kb6p2"]
+[ext_resource type="Texture2D" uid="uid://uocni063775s" path="res://icon.svg" id="14_wodsf"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_2ieo8"]
 frequency = 0.05
@@ -131,6 +133,15 @@ _data = {
 &"fade_out": SubResource("Animation_ebec5")
 }
 
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_32hag"]
+shader = ExtResource("13_kb6p2")
+shader_parameter/brightness = 0.0
+shader_parameter/darkness = 0.0
+shader_parameter/saturation = 1.0
+shader_parameter/vignette_strength = 1.0790000512525
+shader_parameter/vignette_softness = 1.54100007249898
+shader_parameter/center = Vector2(0.5, 0.5)
+
 [node name="player" type="CharacterBody3D" groups=["player"]]
 collision_mask = 3
 script = ExtResource("1_8p05u")
@@ -177,6 +188,7 @@ fov = 90.0
 [node name="InteractionRaycast" type="RayCast3D" parent="head/eyes/Camera3D"]
 unique_name_in_owner = true
 target_position = Vector3(0, 0, -2)
+collision_mask = 3
 debug_shape_custom_color = Color(0, 0, 0, 0)
 
 [node name="Hand" type="Marker3D" parent="head/eyes/Camera3D"]
@@ -209,10 +221,15 @@ fov = 90.0
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4289236, -0.15453863, -0.41566402)
 
+[node name="ItemHand" type="Marker3D" parent="head/eyes/SubViewportContainer/SubViewport/NoteCamera"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.429, -0.155, -0.416)
+
 [node name="standupCheck" type="RayCast3D" parent="."]
 target_position = Vector3(0, 2, 0)
 
 [node name="InteractableCheck" type="Area3D" parent="."]
+collision_mask = 2
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="InteractableCheck"]
 shape = SubResource("SphereShape3D_yw30f")
@@ -257,6 +274,24 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 theme_override_font_sizes/font_size = 32
+
+[node name="ItemNotification" type="Label" parent="GUI/ReticleLayer/Control"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("5_boad6")
+theme_override_font_sizes/font_size = 40
+
+[node name="WeaponBatteryLife" type="ProgressBar" parent="GUI/ReticleLayer/Control"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 0
+offset_right = 209.0
+offset_bottom = 27.0
 
 [node name="CanvasLayer" type="CanvasLayer" parent="GUI"]
 
@@ -366,3 +401,15 @@ light_color = Color(0.68551975, 0.7211465, 0.9592237, 1)
 light_energy = 0.0
 omni_range = 7.0
 omni_attenuation = 0.0
+
+[node name="effect_misc" type="Node" parent="."]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="effect_misc"]
+layer = 3
+
+[node name="DarkScreen" type="Sprite2D" parent="effect_misc/CanvasLayer"]
+unique_name_in_owner = true
+material = SubResource("ShaderMaterial_32hag")
+position = Vector2(959, 553.99994)
+scale = Vector2(15.484374, 9.125)
+texture = ExtResource("14_wodsf")

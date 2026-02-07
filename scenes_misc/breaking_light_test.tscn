@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=4 uid="uid://d2w51nrt0ujth"]
+[gd_scene load_steps=39 format=4 uid="uid://d2w51nrt0ujth"]
 
 [ext_resource type="MeshLibrary" uid="uid://d3axaiytcy37p" path="res://assets/tiles/tiles3.tres" id="1_w5887"]
 [ext_resource type="PackedScene" uid="uid://ihcfomvy087y" path="res://player/player.tscn" id="2_idop7"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://dwvhg04lfryer" path="res://assets/glb/psx_tech/panel_etx_1_2_electronics_etx_part_2.png" id="6_3yxgi"]
 [ext_resource type="PackedScene" uid="uid://c365vuje1i6yq" path="res://enemy/model/monster.tscn" id="8_elud6"]
 [ext_resource type="VoxelGIData" uid="uid://t6h78ttw5fkd" path="res://assets/tiles/baked_lighting/breaking_light_test_baked_lighting.res" id="9_3yxgi"]
+[ext_resource type="PackedScene" uid="uid://c4dhabftr2t2c" path="res://objects/items/camera.tscn" id="10_neajb"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_w5887"]
 sky_top_color = Color(0, 0, 0, 1)
@@ -534,3 +535,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.710969, 1.5447686, 2.024861
 [node name="VoxelGI" type="VoxelGI" parent="."]
 subdiv = 0
 data = ExtResource("9_3yxgi")
+
+[node name="Node3D" parent="." instance=ExtResource("10_neajb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.430394, 1.6526759, -1.7845998)

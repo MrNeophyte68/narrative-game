@@ -5,7 +5,8 @@ enum ActionType {
 	INVALID,
 	CONSUMABLE,
 	EQUIPPABLE,
-	INSPECTABLE
+	INSPECTABLE,
+	WEAPON
 }
 
 var action_type: ActionType

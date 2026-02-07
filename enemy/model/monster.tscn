@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=4 uid="uid://c365vuje1i6yq"]
+[gd_scene load_steps=30 format=4 uid="uid://c365vuje1i6yq"]
 
 [ext_resource type="Script" uid="uid://1fro043lnj75" path="res://enemy/monster.gd" id="1_uruxq"]
 [ext_resource type="Script" uid="uid://rpx1ro6vlugi" path="res://enemy/state_machine.gd" id="2_t1p2m"]
@@ -9,6 +9,7 @@
 [ext_resource type="Script" uid="uid://fbikqn60g6gw" path="res://enemy/states/state_investigate_noise.gd" id="7_2nqoy"]
 [ext_resource type="Script" uid="uid://owwo3nn5xqbx" path="res://enemy/states/state_break_light.gd" id="8_1fm2m"]
 [ext_resource type="Texture2D" uid="uid://ij553jkjdnsy" path="res://enemy/model/MotherSutureRigged_0.png" id="8_32ebx"]
+[ext_resource type="Script" uid="uid://dfhli7spbl0k6" path="res://enemy/states/state_stun.gd" id="8_vsay1"]
 [ext_resource type="Script" uid="uid://do4cy3osu3sma" path="res://enemy/states/state_fast_travel.gd" id="9_0j8qh"]
 [ext_resource type="Texture2D" uid="uid://dmioc2d1twr2t" path="res://enemy/model/MotherSutureRigged_1.png" id="9_np2pl"]
 [ext_resource type="Animation" uid="uid://rftodeuoccvs" path="res://enemy/model/animations/walk.res" id="10_np2pl"]
@@ -456,6 +457,7 @@ _chasing_speed = 4.0
 [node name="StateFind" type="Node" parent="StateMachine"]
 unique_name_in_owner = true
 script = ExtResource("6_kbwjw")
+_find_speed = 3.6
 
 [node name="StateInvestigateNoise" type="Node" parent="StateMachine"]
 unique_name_in_owner = true
@@ -464,6 +466,8 @@ _searching_speed = 4.0
 _search_radius = 7.0
 
 [node name="StateStun" type="Node" parent="StateMachine"]
+unique_name_in_owner = true
+script = ExtResource("8_vsay1")
 
 [node name="StateBreakLight" type="Node" parent="StateMachine"]
 unique_name_in_owner = true
@@ -474,6 +478,8 @@ unique_name_in_owner = true
 script = ExtResource("9_0j8qh")
 
 [node name="StateBerserk" type="Node" parent="StateMachine"]
+
+[node name="StateGhost" type="Node" parent="StateMachine"]
 
 [node name="MotherSutureRigged" type="Node3D" parent="."]
 transform = Transform3D(-2.5, 0, -2.1855695e-07, 0, 2.5, 0, 2.1855695e-07, 0, -2.5, 0, 0, 0)
@@ -1188,7 +1194,6 @@ bones/100/rotation = Quaternion(3.123046e-06, 8.126492e-06, -1.5513511e-05, 1)
 bones/100/scale = Vector3(0.99999934, 0.99999976, 0.99999946)
 
 [node name="body" type="MeshInstance3D" parent="MotherSutureRigged/Skeleton3D"]
-layers = 3
 mesh = SubResource("ArrayMesh_tuqno")
 skin = SubResource("Skin_vh8dq")
 blend_shapes/V_None = 0.0

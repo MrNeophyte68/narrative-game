@@ -6,11 +6,12 @@ extends Node3D
 @onready var finished_opening: AudioStreamPlayer3D = %finished_opening
 @onready var gate_closing: AudioStreamPlayer3D = %gate_closing
 @onready var finished_closing: AudioStreamPlayer3D = %finished_closing
+@onready var gate_barrier: CollisionShape3D = %CollisionShape3D
 
 @export var final_height: float = 2.3
 @export var mouse_move_threshold := 5.0
 @export var object_ref: Node3D
-@export var nav_mesh: NavigationAgent3D
+@export var nav_mesh: NavigationRegion3D
 
 var is_cranking: bool = false
 var finished: bool = false
@@ -75,6 +76,9 @@ func execute(percentage: float) -> void:
 		cranking_open.stop()
 		gate_closing.stop()
 		finished_opening.play()
+		if nav_mesh:
+			nav_mesh.enabled = true
+		gate_barrier.disabled = true
 		if ic:
 			object_ref.remove_child(ic)
 
