@@ -23,6 +23,8 @@ var last_equipped_slot_id: int
 @onready var terminal_circuit: PackedScene = load("res://objects/items/terminal_circuit.tscn")
 @onready var small_key: PackedScene = load("res://objects/items/small_key.tscn")
 @onready var walkie_talkie: PackedScene = load("res://objects/items/talkie_walkie.tscn")
+@onready var capacitor: PackedScene = load("res://objects/items/capacitor.tscn")
+@onready var coin: PackedScene = load("res://objects/items/coin.tscn")
 
 func _ready() -> void:
 	for i in item_slots_count:
@@ -217,6 +219,12 @@ func drop_collectable(slot_id: int) -> void:
 				"terminal_circuit":
 					instance = terminal_circuit.instantiate() as Node3D
 					get_tree().current_scene.add_child(instance)
+				"capacitor":
+					instance = capacitor.instantiate() as Node3D
+					get_tree().current_scene.add_child(instance)
+				"coin":
+					instance = coin.instantiate() as Node3D
+					get_tree().current_scene.add_child(instance)
 		elif slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.WEAPON:
 			match slot.slot_data.action_data.modifier_name:
 				"camera":
@@ -314,6 +322,12 @@ func equip_collectable(slot_id: int) -> void:
 				interaction_controller._on_item_equipped(instance)
 			"small_key":
 				instance = small_key.instantiate() as Node3D
+				interaction_controller._on_item_equipped(instance)
+			"capacitor":
+				instance = capacitor.instantiate() as Node3D
+				interaction_controller._on_item_equipped(instance)
+			"coin":
+				instance = coin.instantiate() as Node3D
 				interaction_controller._on_item_equipped(instance)
 	elif slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.WEAPON:
 		match slot.slot_data.action_data.modifier_name:

@@ -13,7 +13,7 @@ enum InteractionType {
 	LOAD_SCENE,
 	KEYPAD,
 	BUTTON,
-	REMOVABLE_TRIGGER
+	REMOVABLE_TRIGGER,
 }
 
 @export var object_ref: Node3D

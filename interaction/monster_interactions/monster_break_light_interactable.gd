@@ -6,6 +6,7 @@ extends Node
 @export var object_ref: Node3D
 var panel_broken: bool = false
 @onready var monster: Enemy
+@export var player: Player
 
 func _ready() -> void:
 	area_of_effect.connect("body_entered", Callable(self, "near_panel"))
@@ -29,3 +30,23 @@ func _process(delta: float) -> void:
 			await get_tree().create_timer(1.0, false).timeout
 			for light in lights_to_affect:
 				light.set_lights(false)
+
+	var ray = player.interaction_raycast
+
+	if ray.is_colliding():
+		var collider = ray.get_collider()
+		if collider:
+			if panel_broken and collider.name == "panel":
+				player.interaction_controller._focus()
+				
+			if collider.name == "panel" and Input.is_action_just_pressed("primary") and panel_broken:
+				if player.interaction_controller.item_equipped and player.interaction_controller.equipped_item_ic.item_data.action_data.modifier_name == "capacitor":
+					player.interaction_controller.show_item_feedback(player.interaction_controller.equipped_item_ic.item_data.action_data.success_text)
+					player.inventory_controller.discard_item(player.inventory_controller.last_equipped_slot_id)
+					player.interaction_controller.equipped_item.queue_free()
+					player.interaction_controller.item_equipped = false
+					panel_broken = false
+					for light in lights_to_affect:
+						light.set_lights(true)
+		else:
+			player.interaction_controller._unfocus()

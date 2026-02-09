@@ -1,4 +1,4 @@
-[gd_scene load_steps=229 format=4 uid="uid://c6ds4sph11pjk"]
+[gd_scene load_steps=230 format=4 uid="uid://c6ds4sph11pjk"]
 
 [ext_resource type="MeshLibrary" uid="uid://dsagwyevuoj6y" path="res://assets/tiles/tiles2.tres" id="1_knb2s"]
 [ext_resource type="Script" uid="uid://dus25qm64p5fy" path="res://map/level_scripts/level_1.gd" id="1_o6nc0"]
@@ -61,6 +61,7 @@
 [ext_resource type="PackedScene" uid="uid://dxxij6awg3xk5" path="res://objects/items/terminal_circuit.tscn" id="56_gd1nt"]
 [ext_resource type="Texture2D" uid="uid://tjmbbuk8q76y" path="res://assets/glb/psx_mega_pack2/Large Props & Machinery/wires_hr_2_1_steel_beams_hr_1.png" id="57_imo1m"]
 [ext_resource type="Texture2D" uid="uid://s1l6i1soewsh" path="res://assets/glb/psx_mega_pack2/Large Props & Machinery/wires_holder_hr_small_1_steel_beams_hr_1.png" id="58_okxk7"]
+[ext_resource type="PackedScene" uid="uid://c2lcl63nfj362" path="res://objects/mystery_box.tscn" id="60_pc0vn"]
 [ext_resource type="PackedScene" uid="uid://bqqfkv162t2m1" path="res://objects/items/talkie_walkie.tscn" id="62_ayl8k"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_24v22"]
@@ -2330,7 +2331,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.9416504, 3.9460702, -65.158
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.362866, 3.9460702, -54.976112)
 
 [node name="player" parent="." instance=ExtResource("3_ux46k")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.004571, 1.0566323, -61.944237)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.54768, 1.0566323, 1.491507)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.72932696, 0.6841653, 0, -0.32667586, 0.3482397, 0.87864214, 0.60113645, -0.6408174, 0.4774809, 0, 0, 0)
@@ -2778,6 +2779,10 @@ skeleton = NodePath("")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="MainMap/quest/shelf_mp_2_32/shelf_mp_2_3/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_2b3mb")
+
+[node name="MysteryBox" parent="MainMap/quest" node_paths=PackedStringArray("player") instance=ExtResource("60_pc0vn")]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 51.09462, 1.248806, -5.2012897)
+player = NodePath("../../../player")
 
 [node name="MetalGate1" type="Node3D" parent="."]
 
@@ -3238,38 +3243,39 @@ material = SubResource("StandardMaterial3D_iuuuf")
 [node name="Panel1" type="Node3D" parent="Panels"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0386171, 1.424243, -8.896486)
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Panels/Panel1"]
+[node name="panel" type="StaticBody3D" parent="Panels/Panel1"]
 transform = Transform3D(-0.99999994, -8.742277e-08, 3.821371e-15, 0, -4.3711385e-08, -1, 8.742277e-08, -0.99999994, 4.371139e-08, 17.803387, 1.6524293, 2.6039038)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Panels/Panel1/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Panels/Panel1/panel"]
 transform = Transform3D(0.9999587, -1.3145041e-12, 0, 1.3145041e-12, 0.9999587, 0, -2.6850944e-19, 1.8047785e-12, 1, 0.0035686493, 0.031476974, -0.0014648438)
 shape = SubResource("BoxShape3D_iuuuf")
 
-[node name="panel_etx_1_2" type="MeshInstance3D" parent="Panels/Panel1/StaticBody3D"]
+[node name="panel_etx_1_2" type="MeshInstance3D" parent="Panels/Panel1/panel"]
 transform = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 3.5527137e-15, 1, 0, 0, 0)
 mesh = SubResource("ArrayMesh_5rweb")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_button_child" type="MeshInstance3D" parent="Panels/Panel1/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_button_child" type="MeshInstance3D" parent="Panels/Panel1/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.112999916, 0.15960002, -0.040999897)
 mesh = SubResource("ArrayMesh_q7jlh")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_switch_child_1" type="MeshInstance3D" parent="Panels/Panel1/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_switch_child_1" type="MeshInstance3D" parent="Panels/Panel1/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, -3.5762787e-07, 0.99999994, 0, -0.99999994, -3.5762787e-07, -0.030666351, 0.15300012, 0.076819174)
 mesh = SubResource("ArrayMesh_tb1k0")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_switch_child_2" type="MeshInstance3D" parent="Panels/Panel1/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_switch_child_2" type="MeshInstance3D" parent="Panels/Panel1/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, -3.5762787e-07, 0.99999994, 0, -0.99999994, -3.5762787e-07, 0.031879425, 0.15300012, 0.076819174)
 mesh = SubResource("ArrayMesh_s6iv6")
 skeleton = NodePath("")
 
-[node name="MonsterBreakLightInteractable" parent="Panels/Panel1/StaticBody3D" node_paths=PackedStringArray("lights_to_affect", "area_of_effect", "target_location", "object_ref") instance=ExtResource("34_hec6x")]
+[node name="MonsterBreakLightInteractable" parent="Panels/Panel1/panel" node_paths=PackedStringArray("lights_to_affect", "area_of_effect", "target_location", "object_ref", "player") instance=ExtResource("34_hec6x")]
 lights_to_affect = [NodePath("../../../../GameLights/2x2Light2"), NodePath("../../../../GameLights/2x2Light3"), NodePath("../../../../GameLights/2x2Light4"), NodePath("../../../../GameLights/2x2Light5"), NodePath("../../../../GameLights/2x2Light6"), NodePath("../../../../GameLights/2x2Light7"), NodePath("../../../../GameLights/2x2Light8"), NodePath("../../../../GameLights/2x2Light9")]
 area_of_effect = NodePath("../../Area3D")
 target_location = NodePath("../../TargetPos")
 object_ref = NodePath("..")
+player = NodePath("../../../../player")
 
 [node name="Area3D" type="Area3D" parent="Panels/Panel1"]
 
@@ -3282,38 +3288,39 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.821236, 0, 1.1672306)
 
 [node name="Panel2" type="Node3D" parent="Panels"]
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Panels/Panel2"]
+[node name="panel" type="StaticBody3D" parent="Panels/Panel2"]
 transform = Transform3D(-4.3711385e-08, 0.99999994, -4.371139e-08, 0, -4.3711385e-08, -1, -0.99999994, -4.3711385e-08, 1.9106855e-15, 43.778, 3.076, -18.342)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Panels/Panel2/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Panels/Panel2/panel"]
 transform = Transform3D(0.9999587, -1.3145041e-12, 0, 1.3145041e-12, 0.9999587, 0, -2.6850944e-19, 1.8047785e-12, 1, 0.0035686493, 0.031476974, -0.0014648438)
 shape = SubResource("BoxShape3D_iuuuf")
 
-[node name="panel_etx_1_2" type="MeshInstance3D" parent="Panels/Panel2/StaticBody3D"]
+[node name="panel_etx_1_2" type="MeshInstance3D" parent="Panels/Panel2/panel"]
 transform = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 3.5527137e-15, 1, 0, 0, 0)
 mesh = SubResource("ArrayMesh_5rweb")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_button_child" type="MeshInstance3D" parent="Panels/Panel2/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_button_child" type="MeshInstance3D" parent="Panels/Panel2/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.112999916, 0.15960002, -0.040999897)
 mesh = SubResource("ArrayMesh_q7jlh")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_switch_child_1" type="MeshInstance3D" parent="Panels/Panel2/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_switch_child_1" type="MeshInstance3D" parent="Panels/Panel2/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, -3.5762787e-07, 0.99999994, 0, -0.99999994, -3.5762787e-07, -0.030666351, 0.15300012, 0.076819174)
 mesh = SubResource("ArrayMesh_tb1k0")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_switch_child_2" type="MeshInstance3D" parent="Panels/Panel2/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_switch_child_2" type="MeshInstance3D" parent="Panels/Panel2/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, -3.5762787e-07, 0.99999994, 0, -0.99999994, -3.5762787e-07, 0.031879425, 0.15300012, 0.076819174)
 mesh = SubResource("ArrayMesh_s6iv6")
 skeleton = NodePath("")
 
-[node name="MonsterBreakLightInteractable" parent="Panels/Panel2/StaticBody3D" node_paths=PackedStringArray("lights_to_affect", "area_of_effect", "target_location", "object_ref") instance=ExtResource("34_hec6x")]
+[node name="MonsterBreakLightInteractable" parent="Panels/Panel2/panel" node_paths=PackedStringArray("lights_to_affect", "area_of_effect", "target_location", "object_ref", "player") instance=ExtResource("34_hec6x")]
 lights_to_affect = [NodePath("../../../../GameLights/2x2Light9"), NodePath("../../../../GameLights/2x2Light10"), NodePath("../../../../GameLights/2x2Light11"), NodePath("../../../../GameLights/2x2Light12"), NodePath("../../../../GameLights/2x2Light13"), NodePath("../../../../GameLights/2x2Light14"), NodePath("../../../../GameLights/2x2Light15"), NodePath("../../../../GameLights/2x2Light16")]
 area_of_effect = NodePath("../../Area3D")
 target_location = NodePath("../../TargetPos")
 object_ref = NodePath("..")
+player = NodePath("../../../../player")
 
 [node name="TargetPos" type="Node3D" parent="Panels/Panel2"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.961292, 1.424, -18.344624)
@@ -3326,38 +3333,39 @@ shape = SubResource("BoxShape3D_o3suv")
 
 [node name="Panel3" type="Node3D" parent="Panels"]
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Panels/Panel3"]
+[node name="panel" type="StaticBody3D" parent="Panels/Panel3"]
 transform = Transform3D(-4.3711385e-08, 0.99999994, -4.371139e-08, 0, -4.3711385e-08, -1, -0.99999994, -4.3711385e-08, 1.9106855e-15, 68.81957, 3.076, -41.177322)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Panels/Panel3/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Panels/Panel3/panel"]
 transform = Transform3D(0.9999587, -1.3145041e-12, 0, 1.3145041e-12, 0.9999587, 0, -2.6850944e-19, 1.8047785e-12, 1, 0.0035686493, 0.031476974, -0.0014648438)
 shape = SubResource("BoxShape3D_iuuuf")
 
-[node name="panel_etx_1_2" type="MeshInstance3D" parent="Panels/Panel3/StaticBody3D"]
+[node name="panel_etx_1_2" type="MeshInstance3D" parent="Panels/Panel3/panel"]
 transform = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 3.5527137e-15, 1, 0, 0, 0)
 mesh = SubResource("ArrayMesh_5rweb")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_button_child" type="MeshInstance3D" parent="Panels/Panel3/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_button_child" type="MeshInstance3D" parent="Panels/Panel3/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.112999916, 0.15960002, -0.040999897)
 mesh = SubResource("ArrayMesh_q7jlh")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_switch_child_1" type="MeshInstance3D" parent="Panels/Panel3/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_switch_child_1" type="MeshInstance3D" parent="Panels/Panel3/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, -3.5762787e-07, 0.99999994, 0, -0.99999994, -3.5762787e-07, -0.030666351, 0.15300012, 0.076819174)
 mesh = SubResource("ArrayMesh_tb1k0")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_switch_child_2" type="MeshInstance3D" parent="Panels/Panel3/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_switch_child_2" type="MeshInstance3D" parent="Panels/Panel3/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, -3.5762787e-07, 0.99999994, 0, -0.99999994, -3.5762787e-07, 0.031879425, 0.15300012, 0.076819174)
 mesh = SubResource("ArrayMesh_s6iv6")
 skeleton = NodePath("")
 
-[node name="MonsterBreakLightInteractable" parent="Panels/Panel3/StaticBody3D" node_paths=PackedStringArray("lights_to_affect", "area_of_effect", "target_location", "object_ref") instance=ExtResource("34_hec6x")]
+[node name="MonsterBreakLightInteractable" parent="Panels/Panel3/panel" node_paths=PackedStringArray("lights_to_affect", "area_of_effect", "target_location", "object_ref", "player") instance=ExtResource("34_hec6x")]
 lights_to_affect = [NodePath("../../../../GameLights/2x2Light17"), NodePath("../../../../GameLights/2x2Light18"), NodePath("../../../../GameLights/2x2Light19"), NodePath("../../../../GameLights/2x2Light20"), NodePath("../../../../GameLights/2x2Light21"), NodePath("../../../../GameLights/2x2Light22"), NodePath("../../../../GameLights/2x2Light23"), NodePath("../../../../GameLights/2x2Light24"), NodePath("../../../../GameLights/2x2Light25"), NodePath("../../../../GameLights/2x2Light26"), NodePath("../../../../GameLights/2x2Light27"), NodePath("../../../../GameLights/2x2Light29")]
 area_of_effect = NodePath("../../Area3D")
 target_location = NodePath("../../TargetPos")
 object_ref = NodePath("..")
+player = NodePath("../../../../player")
 
 [node name="TargetPos" type="Node3D" parent="Panels/Panel3"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70.26945, 1.424, -41.20531)
@@ -3370,38 +3378,39 @@ shape = SubResource("BoxShape3D_hec6x")
 
 [node name="Panel4" type="Node3D" parent="Panels"]
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Panels/Panel4"]
+[node name="panel" type="StaticBody3D" parent="Panels/Panel4"]
 transform = Transform3D(-0.99999994, 8.742277e-08, -3.821371e-15, 0, -4.3711385e-08, -1, -8.742277e-08, -0.99999994, 4.371139e-08, 26.019203, 3.076, -46.31718)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Panels/Panel4/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Panels/Panel4/panel"]
 transform = Transform3D(0.9999587, -1.3145041e-12, 0, 1.3145041e-12, 0.9999587, 0, -2.6850944e-19, 1.8047785e-12, 1, 0.0035686493, 0.031476974, -0.0014648438)
 shape = SubResource("BoxShape3D_iuuuf")
 
-[node name="panel_etx_1_2" type="MeshInstance3D" parent="Panels/Panel4/StaticBody3D"]
+[node name="panel_etx_1_2" type="MeshInstance3D" parent="Panels/Panel4/panel"]
 transform = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 3.5527137e-15, 1, 0, 0, 0)
 mesh = SubResource("ArrayMesh_5rweb")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_button_child" type="MeshInstance3D" parent="Panels/Panel4/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_button_child" type="MeshInstance3D" parent="Panels/Panel4/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.112999916, 0.15960002, -0.040999897)
 mesh = SubResource("ArrayMesh_q7jlh")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_switch_child_1" type="MeshInstance3D" parent="Panels/Panel4/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_switch_child_1" type="MeshInstance3D" parent="Panels/Panel4/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, -3.5762787e-07, 0.99999994, 0, -0.99999994, -3.5762787e-07, -0.030666351, 0.15300012, 0.076819174)
 mesh = SubResource("ArrayMesh_tb1k0")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_switch_child_2" type="MeshInstance3D" parent="Panels/Panel4/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_switch_child_2" type="MeshInstance3D" parent="Panels/Panel4/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, -3.5762787e-07, 0.99999994, 0, -0.99999994, -3.5762787e-07, 0.031879425, 0.15300012, 0.076819174)
 mesh = SubResource("ArrayMesh_s6iv6")
 skeleton = NodePath("")
 
-[node name="MonsterBreakLightInteractable" parent="Panels/Panel4/StaticBody3D" node_paths=PackedStringArray("lights_to_affect", "area_of_effect", "target_location", "object_ref") instance=ExtResource("34_hec6x")]
+[node name="MonsterBreakLightInteractable" parent="Panels/Panel4/panel" node_paths=PackedStringArray("lights_to_affect", "area_of_effect", "target_location", "object_ref", "player") instance=ExtResource("34_hec6x")]
 lights_to_affect = [NodePath("../../../../GameLights/2x2Light28"), NodePath("../../../../GameLights/2x2Light30"), NodePath("../../../../GameLights/2x2Light31"), NodePath("../../../../GameLights/2x2Light32"), NodePath("../../../../GameLights/2x2Light33"), NodePath("../../../../GameLights/2x2Light34"), NodePath("../../../../GameLights/2x2Light35"), NodePath("../../../../GameLights/2x2Light36"), NodePath("../../../../GameLights/2x2Light37"), NodePath("../../../../GameLights/2x2Light38"), NodePath("../../../../GameLights/2x2Light39"), NodePath("../../../../GameLights/2x2Light40"), NodePath("../../../../GameLights/2x2Light47")]
 area_of_effect = NodePath("../../Area3D")
 target_location = NodePath("../../TargetPos")
 object_ref = NodePath("..")
+player = NodePath("../../../../player")
 
 [node name="TargetPos" type="Node3D" parent="Panels/Panel4"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.057024, 1.424, -47.545918)
@@ -3414,38 +3423,39 @@ shape = SubResource("BoxShape3D_kyd6d")
 
 [node name="Panel5" type="Node3D" parent="Panels"]
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Panels/Panel5"]
+[node name="panel" type="StaticBody3D" parent="Panels/Panel5"]
 transform = Transform3D(-4.3711385e-08, 0.99999994, -4.371139e-08, 0, -4.3711385e-08, -1, -0.99999994, -4.3711385e-08, 1.9106855e-15, 28.81355, 3.076, -23.858517)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Panels/Panel5/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Panels/Panel5/panel"]
 transform = Transform3D(0.9999587, -1.3145041e-12, 0, 1.3145041e-12, 0.9999587, 0, -2.6850944e-19, 1.8047785e-12, 1, 0.0035686493, 0.031476974, -0.0014648438)
 shape = SubResource("BoxShape3D_iuuuf")
 
-[node name="panel_etx_1_2" type="MeshInstance3D" parent="Panels/Panel5/StaticBody3D"]
+[node name="panel_etx_1_2" type="MeshInstance3D" parent="Panels/Panel5/panel"]
 transform = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 3.5527137e-15, 1, 0, 0, 0)
 mesh = SubResource("ArrayMesh_5rweb")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_button_child" type="MeshInstance3D" parent="Panels/Panel5/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_button_child" type="MeshInstance3D" parent="Panels/Panel5/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.112999916, 0.15960002, -0.040999897)
 mesh = SubResource("ArrayMesh_q7jlh")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_switch_child_1" type="MeshInstance3D" parent="Panels/Panel5/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_switch_child_1" type="MeshInstance3D" parent="Panels/Panel5/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, -3.5762787e-07, 0.99999994, 0, -0.99999994, -3.5762787e-07, -0.030666351, 0.15300012, 0.076819174)
 mesh = SubResource("ArrayMesh_tb1k0")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_switch_child_2" type="MeshInstance3D" parent="Panels/Panel5/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_switch_child_2" type="MeshInstance3D" parent="Panels/Panel5/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, -3.5762787e-07, 0.99999994, 0, -0.99999994, -3.5762787e-07, 0.031879425, 0.15300012, 0.076819174)
 mesh = SubResource("ArrayMesh_s6iv6")
 skeleton = NodePath("")
 
-[node name="MonsterBreakLightInteractable" parent="Panels/Panel5/StaticBody3D" node_paths=PackedStringArray("lights_to_affect", "area_of_effect", "target_location", "object_ref") instance=ExtResource("34_hec6x")]
+[node name="MonsterBreakLightInteractable" parent="Panels/Panel5/panel" node_paths=PackedStringArray("lights_to_affect", "area_of_effect", "target_location", "object_ref", "player") instance=ExtResource("34_hec6x")]
 lights_to_affect = [NodePath("../../../../GameLights/2x2Light41"), NodePath("../../../../GameLights/2x2Light42"), NodePath("../../../../GameLights/2x2Light43"), NodePath("../../../../GameLights/2x2Light44"), NodePath("../../../../GameLights/2x2Light45"), NodePath("../../../../GameLights/2x2Light46"), NodePath("../../../../GameLights/2x2Light48"), NodePath("../../../../GameLights/2x2Light49"), NodePath("../../../../GameLights/2x2Light50"), NodePath("../../../../GameLights/2x2Light51")]
 area_of_effect = NodePath("../../Area3D")
 target_location = NodePath("../../TargetPos")
 object_ref = NodePath("..")
+player = NodePath("../../../../player")
 
 [node name="TargetPos" type="Node3D" parent="Panels/Panel5"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.815315, 1.424, -23.909054)
@@ -3458,38 +3468,39 @@ shape = SubResource("BoxShape3D_wekwk")
 
 [node name="Panel6" type="Node3D" parent="Panels"]
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Panels/Panel6"]
+[node name="panel" type="StaticBody3D" parent="Panels/Panel6"]
 transform = Transform3D(-4.3711385e-08, 0.99999994, -4.371139e-08, 0, -4.3711385e-08, -1, -0.99999994, -4.3711385e-08, 1.9106855e-15, 3.8206882, 3.076, -63.728935)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Panels/Panel6/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Panels/Panel6/panel"]
 transform = Transform3D(0.9999587, -1.3145041e-12, 0, 1.3145041e-12, 0.9999587, 0, -2.6850944e-19, 1.8047785e-12, 1, 0.0035686493, 0.031476974, -0.0014648438)
 shape = SubResource("BoxShape3D_iuuuf")
 
-[node name="panel_etx_1_2" type="MeshInstance3D" parent="Panels/Panel6/StaticBody3D"]
+[node name="panel_etx_1_2" type="MeshInstance3D" parent="Panels/Panel6/panel"]
 transform = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 3.5527137e-15, 1, 0, 0, 0)
 mesh = SubResource("ArrayMesh_5rweb")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_button_child" type="MeshInstance3D" parent="Panels/Panel6/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_button_child" type="MeshInstance3D" parent="Panels/Panel6/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.112999916, 0.15960002, -0.040999897)
 mesh = SubResource("ArrayMesh_q7jlh")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_switch_child_1" type="MeshInstance3D" parent="Panels/Panel6/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_switch_child_1" type="MeshInstance3D" parent="Panels/Panel6/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, -3.5762787e-07, 0.99999994, 0, -0.99999994, -3.5762787e-07, -0.030666351, 0.15300012, 0.076819174)
 mesh = SubResource("ArrayMesh_tb1k0")
 skeleton = NodePath("")
 
-[node name="panel_etx_1_2_switch_child_2" type="MeshInstance3D" parent="Panels/Panel6/StaticBody3D/panel_etx_1_2"]
+[node name="panel_etx_1_2_switch_child_2" type="MeshInstance3D" parent="Panels/Panel6/panel/panel_etx_1_2"]
 transform = Transform3D(1, 0, 0, 0, -3.5762787e-07, 0.99999994, 0, -0.99999994, -3.5762787e-07, 0.031879425, 0.15300012, 0.076819174)
 mesh = SubResource("ArrayMesh_s6iv6")
 skeleton = NodePath("")
 
-[node name="MonsterBreakLightInteractable" parent="Panels/Panel6/StaticBody3D" node_paths=PackedStringArray("lights_to_affect", "area_of_effect", "target_location", "object_ref") instance=ExtResource("34_hec6x")]
+[node name="MonsterBreakLightInteractable" parent="Panels/Panel6/panel" node_paths=PackedStringArray("lights_to_affect", "area_of_effect", "target_location", "object_ref", "player") instance=ExtResource("34_hec6x")]
 lights_to_affect = [NodePath("../../../../GameLights/2x2Light52"), NodePath("../../../../GameLights/2x2Light53"), NodePath("../../../../GameLights/2x2Light54"), NodePath("../../../../GameLights/2x2Light55"), NodePath("../../../../GameLights/2x2Light56"), NodePath("../../../../GameLights/2x2Light57"), NodePath("../../../../GameLights/2x2Light58"), NodePath("../../../../GameLights/2x2Light59"), NodePath("../../../../GameLights/2x2Light60"), NodePath("../../../../GameLights/2x2Light61")]
 area_of_effect = NodePath("../../Area3D")
 target_location = NodePath("../../TargetPos")
 object_ref = NodePath("..")
+player = NodePath("../../../../player")
 
 [node name="TargetPos" type="Node3D" parent="Panels/Panel6"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.8069386, 1.424, -63.704082)
@@ -3500,8 +3511,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.8069386, 1.424, -63.704082)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8940334, 2.664533, -62.249474)
 shape = SubResource("BoxShape3D_ebx2o")
 
-[node name="monster" parent="." instance=ExtResource("40_hohcd")]
+[node name="monster" parent="." node_paths=PackedStringArray("vents", "nav_mesh_vents") instance=ExtResource("40_hohcd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2884823, -2.4570127)
+vents = [NodePath("../Vents/Vent1"), NodePath("../Vents/Vent2"), NodePath("../Vents/Vent3"), NodePath("../Vents/Vent4"), NodePath("../Vents/Vent5"), NodePath("../Vents/Vent6")]
+nav_mesh_vents = [NodePath("../NavMeshVents/NavigationRegion3D"), NodePath("../NavMeshVents/NavigationRegion3D2"), NodePath("../NavMeshVents/NavigationRegion3D3"), NodePath("../NavMeshVents/NavigationRegion3D4"), NodePath("../NavMeshVents/NavigationRegion3D5"), NodePath("../NavMeshVents/NavigationRegion3D6")]
 
 [node name="ValveGate" type="Node3D" parent="."]
 

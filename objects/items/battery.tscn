@@ -61,7 +61,7 @@ item_icon = ExtResource("4_yv4c8")
 action_data = SubResource("Resource_csem2")
 metadata/_custom_type_script = "uid://bhhmekf1oewt4"
 
-[node name="Node3D" type="RigidBody3D"]
+[node name="Battery" type="RigidBody3D"]
 collision_layer = 2
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]

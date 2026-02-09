@@ -1,0 +1,81 @@
+[gd_scene load_steps=12 format=4 uid="uid://v4jos8kdxnfd"]
+
+[ext_resource type="Texture2D" uid="uid://y12kudvyj7fi" path="res://assets/glb/psx_mega_pack1/Items & Weapons/coin_mp_1_money_1.png" id="1_4e71v"]
+[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_rwb15"]
+[ext_resource type="Script" uid="uid://cwdi4mxru4j0g" path="res://player/inventory/actions/equippable_action.gd" id="3_oksrh"]
+[ext_resource type="Texture2D" uid="uid://e3ltbealkajp" path="res://assets/images/inventory_images/coin.png" id="4_b21tv"]
+[ext_resource type="Script" uid="uid://bhhmekf1oewt4" path="res://player/inventory/actions/item_data.gd" id="5_xj7pt"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bvf7s"]
+resource_name = "money_1"
+cull_mode = 2
+albedo_texture = ExtResource("1_4e71v")
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_x8jxv"]
+_surfaces = [{
+"aabb": AABB(-0.018832872, -0.018834831, -0.0030000007, 0.037671108, 0.03767111, 0.0030000012),
+"format": 34896613377,
+"index_count": 132,
+"index_data": PackedByteArray("EgACABMAEgATABQAEwALABQAEwACAAsACwAHABQAEgAUAAcAAgAGAAsAAgAKAAYAAwALAAYACgADAAYAAwAHAAsAAgABAAoACgABAAMAEgABAAIAAQAOAAMAAQAIAA4ABAADAA4ACAAEAA4AAQAPAAgACAAPAAQADwAVAAQAFgADAAQAFgAEABUAAwAWAAcADwAXABUAFgAVABcAAQAJAA8ADwAJABcAFgAXAAkAAQASAAkAEAAWAAkADAASAAcAEAAJABEADAAHAA0ABQAWABAABwAWAAUABQAQABEABwAFAA0ACQASAAAACQAAABEAAAASAAwABQARAAAAAAAMAA0AAAANAAUA"),
+"lods": [0.002095322, PackedByteArray("AgABAAoAAgAKAAYAAgAGAAsACgADAAYAAwALAAYACgABAAMAAgALAAcAAwAHAAsADAACAAcADAABAAIADAAHAA0AAQAOAAMAAQAIAA4ABAADAA4ACAAEAA4AAQAPAAgACAAPAAQAAQAJAA8AAQAMAAkADwAJAAQAEAADAAQAAwAQAAcAEAAEAAkACQAMAAAAAAAMAA0AEAAJABEACQAAABEABwAQAAUABwAFAA0ABQAQABEAAAANAAUABQARAAAA"), 0.006067059, PackedByteArray("AAABAAIAAgABAAYAAAACAAcAAgAGAAcAAQADAAYAAwAHAAYAAQAIAAMAAAAHAAUAAwAFAAcAAQAAAAkABQAJAAAAAQAJAAgABQADAAQABQAEAAkACAAEAAMACAAJAAQA"), 0.010629982, PackedByteArray("AAABAAIAAgABAAMAAQAAAAQAAQAEAAMAAAACAAUABQAEAAAAAgADAAUABQADAAQA")],
+"name": "money_1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("s13//wAAAABLogAAAAAAAP//s10AAAAAS6IAAP//AABMIkwi/v8AALNd///+/wAAst1MIv7/AACy3bLd/v8AALNdAAAAAAAAAABLogAAAACy3UwiAAAAAP//s13+/wAAS6L//wAAAABLov///v8AALNdAAD//wAATCJMIgAAAABMIrLd/v8AAEwist0AAAAAst2y3QAAAAD+/0uiAAAAAP7/S6L+/wAAAACzXf7/AAAAAEui/v8AAAAAs10AAAAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_b73dc"]
+resource_name = "coin_mp_1_coin_mp_1"
+_surfaces = [{
+"aabb": AABB(-0.018832872, -0.018834831, -0.0030000007, 0.037671108, 0.03767111, 0.0030000012),
+"attribute_data": PackedByteArray("ux4KrE4kG4LrK3SROgT/qzoc/6s6BP+vOij/rzoo/6s6EP+vOgT/qzoo/6s6BP+vOij/rzMODqygCCCCBhO+hx8XsJy8HhuCOhD/rzoi/686Cv+rOhz/q80DcKbNA76HIim5h04kCqzoGWum6Bm5hzoK/686Cv+rOhz/rzoi/6s6EP+rOiL/rzoK/686Iv+rMw4gggYTcKagCA6sAwF5kSIpa6brK7CcHxd0kToQ/6s6Fv+vOhb/qzoW/686Fv+rOhz/r9AVtZzQFXmRAwG1nA=="),
+"format": 34896613399,
+"index_count": 132,
+"index_data": PackedByteArray("KAACACkAKAABAAIAAgABABgAAAAoABkAEAAoAAAAAQAoABAAEAAAABoAAQAQABsAGwAQACoAAQAbABEAAwAcAAUAAwAdABwAHQASABwAHQArABIAKwAsABIAKwAtACwAHgAsAC0AHgAtAAQAEwAeAAQAEwAEAB8ABgATAB8ABgAfAAcALgAgAC8ALgAIACAAMAAuAC8ACAAUACAAMAAvABUACAAiABQAIgAJABQAIgALAAkAIQAwABUAIQAVACMADAAhACMADAAjAAoAMQAPADIAMQAOAA8ADwAOACQADQAxACUAFgAxAA0ADgAxABYAFgANACYADgAWACcAJwAWADMADgAnABcA"),
+"lods": [0.002095322, PackedByteArray("AgABABgAGQABAAIAAQAZABAAEAAZAAAAEAAAABoAAQAQABsAAQAbABEAAwAcAAUAAwAdABwAHQASABwAHQAEABIAHgASAAQAEwAeAAQAEwAEAB8ABgATAB8ABgAfAAcACAAgABUACAAUACAAIQAIABUACAAiABQAIgAJABQAIgALAAkAIQAVACMADAAhACMADAAjAAoADwAOACQAJQAOAA8ADgAlABYAFgAlAA0AFgANACYADgAWACcADgAnABcA"), 0.006067059, PackedByteArray("AAABAAIAAQAAABAAAQAQABEAAwASAAUAAwAEABIAEwASAAQAEwAEAAcABgATAAcACAAUABUACAALABQACwAJABQADAAIABUADAAVAAoADQAOAA8ADgANABYADgAWABcA"), 0.010629982, PackedByteArray("AAABAAIAAwAEAAUABgAFAAQABgAEAAcACAAJAAoACAALAAkADAAIAAoADQAOAA8A")],
+"material": SubResource("StandardMaterial3D_bvf7s"),
+"name": "money_1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 52,
+"vertex_data": PackedByteArray("s13//wAA//9LogAAAAD/////s10AAP//s13///7/dvhMIkwi/v/8xbNd//8AAHb4S6IAAAAAsMBLogAA//+wwP//s10AAHfPS6IAAP//sMCzXf///v92+EuiAAAAALDAs13//wAAdvizXf///v///0uiAAD/////TCJMIv7///8AAEuiAAD//7NdAAAAAP//AABLogAAvNuzXQAAAACwwLLdTCL+//zFst2y3f7/qumy3bLd/v///7LdTCL+////st1MIgAA//9Lov//AAD//0wist0AAP//TCJMIgAA//9MIrLdAACq6Uwist3+/6rpTCJMIgAA/MWzXQAA//+wwP//s13+/3fPS6L//wAAdviy3UwiAAD8xUui///+/3b4s10AAP////9MIrLd/v///0ui///+//////+zXf7///+y3bLdAAD///7/S6IAAP//AACzXQAA//8AAEui/v+82wAAs10AAHfPAACzXf7/d8/+/0uiAAC82/7/S6L+/7zbst2y3QAAqukAAEui/v///wAAs13+/////v9Lov7////+//9//v//f////38XeAu8/jn+nBd4C7xWDVFlVg1RZb8mfzJWDVFlF3gLvFYNUWUXeAu8/3//f/9//3//f/9/////f/7//3+BXECurRpWjf8cAUYENfYV/3//f/9//3/+//9//v//f/7//3/+//9/CWoEtQlqBLX+Of6crRpWjb8mfzILPOcH/xwBRgs85wf/f/9//3//f/9//3//f/9/////f/7//3/+//9/gVxArn9Nv6Z/Tb+mQC59I0AufSMENfYV/3//f/9//3//f/9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_x8jxv")
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_u4ijb"]
+height = 0.2
+radius = 0.3
+
+[sub_resource type="Resource" id="Resource_to0c4"]
+script = ExtResource("3_oksrh")
+success_text = ""
+modifier_name = "coin"
+metadata/_custom_type_script = "uid://cwdi4mxru4j0g"
+
+[sub_resource type="Resource" id="Resource_63jxx"]
+script = ExtResource("5_xj7pt")
+item_name = "coin"
+item_icon = ExtResource("4_b21tv")
+action_data = SubResource("Resource_to0c4")
+metadata/_custom_type_script = "uid://bhhmekf1oewt4"
+
+[node name="Coin" type="RigidBody3D"]
+collision_layer = 2
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, -1.7484555e-07, -4, 0, 4, -1.7484555e-07, 0, -0.043293804, 0)
+mesh = SubResource("ArrayMesh_b73dc")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.026979588, 0)
+shape = SubResource("CylinderShape3D_u4ijb")
+
+[node name="InteractionComponent" parent="." node_paths=PackedStringArray("object_ref") instance=ExtResource("2_rwb15")]
+object_ref = NodePath("..")
+interaction_type = 4
+item_data = SubResource("Resource_63jxx")

@@ -39,7 +39,7 @@ func set_lights(turn_on: bool) -> void:
 	fake_light.visible = turn_on
 
 	# --- Flicker phase ---
-	for i in range(8):
+	for i in range(10):
 		var flicker_energy := (
 			light_energy * randf_range(0.2, 1.2)
 			if turn_on
@@ -63,5 +63,5 @@ func set_lights(turn_on: bool) -> void:
 		)
 
 	# --- Final settle (definitive state) ---
-	flicker_tween.tween_property(light, "light_energy", final_energy, 0.15)
-	flicker_tween.parallel().tween_property(lamp, "transparency", final_alpha, 0.15)
+	flicker_tween.tween_property(light, "light_energy", final_energy, 0.05)
+	flicker_tween.parallel().tween_property(lamp, "transparency", final_alpha, 0.05)

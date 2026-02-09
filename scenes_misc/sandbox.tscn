@@ -1,4 +1,4 @@
-[gd_scene load_steps=128 format=4 uid="uid://dstmtb7me0lh8"]
+[gd_scene load_steps=131 format=4 uid="uid://dstmtb7me0lh8"]
 
 [ext_resource type="Texture2D" uid="uid://c4itmbpuywun8" path="res://assets/images/hl_office_complex_style_tile_floor_1.png" id="1_0lf1x"]
 [ext_resource type="PackedScene" uid="uid://bgg5wj2yybs01" path="res://objects/cube_5_kg.tscn" id="1_6rruu"]
@@ -49,6 +49,9 @@
 [ext_resource type="PackedScene" uid="uid://b5333leelgnyb" path="res://objects/items/small_key.tscn" id="47_krdvt"]
 [ext_resource type="PackedScene" uid="uid://cpdamkx5edhvf" path="res://objects/metal_shelf.tscn" id="48_x5vag"]
 [ext_resource type="PackedScene" uid="uid://bqqfkv162t2m1" path="res://objects/items/talkie_walkie.tscn" id="49_bblxq"]
+[ext_resource type="PackedScene" uid="uid://dn6sbg5f268nm" path="res://objects/items/capacitor.tscn" id="50_hw4sm"]
+[ext_resource type="PackedScene" uid="uid://v4jos8kdxnfd" path="res://objects/items/coin.tscn" id="51_5tq25"]
+[ext_resource type="PackedScene" uid="uid://c2lcl63nfj362" path="res://objects/mystery_box.tscn" id="52_27jbs"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_s2tkr"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -1736,3 +1739,19 @@ transform = Transform3D(-5.6824803e-08, 0, 1.3, 0, 1.3, 0, -1.3, 0, -5.6824803e-
 
 [node name="talkie_walkie" parent="." instance=ExtResource("49_bblxq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.281839, 1.6562452, 0)
+
+[node name="Capacitor" parent="." instance=ExtResource("50_hw4sm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4603575, 2.087477, -2.763148)
+
+[node name="Coin" parent="." instance=ExtResource("51_5tq25")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.0223627, 2.11465, -4.9111032)
+
+[node name="MysteryBox" parent="." node_paths=PackedStringArray("player") instance=ExtResource("52_27jbs")]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0.9778024, -5.2232475)
+player = NodePath("../player")
+
+[node name="Coin2" parent="." instance=ExtResource("51_5tq25")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2213235, 2.11465, -4.9111032)
+
+[node name="Coin3" parent="." instance=ExtResource("51_5tq25")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6398103, 2.3105543, -3.7207723)
