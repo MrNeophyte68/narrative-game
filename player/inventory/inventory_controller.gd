@@ -20,6 +20,9 @@ var last_equipped_slot_id: int
 @onready var camera: PackedScene = load("res://objects/items/camera.tscn")
 @onready var battery: PackedScene = load("res://objects/items/battery.tscn")
 @onready var vhs_tape: PackedScene = load("res://objects/items/vhs_tape.tscn")
+@onready var terminal_circuit: PackedScene = load("res://objects/items/terminal_circuit.tscn")
+@onready var small_key: PackedScene = load("res://objects/items/small_key.tscn")
+@onready var walkie_talkie: PackedScene = load("res://objects/items/talkie_walkie.tscn")
 
 func _ready() -> void:
 	for i in item_slots_count:
@@ -104,8 +107,11 @@ func _on_item_right_clicked(slot_id: int) -> void:
 			context_menu.add_item("Use", 0)
 			context_menu.add_item("Drop", 1)
 		ActionData.ActionType.EQUIPPABLE:
-			context_menu.add_item("Equip", 0)
-			context_menu.add_item("Drop", 1)
+			if slot.slot_data.action_data.modifier_name != "small_key":
+				context_menu.add_item("Equip", 0)
+				context_menu.add_item("Drop", 1)
+			else:
+				context_menu.add_item("Equip", 0)
 		ActionData.ActionType.INSPECTABLE:
 			context_menu.add_item("Read", 0)
 			context_menu.add_item("Discard", 1)
@@ -191,80 +197,86 @@ func drop_collectable(slot_id: int) -> void:
 	var slot: InventorySlot = inventory_slots[slot_id]
 	if slot.slot_data == null:
 		return
-	
-	if slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.CONSUMABLE:
-		match slot.slot_data.action_data.modifier_name:
-			"pill_bottle":
-				instance = pill_bottle.instantiate() as Node3D
-				get_tree().current_scene.add_child(instance)
-	elif slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.EQUIPPABLE:
-		match slot.slot_data.action_data.modifier_name:
-			"basic_key":
-				instance = basic_key.instantiate() as Node3D
-				get_tree().current_scene.add_child(instance)
-			"crowbar":
-				instance = crowbar.instantiate() as Node3D
-				get_tree().current_scene.add_child(instance)
-			"vhs_tape":
-				instance = vhs_tape.instantiate() as Node3D
-				get_tree().current_scene.add_child(instance)
-	elif slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.WEAPON:
-		match slot.slot_data.action_data.modifier_name:
-			"camera":
-				instance = camera.instantiate() as Node3D
-				get_tree().current_scene.add_child(instance)
-				instance.get_node_or_null("InteractionComponent").item_data.action_data.max_battery_life = slot.slot_data.action_data.max_battery_life
-	elif slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.INSPECTABLE:
-		discard_item(slot_id)
-		return
-	else:
-		match slot.slot_data.item_name:
-			"battery":
-				instance = battery.instantiate() as Node3D
-				get_tree().current_scene.add_child(instance)
-	
-	if item_hand.get_child(0):
-		item_hand.get_child(0).queue_free()
-		interaction_controller.item_equipped = false
-	
-	var drop_distance: float = 2.0
-	var forward_dir: Vector3 = -player_camera.global_transform.basis.z.normalized()
-	var target_pos: Vector3 = player_camera.global_transform.origin + forward_dir * drop_distance
-	var space_state = hand.get_world_3d().direct_space_state
-	
-	var obstacle_params = PhysicsRayQueryParameters3D.new()
-	obstacle_params.from = player_camera.global_transform.origin
-	obstacle_params.to = target_pos
-	obstacle_params.exclude = [hand.get_parent()]
-	
-	var obstacle_hit: Dictionary = space_state.intersect_ray(obstacle_params)
-	if obstacle_hit:
-		print("cant drop here")
-		return
-	
-	var ground_params = PhysicsRayQueryParameters3D.new()
-	ground_params.from = target_pos + Vector3.UP * 2.0
-	ground_params.to = target_pos - Vector3.UP * 5.0
-	ground_params.exclude = [hand.get_parent()]
-	
-	var ground_hit: Dictionary = space_state.intersect_ray(ground_params)
-	if not ground_hit:
-		print("missing ground to drop")
-		return
-	
-	var ground_pos: Vector3 = ground_hit.position
-	var buffer_height: float = 1.2
-	if instance is RigidBody3D:
-		instance.global_transform.origin = ground_pos + Vector3.UP * buffer_height
-		instance.freeze = false
-		instance.gravity_scale = 1.0
-	else:
-		instance.global_transform.origin = ground_pos + Vector3.UP * 0.001
-	
-	instance.rotation_degrees.y = randf() * 360
-	instance.rotation_degrees.x = randf() * 90
-	slot.fill_slot(null)
-	inventory_full = not has_free_slot()
+	if slot.slot_data.action_data.modifier_name != "small_key":
+		if slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.CONSUMABLE:
+			match slot.slot_data.action_data.modifier_name:
+				"pill_bottle":
+					instance = pill_bottle.instantiate() as Node3D
+					get_tree().current_scene.add_child(instance)
+		elif slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.EQUIPPABLE:
+			match slot.slot_data.action_data.modifier_name:
+				"basic_key":
+					instance = basic_key.instantiate() as Node3D
+					get_tree().current_scene.add_child(instance)
+				"crowbar":
+					instance = crowbar.instantiate() as Node3D
+					get_tree().current_scene.add_child(instance)
+				"vhs_tape":
+					instance = vhs_tape.instantiate() as Node3D
+					get_tree().current_scene.add_child(instance)
+				"terminal_circuit":
+					instance = terminal_circuit.instantiate() as Node3D
+					get_tree().current_scene.add_child(instance)
+		elif slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.WEAPON:
+			match slot.slot_data.action_data.modifier_name:
+				"camera":
+					instance = camera.instantiate() as Node3D
+					get_tree().current_scene.add_child(instance)
+				"walkie_talkie":
+					instance = walkie_talkie.instantiate() as Node3D
+					get_tree().current_scene.add_child(instance)
+					instance.get_node_or_null("InteractionComponent").item_data.action_data.max_battery_life = slot.slot_data.action_data.max_battery_life
+		elif slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.INSPECTABLE:
+			discard_item(slot_id)
+			return
+		else:
+			match slot.slot_data.item_name:
+				"battery":
+					instance = battery.instantiate() as Node3D
+					get_tree().current_scene.add_child(instance)
+		
+		if item_hand.get_child(0):
+			item_hand.get_child(0).queue_free()
+			interaction_controller.item_equipped = false
+		
+		var drop_distance: float = 2.0
+		var forward_dir: Vector3 = -player_camera.global_transform.basis.z.normalized()
+		var target_pos: Vector3 = player_camera.global_transform.origin + forward_dir * drop_distance
+		var space_state = hand.get_world_3d().direct_space_state
+		
+		var obstacle_params = PhysicsRayQueryParameters3D.new()
+		obstacle_params.from = player_camera.global_transform.origin
+		obstacle_params.to = target_pos
+		obstacle_params.exclude = [hand.get_parent()]
+		
+		var obstacle_hit: Dictionary = space_state.intersect_ray(obstacle_params)
+		if obstacle_hit:
+			print("cant drop here")
+			return
+		
+		var ground_params = PhysicsRayQueryParameters3D.new()
+		ground_params.from = target_pos + Vector3.UP * 2.0
+		ground_params.to = target_pos - Vector3.UP * 5.0
+		ground_params.exclude = [hand.get_parent()]
+		
+		var ground_hit: Dictionary = space_state.intersect_ray(ground_params)
+		if not ground_hit:
+			print("missing ground to drop")
+			return
+		
+		var ground_pos: Vector3 = ground_hit.position
+		var buffer_height: float = 1.2
+		if instance is RigidBody3D:
+			instance.global_transform.origin = ground_pos + Vector3.UP * buffer_height
+			instance.freeze = false
+			instance.gravity_scale = 1.0
+		else:
+			instance.global_transform.origin = ground_pos + Vector3.UP * 0.001
+		
+		instance.rotation_degrees.y = randf() * 360
+		instance.rotation_degrees.x = randf() * 90
+		slot.fill_slot(null)
+		inventory_full = not has_free_slot()
 
 func view_inspectable(slot_id: int) -> void:
 	var instance
@@ -297,10 +309,19 @@ func equip_collectable(slot_id: int) -> void:
 			"vhs_tape":
 				instance = vhs_tape.instantiate() as Node3D
 				interaction_controller._on_item_equipped(instance)
+			"terminal_circuit":
+				instance = terminal_circuit.instantiate() as Node3D
+				interaction_controller._on_item_equipped(instance)
+			"small_key":
+				instance = small_key.instantiate() as Node3D
+				interaction_controller._on_item_equipped(instance)
 	elif slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.WEAPON:
 		match slot.slot_data.action_data.modifier_name:
 			"camera":
 				instance = camera.instantiate() as Node3D
+				interaction_controller._on_item_equipped(instance)
+			"walkie_talkie":
+				instance = walkie_talkie.instantiate() as Node3D
 				interaction_controller._on_item_equipped(instance)
 
 func recharge_weapon(slot_id: int) -> void:
@@ -316,3 +337,9 @@ func recharge_weapon(slot_id: int) -> void:
 						slot.slot_data.action_data.max_battery_life = 2.0
 					else:
 						slot.slot_data.action_data.max_battery_life = 3.0
+			"walkie_talkie":
+				if has_battery_in_inventory():
+					if not slot.slot_data.action_data.is_upgraded:
+						slot.slot_data.action_data.max_battery_life = 100.0
+					else:
+						slot.slot_data.action_data.max_battery_life = 200.0

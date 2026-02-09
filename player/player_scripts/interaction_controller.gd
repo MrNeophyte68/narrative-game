@@ -145,7 +145,9 @@ func _physics_process(delta: float) -> void:
 			return
 		if player_camera.fov >= 81.0:
 			player_camera.fov = lerp(player_camera.fov, 80.0, delta*0.8)
-		if item_equipped and Input.is_action_just_pressed("primary") and equipped_item_ic.item_data.action_data.action_type == equipped_item_ic.item_data.action_data.ActionType.WEAPON and equipped_item_ic.item_data.action_data.max_battery_life > 0.0:
+		if equipped_item_ic.item_data.action_data.passive_draining and equipped_item_ic.item_data.action_data.max_battery_life > 0.0:
+			_use_weapon_item(delta)
+		elif item_equipped and Input.is_action_just_pressed("primary") and equipped_item_ic.item_data.action_data.action_type == equipped_item_ic.item_data.action_data.ActionType.WEAPON and equipped_item_ic.item_data.action_data.max_battery_life > 0.0:
 			_use_weapon_item(delta)
 	else:
 		player_camera.fov = lerp(player_camera.fov, 90.0, delta*5)
@@ -200,7 +202,7 @@ func _on_item_equipped(item: Node3D) -> void:
 	if item.get_parent() != null:
 		item.get_parent().remove_child(item)
 	else:
-		if item.get_node_or_null("InteractionComponent").item_data.action_data.modifier_name != "camera":
+		if item.get_node_or_null("InteractionComponent").item_data.action_data.action_type != item.get_node_or_null("InteractionComponent").item_data.action_data.ActionType.WEAPON:
 			var mesh = item.find_child("MeshInstance3D", true, false)
 			if mesh.find_child("MeshInstance3D", true, false):
 				var second_mesh = mesh.find_child("MeshInstance3D", true, false)
@@ -269,6 +271,14 @@ func _use_weapon_item(delta: float) -> void:
 			equipped_item_ic.item_data.action_data.max_battery_life = clamp(equipped_item_ic.item_data.action_data.max_battery_life, 0.0, 2.0 if not equipped_item_ic.item_data.action_data.is_upgraded else 3.0)
 			equipped_item_ic.flash_camera()
 			weapon_cooldown = 2.0
+		"walkie_talkie":
+			equipped_item_ic.item_data.action_data.max_battery_life -= delta*2.0
+			equipped_item_ic.item_data.action_data.max_battery_life = clamp(equipped_item_ic.item_data.action_data.max_battery_life, 0.0, 100.0 if not equipped_item_ic.item_data.action_data.is_upgraded else 200.0)
+			for enemy in get_tree().get_nodes_in_group("enemy"):
+				if enemy.is_player_close(25.0):
+					equipped_item_ic.item_data.action_data.is_on = true
+				else:
+					equipped_item_ic.item_data.action_data.is_on = false
 
 func isCameraLocked() -> bool:
 	if interaction_component:

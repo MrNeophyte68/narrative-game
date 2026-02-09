@@ -74,7 +74,7 @@ var wheel_kickback_triggered: bool = false
 var buttons: Array[StaticBody3D]
 var entered_code: Array[int]
 @export var correct_code: Array[int]
-var max_code_length: int = 5
+var max_code_length: int = 3
 var screen_label: Label3D
 
 #Signals
@@ -174,9 +174,17 @@ func _process(delta: float) -> void:
 					
 				door_angle += door_velocity
 				
-				if is_locked:
+				if is_locked and not flip_door_when_game_start:
 					var lock_wiggle: float = 0.02
 					door_angle = clamp(door_angle, starting_rotation, starting_rotation+lock_wiggle)
+					pivot_point.rotation.y = door_angle
+					
+					if door_input_active and tertiary_sx and not tertiary_audio_player.playing and not previous_door_angle == door_angle:
+						tertiary_audio_player.play()
+						door_input_active = false
+				elif is_locked and flip_door_when_game_start:
+					var lock_wiggle: float = 0.02
+					door_angle = clamp(door_angle, maximum_rotation-lock_wiggle, maximum_rotation)
 					pivot_point.rotation.y = door_angle
 					
 					if door_input_active and tertiary_sx and not tertiary_audio_player.playing and not previous_door_angle == door_angle:
@@ -546,21 +554,24 @@ func _press_button(target: Node) -> void:
 		return
 	
 	if target in buttons:
+		var original_pos = target.position.z
 		var tween := create_tween()
-		tween.tween_property(target, "position:z", 0.02, 0.1)
-		tween.tween_property(target, "position:z", 0.0, 0.1)
+		tween.tween_property(target, "position:z", target.position.z-0.005, 0.1)
+		tween.tween_property(target, "position:z", original_pos, 0.1)
 	
 	primary_audio_player.play()
 	
 	match target.name:
 		"sbClear":
 			entered_code.clear()
-			screen_label.text = "-----"
-			screen_label.modulate = Color.WHITE
+			screen_label.text = ""
+			#screen_label.modulate = Color.WHITE
 		
 		"sbOk":
-			if entered_code == correct_code:
-				screen_label.text = "ENTER"
+			if entered_code == correct_code and correct_code.size() != 0:
+				screen_label.font = load("res://assets/font/creato_display/CreatoDisplay-Regular.otf")
+				screen_label.font_size = 100
+				screen_label.text = "CORRECT"
 				screen_label.modulate = Color.GREEN
 				secondary_audio_player.play()
 				
@@ -569,6 +580,8 @@ func _press_button(target: Node) -> void:
 					if node and node.has_method("unlock"):
 						node.call("unlock")
 			else:
+				screen_label.font = load("res://assets/font/creato_display/CreatoDisplay-Regular.otf")
+				screen_label.font_size = 100
 				screen_label.text = "ERROR"
 				screen_label.modulate = Color.RED
 				tertiary_audio_player.play()
@@ -576,14 +589,17 @@ func _press_button(target: Node) -> void:
 			entered_code.clear()
 		
 		_:
+			screen_label.font = load("res://assets/font/AutoMemoryDoll-Regular.ttf.otf")
+			screen_label.font_size = 150
+			var letters: Array[String] = ["E", "F", "G", "H"]
 			var num = str(target.name).substr(2).to_int()
 			if entered_code.size() < max_code_length:
 				entered_code.append(num)
 				var text: String = ""
 				for n in entered_code:
-					text += str(n)
+					text += letters[n] + " "
 				screen_label.text = text
-				screen_label.modulate = Color.WHITE
+				screen_label.modulate = Color.DARK_GREEN
 			else:
 				print("code is full")
 

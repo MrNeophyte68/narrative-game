@@ -1,6 +1,7 @@
-[gd_scene load_steps=20 format=4 uid="uid://c4dhabftr2t2c"]
+[gd_scene load_steps=23 format=4 uid="uid://c4dhabftr2t2c"]
 
 [ext_resource type="Texture2D" uid="uid://cptypfs8brtex" path="res://assets/glb/Misc/Ilgis_(Dolgov)_Fatykhov_0.png" id="1_1c6if"]
+[ext_resource type="Script" uid="uid://dekgjkmfliss3" path="res://objects/object_scripts/camera.gd" id="1_vpdwq"]
 [ext_resource type="Texture2D" uid="uid://dype55v0fitco" path="res://assets/glb/Misc/Ilgis_(Dolgov)_Fatykhov_1.png" id="2_r5cpj"]
 [ext_resource type="Texture2D" uid="uid://ctmw13o0if6xy" path="res://assets/glb/Misc/Ilgis_(Dolgov)_Fatykhov_2.png" id="3_mx7ya"]
 [ext_resource type="Texture2D" uid="uid://cyv3maen0w18p" path="res://assets/glb/Misc/Ilgis_(Dolgov)_Fatykhov_3.png" id="4_3thrr"]
@@ -125,8 +126,17 @@ item_icon = ExtResource("9_4b5dw")
 action_data = SubResource("Resource_y5lep")
 metadata/_custom_type_script = "uid://bhhmekf1oewt4"
 
+[sub_resource type="BoxMesh" id="BoxMesh_ftfjl"]
+size = Vector3(0.1, 0.1, 0.1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ftfjl"]
+emission_enabled = true
+emission = Color(1, 0, 0, 1)
+emission_energy_multiplier = 4.0
+
 [node name="Node3D" type="RigidBody3D"]
 collision_layer = 2
+script = ExtResource("1_vpdwq")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(-8.7422775e-10, -0.02, 0, -0.02, 8.7422775e-10, 1.7484555e-09, -1.7484555e-09, 7.642742e-17, -0.02, 0, 0.049853936, -0.015955696)
@@ -161,3 +171,9 @@ shadow_enabled = true
 spot_range = 84.66
 spot_attenuation = 0.3
 spot_angle = 50.0
+
+[node name="Indicator" type="MeshInstance3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(0.1514355, 0, 0, 0, 0.22914371, 0, 0, 0, 0.107329, 0.010477852, -0.037666358, -0.02225139)
+mesh = SubResource("BoxMesh_ftfjl")
+surface_material_override/0 = SubResource("StandardMaterial3D_ftfjl")

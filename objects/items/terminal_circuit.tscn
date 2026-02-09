@@ -1,0 +1,81 @@
+[gd_scene load_steps=13 format=4 uid="uid://dxxij6awg3xk5"]
+
+[ext_resource type="Texture2D" uid="uid://cabchyqpaaqen" path="res://assets/glb/psx_tech/computer_terminal_etx_1_electronics_etx_part_1.png" id="1_xp86s"]
+[ext_resource type="Texture2D" uid="uid://kh5nyy3kio7" path="res://assets/glb/psx_tech/computer_terminal_etx_1_electronics_etx_part_1_emission.png" id="2_ytxr3"]
+[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="3_pydea"]
+[ext_resource type="Script" uid="uid://cwdi4mxru4j0g" path="res://player/inventory/actions/equippable_action.gd" id="4_81wse"]
+[ext_resource type="Texture2D" uid="uid://nl2fiagb1chx" path="res://assets/images/inventory_images/Screenshot_2026-02-07_at_5.15.42_PM-removebg-preview.png" id="5_kj7v4"]
+[ext_resource type="Script" uid="uid://bhhmekf1oewt4" path="res://player/inventory/actions/item_data.gd" id="6_5m0ys"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8vlot"]
+resource_name = "electronics_etx_part_1"
+cull_mode = 2
+albedo_texture = ExtResource("1_xp86s")
+emission_enabled = true
+emission_texture = ExtResource("2_ytxr3")
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jbhwb"]
+_surfaces = [{
+"aabb": AABB(-0.0020001759, -0.08599995, -0.121999994, 0.0040000062, 0.25, 0.238),
+"format": 34896613377,
+"index_count": 108,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAAAAIAAwAAAAQABQABAAMAAwAEAAUABQAGAAEABgACAAEABAACAAcABgAHAAIACAAEAAcABQAEAAgACQAHAAYACgAGAAUACgAJAAYABQAIAAoACQALAAcACAAHAAsADAALAAkADQAIAAsADAANAAsACgAIAA4ADwAIAA0ACAAPAA4ADwANABAADAAQAA0ADgAPABEAEQAPABAACgAOABIADgARABIAEgAJAAoADAATABAAEQAQABMACQATAAwAEwASABEAEgATAAkA"),
+"name": "electronics_etx_part_1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 20,
+"vertex_data": PackedByteArray("AAAAAGzbAAD+/wAAGSwAAAAAAAAZLAAA/v8AAGzbAAAAAL4fbNsAAP7/vh9s2wAA/v++HxksAAAAAL4fGSwAAAAAASv//wAA/v8BKwAAAAD+/wEr//8AAAAAASsAAAAA/v+E6wAAAAAAAITrAAAAAAAAhOv+/wAAAAD//3vqAAAAAP7/gxUAAP////976gAA/v+E6/7/AAD+//7/gxUAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_kdn6t"]
+resource_name = "computer_terminal_etx_1_circuit_board_etx_1_child_mesh"
+_surfaces = [{
+"aabb": AABB(-0.0020001759, -0.08599995, -0.121999994, 0.0040000062, 0.25, 0.238),
+"attribute_data": PackedByteArray("/4l/oH+Khoj/iYaIf4p/oH+H/6V/ZH+mf2T/pX+Hf6b2an+gf2aGiPZqhoh/Zn+gf4b/pX9hf6Z/Yf+lf4Z/pn9i/6V/XH+mf1z/pX9if6b2an+gf2aGiH9mf6D2aoaIf4pwhZ6Hf6V/io6ii2x/gp6Hf4KLbH+lf4P/pX+Kf6Z/iv+lf4N/pn9k/6V/h3+mf4f/pX9kf6Z/XP+lf2J/pn9i/6V/XH+mi2x/pfZqhoj2an+gi2x/gn9d/6V/ZX+mf2X/pX9df6aLbH+l9mqGiItsf4L2an+gf13/pX9hf6Z/XX+mf2H/pX+Kf6Z/hv+lf4r/pX+Gf6aLbH+lf4qOop6Hf6Weh3+Ci2x/gn+KcIU="),
+"format": 34896613399,
+"index_count": 108,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUAGAAZABoAGQAYABsAGwAYABwAGQAbAB0AHgAfACAAHgAhAB8AIgAjACQAIgAlACMAJgAnACgAJgApACcAKgArACwAKgAtACsALgAvADAALgAxAC8AMgAzADQAMgA1ADMANgA3ADgANgA5ADcAOgA7ADwAOgA9ADsAPgA/AEAAPwA+AEEAQQA+AEIAPwBBAEMA"),
+"material": SubResource("StandardMaterial3D_8vlot"),
+"name": "electronics_etx_part_1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 68,
+"vertex_data": PackedByteArray("AAAAAGzb/z/+/wAAGSz/PwAAAAAZLP8//v8AAGzb/z/+/4TrAAD//wAAASsAAP///v8BKwAA//8AAITrAAD//wAAvh9s21TVAAAAABksVNUAAL4fGSxU1QAAAABs21TV/////3vqVNUAAP7/gxVU1f7//v+DFVTVAAD//3vqVNX+/74fGSz//wAAAAAZLP///v8AABks//8AAL4fGSz///7/vh9s26oq/v8AABksqir+/wAAbNuqKv7/vh8ZLKoq/v/+/4MVqir+/4Tr/v+qKv////976qoq/v8BKwAAqir+/4TrAACqKv7/ASv//6oq/v++H2zbmTEAAAEr//+ZMf7/ASv//5kxAAC+H2zbmTH+/wEr////PwAAhOv+//8//v+E6/7//z8AAAEr////P/7/AABs2/8/AAC+H2zb/z/+/74fbNv/PwAAAABs2/8//v8BK///qir+/74fGSyqKv7/vh9s26oq/v8BKwAAqir+/wErAABAJAAAvh8ZLEAk/v++HxksQCQAAAErAABAJAAAASv//1TVAAC+HxksVNUAAAErAABU1QAAvh9s21TV/v+E6wAAqukAAP7/gxWq6QAAhOsAAKrp/v/+/4MVqukAAITr/v/8xf////976vzF/v+E6/7//MUAAP//e+r8xQAAASv//1TVAAD//3vqVNUAAITr/v9U1QAAhOsAAFTVAAABKwAAVNUAAP7/gxVU1QAA/38AAP9/AAD/fwAA/3//v/+//7//v/+//7//v/+/VNVU1VTVVNVU1VTVVNVU1aqqqqqqqqqqqqqqqqqqqqr/v/+//7//v/+//7//v/+/qiqqKqoqqiqqKqoqqiqqKqoqqiqqKqoqqiqqKqoqqiqqKqoqqiqqKu4lENruJRDa7iUQ2u4lENr//wAA//8AAP//AAD//wAA/v8AAP7/AAD+/wAA/v8AAKoqqiqqKqoqqiqqKqoqqipBLr3RQS690UEuvdFBLr3RVNVU1VTVVNVU1VTVVNVU1QS1BLUEtQS1BLUEtQS1BLX+nP6c/pz+nP6c/pz+nP6cVNVU1VTVVNVU1VTVVNVU1VTVVNVU1VTV")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_jbhwb")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pydea"]
+size = Vector3(0.09741211, 0.2826538, 0.26190186)
+
+[sub_resource type="Resource" id="Resource_2icw4"]
+script = ExtResource("4_81wse")
+success_text = "terminal is booting up"
+modifier_name = "terminal_circuit"
+metadata/_custom_type_script = "uid://cwdi4mxru4j0g"
+
+[sub_resource type="Resource" id="Resource_nkevt"]
+script = ExtResource("6_5m0ys")
+item_name = "terminal_circuit"
+item_icon = ExtResource("5_kj7v4")
+action_data = SubResource("Resource_2icw4")
+metadata/_custom_type_script = "uid://bhhmekf1oewt4"
+
+[node name="TerminalCircuit" type="RigidBody3D"]
+collision_layer = 2
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("ArrayMesh_kdn6t")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -0.04332447, 0.033253588, 0.0034687817)
+shape = SubResource("BoxShape3D_pydea")
+
+[node name="InteractionComponent" parent="." node_paths=PackedStringArray("object_ref") instance=ExtResource("3_pydea")]
+object_ref = NodePath("..")
+interaction_type = 4
+item_data = SubResource("Resource_nkevt")

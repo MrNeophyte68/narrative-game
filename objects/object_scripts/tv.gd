@@ -9,8 +9,12 @@ extends Node3D
 var taped_inserted: bool = false
 var can_play: bool = false
 @export var player: Player
+@export var terminal_interface: Node3D
+var generate_code: bool = false
 
 func _ready():
+	code = generate_random_letters()
+	transmit_code_to_terminal(code)
 	var viewport_texture = sub_viewport.get_texture()
 	
 	var material := StandardMaterial3D.new()
@@ -18,7 +22,6 @@ func _ready():
 	material.albedo_texture = viewport_texture
 	
 	tvMesh.set_surface_override_material(1, material)
-	code = generate_random_letters(3)
 
 func _process(delta: float) -> void:
 	if player == null:
@@ -33,18 +36,23 @@ func _process(delta: float) -> void:
 				execute()
 
 
-func generate_random_letters(length: int = 3) -> String:
+func generate_random_letters() -> String:
 	var letters := "EFGH"
 	var result := ""
 	
-	for i in length:
+	for i in range(3):
 		var index := randi() % letters.length()
 		result += letters[index]
 		
 	return result
 
+func transmit_code_to_terminal(_code: String) -> void:
+	if terminal_interface:
+		var ic = terminal_interface.find_child("InteractionComponent", true, false)
+		for letter in _code:
+			ic.correct_code.append(letter.to_upper().unicode_at(0) - "A".unicode_at(0) - 4)
+
 func execute() -> void:
-	print("tape is playing")
 	taped_inserted = true
 	can_play = false
 	video_stream_player.modulate.a = 1.0

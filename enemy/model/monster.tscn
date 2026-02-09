@@ -415,7 +415,6 @@ unique_name_in_owner = true
 path_desired_distance = 0.3
 target_desired_distance = 0.6
 path_postprocessing = 1
-debug_enabled = true
 
 [node name="Debug" type="CanvasLayer" parent="."]
 
