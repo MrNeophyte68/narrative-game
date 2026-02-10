@@ -14,6 +14,7 @@ enum InteractionType {
 	KEYPAD,
 	BUTTON,
 	REMOVABLE_TRIGGER,
+	DRAWER,
 }
 
 @export var object_ref: Node3D
@@ -98,6 +99,15 @@ var tertiary_audio_player: AudioStreamPlayer3D
 var is_flashing: bool = false
 var flash_tween: Tween
 
+#DRAWER variables
+@export var maximum_drawer_distance: float = 0.4
+var drawer_position: float = 0.0
+var drawer_velocity: float = 0.0
+var drawer_smoothing: float = 80.0
+var drawer_input_active: bool = false
+var starting_drawer_position: float
+var previous_drawer_position: float = 0.0
+
 func _ready() -> void:
 	if flip_door_when_game_start:
 		door_angle += deg_to_rad(90)
@@ -135,6 +145,10 @@ func _ready() -> void:
 			for node in get_parent().get_children():
 				if node is StaticBody3D:
 					buttons.append(node)
+		InteractionType.DRAWER:
+			starting_drawer_position = object_ref.position.z
+			drawer_position = starting_drawer_position
+			previous_drawer_position = drawer_position
 
 #Runs once, when the player first clicks on an object to interact with
 func preInteract(hand: Marker3D, target: Node = null) -> void:
@@ -157,6 +171,8 @@ func preInteract(hand: Marker3D, target: Node = null) -> void:
 			_press_button(target)
 		InteractionType.BUTTON:
 			_press_default_button(target)
+		InteractionType.DRAWER:
+			lock_camera = true
 
 func _process(delta: float) -> void:
 	match interaction_type:
@@ -253,6 +269,21 @@ func _process(delta: float) -> void:
 						secondary_audio_player.play()
 			else:
 				wheel_kickback_triggered = false
+		
+		InteractionType.DRAWER:
+			if not drawer_input_active:
+				drawer_velocity = lerp(drawer_velocity, 0.0, delta * 4.0)
+
+			drawer_position += drawer_velocity
+			drawer_position = clamp(
+				drawer_position,
+				starting_drawer_position,
+				starting_drawer_position + maximum_drawer_distance
+			)
+
+			object_ref.position.z = drawer_position
+			drawer_input_active = false
+			previous_drawer_position = drawer_position
 
 func _physics_process(delta: float) -> void:
 	match interaction_type:
@@ -346,6 +377,11 @@ func _input(event: InputEvent) -> void:
 					var max_wheel_rotation: float = maximum_rotation / 0.1
 					wheel_rotation = clamp(wheel_rotation, min_wheel_rotation, max_wheel_rotation)
 					notify_nodes(percentage) 
+			InteractionType.DRAWER:
+				if event is InputEventMouseMotion:
+					drawer_input_active = true
+					var delta = event.relative.y * 0.002
+					drawer_velocity = lerp(drawer_velocity, delta, 1.0 / drawer_smoothing)
 
 func _default_interact() -> void:
 	var object_current_position: Vector3 = object_ref.global_transform.origin

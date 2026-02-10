@@ -41,3 +41,4 @@ func physics_update(_delta: float) -> void:
 	
 	if enemy.global_position.distance_to(enemy.player.global_position) <= _catching_distance:
 		enemy.reached_player.emit()
+		requested_transition_to_other_state.emit("StateJumpscare")

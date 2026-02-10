@@ -8,6 +8,7 @@ extends Node
 @onready var player_camera: Camera3D = %Camera3D
 
 var light_level: float = 0.0
+var dead: bool = false
 
 #sanity variables
 var sanity: float = 100.0
@@ -94,18 +95,19 @@ func get_sanity_state() -> String:
 		return "Unconscious"
 
 func update_distortion(sanity: float) -> void:
-	var distortion: float = 0.0
-	if sanity < 50.0:
-		var t: float = (50.0 - sanity) / 50.0
-		t = pow(t, 2.5)
-		distortion = t * 5.0
-	if headache:
-		headache_level += 0.002
-	else:
-		headache_level -= 0.002
-	headache_level = clamp(headache_level, 0, 0.2)
-	distortion_material.set_shader_parameter("chaos_shake_intensity", distortion)
-	distortion_material.set_shader_parameter("blur_power", headache_level)
+	if not dead:
+		var distortion: float = 0.0
+		if sanity < 50.0:
+			var t: float = (50.0 - sanity) / 50.0
+			t = pow(t, 2.5)
+			distortion = t * 5.0
+		if headache:
+			headache_level += 0.002
+		else:
+			headache_level -= 0.002
+		headache_level = clamp(headache_level, 0, 0.2)
+		distortion_material.set_shader_parameter("chaos_shake_intensity", distortion)
+		distortion_material.set_shader_parameter("blur_power", headache_level)
 
 func is_enemy_on_screen(enemy: Node3D) -> bool:
 	var viewport: Viewport = player_camera.get_viewport()

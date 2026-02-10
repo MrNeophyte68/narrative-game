@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c01l5xlonqisk"]
+
+[ext_resource type="Script" uid="uid://bo5sfsyy37vkf" path="res://enemy/jumpscare_controller.gd" id="1_a36eb"]
+
+[node name="JumpscareController" type="Node"]
+script = ExtResource("1_a36eb")

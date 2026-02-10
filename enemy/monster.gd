@@ -13,6 +13,7 @@ var _current_speed : float = 0.0
 @onready var player: Player = get_tree().get_first_node_in_group("player")
 @onready var enemy_debug: Label = %EnemyDebug
 @onready var state_machine: StateMachine = %StateMachine
+@onready var jumpscare_controller: Node = %JumpscareController
 var has_heard_noise: bool = false
 var is_near_light_panel: bool = false
 var object_heard_location: Vector3
@@ -29,6 +30,7 @@ func _ready() -> void:
 	set_physics_process(false)
 	await get_tree().physics_frame
 	set_physics_process(true)
+	reached_player.connect(_on_reached_player)
 	
 	for object in get_parent().get_children():
 		if object and object is RigidBody3D:
@@ -48,7 +50,7 @@ func _process(delta: float) -> void:
 	]
 
 func _physics_process(delta: float) -> void:
-	if nav_agent.is_navigation_finished() and state_machine.state.name != "StateBreakLight":
+	if nav_agent.is_navigation_finished() and state_machine.state.name != "StateBreakLight" and state_machine.state.name != "StateJumpscare":
 		animation_player.play("idle", 0.2)
 		return
 	
@@ -110,3 +112,6 @@ func is_line_of_sight_broken() -> bool:
 func _go_to_noise(node: Node3D) -> void:
 	has_heard_noise = true
 	object_heard_location = node.global_position
+
+func _on_reached_player():
+	jumpscare_controller.start_jumpscare(player)

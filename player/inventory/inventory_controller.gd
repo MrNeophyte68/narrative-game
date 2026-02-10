@@ -230,6 +230,7 @@ func drop_collectable(slot_id: int) -> void:
 				"camera":
 					instance = camera.instantiate() as Node3D
 					get_tree().current_scene.add_child(instance)
+					instance.get_node_or_null("InteractionComponent").item_data.action_data.max_battery_life = slot.slot_data.action_data.max_battery_life
 				"walkie_talkie":
 					instance = walkie_talkie.instantiate() as Node3D
 					get_tree().current_scene.add_child(instance)

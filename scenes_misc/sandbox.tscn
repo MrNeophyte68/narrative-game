@@ -1,4 +1,4 @@
-[gd_scene load_steps=131 format=4 uid="uid://dstmtb7me0lh8"]
+[gd_scene load_steps=132 format=4 uid="uid://dstmtb7me0lh8"]
 
 [ext_resource type="Texture2D" uid="uid://c4itmbpuywun8" path="res://assets/images/hl_office_complex_style_tile_floor_1.png" id="1_0lf1x"]
 [ext_resource type="PackedScene" uid="uid://bgg5wj2yybs01" path="res://objects/cube_5_kg.tscn" id="1_6rruu"]
@@ -47,11 +47,12 @@
 [ext_resource type="Texture2D" uid="uid://bpaa833oxuno8" path="res://assets/glb/psx_bunker/wall_box_1_metal_3.png" id="45_krdvt"]
 [ext_resource type="Texture2D" uid="uid://d01y26akwpi0s" path="res://assets/glb/psx_bunker/wall_box_1_metal_4.png" id="46_x5vag"]
 [ext_resource type="PackedScene" uid="uid://b5333leelgnyb" path="res://objects/items/small_key.tscn" id="47_krdvt"]
-[ext_resource type="PackedScene" uid="uid://cpdamkx5edhvf" path="res://objects/metal_shelf.tscn" id="48_x5vag"]
 [ext_resource type="PackedScene" uid="uid://bqqfkv162t2m1" path="res://objects/items/talkie_walkie.tscn" id="49_bblxq"]
 [ext_resource type="PackedScene" uid="uid://dn6sbg5f268nm" path="res://objects/items/capacitor.tscn" id="50_hw4sm"]
 [ext_resource type="PackedScene" uid="uid://v4jos8kdxnfd" path="res://objects/items/coin.tscn" id="51_5tq25"]
+[ext_resource type="PackedScene" uid="uid://b3118ma1ftcvs" path="res://objects/bedside_table.tscn" id="51_27jbs"]
 [ext_resource type="PackedScene" uid="uid://c2lcl63nfj362" path="res://objects/mystery_box.tscn" id="52_27jbs"]
+[ext_resource type="PackedScene" uid="uid://dg4r7gwuqmsf" path="res://objects/cabinet.tscn" id="52_ebonk"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_s2tkr"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -1675,9 +1676,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7729986, 2.2906816, 3.6802
 [node name="Node3D19" parent="." instance=ExtResource("38_4oklv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7729986, 2.2906816, 4.709338)
 
-[node name="LargeCabinet" parent="." instance=ExtResource("39_5hsg5")]
-transform = Transform3D(-5.4639237e-08, 0, 1.25, 0, 1.25, 0, -1.25, 0, -5.4639237e-08, -13.454689, 0.9811798, 4.6022873)
-
 [node name="Node3D20" parent="." instance=ExtResource("40_4yd18")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.71741, 1.3347359, -4.1744747)
 
@@ -1734,9 +1732,6 @@ reverse_door_front = true
 [node name="small_key" parent="." instance=ExtResource("47_krdvt")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.925863, 2.547904, -8.01655)
 
-[node name="MetalShelf" parent="." instance=ExtResource("48_x5vag")]
-transform = Transform3D(-5.6824803e-08, 0, 1.3, 0, 1.3, 0, -1.3, 0, -5.6824803e-08, -13.473726, 1.0056187, -0.15545309)
-
 [node name="talkie_walkie" parent="." instance=ExtResource("49_bblxq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.281839, 1.6562452, 0)
 
@@ -1754,4 +1749,13 @@ player = NodePath("../player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2213235, 2.11465, -4.9111032)
 
 [node name="Coin3" parent="." instance=ExtResource("51_5tq25")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6398103, 2.3105543, -3.7207723)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.543534, 2.459395, 0.020013973)
+
+[node name="BedsideTable" parent="." instance=ExtResource("51_27jbs")]
+transform = Transform3D(-6.119594e-08, 0, 1.4, 0, 1.4, 0, -1.4, 0, -6.119594e-08, -7.5096893, 1.0019565, 0)
+
+[node name="Cabinet" parent="." instance=ExtResource("52_ebonk")]
+transform = Transform3D(-5.4639237e-08, 0, -1.25, 0, 1.25, 0, 1.25, 0, -5.4639237e-08, 7.298034, 0.9730904, 0)
+
+[node name="LargeCabinet" parent="." instance=ExtResource("39_5hsg5")]
+transform = Transform3D(-5.4639237e-08, 0, -1.25, 0, 1.25, 0, 1.25, 0, -5.4639237e-08, 7.087858, 0.9006567, 2.5378246)

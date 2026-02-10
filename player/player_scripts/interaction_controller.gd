@@ -147,7 +147,7 @@ func _physics_process(delta: float) -> void:
 			player_camera.fov = lerp(player_camera.fov, 80.0, delta*0.8)
 		if equipped_item_ic.item_data.action_data.passive_draining and equipped_item_ic.item_data.action_data.max_battery_life > 0.0:
 			_use_weapon_item(delta)
-		elif item_equipped and Input.is_action_just_pressed("primary") and equipped_item_ic.item_data.action_data.action_type == equipped_item_ic.item_data.action_data.ActionType.WEAPON and equipped_item_ic.item_data.action_data.max_battery_life > 0.0:
+		elif item_equipped and Input.is_action_just_pressed("primary") and equipped_item_ic.item_data.action_data.action_type == equipped_item_ic.item_data.action_data.ActionType.WEAPON and equipped_item_ic.item_data.action_data.max_battery_life > 0.0 and not equipped_item_ic.item_data.action_data.passive_draining:
 			_use_weapon_item(delta)
 	else:
 		player_camera.fov = lerp(player_camera.fov, 90.0, delta*5)
@@ -232,6 +232,14 @@ func _on_item_equipped(item: Node3D) -> void:
 				else:
 					weapon_battery_life.max_value = 3.0
 					weapon_battery_life.value = equipped_item_ic.item_data.action_data.max_battery_life
+			"walkie_talkie":
+				if not equipped_item_ic.item_data.action_data.is_upgraded:
+					weapon_battery_life.max_value = 100.0
+					weapon_battery_life.value = equipped_item_ic.item_data.action_data.max_battery_life
+				else:
+					weapon_battery_life.max_value = 200.0
+					weapon_battery_life.value = equipped_item_ic.item_data.action_data.max_battery_life
+				
 
 func _use_equipped_item() -> void:
 	if last_potential_object:

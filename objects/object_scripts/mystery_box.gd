@@ -33,8 +33,8 @@ func _process(delta: float) -> void:
 		if collider and collider.name == "box":
 			player.interaction_controller._focus()
 
-			if Input.is_action_just_pressed("primary") and not is_open:
-				if randf() < 0.2:
+			if Input.is_action_just_pressed("primary") and not is_open and player.interaction_controller.equipped_item_ic.item_data.action_data.modifier_name == "coin":
+				if randf() < 0.15:
 					player.interaction_controller.show_item_feedback("the box remained closed")
 					player.inventory_controller.discard_item(player.inventory_controller.last_equipped_slot_id)
 					player.interaction_controller.equipped_item.queue_free()
@@ -73,7 +73,7 @@ func _process(delta: float) -> void:
 			pos.y = move_toward(pos.y, target_item_y, delta * item_lerp_speed)
 			current_instance.global_position = pos
 			
-			if current_instance.global_position.y <= target_item_y:
+			if item_idle_time >= 12.0:
 				if closing:
 					return
 

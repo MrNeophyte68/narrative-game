@@ -19,6 +19,7 @@ class_name Player
 @onready var stamina_controller: Node = %StaminaController
 @onready var item_hand: Marker3D = %ItemHand
 
+
 #lean variables
 var lean_angle: float = 12.0
 var lean_offset: float = 0.25
