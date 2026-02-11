@@ -42,7 +42,7 @@ func _process(delta: float) -> void:
 			if panel_broken and collider.name == "panel":
 				player.interaction_controller._focus()
 				
-			if collider.name == object_ref.name and Input.is_action_just_pressed("primary") and panel_broken:
+			if collider == object_ref and Input.is_action_just_pressed("primary") and panel_broken:
 				if player.interaction_controller.item_equipped and player.interaction_controller.equipped_item_ic.item_data.action_data.modifier_name == "capacitor":
 					player.interaction_controller.show_item_feedback(player.interaction_controller.equipped_item_ic.item_data.action_data.success_text)
 					player.inventory_controller.discard_item(player.inventory_controller.last_equipped_slot_id)

@@ -65,7 +65,7 @@ func update(delta: float) -> void:
 func physics_update(_delta: float) -> void:
 	if not _map_synchronized:
 		return
-	
+		
 	if enemy.nav_agent.is_navigation_finished():
 		random_position = NavigationServer3D.map_get_random_point(_nav_map, 1, true)
 		_travel_to_random_position(random_position)

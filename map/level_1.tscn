@@ -2310,9 +2310,10 @@ shadow_mesh = SubResource("ArrayMesh_8ecso")
 [sub_resource type="BoxShape3D" id="BoxShape3D_cvrqa"]
 size = Vector3(1.4844971, 1.7089691, 0.10662842)
 
-[node name="Level1" type="Node3D"]
+[node name="Level1" type="Node3D" node_paths=PackedStringArray("enemy")]
 script = ExtResource("1_o6nc0")
 timer = 1200.0
+enemy = NodePath("monster")
 
 [node name="GameLights" type="Node3D" parent="."]
 transform = Transform3D(1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 0, 0)
@@ -2556,7 +2557,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.9416504, 3.9460702, -65.158
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.362866, 3.9460702, -54.976112)
 
 [node name="player" parent="." instance=ExtResource("3_ux46k")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2714746, 1.0566323, -4.4473457)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8015106, 1.0566323, -4.432299)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.72932696, 0.6841653, 0, -0.32667586, 0.3482397, 0.87864214, 0.60113645, -0.6408174, 0.4774809, 0, 0, 0)
@@ -3803,7 +3804,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8940334, 2.664533, -62.2494
 shape = SubResource("BoxShape3D_ebx2o")
 
 [node name="monster" parent="." node_paths=PackedStringArray("vents", "nav_mesh_vents") instance=ExtResource("40_hohcd")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.88459, 1.2884823, -58.446712)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 66.52253, 1.2884823, -8.412765)
 vents = [NodePath("../Vents/Vent1"), NodePath("../Vents/Vent2"), NodePath("../Vents/Vent3"), NodePath("../Vents/Vent4"), NodePath("../Vents/Vent5"), NodePath("../Vents/Vent6")]
 nav_mesh_vents = [NodePath("../NavMeshVents/NavigationRegion3D"), NodePath("../NavMeshVents/NavigationRegion3D2"), NodePath("../NavMeshVents/NavigationRegion3D3"), NodePath("../NavMeshVents/NavigationRegion3D4"), NodePath("../NavMeshVents/NavigationRegion3D5"), NodePath("../NavMeshVents/NavigationRegion3D6")]
 
@@ -4204,3 +4205,17 @@ offset_right = 1223.0
 offset_bottom = 584.0
 theme_override_font_sizes/font_size = 100
 text = "You Won!"
+
+[node name="Score" type="Label" parent="CanvasLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -37.0
+offset_top = -27.5
+offset_right = 37.0
+offset_bottom = 27.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40

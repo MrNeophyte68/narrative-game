@@ -30,6 +30,7 @@
 [ext_resource type="Script" uid="uid://b6j0b04e57eyi" path="res://enemy/jumpscare_cam.gd" id="28_d81mo"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_rq5k5"]
+radius = 0.3
 height = 1.0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kctyf"]
@@ -3308,6 +3309,7 @@ unique_name_in_owner = true
 path_desired_distance = 0.3
 target_desired_distance = 0.6
 path_postprocessing = 1
+debug_enabled = true
 
 [node name="Debug" type="CanvasLayer" parent="."]
 
@@ -3345,6 +3347,7 @@ _searching_speed = 4.0
 unique_name_in_owner = true
 script = ExtResource("4_42b43")
 _chasing_speed = 4.0
+_catching_distance = 1.0
 
 [node name="StateFind" type="Node" parent="StateMachine"]
 unique_name_in_owner = true
@@ -4092,6 +4095,7 @@ bones/100/rotation = Quaternion(3.1230463e-06, 8.126492e-06, -1.5513511e-05, 1)
 bones/100/scale = Vector3(0.99999934, 0.99999976, 0.99999946)
 
 [node name="body" type="MeshInstance3D" parent="MotherSutureRigged/Skeleton3D"]
+layers = 3
 mesh = SubResource("ArrayMesh_tuqno")
 skin = SubResource("Skin_vh8dq")
 blend_shapes/V_None = 0.0

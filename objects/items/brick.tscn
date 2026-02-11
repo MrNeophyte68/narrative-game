@@ -1,0 +1,74 @@
+[gd_scene load_steps=9 format=4 uid="uid://rbnpbkdfx80"]
+
+[ext_resource type="Texture2D" uid="uid://sj7tv480qvet" path="res://assets/glb/psx_mega_pack2/Debris & Misc/brick_mx_3_bricks_mx_1.png" id="1_wxk5m"]
+[ext_resource type="PackedScene" uid="uid://cvpsix4t38gbw" path="res://interaction/interaction_component.tscn" id="2_hgydu"]
+[ext_resource type="AudioStream" uid="uid://dc5hkjtb657lc" path="res://sound_effects/sx_misc/box_hit_test.ogg" id="3_hgydu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6cv6e"]
+resource_name = "bricks_mx_1"
+cull_mode = 2
+albedo_texture = ExtResource("1_wxk5m")
+texture_filter = 2
+texture_repeat = false
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_chb8p"]
+_surfaces = [{
+"aabb": AABB(-0.13999991, 0, -0.06999946, 0.28, 0.089999996, 0.13999903),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAQADAAIAAAAEAAEAAgADAAUAAgAFAAAAAAAGAAQAAAAFAAYABAAHAAEAAQAHAAMABAAGAAcABQADAAcABQAHAAYA"),
+"name": "bricks_mx_1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAAAAAAD//wAA/v8AAP//AAAAAAAA/////wAAAAAAAAAA//8AAAAA//8AAAAAAAD/////AAD//////v8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_4sp3g"]
+resource_name = "brick_mx_3_brick_mx_3"
+_surfaces = [{
+"aabb": AABB(-0.13999991, 0, -0.06999946, 0.28, 0.089999996, 0.13999903),
+"attribute_data": PackedByteArray("AAD/f/9/qbf/f/9/AACptwAA/3//f6m3AACpt/9//38AAP//1kTU29ZE//8AANTbAADU2/9/qbf/f9TbAACpt/9/1NsAAKm3AADU2/9/qbfWRP//AADU2wAA///WRNTb"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_6cv6e"),
+"name": "bricks_mx_1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAAAA/z///wAA/v//P///AAAAAP8/AAAAAP///z8AAP//AAD/v//////+//+/AAD//////7//////AAD/vwAAAAAAAP+/AAD//////78AAAAA////vwAA//8AAP+/AAAAAP//AID//////v8AgP//AAD+/wCAAAD/////AID//wAAAAAAAAAA//8AAAAAAAAAAAAAAAD/////AAAAAP//AAD+/wAA/////wAAAAD//wAAAAAAAP/////+/wAAAAD/fwAA/38AAP9/AAD/f////3////9/////f////3//f////3////9/////f////3////9/////f////3///////3////9/////f////3//v/9//7//f/+//3//v/9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_chb8p")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wxk5m"]
+size = Vector3(0.54160273, 0.17525828, 0.2640839)
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_hgydu"]
+height = 1.1018066
+radius = 0.1850586
+
+[node name="Brick" type="RigidBody3D"]
+collision_layer = 2
+mass = 2.0
+contact_monitor = true
+max_contacts_reported = 5
+
+[node name="brick_mx_3" type="MeshInstance3D" parent="."]
+transform = Transform3D(3.5, 0, 0, 0, 3.5, 0, 0, 0, 3.5, 0, 0, 0)
+mesh = SubResource("ArrayMesh_4sp3g")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -0.009004116, 0.15710843, -0.011404805)
+shape = SubResource("BoxShape3D_wxk5m")
+
+[node name="InteractionComponent" parent="." node_paths=PackedStringArray("object_ref") instance=ExtResource("2_hgydu")]
+object_ref = NodePath("..")
+primary_sx = ExtResource("3_hgydu")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(-4.371139e-08, 1, -4.371139e-08, 0, -4.371139e-08, -1, -1, -4.371139e-08, 1.9106855e-15, -0.027709961, 0.16612804, 1.21124e-09)
+shape = SubResource("CylinderShape3D_hgydu")

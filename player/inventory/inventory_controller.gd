@@ -26,6 +26,7 @@ var last_equipped_slot_id: int
 @onready var capacitor: PackedScene = load("res://objects/items/capacitor.tscn")
 @onready var coin: PackedScene = load("res://objects/items/coin.tscn")
 @onready var clock: PackedScene = load("res://objects/items/clock.tscn")
+@onready var eyeball: PackedScene = load("res://objects/items/eyeball.tscn")
 
 func _ready() -> void:
 	for i in item_slots_count:
@@ -229,6 +230,9 @@ func drop_collectable(slot_id: int) -> void:
 				"coin":
 					instance = coin.instantiate() as Node3D
 					get_tree().current_scene.add_child(instance)
+				"eyeball":
+					instance = eyeball.instantiate() as Node3D
+					get_tree().current_scene.add_child(instance)
 		elif slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.WEAPON:
 			match slot.slot_data.action_data.modifier_name:
 				"camera":
@@ -337,6 +341,9 @@ func equip_collectable(slot_id: int) -> void:
 				interaction_controller._on_item_equipped(instance)
 			"coin":
 				instance = coin.instantiate() as Node3D
+				interaction_controller._on_item_equipped(instance)
+			"eyeball":
+				instance = eyeball.instantiate() as Node3D
 				interaction_controller._on_item_equipped(instance)
 	elif slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.WEAPON:
 		match slot.slot_data.action_data.modifier_name:

@@ -4,11 +4,14 @@ extends Node3D
 @onready var vhs_tape: PackedScene = load("res://objects/items/vhs_tape.tscn")
 @onready var objects: Node3D = %Objects
 @export var timer: float = 0.0
+@export var enemy: Enemy
 
 #to be removed later
 @onready var label: Label = $CanvasLayer/Label
+@onready var score: Label = $CanvasLayer/Score
 
 func _ready() -> void:
+	enemy.reached_player.connect(show_score)
 	randomize()
 
 	if vhs_tape_spawn_points.is_empty():
@@ -28,3 +31,18 @@ func _process(delta: float) -> void:
 		timer -= delta
 	else:
 		label.visible = true
+
+func show_score() -> void:
+	await get_tree().create_timer(1.2).timeout
+	
+	var total_seconds = max(0.0, 1200.0 - timer)
+
+	var minutes := int(total_seconds / 60.0)
+	var seconds = total_seconds - (minutes * 60)
+
+	if minutes > 0:
+		score.text = "You Survived for %dmin %05.2fs" % [minutes, seconds]
+	else:
+		score.text = "You Survived for %.2fs" % seconds
+
+	score.visible = true
