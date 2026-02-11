@@ -451,6 +451,12 @@ func _collect_note(player: Node3D) -> void:
 		var mesh = get_parent().find_child("MeshInstance3D", true, false)
 		if mesh:
 			mesh.layers = 2
+		var mesh1 = get_parent().find_child("MeshInstance3D1", true, false)
+		if mesh1:
+			mesh1.layers = 2
+		var mesh2 = get_parent().find_child("minutes", true, false)
+		if mesh2:
+			mesh2.layers = 2
 		if col:
 			get_parent().remove_child(col)
 			col.queue_free()

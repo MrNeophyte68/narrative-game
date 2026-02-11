@@ -1,7 +1,8 @@
-[gd_scene load_steps=132 format=4 uid="uid://dstmtb7me0lh8"]
+[gd_scene load_steps=134 format=4 uid="uid://dstmtb7me0lh8"]
 
 [ext_resource type="Texture2D" uid="uid://c4itmbpuywun8" path="res://assets/images/hl_office_complex_style_tile_floor_1.png" id="1_0lf1x"]
 [ext_resource type="PackedScene" uid="uid://bgg5wj2yybs01" path="res://objects/cube_5_kg.tscn" id="1_6rruu"]
+[ext_resource type="Script" uid="uid://c7r7ybwrq7xg1" path="res://scripts_misc/sandbox.gd" id="1_a4fau"]
 [ext_resource type="Texture2D" uid="uid://clcpgvtoisdw5" path="res://assets/images/metal_wall_tx_3.png" id="2_1jmyu"]
 [ext_resource type="PackedScene" uid="uid://ihcfomvy087y" path="res://player/player.tscn" id="4_fm32m"]
 [ext_resource type="PackedScene" uid="uid://cc2wooa0i6fpr" path="res://objects/cube_1_kg.tscn" id="5_1jmyu"]
@@ -53,6 +54,7 @@
 [ext_resource type="PackedScene" uid="uid://b3118ma1ftcvs" path="res://objects/bedside_table.tscn" id="51_27jbs"]
 [ext_resource type="PackedScene" uid="uid://c2lcl63nfj362" path="res://objects/mystery_box.tscn" id="52_27jbs"]
 [ext_resource type="PackedScene" uid="uid://dg4r7gwuqmsf" path="res://objects/cabinet.tscn" id="52_ebonk"]
+[ext_resource type="PackedScene" uid="uid://ddgqwd7la3dep" path="res://objects/items/clock.tscn" id="54_w7hdl"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_s2tkr"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -1274,6 +1276,8 @@ shadow_mesh = SubResource("ArrayMesh_81btg")
 size = Vector3(0.43068695, 0.59191895, 0.034057617)
 
 [node name="Sandbox" type="Node3D"]
+script = ExtResource("1_a4fau")
+timer = 1200.0
 
 [node name="cube_5kg" parent="." instance=ExtResource("1_6rruu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.907536, 1.4260492, 9.672374)
@@ -1759,3 +1763,6 @@ transform = Transform3D(-5.4639237e-08, 0, -1.25, 0, 1.25, 0, 1.25, 0, -5.463923
 
 [node name="LargeCabinet" parent="." instance=ExtResource("39_5hsg5")]
 transform = Transform3D(-5.4639237e-08, 0, -1.25, 0, 1.25, 0, 1.25, 0, -5.4639237e-08, 7.087858, 0.9006567, 2.5378246)
+
+[node name="Clock" parent="." instance=ExtResource("54_w7hdl")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -5.1263433, 2.8144693, -1.6793975)

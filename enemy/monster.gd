@@ -18,6 +18,7 @@ var has_heard_noise: bool = false
 var is_near_light_panel: bool = false
 var object_heard_location: Vector3
 var last_panel_position: Vector3
+@onready var time: float = 1200.0
 
 enum AnimationType {
 	RUN,
@@ -48,6 +49,9 @@ func _process(delta: float) -> void:
 		is_near_light_panel,
 		state_machine.state.time_before_fast_travel if state_machine.state.name == "StateRoam" else -1.0,
 	]
+	
+	if player.get_parent().timer:
+		time = player.get_parent().timer
 
 func _physics_process(delta: float) -> void:
 	if nav_agent.is_navigation_finished() and state_machine.state.name != "StateBreakLight" and state_machine.state.name != "StateJumpscare":

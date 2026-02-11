@@ -73,7 +73,7 @@ func physics_update(_delta: float) -> void:
 	if enemy.is_player_in_view():
 		requested_transition_to_other_state.emit("StateChase")
 	
-	if enemy.player.sanity_controller.sanity <= 51.0:
+	if enemy.time <= 900.0:
 		requested_transition_to_other_state.emit("StateFind")
 	
 	if enemy.has_heard_noise:

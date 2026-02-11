@@ -3,12 +3,13 @@ extends EnemyState
 @export var _find_speed := 3.0
 @export var _search_radius := 10.0
 @export var _hear_radius := 20.0
+@export var _patience_time := 30.0
 
 var _player_last_seen_position: Vector3
 var random_position: Vector3
 
 #fast travel
-const FAST_TRAVEL_DURATION = 11.0 #threshold before it may fast travel
+const FAST_TRAVEL_DURATION = 15.0 #threshold before it may fast travel
 var time_before_fast_travel : float = FAST_TRAVEL_DURATION
 var current_shortest_distance_to_entrance_vent: float = 5000.0
 var current_shortest_distance_to_exit_vent: float = 5000.0
@@ -17,30 +18,33 @@ var current_exit_vent_location: Vector3
 var exit_vent_coming_out_pos: Vector3
 
 var _nav_map: RID
+var _patience_timer := 0.0
 
 func _ready() -> void:
 	await get_tree().physics_frame
 	await get_tree().physics_frame
 	_nav_map = enemy.get_world_3d().get_navigation_map()
+	_patience_timer = _patience_time
 
 
 func enter(previous_state_name: String, data := {}) -> void:
 	current_shortest_distance_to_entrance_vent = 5000.0
 	current_shortest_distance_to_exit_vent = 5000.0
 	time_before_fast_travel = FAST_TRAVEL_DURATION
-	enemy.nav_agent.path_postprocessing = NavigationPathQueryParameters3D.PATH_POSTPROCESSING_CORRIDORFUNNEL
+	enemy.nav_agent.path_postprocessing = NavigationPathQueryParameters3D.PATH_POSTPROCESSING_EDGECENTERED
 	
 	_player_last_seen_position = enemy.player.global_position
 	_search_radius = 50.0 * (enemy.player.sanity_controller.sanity / 100.0)
 	random_position = _player_last_seen_position + _get_random_position_inside_circle(_search_radius, _player_last_seen_position.y)
 	_go_to_position_around_player(random_position)
+	_patience_timer = _patience_time
 
 
 func update(delta: float) -> void:
 	time_before_fast_travel -= delta
 
-	if enemy.player.sanity_controller.sanity > 51.0:
-		requested_transition_to_other_state.emit("StateRoam", {"do_not_reset_path": true})
+	#if enemy.player.sanity_controller.sanity > 51.0:
+		#requested_transition_to_other_state.emit("StateRoam", {"do_not_reset_path": true})
 	
 	if _should_fast_travel(enemy.global_position, random_position) and time_before_fast_travel <= 0:
 		requested_transition_to_other_state.emit("StateFastTravel",
@@ -51,12 +55,17 @@ func update(delta: float) -> void:
 		"state_name" : 0,})
 	elif time_before_fast_travel <= 0:
 		time_before_fast_travel = FAST_TRAVEL_DURATION
+	
+	if _patience_timer >= 0.0:
+		_patience_timer -= delta
+	if _patience_timer <= 0.0 and enemy.is_near_light_panel and enemy.last_panel_position:
+		requested_transition_to_other_state.emit("StateBreakLight", {"player_last_seen_position": enemy.last_panel_position})
 
 
 func physics_update(_delta: float) -> void:
 	if enemy.nav_agent.is_navigation_finished():
 		_player_last_seen_position = enemy.player.global_position
-		_search_radius = 50.0 * (enemy.player.sanity_controller.sanity / 100.0)
+		_search_radius = 30.0 * (enemy.player.sanity_controller.sanity / 100.0)
 		random_position = _player_last_seen_position + _get_random_position_inside_circle(_search_radius, _player_last_seen_position.y)
 		_go_to_position_around_player(random_position)
 

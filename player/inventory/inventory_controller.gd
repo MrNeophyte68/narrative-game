@@ -25,6 +25,7 @@ var last_equipped_slot_id: int
 @onready var walkie_talkie: PackedScene = load("res://objects/items/talkie_walkie.tscn")
 @onready var capacitor: PackedScene = load("res://objects/items/capacitor.tscn")
 @onready var coin: PackedScene = load("res://objects/items/coin.tscn")
+@onready var clock: PackedScene = load("res://objects/items/clock.tscn")
 
 func _ready() -> void:
 	for i in item_slots_count:
@@ -115,8 +116,11 @@ func _on_item_right_clicked(slot_id: int) -> void:
 			else:
 				context_menu.add_item("Equip", 0)
 		ActionData.ActionType.INSPECTABLE:
-			context_menu.add_item("Read", 0)
-			context_menu.add_item("Discard", 1)
+			if slot.slot_data.action_data.modifier_name != "clock":
+				context_menu.add_item("Read", 0)
+				context_menu.add_item("Discard", 1)
+			else:
+				context_menu.add_item("Look", 0)
 		ActionData.ActionType.WEAPON:
 			context_menu.add_item("Equip", 0)
 			context_menu.add_item("Recharge", 1)
@@ -235,7 +239,7 @@ func drop_collectable(slot_id: int) -> void:
 					instance = walkie_talkie.instantiate() as Node3D
 					get_tree().current_scene.add_child(instance)
 					instance.get_node_or_null("InteractionComponent").item_data.action_data.max_battery_life = slot.slot_data.action_data.max_battery_life
-		elif slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.INSPECTABLE:
+		elif slot.slot_data.action_data.action_type == slot.slot_data.action_data.ActionType.INSPECTABLE and slot.slot_data.action_data.modifier_name != "clock":
 			discard_item(slot_id)
 			return
 		else:
@@ -297,6 +301,10 @@ func view_inspectable(slot_id: int) -> void:
 		match slot.slot_data.action_data.modifier_name:
 			"basic_note":
 				instance = basic_note.instantiate() as Node3D
+				interaction_controller._on_note_inspected(instance)
+				slot.fill_slot(null)
+			"clock":
+				instance = clock.instantiate() as Node3D
 				interaction_controller._on_note_inspected(instance)
 				slot.fill_slot(null)
 

@@ -44,7 +44,7 @@ func _process(delta: float) -> void:
 		sanity,
 		get_sanity_state(),
 		headache,
-		headache_level
+		headache_level,
 	]
 
 func get_light_level() -> float:

@@ -175,6 +175,12 @@ func _on_note_inspected(_note: Node3D) -> void:
 		var mesh = note.find_child("MeshInstance3D", true, false)
 		if mesh:
 			mesh.layers = 2
+		var mesh1 = note.find_child("MeshInstance3D1", true, false)
+		if mesh1:
+			mesh1.layers = 2
+		var mesh2 = note.find_child("minutes", true, false)
+		if mesh2:
+			mesh2.layers = 2
 		var col = note.find_child("CollisionShape3D", true, false)
 		if col:
 			col.get_parent().remove_child(col)
@@ -185,11 +191,16 @@ func _on_note_inspected(_note: Node3D) -> void:
 	note.position = Vector3(0.0, 0.0, 0.0)
 	note.rotation_degrees = Vector3(90, 10, 0)
 	
-	note_overlay.visible = true
+	if note.name != "Clock":
+		note_overlay.visible = true
+		is_note_overlay_display = true
+		note_interaction_component = note.get_node_or_null("InteractionComponent")
+		note_content.bbcode_enabled = true
+		note_content.text = note_interaction_component.content
+		return
+
 	is_note_overlay_display = true
 	note_interaction_component = note.get_node_or_null("InteractionComponent")
-	note_content.bbcode_enabled = true
-	note_content.text = note_interaction_component.content
 
 func _on_item_equipped(item: Node3D) -> void:
 	if item_hand.get_child(0):

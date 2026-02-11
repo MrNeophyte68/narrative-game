@@ -17,7 +17,10 @@ func physics_update(_delta: float) -> void:
 	if enemy.nav_agent.is_navigation_finished():
 		enemy.animation_player.play("break", 0.2)
 		await enemy.animation_player.animation_finished
-		requested_transition_to_other_state.emit("StateRoam")
+		if enemy.time <= 900.0:
+			requested_transition_to_other_state.emit("StateFind")
+		else:
+			requested_transition_to_other_state.emit("StateRoam")
 
 
 func _go_to_panel_last_seen_position() -> void:

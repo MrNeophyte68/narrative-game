@@ -16,7 +16,7 @@ warnings/check_angle_interpolation_type_conflicting=false
 [application]
 
 config/name="narrative_game"
-run/main_scene="uid://dstmtb7me0lh8"
+run/main_scene="uid://c6ds4sph11pjk"
 config/features=PackedStringArray("4.5", "Forward Plus")
 
 [autoload]

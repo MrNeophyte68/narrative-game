@@ -3,6 +3,10 @@ extends Node3D
 @onready var vhs_tape_spawn_points: Array[Node] = %VhsTapeLocations.get_children()
 @onready var vhs_tape: PackedScene = load("res://objects/items/vhs_tape.tscn")
 @onready var objects: Node3D = %Objects
+@export var timer: float = 0.0
+
+#to be removed later
+@onready var label: Label = $CanvasLayer/Label
 
 func _ready() -> void:
 	randomize()
@@ -18,3 +22,9 @@ func _ready() -> void:
 	if spawn_point.name.substr(spawn_point.name.length()-1, 1) == "x":
 		tape.rotate_y(90.0)
 	add_child(tape)
+
+func _process(delta: float) -> void:
+	if timer > 0.0:
+		timer -= delta
+	else:
+		label.visible = true

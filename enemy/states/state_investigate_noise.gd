@@ -46,10 +46,10 @@ func enter(previous_state_name: String, data := {}) -> void:
 func update(delta: float) -> void:
 	_search_timer -= delta
 	if _search_timer <= 0.0:
-		if enemy.player.sanity_controller.sanity > 51.0:
-			requested_transition_to_other_state.emit("StateRoam", {"do_not_reset_path": true})
-		else:
+		if enemy.time <= 900.0:
 			requested_transition_to_other_state.emit("StateFind")
+		else:
+			requested_transition_to_other_state.emit("StateRoam", {"do_not_reset_path": true})
 
 
 func physics_update(_delta: float) -> void:

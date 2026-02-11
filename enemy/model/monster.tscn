@@ -3350,6 +3350,7 @@ _chasing_speed = 4.0
 unique_name_in_owner = true
 script = ExtResource("6_kbwjw")
 _find_speed = 3.6
+_patience_time = 20.0
 
 [node name="StateInvestigateNoise" type="Node" parent="StateMachine"]
 unique_name_in_owner = true
@@ -3360,6 +3361,7 @@ _search_radius = 7.0
 [node name="StateStun" type="Node" parent="StateMachine"]
 unique_name_in_owner = true
 script = ExtResource("8_vsay1")
+stun_max_time = 8.0
 
 [node name="StateBreakLight" type="Node" parent="StateMachine"]
 unique_name_in_owner = true
